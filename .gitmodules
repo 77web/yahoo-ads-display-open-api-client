@@ -1,0 +1,3 @@
+[submodule "ads-display-api-documents"]
+	path = ads-display-api-documents
+	url = git@github.com:yahoojp-marketing/ads-display-api-documents
