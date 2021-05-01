@@ -1,0 +1,11 @@
+# # GuaranteedCampaignServiceBrandTracking
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**audience_category_ids1** | **string[]** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; オーディエンスカテゴリIDグループ1です。&lt;br&gt; レポート作成時、ここで指定されたカテゴリーに対して強い興味関心を持つ層を対象に集計します。&lt;br&gt; このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Audience Category ID group 1.&lt;br&gt; When creating a report, aggregation will be executed for the group with a strong interest in the category specified in this field.&lt;br&gt;  Although this field will be returned in the response, it will be ignored on input. &lt;/div&gt; | [optional]
+**audience_category_ids2** | **string[]** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; オーディエンスカテゴリIDグループ2です。&lt;br&gt; レポート作成時、ここで指定されたカテゴリーに対して少し興味関心を持つ層を対象に集計します。&lt;br&gt; このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Audience Category ID group 2.&lt;br&gt; When creating a report, aggregation will be executed for the group with a small interest in the category specified in this field.&lt;br&gt;  Although this field will be returned in the response, it will be ignored on input. &lt;/div&gt; | [optional]
+**business_category_ids** | **string[]** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; ビジネスカテゴリIDグループです。&lt;br&gt; アンケート対象になる広告・商材の業種の種別を表します。&lt;br&gt; ※返却される値は、DictionaryServiceのgetBusinessCategoryで取得されるDictionaryServiceBusinessCategoryのbusinessCategoryIdフィールドをご確認ください。&lt;br&gt; このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Business Category ID group.&lt;br&gt; This describes the type of ads/products which is a subject of the survey.  &lt;br&gt; *Refer to the businessCategoryId field of DictionaryServiceBusinessCategory which can be obtained via getBusinessCategory in DictionaryService, to check the values to be returned in this field.&lt;br&gt; Although this field will be returned in the response, it will be ignored on input. &lt;/div&gt; | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
