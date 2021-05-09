@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RecommendationServiceSelector Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;RecommendationServiceSelectorオブジェクトは、getメソッドの検索条件（実行パラメータ）を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The RecommendationServiceSelector object is a container for storing a set of criteria (parameters) for get method.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class RecommendationServiceSelector implements ModelInterface, ArrayAccess, \Jso
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'types' => '\OpenAPI\Client\Model\RecommendationServiceType[]'
+        'types' => '\YahooAdsDisplayApi\Client\Model\RecommendationServiceType[]'
     ];
 
     /**
@@ -257,7 +257,7 @@ class RecommendationServiceSelector implements ModelInterface, ArrayAccess, \Jso
     /**
      * Gets types
      *
-     * @return \OpenAPI\Client\Model\RecommendationServiceType[]
+     * @return \YahooAdsDisplayApi\Client\Model\RecommendationServiceType[]
      */
     public function getTypes()
     {
@@ -267,7 +267,7 @@ class RecommendationServiceSelector implements ModelInterface, ArrayAccess, \Jso
     /**
      * Sets types
      *
-     * @param \OpenAPI\Client\Model\RecommendationServiceType[] $types types
+     * @param \YahooAdsDisplayApi\Client\Model\RecommendationServiceType[] $types types
      *
      * @return self
      */

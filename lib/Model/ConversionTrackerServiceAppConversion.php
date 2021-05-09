@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ConversionTrackerServiceAppConversion Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; ConversionTrackerServiceAppConversionオブジェクトは、アプリコンバージョントラッカーの情報を保持します。&lt;br&gt; このフィールドは、ADD時は省略可能となり、SET時は無視されます。ADD時、conversionTrackerTypeがAPP_CONVERSIONの場合、必須です。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; ConversionTrackerServiceAppConversion object contains the information for ConversionTrackerServiceAppConversionTracker.&lt;br&gt; This field is optional in ADD operation, and will be ignored in SET operation. If conversionTrackerType is APP_CONVERSION, this field is required in ADD operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class ConversionTrackerServiceAppConversion implements ModelInterface, ArrayAcce
       * @var string[]
       */
     protected static $openAPITypes = [
-        'app_conversion_platform' => '\OpenAPI\Client\Model\ConversionTrackerServiceAppConversionPlatform',
-        'app_conversion_type' => '\OpenAPI\Client\Model\ConversionTrackerServiceAppConversionType',
+        'app_conversion_platform' => '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceAppConversionPlatform',
+        'app_conversion_type' => '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceAppConversionType',
         'app_id' => 'string'
     ];
 
@@ -225,7 +225,7 @@ class ConversionTrackerServiceAppConversion implements ModelInterface, ArrayAcce
     /**
      * Gets app_conversion_platform
      *
-     * @return \OpenAPI\Client\Model\ConversionTrackerServiceAppConversionPlatform|null
+     * @return \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceAppConversionPlatform|null
      */
     public function getAppConversionPlatform()
     {
@@ -235,7 +235,7 @@ class ConversionTrackerServiceAppConversion implements ModelInterface, ArrayAcce
     /**
      * Sets app_conversion_platform
      *
-     * @param \OpenAPI\Client\Model\ConversionTrackerServiceAppConversionPlatform|null $app_conversion_platform app_conversion_platform
+     * @param \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceAppConversionPlatform|null $app_conversion_platform app_conversion_platform
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class ConversionTrackerServiceAppConversion implements ModelInterface, ArrayAcce
     /**
      * Gets app_conversion_type
      *
-     * @return \OpenAPI\Client\Model\ConversionTrackerServiceAppConversionType|null
+     * @return \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceAppConversionType|null
      */
     public function getAppConversionType()
     {
@@ -259,7 +259,7 @@ class ConversionTrackerServiceAppConversion implements ModelInterface, ArrayAcce
     /**
      * Sets app_conversion_type
      *
-     * @param \OpenAPI\Client\Model\ConversionTrackerServiceAppConversionType|null $app_conversion_type app_conversion_type
+     * @param \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceAppConversionType|null $app_conversion_type app_conversion_type
      *
      * @return self
      */

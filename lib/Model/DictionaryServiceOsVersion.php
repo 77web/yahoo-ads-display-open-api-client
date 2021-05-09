@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * DictionaryServiceOsVersion Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;DictionaryServiceOsVersionオブジェクトは、OSバージョンを保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;DictionaryServiceOsVersion object contains OS version.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class DictionaryServiceOsVersion implements ModelInterface, ArrayAccess, \JsonSe
       * @var string[]
       */
     protected static $openAPITypes = [
-        'device_os_type' => '\OpenAPI\Client\Model\DictionaryServiceDeviceOsType',
+        'device_os_type' => '\YahooAdsDisplayApi\Client\Model\DictionaryServiceDeviceOsType',
         'version' => 'string'
     ];
 
@@ -219,7 +219,7 @@ class DictionaryServiceOsVersion implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets device_os_type
      *
-     * @return \OpenAPI\Client\Model\DictionaryServiceDeviceOsType|null
+     * @return \YahooAdsDisplayApi\Client\Model\DictionaryServiceDeviceOsType|null
      */
     public function getDeviceOsType()
     {
@@ -229,7 +229,7 @@ class DictionaryServiceOsVersion implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets device_os_type
      *
-     * @param \OpenAPI\Client\Model\DictionaryServiceDeviceOsType|null $device_os_type device_os_type
+     * @param \YahooAdsDisplayApi\Client\Model\DictionaryServiceDeviceOsType|null $device_os_type device_os_type
      *
      * @return self
      */

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServiceOperation Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedSimulationServiceOperationオブジェクトは、操作の対象となる配信シミュレーション情報と処理の内容を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;GuaranteedSimulationServiceOperation object describes the delivery simulation information to be operated and the content of the processing.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class GuaranteedSimulationServiceOperation implements ModelInterface, ArrayAcces
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'operand' => '\OpenAPI\Client\Model\GuaranteedSimulation[]'
+        'operand' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulation[]'
     ];
 
     /**
@@ -257,7 +257,7 @@ class GuaranteedSimulationServiceOperation implements ModelInterface, ArrayAcces
     /**
      * Gets operand
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulation[]
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulation[]
      */
     public function getOperand()
     {
@@ -267,7 +267,7 @@ class GuaranteedSimulationServiceOperation implements ModelInterface, ArrayAcces
     /**
      * Sets operand
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulation[] $operand operand
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulation[] $operand operand
      *
      * @return self
      */

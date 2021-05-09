@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ConversionTracker Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;ConversionTrackerオブジェクトは、コンバージョン測定タグやタグごとのパフォーマンスデータなどのコンバージョントラッカー情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;ConversionTracker object shows ConversionTracker information such as ConversionTag and performance data by tag.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -65,24 +65,24 @@ class ConversionTracker implements ModelInterface, ArrayAccess, \JsonSerializabl
         'all_conversion_value' => 'string',
         'all_conversions' => 'int',
         'view_through_conversions' => 'int',
-        'app_conversion' => '\OpenAPI\Client\Model\ConversionTrackerServiceAppConversion',
-        'category' => '\OpenAPI\Client\Model\ConversionTrackerServiceCategory',
+        'app_conversion' => '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceAppConversion',
+        'category' => '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceCategory',
         'conversion_tracker_id' => 'int',
         'conversion_tracker_name' => 'string',
-        'conversion_tracker_type' => '\OpenAPI\Client\Model\ConversionTrackerServiceType',
+        'conversion_tracker_type' => '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceType',
         'conversion_value' => 'string',
         'conversion_value_via_ad_click' => 'string',
         'conversions' => 'int',
         'conversions_via_ad_click' => 'int',
-        'counting_type' => '\OpenAPI\Client\Model\ConversionTrackerServiceCountingType',
+        'counting_type' => '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceCountingType',
         'cross_device_conversions' => 'int',
-        'exclude_from_bidding' => '\OpenAPI\Client\Model\ConversionTrackerServiceExcludeFromBidding',
+        'exclude_from_bidding' => '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceExcludeFromBidding',
         'measurement_period' => 'int',
         'measurement_period_view' => 'int',
         'most_recent_conversion_date' => 'string',
-        'status' => '\OpenAPI\Client\Model\ConversionTrackerServiceStatus',
+        'status' => '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceStatus',
         'user_revenue_value' => 'int',
-        'web_conversion' => '\OpenAPI\Client\Model\ConversionTrackerServiceWebConversion'
+        'web_conversion' => '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceWebConversion'
     ];
 
     /**
@@ -435,7 +435,7 @@ class ConversionTracker implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets app_conversion
      *
-     * @return \OpenAPI\Client\Model\ConversionTrackerServiceAppConversion|null
+     * @return \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceAppConversion|null
      */
     public function getAppConversion()
     {
@@ -445,7 +445,7 @@ class ConversionTracker implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets app_conversion
      *
-     * @param \OpenAPI\Client\Model\ConversionTrackerServiceAppConversion|null $app_conversion app_conversion
+     * @param \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceAppConversion|null $app_conversion app_conversion
      *
      * @return self
      */
@@ -459,7 +459,7 @@ class ConversionTracker implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets category
      *
-     * @return \OpenAPI\Client\Model\ConversionTrackerServiceCategory|null
+     * @return \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceCategory|null
      */
     public function getCategory()
     {
@@ -469,7 +469,7 @@ class ConversionTracker implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets category
      *
-     * @param \OpenAPI\Client\Model\ConversionTrackerServiceCategory|null $category category
+     * @param \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceCategory|null $category category
      *
      * @return self
      */
@@ -531,7 +531,7 @@ class ConversionTracker implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets conversion_tracker_type
      *
-     * @return \OpenAPI\Client\Model\ConversionTrackerServiceType|null
+     * @return \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceType|null
      */
     public function getConversionTrackerType()
     {
@@ -541,7 +541,7 @@ class ConversionTracker implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets conversion_tracker_type
      *
-     * @param \OpenAPI\Client\Model\ConversionTrackerServiceType|null $conversion_tracker_type conversion_tracker_type
+     * @param \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceType|null $conversion_tracker_type conversion_tracker_type
      *
      * @return self
      */
@@ -651,7 +651,7 @@ class ConversionTracker implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets counting_type
      *
-     * @return \OpenAPI\Client\Model\ConversionTrackerServiceCountingType|null
+     * @return \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceCountingType|null
      */
     public function getCountingType()
     {
@@ -661,7 +661,7 @@ class ConversionTracker implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets counting_type
      *
-     * @param \OpenAPI\Client\Model\ConversionTrackerServiceCountingType|null $counting_type counting_type
+     * @param \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceCountingType|null $counting_type counting_type
      *
      * @return self
      */
@@ -699,7 +699,7 @@ class ConversionTracker implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets exclude_from_bidding
      *
-     * @return \OpenAPI\Client\Model\ConversionTrackerServiceExcludeFromBidding|null
+     * @return \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceExcludeFromBidding|null
      */
     public function getExcludeFromBidding()
     {
@@ -709,7 +709,7 @@ class ConversionTracker implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets exclude_from_bidding
      *
-     * @param \OpenAPI\Client\Model\ConversionTrackerServiceExcludeFromBidding|null $exclude_from_bidding exclude_from_bidding
+     * @param \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceExcludeFromBidding|null $exclude_from_bidding exclude_from_bidding
      *
      * @return self
      */
@@ -795,7 +795,7 @@ class ConversionTracker implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets status
      *
-     * @return \OpenAPI\Client\Model\ConversionTrackerServiceStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceStatus|null
      */
     public function getStatus()
     {
@@ -805,7 +805,7 @@ class ConversionTracker implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets status
      *
-     * @param \OpenAPI\Client\Model\ConversionTrackerServiceStatus|null $status status
+     * @param \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceStatus|null $status status
      *
      * @return self
      */
@@ -843,7 +843,7 @@ class ConversionTracker implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets web_conversion
      *
-     * @return \OpenAPI\Client\Model\ConversionTrackerServiceWebConversion|null
+     * @return \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceWebConversion|null
      */
     public function getWebConversion()
     {
@@ -853,7 +853,7 @@ class ConversionTracker implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets web_conversion
      *
-     * @param \OpenAPI\Client\Model\ConversionTrackerServiceWebConversion|null $web_conversion web_conversion
+     * @param \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceWebConversion|null $web_conversion web_conversion
      *
      * @return self
      */

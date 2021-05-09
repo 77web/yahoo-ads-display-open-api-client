@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * FeedServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;FeedServiceValueオブジェクトは、操作結果を含むFeed情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedServiceValue object describes Feed information including operation result.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,9 +61,9 @@ class FeedServiceValue implements ModelInterface, ArrayAccess, \JsonSerializable
       * @var string[]
       */
     protected static $openAPITypes = [
-        'feed' => '\OpenAPI\Client\Model\Feed',
-        'upload_limits' => '\OpenAPI\Client\Model\FeedServiceUploadLimit[]',
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'feed' => '\YahooAdsDisplayApi\Client\Model\Feed',
+        'upload_limits' => '\YahooAdsDisplayApi\Client\Model\FeedServiceUploadLimit[]',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool'
     ];
 
@@ -231,7 +231,7 @@ class FeedServiceValue implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets feed
      *
-     * @return \OpenAPI\Client\Model\Feed|null
+     * @return \YahooAdsDisplayApi\Client\Model\Feed|null
      */
     public function getFeed()
     {
@@ -241,7 +241,7 @@ class FeedServiceValue implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets feed
      *
-     * @param \OpenAPI\Client\Model\Feed|null $feed feed
+     * @param \YahooAdsDisplayApi\Client\Model\Feed|null $feed feed
      *
      * @return self
      */
@@ -255,7 +255,7 @@ class FeedServiceValue implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets upload_limits
      *
-     * @return \OpenAPI\Client\Model\FeedServiceUploadLimit[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedServiceUploadLimit[]|null
      */
     public function getUploadLimits()
     {
@@ -265,7 +265,7 @@ class FeedServiceValue implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets upload_limits
      *
-     * @param \OpenAPI\Client\Model\FeedServiceUploadLimit[]|null $upload_limits upload_limits
+     * @param \YahooAdsDisplayApi\Client\Model\FeedServiceUploadLimit[]|null $upload_limits upload_limits
      *
      * @return self
      */
@@ -279,7 +279,7 @@ class FeedServiceValue implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -289,7 +289,7 @@ class FeedServiceValue implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * BudgetOrderServiceOperation Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;BudgetOrderServiceOperationオブジェクトは、操作の対象となるアカウント予算情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The BudgetOrderServiceOperation object is a container for storing account budget information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class BudgetOrderServiceOperation implements ModelInterface, ArrayAccess, \JsonS
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'operand' => '\OpenAPI\Client\Model\BudgetOrder[]'
+        'operand' => '\YahooAdsDisplayApi\Client\Model\BudgetOrder[]'
     ];
 
     /**
@@ -257,7 +257,7 @@ class BudgetOrderServiceOperation implements ModelInterface, ArrayAccess, \JsonS
     /**
      * Gets operand
      *
-     * @return \OpenAPI\Client\Model\BudgetOrder[]
+     * @return \YahooAdsDisplayApi\Client\Model\BudgetOrder[]
      */
     public function getOperand()
     {
@@ -267,7 +267,7 @@ class BudgetOrderServiceOperation implements ModelInterface, ArrayAccess, \JsonS
     /**
      * Sets operand
      *
-     * @param \OpenAPI\Client\Model\BudgetOrder[] $operand operand
+     * @param \YahooAdsDisplayApi\Client\Model\BudgetOrder[] $operand operand
      *
      * @return self
      */

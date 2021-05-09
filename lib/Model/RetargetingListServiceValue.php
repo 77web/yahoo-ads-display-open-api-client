@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RetargetingListServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;RetargetingListServiceValueオブジェクトは、取得されたサイトリターゲティングのターゲットリスト情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The objects to keep the result of method’s execution(1 Entity).&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,9 +61,9 @@ class RetargetingListServiceValue implements ModelInterface, ArrayAccess, \JsonS
       * @var string[]
       */
     protected static $openAPITypes = [
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool',
-        'retargeting_list' => '\OpenAPI\Client\Model\RetargetingList'
+        'retargeting_list' => '\YahooAdsDisplayApi\Client\Model\RetargetingList'
     ];
 
     /**
@@ -225,7 +225,7 @@ class RetargetingListServiceValue implements ModelInterface, ArrayAccess, \JsonS
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -235,7 +235,7 @@ class RetargetingListServiceValue implements ModelInterface, ArrayAccess, \JsonS
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */
@@ -273,7 +273,7 @@ class RetargetingListServiceValue implements ModelInterface, ArrayAccess, \JsonS
     /**
      * Gets retargeting_list
      *
-     * @return \OpenAPI\Client\Model\RetargetingList|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingList|null
      */
     public function getRetargetingList()
     {
@@ -283,7 +283,7 @@ class RetargetingListServiceValue implements ModelInterface, ArrayAccess, \JsonS
     /**
      * Sets retargeting_list
      *
-     * @param \OpenAPI\Client\Model\RetargetingList|null $retargeting_list retargeting_list
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingList|null $retargeting_list retargeting_list
      *
      * @return self
      */

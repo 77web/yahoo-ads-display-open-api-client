@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedReservationServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedReservationServiceValueオブジェクトは、操作結果を含むシミュレーション結果に基づいた予約情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;GuaranteedReservationServiceValue object describes the reservation information including operation result based on simulation result.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,9 +61,9 @@ class GuaranteedReservationServiceValue implements ModelInterface, ArrayAccess, 
       * @var string[]
       */
     protected static $openAPITypes = [
-        'campaign' => '\OpenAPI\Client\Model\GuaranteedCampaign',
-        'ad_group' => '\OpenAPI\Client\Model\GuaranteedAdGroup[]',
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'campaign' => '\YahooAdsDisplayApi\Client\Model\GuaranteedCampaign',
+        'ad_group' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroup[]',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool'
     ];
 
@@ -231,7 +231,7 @@ class GuaranteedReservationServiceValue implements ModelInterface, ArrayAccess, 
     /**
      * Gets campaign
      *
-     * @return \OpenAPI\Client\Model\GuaranteedCampaign|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedCampaign|null
      */
     public function getCampaign()
     {
@@ -241,7 +241,7 @@ class GuaranteedReservationServiceValue implements ModelInterface, ArrayAccess, 
     /**
      * Sets campaign
      *
-     * @param \OpenAPI\Client\Model\GuaranteedCampaign|null $campaign campaign
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedCampaign|null $campaign campaign
      *
      * @return self
      */
@@ -255,7 +255,7 @@ class GuaranteedReservationServiceValue implements ModelInterface, ArrayAccess, 
     /**
      * Gets ad_group
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroup[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroup[]|null
      */
     public function getAdGroup()
     {
@@ -265,7 +265,7 @@ class GuaranteedReservationServiceValue implements ModelInterface, ArrayAccess, 
     /**
      * Sets ad_group
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroup[]|null $ad_group ad_group
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroup[]|null $ad_group ad_group
      *
      * @return self
      */
@@ -279,7 +279,7 @@ class GuaranteedReservationServiceValue implements ModelInterface, ArrayAccess, 
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -289,7 +289,7 @@ class GuaranteedReservationServiceValue implements ModelInterface, ArrayAccess, 
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors <div lang=\"ja\">エラー内容です。</div> <div lang=\"en\">Error content.</div>
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors <div lang=\"ja\">エラー内容です。</div> <div lang=\"en\">Error content.</div>
      *
      * @return self
      */

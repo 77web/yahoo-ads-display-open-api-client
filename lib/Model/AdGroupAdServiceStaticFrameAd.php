@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupAdServiceStaticFrameAd Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; AdGroupAdServiceStaticFrameAdオブジェクトは、広告枠サイズ固定広告の情報を表します。&lt;br&gt; このフィールドは、省略可能となります。&lt;br&gt; ※ADD時、adTypeがSTATIC_FRAME_ADの場合は必須です。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; AdGroupAdServiceStaticFrameAd object describes the Static Frame Ad information.&lt;br&gt; This field is optional.&lt;br&gt; *If adType is STATIC_FRAME_AD, this field is required in ADD operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,12 +61,12 @@ class AdGroupAdServiceStaticFrameAd implements ModelInterface, ArrayAccess, \Jso
       * @var string[]
       */
     protected static $openAPITypes = [
-        'button_text' => '\OpenAPI\Client\Model\AdGroupAdServiceButtonText',
+        'button_text' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceButtonText',
         'color_set_id' => 'int',
         'description' => 'string',
         'display_url' => 'string',
         'headline' => 'string',
-        'is_remove_logo_media_id' => '\OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg',
+        'is_remove_logo_media_id' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg',
         'layout' => 'string',
         'logo_media_id' => 'int',
         'principal' => 'string',
@@ -273,7 +273,7 @@ class AdGroupAdServiceStaticFrameAd implements ModelInterface, ArrayAccess, \Jso
     /**
      * Gets button_text
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceButtonText|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceButtonText|null
      */
     public function getButtonText()
     {
@@ -283,7 +283,7 @@ class AdGroupAdServiceStaticFrameAd implements ModelInterface, ArrayAccess, \Jso
     /**
      * Sets button_text
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceButtonText|null $button_text button_text
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceButtonText|null $button_text button_text
      *
      * @return self
      */
@@ -393,7 +393,7 @@ class AdGroupAdServiceStaticFrameAd implements ModelInterface, ArrayAccess, \Jso
     /**
      * Gets is_remove_logo_media_id
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null
      */
     public function getIsRemoveLogoMediaId()
     {
@@ -403,7 +403,7 @@ class AdGroupAdServiceStaticFrameAd implements ModelInterface, ArrayAccess, \Jso
     /**
      * Sets is_remove_logo_media_id
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_logo_media_id is_remove_logo_media_id
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_logo_media_id is_remove_logo_media_id
      *
      * @return self
      */

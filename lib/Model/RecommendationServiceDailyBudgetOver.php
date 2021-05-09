@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RecommendationServiceDailyBudgetOver Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;RecommendationServiceDailyBudgetOverオブジェクトは、1日の予算上限に達したキャンペーンに関する最適化提案の情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;RecommendationServiceDailyBudgetOver object describes recommendation information about campaigns that reached the daily budget.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class RecommendationServiceDailyBudgetOver implements ModelInterface, ArrayAcces
       * @var string[]
       */
     protected static $openAPITypes = [
-        'daily_budget_over_campaign_list' => '\OpenAPI\Client\Model\RecommendationServiceDailyBudgetOverCampaign[]'
+        'daily_budget_over_campaign_list' => '\YahooAdsDisplayApi\Client\Model\RecommendationServiceDailyBudgetOverCampaign[]'
     ];
 
     /**
@@ -213,7 +213,7 @@ class RecommendationServiceDailyBudgetOver implements ModelInterface, ArrayAcces
     /**
      * Gets daily_budget_over_campaign_list
      *
-     * @return \OpenAPI\Client\Model\RecommendationServiceDailyBudgetOverCampaign[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\RecommendationServiceDailyBudgetOverCampaign[]|null
      */
     public function getDailyBudgetOverCampaignList()
     {
@@ -223,7 +223,7 @@ class RecommendationServiceDailyBudgetOver implements ModelInterface, ArrayAcces
     /**
      * Sets daily_budget_over_campaign_list
      *
-     * @param \OpenAPI\Client\Model\RecommendationServiceDailyBudgetOverCampaign[]|null $daily_budget_over_campaign_list daily_budget_over_campaign_list
+     * @param \YahooAdsDisplayApi\Client\Model\RecommendationServiceDailyBudgetOverCampaign[]|null $daily_budget_over_campaign_list daily_budget_over_campaign_list
      *
      * @return self
      */

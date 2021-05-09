@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RecommendationServiceImpsShareBudgetLossOver Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;RecommendationServiceImpsShareBudgetLossOverオブジェクトは、インプレッションシェア損失率（予算）が大きいキャンペーンに関する最適化提案の情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;RecommendationServiceImpsShareBudgetLossOver object describes the Recommendations information of campaigns that have a large lost impression share (budget).&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class RecommendationServiceImpsShareBudgetLossOver implements ModelInterface, Ar
       * @var string[]
       */
     protected static $openAPITypes = [
-        'imps_share_budget_loss_over_campaign_list' => '\OpenAPI\Client\Model\RecommendationServiceImpsShareBudgetLossOverCampaign[]'
+        'imps_share_budget_loss_over_campaign_list' => '\YahooAdsDisplayApi\Client\Model\RecommendationServiceImpsShareBudgetLossOverCampaign[]'
     ];
 
     /**
@@ -213,7 +213,7 @@ class RecommendationServiceImpsShareBudgetLossOver implements ModelInterface, Ar
     /**
      * Gets imps_share_budget_loss_over_campaign_list
      *
-     * @return \OpenAPI\Client\Model\RecommendationServiceImpsShareBudgetLossOverCampaign[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\RecommendationServiceImpsShareBudgetLossOverCampaign[]|null
      */
     public function getImpsShareBudgetLossOverCampaignList()
     {
@@ -223,7 +223,7 @@ class RecommendationServiceImpsShareBudgetLossOver implements ModelInterface, Ar
     /**
      * Sets imps_share_budget_loss_over_campaign_list
      *
-     * @param \OpenAPI\Client\Model\RecommendationServiceImpsShareBudgetLossOverCampaign[]|null $imps_share_budget_loss_over_campaign_list imps_share_budget_loss_over_campaign_list
+     * @param \YahooAdsDisplayApi\Client\Model\RecommendationServiceImpsShareBudgetLossOverCampaign[]|null $imps_share_budget_loss_over_campaign_list imps_share_budget_loss_over_campaign_list
      *
      * @return self
      */

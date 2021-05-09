@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RecommendationServiceCampaignBiddingStrategyToTargetCpa Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;RecommendationServiceCampaignBiddingStrategyToTargetCpaオブジェクトは、自動入札（コンバージョン単価の目標値）に適しているキャンペーンに関する最適化提案の情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;RecommendationServiceCampaignBiddingStrategyToTargetCpa objects describes recommendation information about the campaign that is suitable for using autobidding (target CPA).&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class RecommendationServiceCampaignBiddingStrategyToTargetCpa implements ModelIn
       * @var string[]
       */
     protected static $openAPITypes = [
-        'campaign_bidding_strategy_to_target_cpa_campaign_list' => '\OpenAPI\Client\Model\RecommendationServiceCampaignBiddingStrategyToTargetCpaCampaign[]'
+        'campaign_bidding_strategy_to_target_cpa_campaign_list' => '\YahooAdsDisplayApi\Client\Model\RecommendationServiceCampaignBiddingStrategyToTargetCpaCampaign[]'
     ];
 
     /**
@@ -213,7 +213,7 @@ class RecommendationServiceCampaignBiddingStrategyToTargetCpa implements ModelIn
     /**
      * Gets campaign_bidding_strategy_to_target_cpa_campaign_list
      *
-     * @return \OpenAPI\Client\Model\RecommendationServiceCampaignBiddingStrategyToTargetCpaCampaign[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\RecommendationServiceCampaignBiddingStrategyToTargetCpaCampaign[]|null
      */
     public function getCampaignBiddingStrategyToTargetCpaCampaignList()
     {
@@ -223,7 +223,7 @@ class RecommendationServiceCampaignBiddingStrategyToTargetCpa implements ModelIn
     /**
      * Sets campaign_bidding_strategy_to_target_cpa_campaign_list
      *
-     * @param \OpenAPI\Client\Model\RecommendationServiceCampaignBiddingStrategyToTargetCpaCampaign[]|null $campaign_bidding_strategy_to_target_cpa_campaign_list campaign_bidding_strategy_to_target_cpa_campaign_list
+     * @param \YahooAdsDisplayApi\Client\Model\RecommendationServiceCampaignBiddingStrategyToTargetCpaCampaign[]|null $campaign_bidding_strategy_to_target_cpa_campaign_list campaign_bidding_strategy_to_target_cpa_campaign_list
      *
      * @return self
      */

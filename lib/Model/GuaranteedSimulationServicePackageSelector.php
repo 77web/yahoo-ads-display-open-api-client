@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServicePackageSelector Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedSimulationServicePackageSelectorオブジェクトは、getPackageメソッドの検索条件（実行パラメータ）を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The GuaranteedSimulationServicePackageSelector object is a container for storing a set of criteria (parameters) for getPackage method.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -64,9 +64,9 @@ class GuaranteedSimulationServicePackageSelector implements ModelInterface, Arra
         'account_id' => 'int',
         'package_name' => 'string',
         'package_ids' => 'int[]',
-        'ad_place_types' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceAdPlaceType[]',
-        'device_types' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceDeviceType[]',
-        'ad_types' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceAdType[]',
+        'ad_place_types' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAdPlaceType[]',
+        'device_types' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceDeviceType[]',
+        'ad_types' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAdType[]',
         'number_results' => 'int',
         'start_index' => 'int'
     ];
@@ -342,7 +342,7 @@ class GuaranteedSimulationServicePackageSelector implements ModelInterface, Arra
     /**
      * Gets ad_place_types
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceAdPlaceType[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAdPlaceType[]|null
      */
     public function getAdPlaceTypes()
     {
@@ -352,7 +352,7 @@ class GuaranteedSimulationServicePackageSelector implements ModelInterface, Arra
     /**
      * Sets ad_place_types
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceAdPlaceType[]|null $ad_place_types <div lang=\"ja\">検索条件 : 掲載面</div> <div lang=\"en\">Search Condition: Ad placements</div>
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAdPlaceType[]|null $ad_place_types <div lang=\"ja\">検索条件 : 掲載面</div> <div lang=\"en\">Search Condition: Ad placements</div>
      *
      * @return self
      */
@@ -366,7 +366,7 @@ class GuaranteedSimulationServicePackageSelector implements ModelInterface, Arra
     /**
      * Gets device_types
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceDeviceType[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceDeviceType[]|null
      */
     public function getDeviceTypes()
     {
@@ -376,7 +376,7 @@ class GuaranteedSimulationServicePackageSelector implements ModelInterface, Arra
     /**
      * Sets device_types
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceDeviceType[]|null $device_types <div lang=\"ja\">検索条件 : 配信先デバイス</div> <div lang=\"en\">Search Condition: Devices</div>
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceDeviceType[]|null $device_types <div lang=\"ja\">検索条件 : 配信先デバイス</div> <div lang=\"en\">Search Condition: Devices</div>
      *
      * @return self
      */
@@ -390,7 +390,7 @@ class GuaranteedSimulationServicePackageSelector implements ModelInterface, Arra
     /**
      * Gets ad_types
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceAdType[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAdType[]|null
      */
     public function getAdTypes()
     {
@@ -400,7 +400,7 @@ class GuaranteedSimulationServicePackageSelector implements ModelInterface, Arra
     /**
      * Sets ad_types
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceAdType[]|null $ad_types <div lang=\"ja\">検索条件 : 広告タイプ</div> <div lang=\"en\">Search Condition: Ad Types</div>
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAdType[]|null $ad_types <div lang=\"ja\">検索条件 : 広告タイプ</div> <div lang=\"en\">Search Condition: Ad Types</div>
      *
      * @return self
      */

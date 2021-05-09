@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RecommendationServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;RecommendationServiceValueオブジェクトは、操作結果を含むRecommendationの情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;RecommendationServiceValue object describes recommendation information including its operation results.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class RecommendationServiceValue implements ModelInterface, ArrayAccess, \JsonSe
       * @var string[]
       */
     protected static $openAPITypes = [
-        'errors' => '\OpenAPI\Client\Model\Error[]',
-        'recommendation' => '\OpenAPI\Client\Model\Recommendation',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
+        'recommendation' => '\YahooAdsDisplayApi\Client\Model\Recommendation',
         'operation_succeeded' => 'bool'
     ];
 
@@ -225,7 +225,7 @@ class RecommendationServiceValue implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -235,7 +235,7 @@ class RecommendationServiceValue implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors <div lang=\"ja\">エラー内容です。</div> <div lang=\"en\">Error content.</div>
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors <div lang=\"ja\">エラー内容です。</div> <div lang=\"en\">Error content.</div>
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class RecommendationServiceValue implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets recommendation
      *
-     * @return \OpenAPI\Client\Model\Recommendation|null
+     * @return \YahooAdsDisplayApi\Client\Model\Recommendation|null
      */
     public function getRecommendation()
     {
@@ -259,7 +259,7 @@ class RecommendationServiceValue implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets recommendation
      *
-     * @param \OpenAPI\Client\Model\Recommendation|null $recommendation recommendation
+     * @param \YahooAdsDisplayApi\Client\Model\Recommendation|null $recommendation recommendation
      *
      * @return self
      */

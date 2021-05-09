@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * CampaignServiceCampaignBiddingStrategy Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; CampaignServiceCampaignBiddingStrategyオブジェクトは、キャンペーン入札戦略です。&lt;br&gt; ADDおよびSET時、このフィールドは目的なしの場合は設定不可となり、目的ありの場合は必須となります。&lt;br&gt; REMOVE時、このフィールドは無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; CampaignServiceCampaignBiddingStrategy object describes campaign bidding strategy.&lt;br&gt; In ADD and SET operation, this field cannot be set for campaigns with no campaign goal, and this field will be required for campaigns with campaign goal.&lt;br&gt; This field will be ignored in REMOVE operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class CampaignServiceCampaignBiddingStrategy implements ModelInterface, ArrayAcc
       * @var string[]
       */
     protected static $openAPITypes = [
-        'campaign_bidding_strategy_type' => '\OpenAPI\Client\Model\CampaignServiceCampaignBiddingStrategyType',
+        'campaign_bidding_strategy_type' => '\YahooAdsDisplayApi\Client\Model\CampaignServiceCampaignBiddingStrategyType',
         'max_cpc_bid_value' => 'int',
         'max_cpv_bid_value' => 'int',
         'max_vcpm_bid_value' => 'int',
@@ -237,7 +237,7 @@ class CampaignServiceCampaignBiddingStrategy implements ModelInterface, ArrayAcc
     /**
      * Gets campaign_bidding_strategy_type
      *
-     * @return \OpenAPI\Client\Model\CampaignServiceCampaignBiddingStrategyType|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignServiceCampaignBiddingStrategyType|null
      */
     public function getCampaignBiddingStrategyType()
     {
@@ -247,7 +247,7 @@ class CampaignServiceCampaignBiddingStrategy implements ModelInterface, ArrayAcc
     /**
      * Sets campaign_bidding_strategy_type
      *
-     * @param \OpenAPI\Client\Model\CampaignServiceCampaignBiddingStrategyType|null $campaign_bidding_strategy_type campaign_bidding_strategy_type
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignServiceCampaignBiddingStrategyType|null $campaign_bidding_strategy_type campaign_bidding_strategy_type
      *
      * @return self
      */

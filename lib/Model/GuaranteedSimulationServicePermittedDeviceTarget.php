@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServicePermittedDeviceTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedSimulationServicePermittedDeviceTargetオブジェクトは、デバイスターゲットの設定情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;GuaranteedSimulationServicePermittedDeviceTarget object holds configuration information of device targeting.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class GuaranteedSimulationServicePermittedDeviceTarget implements ModelInterface
       */
     protected static $openAPITypes = [
         'target_id' => 'string',
-        'device_type' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceDeviceType'
+        'device_type' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceDeviceType'
     ];
 
     /**
@@ -243,7 +243,7 @@ class GuaranteedSimulationServicePermittedDeviceTarget implements ModelInterface
     /**
      * Gets device_type
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceDeviceType|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceDeviceType|null
      */
     public function getDeviceType()
     {
@@ -253,7 +253,7 @@ class GuaranteedSimulationServicePermittedDeviceTarget implements ModelInterface
     /**
      * Sets device_type
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceDeviceType|null $device_type device_type
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceDeviceType|null $device_type device_type
      *
      * @return self
      */

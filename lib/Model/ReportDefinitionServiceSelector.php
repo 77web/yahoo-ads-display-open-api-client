@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ReportDefinitionServiceSelector Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;ReportDefinitionServiceSelectorオブジェクトは、操作の対象とするレポートを表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;ReportDefinitionServiceSelector object serves the report definition for the target of operation.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -64,7 +64,7 @@ class ReportDefinitionServiceSelector implements ModelInterface, ArrayAccess, \J
         'account_id' => 'int',
         'number_results' => 'int',
         'report_job_ids' => 'int[]',
-        'report_job_statuses' => '\OpenAPI\Client\Model\ReportDefinitionServiceReportJobStatus[]',
+        'report_job_statuses' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportJobStatus[]',
         'start_index' => 'int'
     ];
 
@@ -344,7 +344,7 @@ class ReportDefinitionServiceSelector implements ModelInterface, ArrayAccess, \J
     /**
      * Gets report_job_statuses
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceReportJobStatus[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportJobStatus[]|null
      */
     public function getReportJobStatuses()
     {
@@ -354,7 +354,7 @@ class ReportDefinitionServiceSelector implements ModelInterface, ArrayAccess, \J
     /**
      * Sets report_job_statuses
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceReportJobStatus[]|null $report_job_statuses report_job_statuses
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportJobStatus[]|null $report_job_statuses report_job_statuses
      *
      * @return self
      */

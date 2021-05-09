@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * LabelServiceReturnValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;LabelServiceReturnValueオブジェクトは、ラベルの情報を含む操作結果として戻される値を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;LabelServiceReturnValue object is the value returned as the operation result including the label information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class LabelServiceReturnValue implements ModelInterface, ArrayAccess, \JsonSeria
       * @var string[]
       */
     protected static $openAPITypes = [
-        'values' => '\OpenAPI\Client\Model\LabelServiceValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\LabelServiceValue[]'
     ];
 
     /**
@@ -213,7 +213,7 @@ class LabelServiceReturnValue implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\LabelServiceValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\LabelServiceValue[]|null
      */
     public function getValues()
     {
@@ -223,7 +223,7 @@ class LabelServiceReturnValue implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\LabelServiceValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\LabelServiceValue[]|null $values values
      *
      * @return self
      */

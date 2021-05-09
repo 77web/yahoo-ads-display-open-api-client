@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * VideoServiceUploadData Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -64,7 +64,7 @@ class VideoServiceUploadData implements ModelInterface, ArrayAccess, \JsonSerial
         'media_id' => 'int',
         'video_name' => 'string',
         'video_title' => 'string',
-        'user_status' => '\OpenAPI\Client\Model\VideoServiceUserStatus'
+        'user_status' => '\YahooAdsDisplayApi\Client\Model\VideoServiceUserStatus'
     ];
 
     /**
@@ -332,7 +332,7 @@ class VideoServiceUploadData implements ModelInterface, ArrayAccess, \JsonSerial
     /**
      * Gets user_status
      *
-     * @return \OpenAPI\Client\Model\VideoServiceUserStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\VideoServiceUserStatus|null
      */
     public function getUserStatus()
     {
@@ -342,7 +342,7 @@ class VideoServiceUploadData implements ModelInterface, ArrayAccess, \JsonSerial
     /**
      * Sets user_status
      *
-     * @param \OpenAPI\Client\Model\VideoServiceUserStatus|null $user_status user_status
+     * @param \YahooAdsDisplayApi\Client\Model\VideoServiceUserStatus|null $user_status user_status
      *
      * @return self
      */

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * FeedSet Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;FeedSetオブジェクトは、商品セット情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedSet object contains Item Set information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class FeedSet implements ModelInterface, ArrayAccess, \JsonSerializable
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'condition_sets' => '\OpenAPI\Client\Model\FeedSetServiceConditionSet[]',
+        'condition_sets' => '\YahooAdsDisplayApi\Client\Model\FeedSetServiceConditionSet[]',
         'feed_id' => 'int',
         'feed_set_id' => 'int',
         'feed_set_name' => 'string',
@@ -273,7 +273,7 @@ class FeedSet implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets condition_sets
      *
-     * @return \OpenAPI\Client\Model\FeedSetServiceConditionSet[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedSetServiceConditionSet[]|null
      */
     public function getConditionSets()
     {
@@ -283,7 +283,7 @@ class FeedSet implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets condition_sets
      *
-     * @param \OpenAPI\Client\Model\FeedSetServiceConditionSet[]|null $condition_sets condition_sets
+     * @param \YahooAdsDisplayApi\Client\Model\FeedSetServiceConditionSet[]|null $condition_sets condition_sets
      *
      * @return self
      */

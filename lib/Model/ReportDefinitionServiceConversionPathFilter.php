@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ReportDefinitionServiceConversionPathFilter Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;   ReportDefinitionServiceConversionPathFilterオブジェクトは、コンバージョン経路レポートのフィルタ条件を表します。&lt;br&gt;   複数指定した場合、AND条件になります。&lt;br&gt;   このフィールドは、ADD時に省略可能となり、REMOVE時に無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;   ReportDefinitionServiceConversionPathFilter describes the filter condition of Conversion Path Report. &lt;br&gt;    If multiple values are specified, the condition will be \&quot;AND\&quot;. &lt;br&gt;   This field is optional in ADD operation, and will be ignored in REMOVE operation.  &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class ReportDefinitionServiceConversionPathFilter implements ModelInterface, Arr
       * @var string[]
       */
     protected static $openAPITypes = [
-        'conversion_path_filter_type' => '\OpenAPI\Client\Model\ReportDefinitionServiceConversionPathFilterType',
-        'conversion_path_filter_operator' => '\OpenAPI\Client\Model\ReportDefinitionServiceConversionPathFilterOperator',
+        'conversion_path_filter_type' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceConversionPathFilterType',
+        'conversion_path_filter_operator' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceConversionPathFilterOperator',
         'values' => 'string[]'
     ];
 
@@ -225,7 +225,7 @@ class ReportDefinitionServiceConversionPathFilter implements ModelInterface, Arr
     /**
      * Gets conversion_path_filter_type
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceConversionPathFilterType|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceConversionPathFilterType|null
      */
     public function getConversionPathFilterType()
     {
@@ -235,7 +235,7 @@ class ReportDefinitionServiceConversionPathFilter implements ModelInterface, Arr
     /**
      * Sets conversion_path_filter_type
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceConversionPathFilterType|null $conversion_path_filter_type conversion_path_filter_type
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceConversionPathFilterType|null $conversion_path_filter_type conversion_path_filter_type
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class ReportDefinitionServiceConversionPathFilter implements ModelInterface, Arr
     /**
      * Gets conversion_path_filter_operator
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceConversionPathFilterOperator|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceConversionPathFilterOperator|null
      */
     public function getConversionPathFilterOperator()
     {
@@ -259,7 +259,7 @@ class ReportDefinitionServiceConversionPathFilter implements ModelInterface, Arr
     /**
      * Sets conversion_path_filter_operator
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceConversionPathFilterOperator|null $conversion_path_filter_operator conversion_path_filter_operator
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceConversionPathFilterOperator|null $conversion_path_filter_operator conversion_path_filter_operator
      *
      * @return self
      */

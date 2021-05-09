@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * CampaignMigrationServiceUploadReturnValue Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -60,7 +60,7 @@ class CampaignMigrationServiceUploadReturnValue implements ModelInterface, Array
       * @var string[]
       */
     protected static $openAPITypes = [
-        'values' => '\OpenAPI\Client\Model\CampaignMigrationServiceJobValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceJobValue[]'
     ];
 
     /**
@@ -212,7 +212,7 @@ class CampaignMigrationServiceUploadReturnValue implements ModelInterface, Array
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\CampaignMigrationServiceJobValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceJobValue[]|null
      */
     public function getValues()
     {
@@ -222,7 +222,7 @@ class CampaignMigrationServiceUploadReturnValue implements ModelInterface, Array
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\CampaignMigrationServiceJobValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceJobValue[]|null $values values
      *
      * @return self
      */

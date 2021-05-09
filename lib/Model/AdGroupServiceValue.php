@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;AdGroupServiceValueオブジェクトは、処理結果を含む広告グループに関する情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;AdGroupServiceValue serves the information of adGroup including operation results.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class AdGroupServiceValue implements ModelInterface, ArrayAccess, \JsonSerializa
       * @var string[]
       */
     protected static $openAPITypes = [
-        'ad_group' => '\OpenAPI\Client\Model\AdGroup',
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'ad_group' => '\YahooAdsDisplayApi\Client\Model\AdGroup',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool'
     ];
 
@@ -225,7 +225,7 @@ class AdGroupServiceValue implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Gets ad_group
      *
-     * @return \OpenAPI\Client\Model\AdGroup|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroup|null
      */
     public function getAdGroup()
     {
@@ -235,7 +235,7 @@ class AdGroupServiceValue implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Sets ad_group
      *
-     * @param \OpenAPI\Client\Model\AdGroup|null $ad_group ad_group
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroup|null $ad_group ad_group
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class AdGroupServiceValue implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -259,7 +259,7 @@ class AdGroupServiceValue implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */

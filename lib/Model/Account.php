@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * Account Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;Accountオブジェクトは、アカウント情報を示します。&lt;br&gt; &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Account objects serve account information.&lt;br&gt; &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -63,15 +63,15 @@ class Account implements ModelInterface, ArrayAccess, \JsonSerializable
     protected static $openAPITypes = [
         'account_id' => 'int',
         'account_name' => 'string',
-        'account_status' => '\OpenAPI\Client\Model\AccountServiceStatus',
-        'account_type' => '\OpenAPI\Client\Model\AccountServiceType',
-        'auth_type' => '\OpenAPI\Client\Model\AccountServiceAuthType',
-        'auto_tagging_enabled' => '\OpenAPI\Client\Model\AccountServiceAutoTaggingEnabled',
-        'delivery_status' => '\OpenAPI\Client\Model\AccountServiceDeliveryStatus',
-        'is_test_account' => '\OpenAPI\Client\Model\AccountServiceIsTestAccount',
+        'account_status' => '\YahooAdsDisplayApi\Client\Model\AccountServiceStatus',
+        'account_type' => '\YahooAdsDisplayApi\Client\Model\AccountServiceType',
+        'auth_type' => '\YahooAdsDisplayApi\Client\Model\AccountServiceAuthType',
+        'auto_tagging_enabled' => '\YahooAdsDisplayApi\Client\Model\AccountServiceAutoTaggingEnabled',
+        'delivery_status' => '\YahooAdsDisplayApi\Client\Model\AccountServiceDeliveryStatus',
+        'is_test_account' => '\YahooAdsDisplayApi\Client\Model\AccountServiceIsTestAccount',
         'start_date' => 'string',
         'end_date' => 'string',
-        'is_manager_account' => '\OpenAPI\Client\Model\AccountServiceIsManagerAccount',
+        'is_manager_account' => '\YahooAdsDisplayApi\Client\Model\AccountServiceIsManagerAccount',
         'contact_biz_id' => 'string'
     ];
 
@@ -327,7 +327,7 @@ class Account implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets account_status
      *
-     * @return \OpenAPI\Client\Model\AccountServiceStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountServiceStatus|null
      */
     public function getAccountStatus()
     {
@@ -337,7 +337,7 @@ class Account implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets account_status
      *
-     * @param \OpenAPI\Client\Model\AccountServiceStatus|null $account_status account_status
+     * @param \YahooAdsDisplayApi\Client\Model\AccountServiceStatus|null $account_status account_status
      *
      * @return self
      */
@@ -351,7 +351,7 @@ class Account implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets account_type
      *
-     * @return \OpenAPI\Client\Model\AccountServiceType|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountServiceType|null
      */
     public function getAccountType()
     {
@@ -361,7 +361,7 @@ class Account implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets account_type
      *
-     * @param \OpenAPI\Client\Model\AccountServiceType|null $account_type account_type
+     * @param \YahooAdsDisplayApi\Client\Model\AccountServiceType|null $account_type account_type
      *
      * @return self
      */
@@ -375,7 +375,7 @@ class Account implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets auth_type
      *
-     * @return \OpenAPI\Client\Model\AccountServiceAuthType|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountServiceAuthType|null
      */
     public function getAuthType()
     {
@@ -385,7 +385,7 @@ class Account implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets auth_type
      *
-     * @param \OpenAPI\Client\Model\AccountServiceAuthType|null $auth_type auth_type
+     * @param \YahooAdsDisplayApi\Client\Model\AccountServiceAuthType|null $auth_type auth_type
      *
      * @return self
      */
@@ -399,7 +399,7 @@ class Account implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets auto_tagging_enabled
      *
-     * @return \OpenAPI\Client\Model\AccountServiceAutoTaggingEnabled|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountServiceAutoTaggingEnabled|null
      */
     public function getAutoTaggingEnabled()
     {
@@ -409,7 +409,7 @@ class Account implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets auto_tagging_enabled
      *
-     * @param \OpenAPI\Client\Model\AccountServiceAutoTaggingEnabled|null $auto_tagging_enabled auto_tagging_enabled
+     * @param \YahooAdsDisplayApi\Client\Model\AccountServiceAutoTaggingEnabled|null $auto_tagging_enabled auto_tagging_enabled
      *
      * @return self
      */
@@ -423,7 +423,7 @@ class Account implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets delivery_status
      *
-     * @return \OpenAPI\Client\Model\AccountServiceDeliveryStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountServiceDeliveryStatus|null
      */
     public function getDeliveryStatus()
     {
@@ -433,7 +433,7 @@ class Account implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets delivery_status
      *
-     * @param \OpenAPI\Client\Model\AccountServiceDeliveryStatus|null $delivery_status delivery_status
+     * @param \YahooAdsDisplayApi\Client\Model\AccountServiceDeliveryStatus|null $delivery_status delivery_status
      *
      * @return self
      */
@@ -447,7 +447,7 @@ class Account implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets is_test_account
      *
-     * @return \OpenAPI\Client\Model\AccountServiceIsTestAccount|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountServiceIsTestAccount|null
      */
     public function getIsTestAccount()
     {
@@ -457,7 +457,7 @@ class Account implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets is_test_account
      *
-     * @param \OpenAPI\Client\Model\AccountServiceIsTestAccount|null $is_test_account is_test_account
+     * @param \YahooAdsDisplayApi\Client\Model\AccountServiceIsTestAccount|null $is_test_account is_test_account
      *
      * @return self
      */
@@ -519,7 +519,7 @@ class Account implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets is_manager_account
      *
-     * @return \OpenAPI\Client\Model\AccountServiceIsManagerAccount|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountServiceIsManagerAccount|null
      */
     public function getIsManagerAccount()
     {
@@ -529,7 +529,7 @@ class Account implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets is_manager_account
      *
-     * @param \OpenAPI\Client\Model\AccountServiceIsManagerAccount|null $is_manager_account is_manager_account
+     * @param \YahooAdsDisplayApi\Client\Model\AccountServiceIsManagerAccount|null $is_manager_account is_manager_account
      *
      * @return self
      */

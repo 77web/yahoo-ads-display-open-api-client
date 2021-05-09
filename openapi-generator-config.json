@@ -1,0 +1,8 @@
+{
+  "gitUserId": "quartetcom",
+  "gitRepoId": "yahoo-ads-display-open-api-client",
+  "modelPackage": "Model",
+  "apiPackage": "Api",
+  "invokerPackage": "YahooAdsDisplayApi\\Client",
+  "packagePath": "YahooAdsDisplayApiClient"
+}

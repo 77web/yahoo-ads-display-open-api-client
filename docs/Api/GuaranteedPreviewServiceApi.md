@@ -1,4 +1,4 @@
-# OpenAPI\Client\GuaranteedPreviewServiceApi
+# YahooAdsDisplayApi\Client\GuaranteedPreviewServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -10,7 +10,7 @@ Method | HTTP request | Description
 ## `guaranteedPreviewServiceGetPost()`
 
 ```php
-guaranteedPreviewServiceGetPost($guaranteed_preview_service_selector): \OpenAPI\Client\Model\GuaranteedPreviewServiceGetResponse
+guaranteedPreviewServiceGetPost($guaranteed_preview_service_selector): \YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceGetResponse
 ```
 
 
@@ -25,16 +25,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\GuaranteedPreviewServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\GuaranteedPreviewServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$guaranteed_preview_service_selector = new \OpenAPI\Client\Model\GuaranteedPreviewServiceSelector(); // \OpenAPI\Client\Model\GuaranteedPreviewServiceSelector
+$guaranteed_preview_service_selector = new \YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceSelector(); // \YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceSelector
 
 try {
     $result = $apiInstance->guaranteedPreviewServiceGetPost($guaranteed_preview_service_selector);
@@ -48,11 +48,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **guaranteed_preview_service_selector** | [**\OpenAPI\Client\Model\GuaranteedPreviewServiceSelector**](../Model/GuaranteedPreviewServiceSelector.md)|  | [optional]
+ **guaranteed_preview_service_selector** | [**\YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceSelector**](../Model/GuaranteedPreviewServiceSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\GuaranteedPreviewServiceGetResponse**](../Model/GuaranteedPreviewServiceGetResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceGetResponse**](../Model/GuaranteedPreviewServiceGetResponse.md)
 
 ### Authorization
 

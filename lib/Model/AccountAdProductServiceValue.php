@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AccountAdProductServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;AccountAdProductServiceValueオブジェクトは、広告掲載方式を含むコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;AccountAdProductServiceValue object that includes the ad display methods.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class AccountAdProductServiceValue implements ModelInterface, ArrayAccess, \Json
       * @var string[]
       */
     protected static $openAPITypes = [
-        'account_ad_product' => '\OpenAPI\Client\Model\AccountAdProduct',
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'account_ad_product' => '\YahooAdsDisplayApi\Client\Model\AccountAdProduct',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool'
     ];
 
@@ -225,7 +225,7 @@ class AccountAdProductServiceValue implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets account_ad_product
      *
-     * @return \OpenAPI\Client\Model\AccountAdProduct|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountAdProduct|null
      */
     public function getAccountAdProduct()
     {
@@ -235,7 +235,7 @@ class AccountAdProductServiceValue implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets account_ad_product
      *
-     * @param \OpenAPI\Client\Model\AccountAdProduct|null $account_ad_product account_ad_product
+     * @param \YahooAdsDisplayApi\Client\Model\AccountAdProduct|null $account_ad_product account_ad_product
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class AccountAdProductServiceValue implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -259,7 +259,7 @@ class AccountAdProductServiceValue implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors <div lang=\"ja\">エラー内容です。</div> <div lang=\"en\">Error content.</div>
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors <div lang=\"ja\">エラー内容です。</div> <div lang=\"en\">Error content.</div>
      *
      * @return self
      */

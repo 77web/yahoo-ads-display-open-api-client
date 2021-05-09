@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * FeedDataServiceRecord Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;FeedDataServiceRecordオブジェクトは、アップロードした商品情報(ファイル形式)の状態を保持する。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedDataServiceRecord object retains status of uploaded item list(file format).&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -66,11 +66,11 @@ class FeedDataServiceRecord implements ModelInterface, ArrayAccess, \JsonSeriali
         'error_count' => 'int',
         'error_rate' => 'double',
         'feed_id' => 'int',
-        'file_upload_src' => '\OpenAPI\Client\Model\FeedDataServiceFileUploadSrc',
-        'file_upload_status' => '\OpenAPI\Client\Model\FeedDataServiceFileUploadStatus',
+        'file_upload_src' => '\YahooAdsDisplayApi\Client\Model\FeedDataServiceFileUploadSrc',
+        'file_upload_status' => '\YahooAdsDisplayApi\Client\Model\FeedDataServiceFileUploadStatus',
         'is_debug' => 'bool',
         'item_list_upload_id' => 'int',
-        'item_list_upload_type' => '\OpenAPI\Client\Model\FeedDataServiceItemListUploadType',
+        'item_list_upload_type' => '\YahooAdsDisplayApi\Client\Model\FeedDataServiceItemListUploadType',
         'upload_date' => 'string'
     ];
 
@@ -393,7 +393,7 @@ class FeedDataServiceRecord implements ModelInterface, ArrayAccess, \JsonSeriali
     /**
      * Gets file_upload_src
      *
-     * @return \OpenAPI\Client\Model\FeedDataServiceFileUploadSrc|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedDataServiceFileUploadSrc|null
      */
     public function getFileUploadSrc()
     {
@@ -403,7 +403,7 @@ class FeedDataServiceRecord implements ModelInterface, ArrayAccess, \JsonSeriali
     /**
      * Sets file_upload_src
      *
-     * @param \OpenAPI\Client\Model\FeedDataServiceFileUploadSrc|null $file_upload_src file_upload_src
+     * @param \YahooAdsDisplayApi\Client\Model\FeedDataServiceFileUploadSrc|null $file_upload_src file_upload_src
      *
      * @return self
      */
@@ -417,7 +417,7 @@ class FeedDataServiceRecord implements ModelInterface, ArrayAccess, \JsonSeriali
     /**
      * Gets file_upload_status
      *
-     * @return \OpenAPI\Client\Model\FeedDataServiceFileUploadStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedDataServiceFileUploadStatus|null
      */
     public function getFileUploadStatus()
     {
@@ -427,7 +427,7 @@ class FeedDataServiceRecord implements ModelInterface, ArrayAccess, \JsonSeriali
     /**
      * Sets file_upload_status
      *
-     * @param \OpenAPI\Client\Model\FeedDataServiceFileUploadStatus|null $file_upload_status file_upload_status
+     * @param \YahooAdsDisplayApi\Client\Model\FeedDataServiceFileUploadStatus|null $file_upload_status file_upload_status
      *
      * @return self
      */
@@ -489,7 +489,7 @@ class FeedDataServiceRecord implements ModelInterface, ArrayAccess, \JsonSeriali
     /**
      * Gets item_list_upload_type
      *
-     * @return \OpenAPI\Client\Model\FeedDataServiceItemListUploadType|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedDataServiceItemListUploadType|null
      */
     public function getItemListUploadType()
     {
@@ -499,7 +499,7 @@ class FeedDataServiceRecord implements ModelInterface, ArrayAccess, \JsonSeriali
     /**
      * Sets item_list_upload_type
      *
-     * @param \OpenAPI\Client\Model\FeedDataServiceItemListUploadType|null $item_list_upload_type item_list_upload_type
+     * @param \YahooAdsDisplayApi\Client\Model\FeedDataServiceItemListUploadType|null $item_list_upload_type item_list_upload_type
      *
      * @return self
      */

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * StatsServiceCarrierTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;StatsServiceCarrierTargetオブジェクトは、モバイルキャリアターゲットの設定情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;StatsServiceCarrierTarget object holds configuration information of mobile carrier targeting.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class StatsServiceCarrierTarget implements ModelInterface, ArrayAccess, \JsonSer
       * @var string[]
       */
     protected static $openAPITypes = [
-        'carrier_type' => '\OpenAPI\Client\Model\StatsServiceCarrierType'
+        'carrier_type' => '\YahooAdsDisplayApi\Client\Model\StatsServiceCarrierType'
     ];
 
     /**
@@ -213,7 +213,7 @@ class StatsServiceCarrierTarget implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Gets carrier_type
      *
-     * @return \OpenAPI\Client\Model\StatsServiceCarrierType|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceCarrierType|null
      */
     public function getCarrierType()
     {
@@ -223,7 +223,7 @@ class StatsServiceCarrierTarget implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Sets carrier_type
      *
-     * @param \OpenAPI\Client\Model\StatsServiceCarrierType|null $carrier_type carrier_type
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceCarrierType|null $carrier_type carrier_type
      *
      * @return self
      */

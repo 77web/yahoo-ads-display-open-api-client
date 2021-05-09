@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ReportDefinitionServiceAccount Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; ReportDefinitionServiceAccountオブジェクトはアカウントと、そのアカウントのプロダクトタイプを表します。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; ReportDefinitionServiceAccount object describes account and its product type. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class ReportDefinitionServiceAccount implements ModelInterface, ArrayAccess, \Js
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'product_type' => '\OpenAPI\Client\Model\ReportDefinitionServiceProductType'
+        'product_type' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceProductType'
     ];
 
     /**
@@ -243,7 +243,7 @@ class ReportDefinitionServiceAccount implements ModelInterface, ArrayAccess, \Js
     /**
      * Gets product_type
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceProductType|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceProductType|null
      */
     public function getProductType()
     {
@@ -253,7 +253,7 @@ class ReportDefinitionServiceAccount implements ModelInterface, ArrayAccess, \Js
     /**
      * Sets product_type
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceProductType|null $product_type product_type
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceProductType|null $product_type product_type
      *
      * @return self
      */

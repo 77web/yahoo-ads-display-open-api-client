@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedPreviewServiceSelector Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedPreviewServiceSelectorオブジェクトは、getメソッドのプレビュー情報の取得条件を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;GuaranteedPreviewServiceSelector object holds acquisition conditions of preview information in the get method.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class GuaranteedPreviewServiceSelector implements ModelInterface, ArrayAccess, \
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'material' => '\OpenAPI\Client\Model\GuaranteedPreviewServiceMaterial'
+        'material' => '\YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceMaterial'
     ];
 
     /**
@@ -249,7 +249,7 @@ class GuaranteedPreviewServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Gets material
      *
-     * @return \OpenAPI\Client\Model\GuaranteedPreviewServiceMaterial
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceMaterial
      */
     public function getMaterial()
     {
@@ -259,7 +259,7 @@ class GuaranteedPreviewServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Sets material
      *
-     * @param \OpenAPI\Client\Model\GuaranteedPreviewServiceMaterial $material material
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceMaterial $material material
      *
      * @return self
      */

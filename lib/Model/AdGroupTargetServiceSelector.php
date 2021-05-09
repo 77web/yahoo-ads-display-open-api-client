@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupTargetServiceSelector Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;AdGroupTargetServiceSelectorオブジェクトは、getメソッドの検索条件（実行パラメータ）を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The AdGroupTargetServiceSelector object contains a set of criteria (parameters) for get method.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -64,7 +64,7 @@ class AdGroupTargetServiceSelector implements ModelInterface, ArrayAccess, \Json
         'account_id' => 'int',
         'ad_group_ids' => 'int[]',
         'campaign_ids' => 'int[]',
-        'target_types' => '\OpenAPI\Client\Model\AdGroupTargetServiceTargetType[]',
+        'target_types' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceTargetType[]',
         'number_results' => 'int',
         'start_index' => 'int'
     ];
@@ -350,7 +350,7 @@ class AdGroupTargetServiceSelector implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets target_types
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServiceTargetType[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceTargetType[]|null
      */
     public function getTargetTypes()
     {
@@ -360,7 +360,7 @@ class AdGroupTargetServiceSelector implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets target_types
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServiceTargetType[]|null $target_types target_types
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceTargetType[]|null $target_types target_types
      *
      * @return self
      */

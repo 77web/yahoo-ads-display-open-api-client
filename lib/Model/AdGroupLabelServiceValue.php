@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupLabelServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;AdGroupLabelServiceValueオブジェクトは、操作結果を含む広告グループラベルの情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;AdGroupLabelServiceValue object describes ad group label information including its operation results.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class AdGroupLabelServiceValue implements ModelInterface, ArrayAccess, \JsonSeri
       * @var string[]
       */
     protected static $openAPITypes = [
-        'ad_group_label' => '\OpenAPI\Client\Model\AdGroupLabel',
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'ad_group_label' => '\YahooAdsDisplayApi\Client\Model\AdGroupLabel',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool'
     ];
 
@@ -225,7 +225,7 @@ class AdGroupLabelServiceValue implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Gets ad_group_label
      *
-     * @return \OpenAPI\Client\Model\AdGroupLabel|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupLabel|null
      */
     public function getAdGroupLabel()
     {
@@ -235,7 +235,7 @@ class AdGroupLabelServiceValue implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Sets ad_group_label
      *
-     * @param \OpenAPI\Client\Model\AdGroupLabel|null $ad_group_label ad_group_label
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupLabel|null $ad_group_label ad_group_label
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class AdGroupLabelServiceValue implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -259,7 +259,7 @@ class AdGroupLabelServiceValue implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors <div lang=\"ja\">エラー内容です。</div> <div lang=\"en\">Error content.</div>
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors <div lang=\"ja\">エラー内容です。</div> <div lang=\"en\">Error content.</div>
      *
      * @return self
      */

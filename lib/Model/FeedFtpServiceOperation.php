@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * FeedFtpServiceOperation Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;FeedFtpServiceOperationオブジェクトは、mutate対象となる定期アップロード設定情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedFtpServiceOperation object retains Periodic Upload setting information by mutate operation.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class FeedFtpServiceOperation implements ModelInterface, ArrayAccess, \JsonSeria
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'operand' => '\OpenAPI\Client\Model\FeedFtp[]'
+        'operand' => '\YahooAdsDisplayApi\Client\Model\FeedFtp[]'
     ];
 
     /**
@@ -257,7 +257,7 @@ class FeedFtpServiceOperation implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Gets operand
      *
-     * @return \OpenAPI\Client\Model\FeedFtp[]
+     * @return \YahooAdsDisplayApi\Client\Model\FeedFtp[]
      */
     public function getOperand()
     {
@@ -267,7 +267,7 @@ class FeedFtpServiceOperation implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Sets operand
      *
-     * @param \OpenAPI\Client\Model\FeedFtp[] $operand operand
+     * @param \YahooAdsDisplayApi\Client\Model\FeedFtp[] $operand operand
      *
      * @return self
      */

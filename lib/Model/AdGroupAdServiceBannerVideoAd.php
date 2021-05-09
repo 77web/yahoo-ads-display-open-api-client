@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupAdServiceBannerVideoAd Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; AdGroupAdServiceBannerVideoAdオブジェクトは、動画で構成される広告の情報を表します。&lt;br&gt; このフィールドは、省略可能となります。&lt;br&gt; ※ADD時、adTypeがBANNER_VIDEO_ADの場合は必須です。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; AdGroupAdServiceBannerVideoAd object describes information regarding ads composed of videos.&lt;br&gt; This field is optional.&lt;br&gt; *If adType is BANNER_VIDEO_AD, this field is required in ADD operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,13 +62,13 @@ class AdGroupAdServiceBannerVideoAd implements ModelInterface, ArrayAccess, \Jso
       */
     protected static $openAPITypes = [
         'display_url' => 'string',
-        'is_remove_video10_sec_beacon_urls' => '\OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg',
-        'is_remove_video25_percent_beacon_urls' => '\OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg',
-        'is_remove_video3_sec_beacon_urls' => '\OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg',
-        'is_remove_video50_percent_beacon_urls' => '\OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg',
-        'is_remove_video75_percent_beacon_urls' => '\OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg',
-        'is_remove_video_complete_beacon_urls' => '\OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg',
-        'is_remove_video_start_beacon_urls' => '\OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg',
+        'is_remove_video10_sec_beacon_urls' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg',
+        'is_remove_video25_percent_beacon_urls' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg',
+        'is_remove_video3_sec_beacon_urls' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg',
+        'is_remove_video50_percent_beacon_urls' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg',
+        'is_remove_video75_percent_beacon_urls' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg',
+        'is_remove_video_complete_beacon_urls' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg',
+        'is_remove_video_start_beacon_urls' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg',
         'thumbnail_media_id' => 'int',
         'url' => 'string',
         'video10_sec_beacon_urls' => 'string[]',
@@ -333,7 +333,7 @@ class AdGroupAdServiceBannerVideoAd implements ModelInterface, ArrayAccess, \Jso
     /**
      * Gets is_remove_video10_sec_beacon_urls
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null
      */
     public function getIsRemoveVideo10SecBeaconUrls()
     {
@@ -343,7 +343,7 @@ class AdGroupAdServiceBannerVideoAd implements ModelInterface, ArrayAccess, \Jso
     /**
      * Sets is_remove_video10_sec_beacon_urls
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_video10_sec_beacon_urls is_remove_video10_sec_beacon_urls
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_video10_sec_beacon_urls is_remove_video10_sec_beacon_urls
      *
      * @return self
      */
@@ -357,7 +357,7 @@ class AdGroupAdServiceBannerVideoAd implements ModelInterface, ArrayAccess, \Jso
     /**
      * Gets is_remove_video25_percent_beacon_urls
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null
      */
     public function getIsRemoveVideo25PercentBeaconUrls()
     {
@@ -367,7 +367,7 @@ class AdGroupAdServiceBannerVideoAd implements ModelInterface, ArrayAccess, \Jso
     /**
      * Sets is_remove_video25_percent_beacon_urls
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_video25_percent_beacon_urls is_remove_video25_percent_beacon_urls
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_video25_percent_beacon_urls is_remove_video25_percent_beacon_urls
      *
      * @return self
      */
@@ -381,7 +381,7 @@ class AdGroupAdServiceBannerVideoAd implements ModelInterface, ArrayAccess, \Jso
     /**
      * Gets is_remove_video3_sec_beacon_urls
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null
      */
     public function getIsRemoveVideo3SecBeaconUrls()
     {
@@ -391,7 +391,7 @@ class AdGroupAdServiceBannerVideoAd implements ModelInterface, ArrayAccess, \Jso
     /**
      * Sets is_remove_video3_sec_beacon_urls
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_video3_sec_beacon_urls is_remove_video3_sec_beacon_urls
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_video3_sec_beacon_urls is_remove_video3_sec_beacon_urls
      *
      * @return self
      */
@@ -405,7 +405,7 @@ class AdGroupAdServiceBannerVideoAd implements ModelInterface, ArrayAccess, \Jso
     /**
      * Gets is_remove_video50_percent_beacon_urls
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null
      */
     public function getIsRemoveVideo50PercentBeaconUrls()
     {
@@ -415,7 +415,7 @@ class AdGroupAdServiceBannerVideoAd implements ModelInterface, ArrayAccess, \Jso
     /**
      * Sets is_remove_video50_percent_beacon_urls
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_video50_percent_beacon_urls is_remove_video50_percent_beacon_urls
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_video50_percent_beacon_urls is_remove_video50_percent_beacon_urls
      *
      * @return self
      */
@@ -429,7 +429,7 @@ class AdGroupAdServiceBannerVideoAd implements ModelInterface, ArrayAccess, \Jso
     /**
      * Gets is_remove_video75_percent_beacon_urls
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null
      */
     public function getIsRemoveVideo75PercentBeaconUrls()
     {
@@ -439,7 +439,7 @@ class AdGroupAdServiceBannerVideoAd implements ModelInterface, ArrayAccess, \Jso
     /**
      * Sets is_remove_video75_percent_beacon_urls
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_video75_percent_beacon_urls is_remove_video75_percent_beacon_urls
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_video75_percent_beacon_urls is_remove_video75_percent_beacon_urls
      *
      * @return self
      */
@@ -453,7 +453,7 @@ class AdGroupAdServiceBannerVideoAd implements ModelInterface, ArrayAccess, \Jso
     /**
      * Gets is_remove_video_complete_beacon_urls
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null
      */
     public function getIsRemoveVideoCompleteBeaconUrls()
     {
@@ -463,7 +463,7 @@ class AdGroupAdServiceBannerVideoAd implements ModelInterface, ArrayAccess, \Jso
     /**
      * Sets is_remove_video_complete_beacon_urls
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_video_complete_beacon_urls is_remove_video_complete_beacon_urls
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_video_complete_beacon_urls is_remove_video_complete_beacon_urls
      *
      * @return self
      */
@@ -477,7 +477,7 @@ class AdGroupAdServiceBannerVideoAd implements ModelInterface, ArrayAccess, \Jso
     /**
      * Gets is_remove_video_start_beacon_urls
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null
      */
     public function getIsRemoveVideoStartBeaconUrls()
     {
@@ -487,7 +487,7 @@ class AdGroupAdServiceBannerVideoAd implements ModelInterface, ArrayAccess, \Jso
     /**
      * Sets is_remove_video_start_beacon_urls
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_video_start_beacon_urls is_remove_video_start_beacon_urls
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_video_start_beacon_urls is_remove_video_start_beacon_urls
      *
      * @return self
      */

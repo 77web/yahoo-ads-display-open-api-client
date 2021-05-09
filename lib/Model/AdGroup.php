@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroup Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;AdGroupオブジェクトは、広告グループ情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The Ad Group object is a container for storing ad group information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,22 +62,22 @@ class AdGroup implements ModelInterface, ArrayAccess, \JsonSerializable
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'ad_group_bidding_strategy' => '\OpenAPI\Client\Model\AdGroupServiceBiddingStrategy',
+        'ad_group_bidding_strategy' => '\YahooAdsDisplayApi\Client\Model\AdGroupServiceBiddingStrategy',
         'ad_group_id' => 'int',
         'ad_group_name' => 'string',
-        'bid' => '\OpenAPI\Client\Model\AdGroupServiceBid',
+        'bid' => '\YahooAdsDisplayApi\Client\Model\AdGroupServiceBid',
         'campaign_id' => 'int',
         'campaign_name' => 'string',
-        'conversion_optimizer' => '\OpenAPI\Client\Model\AdGroupServiceConversionOptimizer',
-        'device' => '\OpenAPI\Client\Model\AdGroupServiceDeviceType[]',
-        'device_app' => '\OpenAPI\Client\Model\AdGroupServiceDeviceAppType[]',
-        'device_os' => '\OpenAPI\Client\Model\AdGroupServiceDeviceOsType[]',
+        'conversion_optimizer' => '\YahooAdsDisplayApi\Client\Model\AdGroupServiceConversionOptimizer',
+        'device' => '\YahooAdsDisplayApi\Client\Model\AdGroupServiceDeviceType[]',
+        'device_app' => '\YahooAdsDisplayApi\Client\Model\AdGroupServiceDeviceAppType[]',
+        'device_os' => '\YahooAdsDisplayApi\Client\Model\AdGroupServiceDeviceOsType[]',
         'device_os_version' => 'string',
-        'dynamic_image_extensions' => '\OpenAPI\Client\Model\AdGroupServiceDynamicImageExtensions',
+        'dynamic_image_extensions' => '\YahooAdsDisplayApi\Client\Model\AdGroupServiceDynamicImageExtensions',
         'feed_set_id' => 'int',
-        'labels' => '\OpenAPI\Client\Model\AdGroupServiceLabel[]',
-        'smart_device_carriers' => '\OpenAPI\Client\Model\AdGroupServiceSmartDeviceCarrier[]',
-        'user_status' => '\OpenAPI\Client\Model\AdGroupServiceUserStatus',
+        'labels' => '\YahooAdsDisplayApi\Client\Model\AdGroupServiceLabel[]',
+        'smart_device_carriers' => '\YahooAdsDisplayApi\Client\Model\AdGroupServiceSmartDeviceCarrier[]',
+        'user_status' => '\YahooAdsDisplayApi\Client\Model\AdGroupServiceUserStatus',
         'created_date' => 'string'
     ];
 
@@ -339,7 +339,7 @@ class AdGroup implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets ad_group_bidding_strategy
      *
-     * @return \OpenAPI\Client\Model\AdGroupServiceBiddingStrategy|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupServiceBiddingStrategy|null
      */
     public function getAdGroupBiddingStrategy()
     {
@@ -349,7 +349,7 @@ class AdGroup implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets ad_group_bidding_strategy
      *
-     * @param \OpenAPI\Client\Model\AdGroupServiceBiddingStrategy|null $ad_group_bidding_strategy ad_group_bidding_strategy
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupServiceBiddingStrategy|null $ad_group_bidding_strategy ad_group_bidding_strategy
      *
      * @return self
      */
@@ -411,7 +411,7 @@ class AdGroup implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets bid
      *
-     * @return \OpenAPI\Client\Model\AdGroupServiceBid|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupServiceBid|null
      */
     public function getBid()
     {
@@ -421,7 +421,7 @@ class AdGroup implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets bid
      *
-     * @param \OpenAPI\Client\Model\AdGroupServiceBid|null $bid bid
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupServiceBid|null $bid bid
      *
      * @return self
      */
@@ -483,7 +483,7 @@ class AdGroup implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets conversion_optimizer
      *
-     * @return \OpenAPI\Client\Model\AdGroupServiceConversionOptimizer|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupServiceConversionOptimizer|null
      */
     public function getConversionOptimizer()
     {
@@ -493,7 +493,7 @@ class AdGroup implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets conversion_optimizer
      *
-     * @param \OpenAPI\Client\Model\AdGroupServiceConversionOptimizer|null $conversion_optimizer conversion_optimizer
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupServiceConversionOptimizer|null $conversion_optimizer conversion_optimizer
      *
      * @return self
      */
@@ -507,7 +507,7 @@ class AdGroup implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets device
      *
-     * @return \OpenAPI\Client\Model\AdGroupServiceDeviceType[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupServiceDeviceType[]|null
      */
     public function getDevice()
     {
@@ -517,7 +517,7 @@ class AdGroup implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets device
      *
-     * @param \OpenAPI\Client\Model\AdGroupServiceDeviceType[]|null $device device
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupServiceDeviceType[]|null $device device
      *
      * @return self
      */
@@ -531,7 +531,7 @@ class AdGroup implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets device_app
      *
-     * @return \OpenAPI\Client\Model\AdGroupServiceDeviceAppType[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupServiceDeviceAppType[]|null
      */
     public function getDeviceApp()
     {
@@ -541,7 +541,7 @@ class AdGroup implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets device_app
      *
-     * @param \OpenAPI\Client\Model\AdGroupServiceDeviceAppType[]|null $device_app device_app
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupServiceDeviceAppType[]|null $device_app device_app
      *
      * @return self
      */
@@ -555,7 +555,7 @@ class AdGroup implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets device_os
      *
-     * @return \OpenAPI\Client\Model\AdGroupServiceDeviceOsType[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupServiceDeviceOsType[]|null
      */
     public function getDeviceOs()
     {
@@ -565,7 +565,7 @@ class AdGroup implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets device_os
      *
-     * @param \OpenAPI\Client\Model\AdGroupServiceDeviceOsType[]|null $device_os device_os
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupServiceDeviceOsType[]|null $device_os device_os
      *
      * @return self
      */
@@ -603,7 +603,7 @@ class AdGroup implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets dynamic_image_extensions
      *
-     * @return \OpenAPI\Client\Model\AdGroupServiceDynamicImageExtensions|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupServiceDynamicImageExtensions|null
      */
     public function getDynamicImageExtensions()
     {
@@ -613,7 +613,7 @@ class AdGroup implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets dynamic_image_extensions
      *
-     * @param \OpenAPI\Client\Model\AdGroupServiceDynamicImageExtensions|null $dynamic_image_extensions dynamic_image_extensions
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupServiceDynamicImageExtensions|null $dynamic_image_extensions dynamic_image_extensions
      *
      * @return self
      */
@@ -651,7 +651,7 @@ class AdGroup implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets labels
      *
-     * @return \OpenAPI\Client\Model\AdGroupServiceLabel[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupServiceLabel[]|null
      */
     public function getLabels()
     {
@@ -661,7 +661,7 @@ class AdGroup implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets labels
      *
-     * @param \OpenAPI\Client\Model\AdGroupServiceLabel[]|null $labels labels
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupServiceLabel[]|null $labels labels
      *
      * @return self
      */
@@ -675,7 +675,7 @@ class AdGroup implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets smart_device_carriers
      *
-     * @return \OpenAPI\Client\Model\AdGroupServiceSmartDeviceCarrier[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupServiceSmartDeviceCarrier[]|null
      */
     public function getSmartDeviceCarriers()
     {
@@ -685,7 +685,7 @@ class AdGroup implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets smart_device_carriers
      *
-     * @param \OpenAPI\Client\Model\AdGroupServiceSmartDeviceCarrier[]|null $smart_device_carriers smart_device_carriers
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupServiceSmartDeviceCarrier[]|null $smart_device_carriers smart_device_carriers
      *
      * @return self
      */
@@ -699,7 +699,7 @@ class AdGroup implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets user_status
      *
-     * @return \OpenAPI\Client\Model\AdGroupServiceUserStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupServiceUserStatus|null
      */
     public function getUserStatus()
     {
@@ -709,7 +709,7 @@ class AdGroup implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets user_status
      *
-     * @param \OpenAPI\Client\Model\AdGroupServiceUserStatus|null $user_status user_status
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupServiceUserStatus|null $user_status user_status
      *
      * @return self
      */

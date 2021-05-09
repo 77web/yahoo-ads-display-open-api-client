@@ -4,7 +4,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Api;
+namespace YahooAdsDisplayApi\Client\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use OpenAPI\Client\ApiException;
-use OpenAPI\Client\Configuration;
-use OpenAPI\Client\HeaderSelector;
-use OpenAPI\Client\ObjectSerializer;
+use YahooAdsDisplayApi\Client\ApiException;
+use YahooAdsDisplayApi\Client\Configuration;
+use YahooAdsDisplayApi\Client\HeaderSelector;
+use YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RetargetingTagServiceApi Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -118,11 +118,11 @@ class RetargetingTagServiceApi
     /**
      * Operation retargetingTagServiceAddPost
      *
-     * @param  \OpenAPI\Client\Model\RetargetingTagServiceOperation $retargeting_tag_service_operation retargeting_tag_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\RetargetingTagServiceOperation $retargeting_tag_service_operation retargeting_tag_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\RetargetingTagServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\RetargetingTagServiceMutateResponse
      */
     public function retargetingTagServiceAddPost($retargeting_tag_service_operation = null)
     {
@@ -133,11 +133,11 @@ class RetargetingTagServiceApi
     /**
      * Operation retargetingTagServiceAddPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\RetargetingTagServiceOperation $retargeting_tag_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\RetargetingTagServiceOperation $retargeting_tag_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\RetargetingTagServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\RetargetingTagServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function retargetingTagServiceAddPostWithHttpInfo($retargeting_tag_service_operation = null)
     {
@@ -174,20 +174,20 @@ class RetargetingTagServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\RetargetingTagServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\RetargetingTagServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\RetargetingTagServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\RetargetingTagServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\RetargetingTagServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\RetargetingTagServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -206,7 +206,7 @@ class RetargetingTagServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\RetargetingTagServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\RetargetingTagServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -221,7 +221,7 @@ class RetargetingTagServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\RetargetingTagServiceOperation $retargeting_tag_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\RetargetingTagServiceOperation $retargeting_tag_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -241,14 +241,14 @@ class RetargetingTagServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\RetargetingTagServiceOperation $retargeting_tag_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\RetargetingTagServiceOperation $retargeting_tag_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function retargetingTagServiceAddPostAsyncWithHttpInfo($retargeting_tag_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\RetargetingTagServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\RetargetingTagServiceMutateResponse';
         $request = $this->retargetingTagServiceAddPostRequest($retargeting_tag_service_operation);
 
         return $this->client
@@ -288,7 +288,7 @@ class RetargetingTagServiceApi
     /**
      * Create request for operation 'retargetingTagServiceAddPost'
      *
-     * @param  \OpenAPI\Client\Model\RetargetingTagServiceOperation $retargeting_tag_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\RetargetingTagServiceOperation $retargeting_tag_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -377,11 +377,11 @@ class RetargetingTagServiceApi
     /**
      * Operation retargetingTagServiceGetPost
      *
-     * @param  \OpenAPI\Client\Model\RetargetingTagServiceSelector $retargeting_tag_service_selector retargeting_tag_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\RetargetingTagServiceSelector $retargeting_tag_service_selector retargeting_tag_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\RetargetingTagServiceGetResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\RetargetingTagServiceGetResponse
      */
     public function retargetingTagServiceGetPost($retargeting_tag_service_selector = null)
     {
@@ -392,11 +392,11 @@ class RetargetingTagServiceApi
     /**
      * Operation retargetingTagServiceGetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\RetargetingTagServiceSelector $retargeting_tag_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\RetargetingTagServiceSelector $retargeting_tag_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\RetargetingTagServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\RetargetingTagServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function retargetingTagServiceGetPostWithHttpInfo($retargeting_tag_service_selector = null)
     {
@@ -433,20 +433,20 @@ class RetargetingTagServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\RetargetingTagServiceGetResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\RetargetingTagServiceGetResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\RetargetingTagServiceGetResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\RetargetingTagServiceGetResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\RetargetingTagServiceGetResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\RetargetingTagServiceGetResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -465,7 +465,7 @@ class RetargetingTagServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\RetargetingTagServiceGetResponse',
+                        '\YahooAdsDisplayApi\Client\Model\RetargetingTagServiceGetResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -480,7 +480,7 @@ class RetargetingTagServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\RetargetingTagServiceSelector $retargeting_tag_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\RetargetingTagServiceSelector $retargeting_tag_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -500,14 +500,14 @@ class RetargetingTagServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\RetargetingTagServiceSelector $retargeting_tag_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\RetargetingTagServiceSelector $retargeting_tag_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function retargetingTagServiceGetPostAsyncWithHttpInfo($retargeting_tag_service_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\RetargetingTagServiceGetResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\RetargetingTagServiceGetResponse';
         $request = $this->retargetingTagServiceGetPostRequest($retargeting_tag_service_selector);
 
         return $this->client
@@ -547,7 +547,7 @@ class RetargetingTagServiceApi
     /**
      * Create request for operation 'retargetingTagServiceGetPost'
      *
-     * @param  \OpenAPI\Client\Model\RetargetingTagServiceSelector $retargeting_tag_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\RetargetingTagServiceSelector $retargeting_tag_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

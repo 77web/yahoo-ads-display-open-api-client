@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * CampaignLabelServiceReturnValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;CampaignLabelServiceReturnValueオブジェクトは、キャンペーンの情報を含む操作結果として戻される値を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;CampaignLabelServiceReturnValue object describes value returned as operation result including campaign label information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class CampaignLabelServiceReturnValue implements ModelInterface, ArrayAccess, \J
       * @var string[]
       */
     protected static $openAPITypes = [
-        'values' => '\OpenAPI\Client\Model\CampaignLabelServiceValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\CampaignLabelServiceValue[]'
     ];
 
     /**
@@ -213,7 +213,7 @@ class CampaignLabelServiceReturnValue implements ModelInterface, ArrayAccess, \J
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\CampaignLabelServiceValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignLabelServiceValue[]|null
      */
     public function getValues()
     {
@@ -223,7 +223,7 @@ class CampaignLabelServiceReturnValue implements ModelInterface, ArrayAccess, \J
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\CampaignLabelServiceValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignLabelServiceValue[]|null $values values
      *
      * @return self
      */

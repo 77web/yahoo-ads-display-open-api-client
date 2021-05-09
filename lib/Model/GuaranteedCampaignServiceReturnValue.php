@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedCampaignServiceReturnValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedCampaignServiceReturnValueオブジェクトは、予約型のキャンペーンの情報を格納するコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The GuaranteedCampaignServiceReturnValue object is a container for storing guaranteed campaign information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class GuaranteedCampaignServiceReturnValue implements ModelInterface, ArrayAcces
       * @var string[]
       */
     protected static $openAPITypes = [
-        'values' => '\OpenAPI\Client\Model\GuaranteedCampaignServiceValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceValue[]'
     ];
 
     /**
@@ -213,7 +213,7 @@ class GuaranteedCampaignServiceReturnValue implements ModelInterface, ArrayAcces
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\GuaranteedCampaignServiceValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceValue[]|null
      */
     public function getValues()
     {
@@ -223,7 +223,7 @@ class GuaranteedCampaignServiceReturnValue implements ModelInterface, ArrayAcces
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\GuaranteedCampaignServiceValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceValue[]|null $values values
      *
      * @return self
      */

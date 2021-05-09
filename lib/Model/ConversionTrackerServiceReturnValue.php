@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ConversionTrackerServiceReturnValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;ConversionTrackerServiceReturnValueオブジェクトは、操作結果を含むコンバージョントラッカー情報のコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;A container of ConversionTracker information includes operation results.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class ConversionTrackerServiceReturnValue implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $openAPITypes = [
-        'values' => '\OpenAPI\Client\Model\ConversionTrackerServiceValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceValue[]'
     ];
 
     /**
@@ -213,7 +213,7 @@ class ConversionTrackerServiceReturnValue implements ModelInterface, ArrayAccess
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\ConversionTrackerServiceValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceValue[]|null
      */
     public function getValues()
     {
@@ -223,7 +223,7 @@ class ConversionTrackerServiceReturnValue implements ModelInterface, ArrayAccess
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\ConversionTrackerServiceValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceValue[]|null $values values
      *
      * @return self
      */

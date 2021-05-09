@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupAdServiceSelector Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;AdGroupAdServiceSelectorオブジェクトは、操作の対象とする広告およびフィルタ条件を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The AdGroupAdServiceSelector object is a container for storing ad information and filtering condition.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -64,16 +64,16 @@ class AdGroupAdServiceSelector implements ModelInterface, ArrayAccess, \JsonSeri
         'account_id' => 'int',
         'ad_group_ids' => 'int[]',
         'ad_ids' => 'int[]',
-        'approval_statuses' => '\OpenAPI\Client\Model\AdGroupAdServiceApprovalStatus[]',
-        'campaign_goal_filter_type' => '\OpenAPI\Client\Model\AdGroupAdServiceCampaignGoalFilterType',
+        'approval_statuses' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceApprovalStatus[]',
+        'campaign_goal_filter_type' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceCampaignGoalFilterType',
         'campaign_ids' => 'int[]',
         'contains_label_id_flg' => 'bool',
         'label_ids' => 'int[]',
         'media_ids' => 'int[]',
         'number_results' => 'int',
         'start_index' => 'int',
-        'user_statuses' => '\OpenAPI\Client\Model\AdGroupAdServiceUserStatus[]',
-        'created_date_range' => '\OpenAPI\Client\Model\AdGroupAdServiceCreatedDateRange'
+        'user_statuses' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceUserStatus[]',
+        'created_date_range' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceCreatedDateRange'
     ];
 
     /**
@@ -404,7 +404,7 @@ class AdGroupAdServiceSelector implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Gets approval_statuses
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceApprovalStatus[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceApprovalStatus[]|null
      */
     public function getApprovalStatuses()
     {
@@ -414,7 +414,7 @@ class AdGroupAdServiceSelector implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Sets approval_statuses
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceApprovalStatus[]|null $approval_statuses approval_statuses
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceApprovalStatus[]|null $approval_statuses approval_statuses
      *
      * @return self
      */
@@ -432,7 +432,7 @@ class AdGroupAdServiceSelector implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Gets campaign_goal_filter_type
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceCampaignGoalFilterType|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceCampaignGoalFilterType|null
      */
     public function getCampaignGoalFilterType()
     {
@@ -442,7 +442,7 @@ class AdGroupAdServiceSelector implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Sets campaign_goal_filter_type
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceCampaignGoalFilterType|null $campaign_goal_filter_type campaign_goal_filter_type
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceCampaignGoalFilterType|null $campaign_goal_filter_type campaign_goal_filter_type
      *
      * @return self
      */
@@ -621,7 +621,7 @@ class AdGroupAdServiceSelector implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Gets user_statuses
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceUserStatus[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceUserStatus[]|null
      */
     public function getUserStatuses()
     {
@@ -631,7 +631,7 @@ class AdGroupAdServiceSelector implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Sets user_statuses
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceUserStatus[]|null $user_statuses user_statuses
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceUserStatus[]|null $user_statuses user_statuses
      *
      * @return self
      */
@@ -649,7 +649,7 @@ class AdGroupAdServiceSelector implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Gets created_date_range
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceCreatedDateRange|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceCreatedDateRange|null
      */
     public function getCreatedDateRange()
     {
@@ -659,7 +659,7 @@ class AdGroupAdServiceSelector implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Sets created_date_range
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceCreatedDateRange|null $created_date_range created_date_range
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceCreatedDateRange|null $created_date_range created_date_range
      *
      * @return self
      */

@@ -4,7 +4,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Api;
+namespace YahooAdsDisplayApi\Client\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use OpenAPI\Client\ApiException;
-use OpenAPI\Client\Configuration;
-use OpenAPI\Client\HeaderSelector;
-use OpenAPI\Client\ObjectSerializer;
+use YahooAdsDisplayApi\Client\ApiException;
+use YahooAdsDisplayApi\Client\Configuration;
+use YahooAdsDisplayApi\Client\HeaderSelector;
+use YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * DictionaryServiceApi Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -118,11 +118,11 @@ class DictionaryServiceApi
     /**
      * Operation dictionaryServiceGetAudienceCategoryPost
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector dictionary_service_category_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector dictionary_service_category_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\DictionaryServiceGetAudienceCategoryResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetAudienceCategoryResponse
      */
     public function dictionaryServiceGetAudienceCategoryPost($dictionary_service_category_selector = null)
     {
@@ -133,11 +133,11 @@ class DictionaryServiceApi
     /**
      * Operation dictionaryServiceGetAudienceCategoryPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\DictionaryServiceGetAudienceCategoryResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetAudienceCategoryResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function dictionaryServiceGetAudienceCategoryPostWithHttpInfo($dictionary_service_category_selector = null)
     {
@@ -174,20 +174,20 @@ class DictionaryServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\DictionaryServiceGetAudienceCategoryResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetAudienceCategoryResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\DictionaryServiceGetAudienceCategoryResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetAudienceCategoryResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\DictionaryServiceGetAudienceCategoryResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetAudienceCategoryResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -206,7 +206,7 @@ class DictionaryServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\DictionaryServiceGetAudienceCategoryResponse',
+                        '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetAudienceCategoryResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -221,7 +221,7 @@ class DictionaryServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -241,14 +241,14 @@ class DictionaryServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function dictionaryServiceGetAudienceCategoryPostAsyncWithHttpInfo($dictionary_service_category_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\DictionaryServiceGetAudienceCategoryResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetAudienceCategoryResponse';
         $request = $this->dictionaryServiceGetAudienceCategoryPostRequest($dictionary_service_category_selector);
 
         return $this->client
@@ -288,7 +288,7 @@ class DictionaryServiceApi
     /**
      * Create request for operation 'dictionaryServiceGetAudienceCategoryPost'
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -379,9 +379,9 @@ class DictionaryServiceApi
      *
      * @param  object $body body (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\DictionaryServiceGetBusinessCategoryResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetBusinessCategoryResponse
      */
     public function dictionaryServiceGetBusinessCategoryPost($body = null)
     {
@@ -394,9 +394,9 @@ class DictionaryServiceApi
      *
      * @param  object $body (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\DictionaryServiceGetBusinessCategoryResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetBusinessCategoryResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function dictionaryServiceGetBusinessCategoryPostWithHttpInfo($body = null)
     {
@@ -433,20 +433,20 @@ class DictionaryServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\DictionaryServiceGetBusinessCategoryResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetBusinessCategoryResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\DictionaryServiceGetBusinessCategoryResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetBusinessCategoryResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\DictionaryServiceGetBusinessCategoryResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetBusinessCategoryResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -465,7 +465,7 @@ class DictionaryServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\DictionaryServiceGetBusinessCategoryResponse',
+                        '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetBusinessCategoryResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -507,7 +507,7 @@ class DictionaryServiceApi
      */
     public function dictionaryServiceGetBusinessCategoryPostAsyncWithHttpInfo($body = null)
     {
-        $returnType = '\OpenAPI\Client\Model\DictionaryServiceGetBusinessCategoryResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetBusinessCategoryResponse';
         $request = $this->dictionaryServiceGetBusinessCategoryPostRequest($body);
 
         return $this->client
@@ -636,11 +636,11 @@ class DictionaryServiceApi
     /**
      * Operation dictionaryServiceGetDisapprovalReasonPost
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceDisapprovalReasonSelector $dictionary_service_disapproval_reason_selector dictionary_service_disapproval_reason_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceDisapprovalReasonSelector $dictionary_service_disapproval_reason_selector dictionary_service_disapproval_reason_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\DictionaryServiceGetDisapprovalReasonResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetDisapprovalReasonResponse
      */
     public function dictionaryServiceGetDisapprovalReasonPost($dictionary_service_disapproval_reason_selector = null)
     {
@@ -651,11 +651,11 @@ class DictionaryServiceApi
     /**
      * Operation dictionaryServiceGetDisapprovalReasonPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceDisapprovalReasonSelector $dictionary_service_disapproval_reason_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceDisapprovalReasonSelector $dictionary_service_disapproval_reason_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\DictionaryServiceGetDisapprovalReasonResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetDisapprovalReasonResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function dictionaryServiceGetDisapprovalReasonPostWithHttpInfo($dictionary_service_disapproval_reason_selector = null)
     {
@@ -692,20 +692,20 @@ class DictionaryServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\DictionaryServiceGetDisapprovalReasonResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetDisapprovalReasonResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\DictionaryServiceGetDisapprovalReasonResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetDisapprovalReasonResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\DictionaryServiceGetDisapprovalReasonResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetDisapprovalReasonResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -724,7 +724,7 @@ class DictionaryServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\DictionaryServiceGetDisapprovalReasonResponse',
+                        '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetDisapprovalReasonResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -739,7 +739,7 @@ class DictionaryServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceDisapprovalReasonSelector $dictionary_service_disapproval_reason_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceDisapprovalReasonSelector $dictionary_service_disapproval_reason_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -759,14 +759,14 @@ class DictionaryServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceDisapprovalReasonSelector $dictionary_service_disapproval_reason_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceDisapprovalReasonSelector $dictionary_service_disapproval_reason_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function dictionaryServiceGetDisapprovalReasonPostAsyncWithHttpInfo($dictionary_service_disapproval_reason_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\DictionaryServiceGetDisapprovalReasonResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetDisapprovalReasonResponse';
         $request = $this->dictionaryServiceGetDisapprovalReasonPostRequest($dictionary_service_disapproval_reason_selector);
 
         return $this->client
@@ -806,7 +806,7 @@ class DictionaryServiceApi
     /**
      * Create request for operation 'dictionaryServiceGetDisapprovalReasonPost'
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceDisapprovalReasonSelector $dictionary_service_disapproval_reason_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceDisapprovalReasonSelector $dictionary_service_disapproval_reason_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -895,11 +895,11 @@ class DictionaryServiceApi
     /**
      * Operation dictionaryServiceGetFeedItemGoogleProductCategoryPost
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceFeedItemGoogleProductCategorySelector $dictionary_service_feed_item_google_product_category_selector dictionary_service_feed_item_google_product_category_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceFeedItemGoogleProductCategorySelector $dictionary_service_feed_item_google_product_category_selector dictionary_service_feed_item_google_product_category_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\DictionaryServiceGetFeedItemGoogleProductCategoryResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetFeedItemGoogleProductCategoryResponse
      */
     public function dictionaryServiceGetFeedItemGoogleProductCategoryPost($dictionary_service_feed_item_google_product_category_selector = null)
     {
@@ -910,11 +910,11 @@ class DictionaryServiceApi
     /**
      * Operation dictionaryServiceGetFeedItemGoogleProductCategoryPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceFeedItemGoogleProductCategorySelector $dictionary_service_feed_item_google_product_category_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceFeedItemGoogleProductCategorySelector $dictionary_service_feed_item_google_product_category_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\DictionaryServiceGetFeedItemGoogleProductCategoryResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetFeedItemGoogleProductCategoryResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function dictionaryServiceGetFeedItemGoogleProductCategoryPostWithHttpInfo($dictionary_service_feed_item_google_product_category_selector = null)
     {
@@ -951,20 +951,20 @@ class DictionaryServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\DictionaryServiceGetFeedItemGoogleProductCategoryResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetFeedItemGoogleProductCategoryResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\DictionaryServiceGetFeedItemGoogleProductCategoryResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetFeedItemGoogleProductCategoryResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\DictionaryServiceGetFeedItemGoogleProductCategoryResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetFeedItemGoogleProductCategoryResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -983,7 +983,7 @@ class DictionaryServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\DictionaryServiceGetFeedItemGoogleProductCategoryResponse',
+                        '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetFeedItemGoogleProductCategoryResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -998,7 +998,7 @@ class DictionaryServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceFeedItemGoogleProductCategorySelector $dictionary_service_feed_item_google_product_category_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceFeedItemGoogleProductCategorySelector $dictionary_service_feed_item_google_product_category_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1018,14 +1018,14 @@ class DictionaryServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceFeedItemGoogleProductCategorySelector $dictionary_service_feed_item_google_product_category_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceFeedItemGoogleProductCategorySelector $dictionary_service_feed_item_google_product_category_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function dictionaryServiceGetFeedItemGoogleProductCategoryPostAsyncWithHttpInfo($dictionary_service_feed_item_google_product_category_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\DictionaryServiceGetFeedItemGoogleProductCategoryResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetFeedItemGoogleProductCategoryResponse';
         $request = $this->dictionaryServiceGetFeedItemGoogleProductCategoryPostRequest($dictionary_service_feed_item_google_product_category_selector);
 
         return $this->client
@@ -1065,7 +1065,7 @@ class DictionaryServiceApi
     /**
      * Create request for operation 'dictionaryServiceGetFeedItemGoogleProductCategoryPost'
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceFeedItemGoogleProductCategorySelector $dictionary_service_feed_item_google_product_category_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceFeedItemGoogleProductCategorySelector $dictionary_service_feed_item_google_product_category_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -1154,11 +1154,11 @@ class DictionaryServiceApi
     /**
      * Operation dictionaryServiceGetGeographicLocationPost
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceGeographicLocationSelector $dictionary_service_geographic_location_selector dictionary_service_geographic_location_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceGeographicLocationSelector $dictionary_service_geographic_location_selector dictionary_service_geographic_location_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\DictionaryServiceGetGeographicLocationResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetGeographicLocationResponse
      */
     public function dictionaryServiceGetGeographicLocationPost($dictionary_service_geographic_location_selector = null)
     {
@@ -1169,11 +1169,11 @@ class DictionaryServiceApi
     /**
      * Operation dictionaryServiceGetGeographicLocationPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceGeographicLocationSelector $dictionary_service_geographic_location_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceGeographicLocationSelector $dictionary_service_geographic_location_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\DictionaryServiceGetGeographicLocationResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetGeographicLocationResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function dictionaryServiceGetGeographicLocationPostWithHttpInfo($dictionary_service_geographic_location_selector = null)
     {
@@ -1210,20 +1210,20 @@ class DictionaryServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\DictionaryServiceGetGeographicLocationResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetGeographicLocationResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\DictionaryServiceGetGeographicLocationResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetGeographicLocationResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\DictionaryServiceGetGeographicLocationResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetGeographicLocationResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -1242,7 +1242,7 @@ class DictionaryServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\DictionaryServiceGetGeographicLocationResponse',
+                        '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetGeographicLocationResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1257,7 +1257,7 @@ class DictionaryServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceGeographicLocationSelector $dictionary_service_geographic_location_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceGeographicLocationSelector $dictionary_service_geographic_location_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1277,14 +1277,14 @@ class DictionaryServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceGeographicLocationSelector $dictionary_service_geographic_location_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceGeographicLocationSelector $dictionary_service_geographic_location_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function dictionaryServiceGetGeographicLocationPostAsyncWithHttpInfo($dictionary_service_geographic_location_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\DictionaryServiceGetGeographicLocationResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetGeographicLocationResponse';
         $request = $this->dictionaryServiceGetGeographicLocationPostRequest($dictionary_service_geographic_location_selector);
 
         return $this->client
@@ -1324,7 +1324,7 @@ class DictionaryServiceApi
     /**
      * Create request for operation 'dictionaryServiceGetGeographicLocationPost'
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceGeographicLocationSelector $dictionary_service_geographic_location_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceGeographicLocationSelector $dictionary_service_geographic_location_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -1413,11 +1413,11 @@ class DictionaryServiceApi
     /**
      * Operation dictionaryServiceGetInterestCategoryPost
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector dictionary_service_category_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector dictionary_service_category_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\DictionaryServiceGetInterestCategoryResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetInterestCategoryResponse
      */
     public function dictionaryServiceGetInterestCategoryPost($dictionary_service_category_selector = null)
     {
@@ -1428,11 +1428,11 @@ class DictionaryServiceApi
     /**
      * Operation dictionaryServiceGetInterestCategoryPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\DictionaryServiceGetInterestCategoryResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetInterestCategoryResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function dictionaryServiceGetInterestCategoryPostWithHttpInfo($dictionary_service_category_selector = null)
     {
@@ -1469,20 +1469,20 @@ class DictionaryServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\DictionaryServiceGetInterestCategoryResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetInterestCategoryResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\DictionaryServiceGetInterestCategoryResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetInterestCategoryResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\DictionaryServiceGetInterestCategoryResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetInterestCategoryResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -1501,7 +1501,7 @@ class DictionaryServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\DictionaryServiceGetInterestCategoryResponse',
+                        '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetInterestCategoryResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1516,7 +1516,7 @@ class DictionaryServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1536,14 +1536,14 @@ class DictionaryServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function dictionaryServiceGetInterestCategoryPostAsyncWithHttpInfo($dictionary_service_category_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\DictionaryServiceGetInterestCategoryResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetInterestCategoryResponse';
         $request = $this->dictionaryServiceGetInterestCategoryPostRequest($dictionary_service_category_selector);
 
         return $this->client
@@ -1583,7 +1583,7 @@ class DictionaryServiceApi
     /**
      * Create request for operation 'dictionaryServiceGetInterestCategoryPost'
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -1674,9 +1674,9 @@ class DictionaryServiceApi
      *
      * @param  object $body body (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\DictionaryServiceGetMediaAdFormatResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetMediaAdFormatResponse
      */
     public function dictionaryServiceGetMediaAdFormatPost($body = null)
     {
@@ -1689,9 +1689,9 @@ class DictionaryServiceApi
      *
      * @param  object $body (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\DictionaryServiceGetMediaAdFormatResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetMediaAdFormatResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function dictionaryServiceGetMediaAdFormatPostWithHttpInfo($body = null)
     {
@@ -1728,20 +1728,20 @@ class DictionaryServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\DictionaryServiceGetMediaAdFormatResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetMediaAdFormatResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\DictionaryServiceGetMediaAdFormatResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetMediaAdFormatResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\DictionaryServiceGetMediaAdFormatResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetMediaAdFormatResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -1760,7 +1760,7 @@ class DictionaryServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\DictionaryServiceGetMediaAdFormatResponse',
+                        '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetMediaAdFormatResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1802,7 +1802,7 @@ class DictionaryServiceApi
      */
     public function dictionaryServiceGetMediaAdFormatPostAsyncWithHttpInfo($body = null)
     {
-        $returnType = '\OpenAPI\Client\Model\DictionaryServiceGetMediaAdFormatResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetMediaAdFormatResponse';
         $request = $this->dictionaryServiceGetMediaAdFormatPostRequest($body);
 
         return $this->client
@@ -1931,11 +1931,11 @@ class DictionaryServiceApi
     /**
      * Operation dictionaryServiceGetOsVersionPost
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceOsVersionSelector $dictionary_service_os_version_selector dictionary_service_os_version_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceOsVersionSelector $dictionary_service_os_version_selector dictionary_service_os_version_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\DictionaryServiceGetOsVersionResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetOsVersionResponse
      */
     public function dictionaryServiceGetOsVersionPost($dictionary_service_os_version_selector = null)
     {
@@ -1946,11 +1946,11 @@ class DictionaryServiceApi
     /**
      * Operation dictionaryServiceGetOsVersionPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceOsVersionSelector $dictionary_service_os_version_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceOsVersionSelector $dictionary_service_os_version_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\DictionaryServiceGetOsVersionResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetOsVersionResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function dictionaryServiceGetOsVersionPostWithHttpInfo($dictionary_service_os_version_selector = null)
     {
@@ -1987,20 +1987,20 @@ class DictionaryServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\DictionaryServiceGetOsVersionResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetOsVersionResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\DictionaryServiceGetOsVersionResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetOsVersionResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\DictionaryServiceGetOsVersionResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetOsVersionResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -2019,7 +2019,7 @@ class DictionaryServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\DictionaryServiceGetOsVersionResponse',
+                        '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetOsVersionResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2034,7 +2034,7 @@ class DictionaryServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceOsVersionSelector $dictionary_service_os_version_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceOsVersionSelector $dictionary_service_os_version_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -2054,14 +2054,14 @@ class DictionaryServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceOsVersionSelector $dictionary_service_os_version_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceOsVersionSelector $dictionary_service_os_version_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function dictionaryServiceGetOsVersionPostAsyncWithHttpInfo($dictionary_service_os_version_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\DictionaryServiceGetOsVersionResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetOsVersionResponse';
         $request = $this->dictionaryServiceGetOsVersionPostRequest($dictionary_service_os_version_selector);
 
         return $this->client
@@ -2101,7 +2101,7 @@ class DictionaryServiceApi
     /**
      * Create request for operation 'dictionaryServiceGetOsVersionPost'
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceOsVersionSelector $dictionary_service_os_version_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceOsVersionSelector $dictionary_service_os_version_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -2190,11 +2190,11 @@ class DictionaryServiceApi
     /**
      * Operation dictionaryServiceGetSiteCategoryPost
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector dictionary_service_category_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector dictionary_service_category_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\DictionaryServiceGetSiteCategoryResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetSiteCategoryResponse
      */
     public function dictionaryServiceGetSiteCategoryPost($dictionary_service_category_selector = null)
     {
@@ -2205,11 +2205,11 @@ class DictionaryServiceApi
     /**
      * Operation dictionaryServiceGetSiteCategoryPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\DictionaryServiceGetSiteCategoryResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetSiteCategoryResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function dictionaryServiceGetSiteCategoryPostWithHttpInfo($dictionary_service_category_selector = null)
     {
@@ -2246,20 +2246,20 @@ class DictionaryServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\DictionaryServiceGetSiteCategoryResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetSiteCategoryResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\DictionaryServiceGetSiteCategoryResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetSiteCategoryResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\DictionaryServiceGetSiteCategoryResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetSiteCategoryResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -2278,7 +2278,7 @@ class DictionaryServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\DictionaryServiceGetSiteCategoryResponse',
+                        '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetSiteCategoryResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2293,7 +2293,7 @@ class DictionaryServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -2313,14 +2313,14 @@ class DictionaryServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function dictionaryServiceGetSiteCategoryPostAsyncWithHttpInfo($dictionary_service_category_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\DictionaryServiceGetSiteCategoryResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetSiteCategoryResponse';
         $request = $this->dictionaryServiceGetSiteCategoryPostRequest($dictionary_service_category_selector);
 
         return $this->client
@@ -2360,7 +2360,7 @@ class DictionaryServiceApi
     /**
      * Create request for operation 'dictionaryServiceGetSiteCategoryPost'
      *
-     * @param  \OpenAPI\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\DictionaryServiceCategorySelector $dictionary_service_category_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -2451,9 +2451,9 @@ class DictionaryServiceApi
      *
      * @param  object $body body (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\DictionaryServiceGetThirdPartyTrackingDomainResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetThirdPartyTrackingDomainResponse
      */
     public function dictionaryServiceGetThirdPartyTrackingDomainPost($body = null)
     {
@@ -2466,9 +2466,9 @@ class DictionaryServiceApi
      *
      * @param  object $body (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\DictionaryServiceGetThirdPartyTrackingDomainResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetThirdPartyTrackingDomainResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function dictionaryServiceGetThirdPartyTrackingDomainPostWithHttpInfo($body = null)
     {
@@ -2505,20 +2505,20 @@ class DictionaryServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\DictionaryServiceGetThirdPartyTrackingDomainResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetThirdPartyTrackingDomainResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\DictionaryServiceGetThirdPartyTrackingDomainResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetThirdPartyTrackingDomainResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\DictionaryServiceGetThirdPartyTrackingDomainResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetThirdPartyTrackingDomainResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -2537,7 +2537,7 @@ class DictionaryServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\DictionaryServiceGetThirdPartyTrackingDomainResponse',
+                        '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetThirdPartyTrackingDomainResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2579,7 +2579,7 @@ class DictionaryServiceApi
      */
     public function dictionaryServiceGetThirdPartyTrackingDomainPostAsyncWithHttpInfo($body = null)
     {
-        $returnType = '\OpenAPI\Client\Model\DictionaryServiceGetThirdPartyTrackingDomainResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetThirdPartyTrackingDomainResponse';
         $request = $this->dictionaryServiceGetThirdPartyTrackingDomainPostRequest($body);
 
         return $this->client

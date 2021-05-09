@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupTargetServiceAppTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; AdGroupTargetServiceAppTargetオブジェクトは、アプリターゲティングの設定情報を保持します。&lt;br&gt; このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; AdGroupTargetServiceAppTarget object is a container for storing app targeting settings.&lt;br&gt; Although this field will be returned in the response, it will be ignored on input. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class AdGroupTargetServiceAppTarget implements ModelInterface, ArrayAccess, \Jso
       * @var string[]
       */
     protected static $openAPITypes = [
-        'device_app_type' => '\OpenAPI\Client\Model\AdGroupTargetServiceDeviceAppType'
+        'device_app_type' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceDeviceAppType'
     ];
 
     /**
@@ -213,7 +213,7 @@ class AdGroupTargetServiceAppTarget implements ModelInterface, ArrayAccess, \Jso
     /**
      * Gets device_app_type
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServiceDeviceAppType|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceDeviceAppType|null
      */
     public function getDeviceAppType()
     {
@@ -223,7 +223,7 @@ class AdGroupTargetServiceAppTarget implements ModelInterface, ArrayAccess, \Jso
     /**
      * Sets device_app_type
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServiceDeviceAppType|null $device_app_type device_app_type
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceDeviceAppType|null $device_app_type device_app_type
      *
      * @return self
      */

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * StatsServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;StatsServiceValueオブジェクトは、統計情報1件あたりの実行結果（1 Entity）を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;StatsServiceValue object is container for the execution result (1 entity) per single stats information by method.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,17 +62,17 @@ class StatsServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'ad_group_stats_value' => '\OpenAPI\Client\Model\StatsServiceAdGroupStatsValue',
-        'ad_stats_value' => '\OpenAPI\Client\Model\StatsServiceAdStatsValue',
-        'campaign_stats_value' => '\OpenAPI\Client\Model\StatsServiceCampaignStatsValue',
-        'errors' => '\OpenAPI\Client\Model\Error[]',
-        'image_stats_value' => '\OpenAPI\Client\Model\StatsServiceImageStatsValue',
+        'ad_group_stats_value' => '\YahooAdsDisplayApi\Client\Model\StatsServiceAdGroupStatsValue',
+        'ad_stats_value' => '\YahooAdsDisplayApi\Client\Model\StatsServiceAdStatsValue',
+        'campaign_stats_value' => '\YahooAdsDisplayApi\Client\Model\StatsServiceCampaignStatsValue',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
+        'image_stats_value' => '\YahooAdsDisplayApi\Client\Model\StatsServiceImageStatsValue',
         'operation_succeeded' => 'bool',
-        'period_custom_date' => '\OpenAPI\Client\Model\StatsServicePeriodCustomDate',
-        'stats_period' => '\OpenAPI\Client\Model\StatsServiceStatsPeriod',
-        'target_stats_value' => '\OpenAPI\Client\Model\StatsServiceTargetStatsValue',
-        'type' => '\OpenAPI\Client\Model\StatsServiceType',
-        'video_stats_value' => '\OpenAPI\Client\Model\StatsServiceVideoStatsValue'
+        'period_custom_date' => '\YahooAdsDisplayApi\Client\Model\StatsServicePeriodCustomDate',
+        'stats_period' => '\YahooAdsDisplayApi\Client\Model\StatsServiceStatsPeriod',
+        'target_stats_value' => '\YahooAdsDisplayApi\Client\Model\StatsServiceTargetStatsValue',
+        'type' => '\YahooAdsDisplayApi\Client\Model\StatsServiceType',
+        'video_stats_value' => '\YahooAdsDisplayApi\Client\Model\StatsServiceVideoStatsValue'
     ];
 
     /**
@@ -303,7 +303,7 @@ class StatsServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets ad_group_stats_value
      *
-     * @return \OpenAPI\Client\Model\StatsServiceAdGroupStatsValue|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceAdGroupStatsValue|null
      */
     public function getAdGroupStatsValue()
     {
@@ -313,7 +313,7 @@ class StatsServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets ad_group_stats_value
      *
-     * @param \OpenAPI\Client\Model\StatsServiceAdGroupStatsValue|null $ad_group_stats_value ad_group_stats_value
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceAdGroupStatsValue|null $ad_group_stats_value ad_group_stats_value
      *
      * @return self
      */
@@ -327,7 +327,7 @@ class StatsServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets ad_stats_value
      *
-     * @return \OpenAPI\Client\Model\StatsServiceAdStatsValue|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceAdStatsValue|null
      */
     public function getAdStatsValue()
     {
@@ -337,7 +337,7 @@ class StatsServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets ad_stats_value
      *
-     * @param \OpenAPI\Client\Model\StatsServiceAdStatsValue|null $ad_stats_value ad_stats_value
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceAdStatsValue|null $ad_stats_value ad_stats_value
      *
      * @return self
      */
@@ -351,7 +351,7 @@ class StatsServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets campaign_stats_value
      *
-     * @return \OpenAPI\Client\Model\StatsServiceCampaignStatsValue|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceCampaignStatsValue|null
      */
     public function getCampaignStatsValue()
     {
@@ -361,7 +361,7 @@ class StatsServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets campaign_stats_value
      *
-     * @param \OpenAPI\Client\Model\StatsServiceCampaignStatsValue|null $campaign_stats_value campaign_stats_value
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceCampaignStatsValue|null $campaign_stats_value campaign_stats_value
      *
      * @return self
      */
@@ -375,7 +375,7 @@ class StatsServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -385,7 +385,7 @@ class StatsServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */
@@ -399,7 +399,7 @@ class StatsServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets image_stats_value
      *
-     * @return \OpenAPI\Client\Model\StatsServiceImageStatsValue|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceImageStatsValue|null
      */
     public function getImageStatsValue()
     {
@@ -409,7 +409,7 @@ class StatsServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets image_stats_value
      *
-     * @param \OpenAPI\Client\Model\StatsServiceImageStatsValue|null $image_stats_value image_stats_value
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceImageStatsValue|null $image_stats_value image_stats_value
      *
      * @return self
      */
@@ -447,7 +447,7 @@ class StatsServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets period_custom_date
      *
-     * @return \OpenAPI\Client\Model\StatsServicePeriodCustomDate|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServicePeriodCustomDate|null
      */
     public function getPeriodCustomDate()
     {
@@ -457,7 +457,7 @@ class StatsServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets period_custom_date
      *
-     * @param \OpenAPI\Client\Model\StatsServicePeriodCustomDate|null $period_custom_date period_custom_date
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServicePeriodCustomDate|null $period_custom_date period_custom_date
      *
      * @return self
      */
@@ -471,7 +471,7 @@ class StatsServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets stats_period
      *
-     * @return \OpenAPI\Client\Model\StatsServiceStatsPeriod|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceStatsPeriod|null
      */
     public function getStatsPeriod()
     {
@@ -481,7 +481,7 @@ class StatsServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets stats_period
      *
-     * @param \OpenAPI\Client\Model\StatsServiceStatsPeriod|null $stats_period stats_period
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceStatsPeriod|null $stats_period stats_period
      *
      * @return self
      */
@@ -495,7 +495,7 @@ class StatsServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets target_stats_value
      *
-     * @return \OpenAPI\Client\Model\StatsServiceTargetStatsValue|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceTargetStatsValue|null
      */
     public function getTargetStatsValue()
     {
@@ -505,7 +505,7 @@ class StatsServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets target_stats_value
      *
-     * @param \OpenAPI\Client\Model\StatsServiceTargetStatsValue|null $target_stats_value target_stats_value
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceTargetStatsValue|null $target_stats_value target_stats_value
      *
      * @return self
      */
@@ -519,7 +519,7 @@ class StatsServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets type
      *
-     * @return \OpenAPI\Client\Model\StatsServiceType|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceType|null
      */
     public function getType()
     {
@@ -529,7 +529,7 @@ class StatsServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets type
      *
-     * @param \OpenAPI\Client\Model\StatsServiceType|null $type type
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceType|null $type type
      *
      * @return self
      */
@@ -543,7 +543,7 @@ class StatsServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets video_stats_value
      *
-     * @return \OpenAPI\Client\Model\StatsServiceVideoStatsValue|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceVideoStatsValue|null
      */
     public function getVideoStatsValue()
     {
@@ -553,7 +553,7 @@ class StatsServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets video_stats_value
      *
-     * @param \OpenAPI\Client\Model\StatsServiceVideoStatsValue|null $video_stats_value video_stats_value
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceVideoStatsValue|null $video_stats_value video_stats_value
      *
      * @return self
      */

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupAdLabelServiceOperation Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;AdGroupAdLabelServiceOperationオブジェクトは、操作の対象となる広告ラベルの情報と処理の内容を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;AdGroupAdLabelServiceOperation displays information of ad group ad label to be operated and processing content.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class AdGroupAdLabelServiceOperation implements ModelInterface, ArrayAccess, \Js
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'operand' => '\OpenAPI\Client\Model\AdGroupAdLabel[]'
+        'operand' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdLabel[]'
     ];
 
     /**
@@ -257,7 +257,7 @@ class AdGroupAdLabelServiceOperation implements ModelInterface, ArrayAccess, \Js
     /**
      * Gets operand
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdLabel[]
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdLabel[]
      */
     public function getOperand()
     {
@@ -267,7 +267,7 @@ class AdGroupAdLabelServiceOperation implements ModelInterface, ArrayAccess, \Js
     /**
      * Sets operand
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdLabel[] $operand operand
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdLabel[] $operand operand
      *
      * @return self
      */

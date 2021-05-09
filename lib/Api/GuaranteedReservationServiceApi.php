@@ -4,7 +4,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Api;
+namespace YahooAdsDisplayApi\Client\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use OpenAPI\Client\ApiException;
-use OpenAPI\Client\Configuration;
-use OpenAPI\Client\HeaderSelector;
-use OpenAPI\Client\ObjectSerializer;
+use YahooAdsDisplayApi\Client\ApiException;
+use YahooAdsDisplayApi\Client\Configuration;
+use YahooAdsDisplayApi\Client\HeaderSelector;
+use YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedReservationServiceApi Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -118,11 +118,11 @@ class GuaranteedReservationServiceApi
     /**
      * Operation guaranteedReservationServiceAddPost
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedReservationServiceOperation $guaranteed_reservation_service_operation guaranteed_reservation_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedReservationServiceOperation $guaranteed_reservation_service_operation guaranteed_reservation_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\GuaranteedReservationServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\GuaranteedReservationServiceMutateResponse
      */
     public function guaranteedReservationServiceAddPost($guaranteed_reservation_service_operation = null)
     {
@@ -133,11 +133,11 @@ class GuaranteedReservationServiceApi
     /**
      * Operation guaranteedReservationServiceAddPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedReservationServiceOperation $guaranteed_reservation_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedReservationServiceOperation $guaranteed_reservation_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\GuaranteedReservationServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\GuaranteedReservationServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function guaranteedReservationServiceAddPostWithHttpInfo($guaranteed_reservation_service_operation = null)
     {
@@ -174,20 +174,20 @@ class GuaranteedReservationServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\GuaranteedReservationServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\GuaranteedReservationServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\GuaranteedReservationServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\GuaranteedReservationServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\GuaranteedReservationServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\GuaranteedReservationServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -206,7 +206,7 @@ class GuaranteedReservationServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\GuaranteedReservationServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\GuaranteedReservationServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -221,7 +221,7 @@ class GuaranteedReservationServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedReservationServiceOperation $guaranteed_reservation_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedReservationServiceOperation $guaranteed_reservation_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -241,14 +241,14 @@ class GuaranteedReservationServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedReservationServiceOperation $guaranteed_reservation_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedReservationServiceOperation $guaranteed_reservation_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function guaranteedReservationServiceAddPostAsyncWithHttpInfo($guaranteed_reservation_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\GuaranteedReservationServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\GuaranteedReservationServiceMutateResponse';
         $request = $this->guaranteedReservationServiceAddPostRequest($guaranteed_reservation_service_operation);
 
         return $this->client
@@ -288,7 +288,7 @@ class GuaranteedReservationServiceApi
     /**
      * Create request for operation 'guaranteedReservationServiceAddPost'
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedReservationServiceOperation $guaranteed_reservation_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedReservationServiceOperation $guaranteed_reservation_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

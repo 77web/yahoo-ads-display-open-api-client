@@ -1,4 +1,4 @@
-# OpenAPI\Client\AccountLinkServiceApi
+# YahooAdsDisplayApi\Client\AccountLinkServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -10,7 +10,7 @@ Method | HTTP request | Description
 ## `accountLinkServiceGetPost()`
 
 ```php
-accountLinkServiceGetPost($account_link_service_selector): \OpenAPI\Client\Model\AccountLinkServiceGetResponse
+accountLinkServiceGetPost($account_link_service_selector): \YahooAdsDisplayApi\Client\Model\AccountLinkServiceGetResponse
 ```
 
 
@@ -25,16 +25,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\AccountLinkServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\AccountLinkServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$account_link_service_selector = new \OpenAPI\Client\Model\AccountLinkServiceSelector(); // \OpenAPI\Client\Model\AccountLinkServiceSelector
+$account_link_service_selector = new \YahooAdsDisplayApi\Client\Model\AccountLinkServiceSelector(); // \YahooAdsDisplayApi\Client\Model\AccountLinkServiceSelector
 
 try {
     $result = $apiInstance->accountLinkServiceGetPost($account_link_service_selector);
@@ -48,11 +48,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **account_link_service_selector** | [**\OpenAPI\Client\Model\AccountLinkServiceSelector**](../Model/AccountLinkServiceSelector.md)|  | [optional]
+ **account_link_service_selector** | [**\YahooAdsDisplayApi\Client\Model\AccountLinkServiceSelector**](../Model/AccountLinkServiceSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\AccountLinkServiceGetResponse**](../Model/AccountLinkServiceGetResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\AccountLinkServiceGetResponse**](../Model/AccountLinkServiceGetResponse.md)
 
 ### Authorization
 

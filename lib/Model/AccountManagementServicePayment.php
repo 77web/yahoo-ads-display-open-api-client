@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AccountManagementServicePayment Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; AccountManagementServicePaymentオブジェクトは、支払情報を保持します。&lt;br&gt; このフィールドは、ADD時は必須となり、SET時は省略可能となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; AccountManagementServicePayment object contains the payment information.&lt;br&gt; This field is required in ADD operation, and will be optional in SET operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class AccountManagementServicePayment implements ModelInterface, ArrayAccess, \J
       * @var string[]
       */
     protected static $openAPITypes = [
-        'invoice' => '\OpenAPI\Client\Model\AccountManagementServiceInvoice',
-        'payment_type' => '\OpenAPI\Client\Model\AccountManagementServicePaymentType'
+        'invoice' => '\YahooAdsDisplayApi\Client\Model\AccountManagementServiceInvoice',
+        'payment_type' => '\YahooAdsDisplayApi\Client\Model\AccountManagementServicePaymentType'
     ];
 
     /**
@@ -219,7 +219,7 @@ class AccountManagementServicePayment implements ModelInterface, ArrayAccess, \J
     /**
      * Gets invoice
      *
-     * @return \OpenAPI\Client\Model\AccountManagementServiceInvoice|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountManagementServiceInvoice|null
      */
     public function getInvoice()
     {
@@ -229,7 +229,7 @@ class AccountManagementServicePayment implements ModelInterface, ArrayAccess, \J
     /**
      * Sets invoice
      *
-     * @param \OpenAPI\Client\Model\AccountManagementServiceInvoice|null $invoice invoice
+     * @param \YahooAdsDisplayApi\Client\Model\AccountManagementServiceInvoice|null $invoice invoice
      *
      * @return self
      */
@@ -243,7 +243,7 @@ class AccountManagementServicePayment implements ModelInterface, ArrayAccess, \J
     /**
      * Gets payment_type
      *
-     * @return \OpenAPI\Client\Model\AccountManagementServicePaymentType|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountManagementServicePaymentType|null
      */
     public function getPaymentType()
     {
@@ -253,7 +253,7 @@ class AccountManagementServicePayment implements ModelInterface, ArrayAccess, \J
     /**
      * Sets payment_type
      *
-     * @param \OpenAPI\Client\Model\AccountManagementServicePaymentType|null $payment_type payment_type
+     * @param \YahooAdsDisplayApi\Client\Model\AccountManagementServicePaymentType|null $payment_type payment_type
      *
      * @return self
      */

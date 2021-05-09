@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * DictionaryServiceAudienceCategory Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;DictionaryServiceAudienceCategoryオブジェクトは、オーディエンスカテゴリー情報を格納するコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;DictionaryServiceAudienceCategory object contains audience category information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -63,7 +63,7 @@ class DictionaryServiceAudienceCategory implements ModelInterface, ArrayAccess, 
     protected static $openAPITypes = [
         'audience_category_type' => 'string',
         'is_guaranteed_permitted' => 'string',
-        'child' => '\OpenAPI\Client\Model\DictionaryServiceAudienceCategory[]',
+        'child' => '\YahooAdsDisplayApi\Client\Model\DictionaryServiceAudienceCategory[]',
         'code' => 'string',
         'full_name' => 'string',
         'name' => 'string',
@@ -297,7 +297,7 @@ class DictionaryServiceAudienceCategory implements ModelInterface, ArrayAccess, 
     /**
      * Gets child
      *
-     * @return \OpenAPI\Client\Model\DictionaryServiceAudienceCategory[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\DictionaryServiceAudienceCategory[]|null
      */
     public function getChild()
     {
@@ -307,7 +307,7 @@ class DictionaryServiceAudienceCategory implements ModelInterface, ArrayAccess, 
     /**
      * Sets child
      *
-     * @param \OpenAPI\Client\Model\DictionaryServiceAudienceCategory[]|null $child <div lang=\"ja\">子要素としてDictionaryServiceAudienceCategoryオブジェクトを使用します。</div> <div lang=\"en\">DictionaryServiceAudienceCategory object is used.</div>
+     * @param \YahooAdsDisplayApi\Client\Model\DictionaryServiceAudienceCategory[]|null $child <div lang=\"ja\">子要素としてDictionaryServiceAudienceCategoryオブジェクトを使用します。</div> <div lang=\"en\">DictionaryServiceAudienceCategory object is used.</div>
      *
      * @return self
      */

@@ -1,4 +1,4 @@
-# OpenAPI\Client\CampaignServiceApi
+# YahooAdsDisplayApi\Client\CampaignServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -13,7 +13,7 @@ Method | HTTP request | Description
 ## `campaignServiceAddPost()`
 
 ```php
-campaignServiceAddPost($campaign_service_operation): \OpenAPI\Client\Model\CampaignServiceMutateResponse
+campaignServiceAddPost($campaign_service_operation): \YahooAdsDisplayApi\Client\Model\CampaignServiceMutateResponse
 ```
 
 
@@ -28,16 +28,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\CampaignServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\CampaignServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$campaign_service_operation = new \OpenAPI\Client\Model\CampaignServiceOperation(); // \OpenAPI\Client\Model\CampaignServiceOperation
+$campaign_service_operation = new \YahooAdsDisplayApi\Client\Model\CampaignServiceOperation(); // \YahooAdsDisplayApi\Client\Model\CampaignServiceOperation
 
 try {
     $result = $apiInstance->campaignServiceAddPost($campaign_service_operation);
@@ -51,11 +51,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **campaign_service_operation** | [**\OpenAPI\Client\Model\CampaignServiceOperation**](../Model/CampaignServiceOperation.md)|  | [optional]
+ **campaign_service_operation** | [**\YahooAdsDisplayApi\Client\Model\CampaignServiceOperation**](../Model/CampaignServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\CampaignServiceMutateResponse**](../Model/CampaignServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\CampaignServiceMutateResponse**](../Model/CampaignServiceMutateResponse.md)
 
 ### Authorization
 
@@ -73,7 +73,7 @@ Name | Type | Description  | Notes
 ## `campaignServiceGetPost()`
 
 ```php
-campaignServiceGetPost($campaign_service_selector): \OpenAPI\Client\Model\CampaignServiceGetResponse
+campaignServiceGetPost($campaign_service_selector): \YahooAdsDisplayApi\Client\Model\CampaignServiceGetResponse
 ```
 
 
@@ -88,16 +88,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\CampaignServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\CampaignServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$campaign_service_selector = new \OpenAPI\Client\Model\CampaignServiceSelector(); // \OpenAPI\Client\Model\CampaignServiceSelector
+$campaign_service_selector = new \YahooAdsDisplayApi\Client\Model\CampaignServiceSelector(); // \YahooAdsDisplayApi\Client\Model\CampaignServiceSelector
 
 try {
     $result = $apiInstance->campaignServiceGetPost($campaign_service_selector);
@@ -111,11 +111,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **campaign_service_selector** | [**\OpenAPI\Client\Model\CampaignServiceSelector**](../Model/CampaignServiceSelector.md)|  | [optional]
+ **campaign_service_selector** | [**\YahooAdsDisplayApi\Client\Model\CampaignServiceSelector**](../Model/CampaignServiceSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\CampaignServiceGetResponse**](../Model/CampaignServiceGetResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\CampaignServiceGetResponse**](../Model/CampaignServiceGetResponse.md)
 
 ### Authorization
 
@@ -133,7 +133,7 @@ Name | Type | Description  | Notes
 ## `campaignServiceRemovePost()`
 
 ```php
-campaignServiceRemovePost($campaign_service_operation): \OpenAPI\Client\Model\CampaignServiceMutateResponse
+campaignServiceRemovePost($campaign_service_operation): \YahooAdsDisplayApi\Client\Model\CampaignServiceMutateResponse
 ```
 
 
@@ -148,16 +148,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\CampaignServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\CampaignServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$campaign_service_operation = new \OpenAPI\Client\Model\CampaignServiceOperation(); // \OpenAPI\Client\Model\CampaignServiceOperation
+$campaign_service_operation = new \YahooAdsDisplayApi\Client\Model\CampaignServiceOperation(); // \YahooAdsDisplayApi\Client\Model\CampaignServiceOperation
 
 try {
     $result = $apiInstance->campaignServiceRemovePost($campaign_service_operation);
@@ -171,11 +171,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **campaign_service_operation** | [**\OpenAPI\Client\Model\CampaignServiceOperation**](../Model/CampaignServiceOperation.md)|  | [optional]
+ **campaign_service_operation** | [**\YahooAdsDisplayApi\Client\Model\CampaignServiceOperation**](../Model/CampaignServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\CampaignServiceMutateResponse**](../Model/CampaignServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\CampaignServiceMutateResponse**](../Model/CampaignServiceMutateResponse.md)
 
 ### Authorization
 
@@ -193,7 +193,7 @@ Name | Type | Description  | Notes
 ## `campaignServiceSetPost()`
 
 ```php
-campaignServiceSetPost($campaign_service_operation): \OpenAPI\Client\Model\CampaignServiceMutateResponse
+campaignServiceSetPost($campaign_service_operation): \YahooAdsDisplayApi\Client\Model\CampaignServiceMutateResponse
 ```
 
 
@@ -208,16 +208,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\CampaignServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\CampaignServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$campaign_service_operation = new \OpenAPI\Client\Model\CampaignServiceOperation(); // \OpenAPI\Client\Model\CampaignServiceOperation
+$campaign_service_operation = new \YahooAdsDisplayApi\Client\Model\CampaignServiceOperation(); // \YahooAdsDisplayApi\Client\Model\CampaignServiceOperation
 
 try {
     $result = $apiInstance->campaignServiceSetPost($campaign_service_operation);
@@ -231,11 +231,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **campaign_service_operation** | [**\OpenAPI\Client\Model\CampaignServiceOperation**](../Model/CampaignServiceOperation.md)|  | [optional]
+ **campaign_service_operation** | [**\YahooAdsDisplayApi\Client\Model\CampaignServiceOperation**](../Model/CampaignServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\CampaignServiceMutateResponse**](../Model/CampaignServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\CampaignServiceMutateResponse**](../Model/CampaignServiceMutateResponse.md)
 
 ### Authorization
 

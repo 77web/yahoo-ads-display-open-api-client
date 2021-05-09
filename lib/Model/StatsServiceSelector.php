@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * StatsServiceSelector Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;StatsServiceSelectorオブジェクトは、getメソッドの検索条件（実行パラメータ）を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;StatsServiceSelector object is a container that includes the search conditions (execution parameters) of get methods.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -66,10 +66,10 @@ class StatsServiceSelector implements ModelInterface, ArrayAccess, \JsonSerializ
         'ad_group_ids' => 'int[]',
         'ad_ids' => 'int[]',
         'media_ids' => 'int[]',
-        'stats_period' => '\OpenAPI\Client\Model\StatsServiceStatsPeriod',
-        'period_custom_date' => '\OpenAPI\Client\Model\StatsServicePeriodCustomDate',
-        'target_types' => '\OpenAPI\Client\Model\StatsServiceTargetType[]',
-        'type' => '\OpenAPI\Client\Model\StatsServiceType',
+        'stats_period' => '\YahooAdsDisplayApi\Client\Model\StatsServiceStatsPeriod',
+        'period_custom_date' => '\YahooAdsDisplayApi\Client\Model\StatsServicePeriodCustomDate',
+        'target_types' => '\YahooAdsDisplayApi\Client\Model\StatsServiceTargetType[]',
+        'type' => '\YahooAdsDisplayApi\Client\Model\StatsServiceType',
         'start_index' => 'int',
         'number_results' => 'int'
     ];
@@ -444,7 +444,7 @@ class StatsServiceSelector implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Gets stats_period
      *
-     * @return \OpenAPI\Client\Model\StatsServiceStatsPeriod|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceStatsPeriod|null
      */
     public function getStatsPeriod()
     {
@@ -454,7 +454,7 @@ class StatsServiceSelector implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Sets stats_period
      *
-     * @param \OpenAPI\Client\Model\StatsServiceStatsPeriod|null $stats_period stats_period
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceStatsPeriod|null $stats_period stats_period
      *
      * @return self
      */
@@ -468,7 +468,7 @@ class StatsServiceSelector implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Gets period_custom_date
      *
-     * @return \OpenAPI\Client\Model\StatsServicePeriodCustomDate|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServicePeriodCustomDate|null
      */
     public function getPeriodCustomDate()
     {
@@ -478,7 +478,7 @@ class StatsServiceSelector implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Sets period_custom_date
      *
-     * @param \OpenAPI\Client\Model\StatsServicePeriodCustomDate|null $period_custom_date period_custom_date
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServicePeriodCustomDate|null $period_custom_date period_custom_date
      *
      * @return self
      */
@@ -492,7 +492,7 @@ class StatsServiceSelector implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Gets target_types
      *
-     * @return \OpenAPI\Client\Model\StatsServiceTargetType[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceTargetType[]|null
      */
     public function getTargetTypes()
     {
@@ -502,7 +502,7 @@ class StatsServiceSelector implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Sets target_types
      *
-     * @param \OpenAPI\Client\Model\StatsServiceTargetType[]|null $target_types target_types
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceTargetType[]|null $target_types target_types
      *
      * @return self
      */
@@ -520,7 +520,7 @@ class StatsServiceSelector implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Gets type
      *
-     * @return \OpenAPI\Client\Model\StatsServiceType|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceType|null
      */
     public function getType()
     {
@@ -530,7 +530,7 @@ class StatsServiceSelector implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Sets type
      *
-     * @param \OpenAPI\Client\Model\StatsServiceType|null $type type
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceType|null $type type
      *
      * @return self
      */

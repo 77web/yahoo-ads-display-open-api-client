@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ReportDefinitionServiceFilter Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; ReportDefinitionServiceFilterオブジェクトは、フィルター定義を表します。&lt;br&gt; フィルタ条件は最大6つまで設定が可能です。&lt;br&gt; このフィールドは、ADD時に省略可能となり、REMOVE時に無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; ReportDefinitionServiceFilter object serves filter definitions. &lt;br&gt; Filter condition can set up to 6.&lt;br&gt; This field is optional in ADD operation, and will be ignored in REMOVE operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class ReportDefinitionServiceFilter implements ModelInterface, ArrayAccess, \Jso
       */
     protected static $openAPITypes = [
         'field' => 'string',
-        'filter_operator' => '\OpenAPI\Client\Model\ReportDefinitionServiceFilterOperator',
+        'filter_operator' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceFilterOperator',
         'values' => 'string[]'
     ];
 
@@ -249,7 +249,7 @@ class ReportDefinitionServiceFilter implements ModelInterface, ArrayAccess, \Jso
     /**
      * Gets filter_operator
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceFilterOperator|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceFilterOperator|null
      */
     public function getFilterOperator()
     {
@@ -259,7 +259,7 @@ class ReportDefinitionServiceFilter implements ModelInterface, ArrayAccess, \Jso
     /**
      * Sets filter_operator
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceFilterOperator|null $filter_operator filter_operator
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceFilterOperator|null $filter_operator filter_operator
      *
      * @return self
      */

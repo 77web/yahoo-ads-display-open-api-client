@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * StatsServiceAdGroupStatsValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;StatsServiceAdGroupStatsValueオブジェクトは、広告グループの統計情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;StatsServiceAdGroupStatsValue object contains Ad Group stats information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -65,7 +65,7 @@ class StatsServiceAdGroupStatsValue implements ModelInterface, ArrayAccess, \Jso
         'campaign_name' => 'string',
         'ad_group_id' => 'int',
         'ad_group_name' => 'string',
-        'stats' => '\OpenAPI\Client\Model\Stats'
+        'stats' => '\YahooAdsDisplayApi\Client\Model\Stats'
     ];
 
     /**
@@ -333,7 +333,7 @@ class StatsServiceAdGroupStatsValue implements ModelInterface, ArrayAccess, \Jso
     /**
      * Gets stats
      *
-     * @return \OpenAPI\Client\Model\Stats|null
+     * @return \YahooAdsDisplayApi\Client\Model\Stats|null
      */
     public function getStats()
     {
@@ -343,7 +343,7 @@ class StatsServiceAdGroupStatsValue implements ModelInterface, ArrayAccess, \Jso
     /**
      * Sets stats
      *
-     * @param \OpenAPI\Client\Model\Stats|null $stats stats
+     * @param \YahooAdsDisplayApi\Client\Model\Stats|null $stats stats
      *
      * @return self
      */

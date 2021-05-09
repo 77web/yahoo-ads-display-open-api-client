@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulation Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedSimulationオブジェクトは、予約型キャンペーンの配信シミュレーション情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;GuaranteedSimulation object holds information about the delivery simulation of the guaranteed campaign.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -71,21 +71,21 @@ class GuaranteedSimulation implements ModelInterface, ArrayAccess, \JsonSerializ
         'campaign_goal' => 'string',
         'start_date' => 'string',
         'end_date' => 'string',
-        'viewable_frequency_cap' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceViewableFrequencyCap',
+        'viewable_frequency_cap' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceViewableFrequencyCap',
         'max_v_imps' => 'int',
         'max_reach' => 'int',
         'lower_budget_limit' => 'int',
         'upper_budget_limit' => 'int',
-        'reservation_status' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceReservationStatus',
-        'unreservable_reason' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceUnreservableReason',
-        'ad_requirements' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceAdRequirement[]',
-        'targets' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceAdGroupTarget[]',
-        'ad_place_type' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceAdPlaceType',
-        'prediction' => '\OpenAPI\Client\Model\GuaranteedSimulationServicePrediction',
+        'reservation_status' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceReservationStatus',
+        'unreservable_reason' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceUnreservableReason',
+        'ad_requirements' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAdRequirement[]',
+        'targets' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAdGroupTarget[]',
+        'ad_place_type' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAdPlaceType',
+        'prediction' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePrediction',
         'ad_category_ids' => 'int[]',
         'package_id' => 'int',
         'package_history_id' => 'int',
-        'action_after_video_ad_tap' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceActionAfterVideoAdTap'
+        'action_after_video_ad_tap' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceActionAfterVideoAdTap'
     ];
 
     /**
@@ -597,7 +597,7 @@ class GuaranteedSimulation implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Gets viewable_frequency_cap
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceViewableFrequencyCap|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceViewableFrequencyCap|null
      */
     public function getViewableFrequencyCap()
     {
@@ -607,7 +607,7 @@ class GuaranteedSimulation implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Sets viewable_frequency_cap
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceViewableFrequencyCap|null $viewable_frequency_cap viewable_frequency_cap
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceViewableFrequencyCap|null $viewable_frequency_cap viewable_frequency_cap
      *
      * @return self
      */
@@ -717,7 +717,7 @@ class GuaranteedSimulation implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Gets reservation_status
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceReservationStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceReservationStatus|null
      */
     public function getReservationStatus()
     {
@@ -727,7 +727,7 @@ class GuaranteedSimulation implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Sets reservation_status
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceReservationStatus|null $reservation_status reservation_status
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceReservationStatus|null $reservation_status reservation_status
      *
      * @return self
      */
@@ -741,7 +741,7 @@ class GuaranteedSimulation implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Gets unreservable_reason
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceUnreservableReason|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceUnreservableReason|null
      */
     public function getUnreservableReason()
     {
@@ -751,7 +751,7 @@ class GuaranteedSimulation implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Sets unreservable_reason
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceUnreservableReason|null $unreservable_reason unreservable_reason
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceUnreservableReason|null $unreservable_reason unreservable_reason
      *
      * @return self
      */
@@ -765,7 +765,7 @@ class GuaranteedSimulation implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Gets ad_requirements
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceAdRequirement[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAdRequirement[]|null
      */
     public function getAdRequirements()
     {
@@ -775,7 +775,7 @@ class GuaranteedSimulation implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Sets ad_requirements
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceAdRequirement[]|null $ad_requirements ad_requirements
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAdRequirement[]|null $ad_requirements ad_requirements
      *
      * @return self
      */
@@ -789,7 +789,7 @@ class GuaranteedSimulation implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Gets targets
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceAdGroupTarget[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAdGroupTarget[]|null
      */
     public function getTargets()
     {
@@ -799,7 +799,7 @@ class GuaranteedSimulation implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Sets targets
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceAdGroupTarget[]|null $targets targets
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAdGroupTarget[]|null $targets targets
      *
      * @return self
      */
@@ -813,7 +813,7 @@ class GuaranteedSimulation implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Gets ad_place_type
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceAdPlaceType|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAdPlaceType|null
      */
     public function getAdPlaceType()
     {
@@ -823,7 +823,7 @@ class GuaranteedSimulation implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Sets ad_place_type
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceAdPlaceType|null $ad_place_type ad_place_type
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAdPlaceType|null $ad_place_type ad_place_type
      *
      * @return self
      */
@@ -837,7 +837,7 @@ class GuaranteedSimulation implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Gets prediction
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServicePrediction|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePrediction|null
      */
     public function getPrediction()
     {
@@ -847,7 +847,7 @@ class GuaranteedSimulation implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Sets prediction
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServicePrediction|null $prediction prediction
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePrediction|null $prediction prediction
      *
      * @return self
      */
@@ -933,7 +933,7 @@ class GuaranteedSimulation implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Gets action_after_video_ad_tap
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceActionAfterVideoAdTap|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceActionAfterVideoAdTap|null
      */
     public function getActionAfterVideoAdTap()
     {
@@ -943,7 +943,7 @@ class GuaranteedSimulation implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Sets action_after_video_ad_tap
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceActionAfterVideoAdTap|null $action_after_video_ad_tap action_after_video_ad_tap
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceActionAfterVideoAdTap|null $action_after_video_ad_tap action_after_video_ad_tap
      *
      * @return self
      */

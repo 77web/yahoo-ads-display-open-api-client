@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedAdGroup Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedAdGroupオブジェクトは、予約型の広告グループ情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The Guaranteed Ad Group object is a container for storing ad group information of guaranteed campaign.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -66,12 +66,12 @@ class GuaranteedAdGroup implements ModelInterface, ArrayAccess, \JsonSerializabl
         'ad_group_name' => 'string',
         'campaign_id' => 'int',
         'campaign_name' => 'string',
-        'device' => '\OpenAPI\Client\Model\GuaranteedAdGroupServiceDeviceType[]',
-        'device_app' => '\OpenAPI\Client\Model\GuaranteedAdGroupServiceDeviceAppType[]',
-        'device_os' => '\OpenAPI\Client\Model\GuaranteedAdGroupServiceDeviceOsType[]',
-        'labels' => '\OpenAPI\Client\Model\GuaranteedAdGroupServiceLabel[]',
-        'user_status' => '\OpenAPI\Client\Model\GuaranteedAdGroupServiceUserStatus',
-        'ad_group_targets' => '\OpenAPI\Client\Model\AdGroupTarget[]',
+        'device' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceDeviceType[]',
+        'device_app' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceDeviceAppType[]',
+        'device_os' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceDeviceOsType[]',
+        'labels' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceLabel[]',
+        'user_status' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceUserStatus',
+        'ad_group_targets' => '\YahooAdsDisplayApi\Client\Model\AdGroupTarget[]',
         'is_creative_profile' => 'bool'
     ];
 
@@ -399,7 +399,7 @@ class GuaranteedAdGroup implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets device
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupServiceDeviceType[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceDeviceType[]|null
      */
     public function getDevice()
     {
@@ -409,7 +409,7 @@ class GuaranteedAdGroup implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets device
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupServiceDeviceType[]|null $device device
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceDeviceType[]|null $device device
      *
      * @return self
      */
@@ -423,7 +423,7 @@ class GuaranteedAdGroup implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets device_app
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupServiceDeviceAppType[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceDeviceAppType[]|null
      */
     public function getDeviceApp()
     {
@@ -433,7 +433,7 @@ class GuaranteedAdGroup implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets device_app
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupServiceDeviceAppType[]|null $device_app device_app
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceDeviceAppType[]|null $device_app device_app
      *
      * @return self
      */
@@ -447,7 +447,7 @@ class GuaranteedAdGroup implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets device_os
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupServiceDeviceOsType[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceDeviceOsType[]|null
      */
     public function getDeviceOs()
     {
@@ -457,7 +457,7 @@ class GuaranteedAdGroup implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets device_os
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupServiceDeviceOsType[]|null $device_os device_os
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceDeviceOsType[]|null $device_os device_os
      *
      * @return self
      */
@@ -471,7 +471,7 @@ class GuaranteedAdGroup implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets labels
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupServiceLabel[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceLabel[]|null
      */
     public function getLabels()
     {
@@ -481,7 +481,7 @@ class GuaranteedAdGroup implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets labels
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupServiceLabel[]|null $labels labels
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceLabel[]|null $labels labels
      *
      * @return self
      */
@@ -495,7 +495,7 @@ class GuaranteedAdGroup implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets user_status
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupServiceUserStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceUserStatus|null
      */
     public function getUserStatus()
     {
@@ -505,7 +505,7 @@ class GuaranteedAdGroup implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets user_status
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupServiceUserStatus|null $user_status user_status
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceUserStatus|null $user_status user_status
      *
      * @return self
      */
@@ -519,7 +519,7 @@ class GuaranteedAdGroup implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets ad_group_targets
      *
-     * @return \OpenAPI\Client\Model\AdGroupTarget[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTarget[]|null
      */
     public function getAdGroupTargets()
     {
@@ -529,7 +529,7 @@ class GuaranteedAdGroup implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets ad_group_targets
      *
-     * @param \OpenAPI\Client\Model\AdGroupTarget[]|null $ad_group_targets ad_group_targets
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTarget[]|null $ad_group_targets ad_group_targets
      *
      * @return self
      */

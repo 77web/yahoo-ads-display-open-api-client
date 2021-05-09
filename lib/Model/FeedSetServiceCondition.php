@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * FeedSetServiceCondition Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; FeedSetServiceConditionオブジェクトは、商品セット情報のOR条件を保持します。&lt;br&gt; ADD時、このフィールドは必須です。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; FeedSetServiceCondition object contains OR conditional retrieval of feedset information.&lt;br&gt; This field is required in ADD operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class FeedSetServiceCondition implements ModelInterface, ArrayAccess, \JsonSeria
       * @var string[]
       */
     protected static $openAPITypes = [
-        'compare_operator' => '\OpenAPI\Client\Model\FeedSetServiceCompareOperator',
+        'compare_operator' => '\YahooAdsDisplayApi\Client\Model\FeedSetServiceCompareOperator',
         'value' => 'string'
     ];
 
@@ -219,7 +219,7 @@ class FeedSetServiceCondition implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Gets compare_operator
      *
-     * @return \OpenAPI\Client\Model\FeedSetServiceCompareOperator|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedSetServiceCompareOperator|null
      */
     public function getCompareOperator()
     {
@@ -229,7 +229,7 @@ class FeedSetServiceCondition implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Sets compare_operator
      *
-     * @param \OpenAPI\Client\Model\FeedSetServiceCompareOperator|null $compare_operator compare_operator
+     * @param \YahooAdsDisplayApi\Client\Model\FeedSetServiceCompareOperator|null $compare_operator compare_operator
      *
      * @return self
      */

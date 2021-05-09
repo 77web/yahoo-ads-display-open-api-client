@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * DictionaryServiceDisapprovalReasonPage Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;DictionaryServiceDisapprovalReasonPage オブジェクトは、EditorialReason一覧を格納するコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;DictionaryServiceDisapprovalReasonPage object is a container of EditorialReason list.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class DictionaryServiceDisapprovalReasonPage implements ModelInterface, ArrayAcc
       */
     protected static $openAPITypes = [
         'total_num_entries' => 'int',
-        'values' => '\OpenAPI\Client\Model\DictionaryServiceDisapprovalReasonValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\DictionaryServiceDisapprovalReasonValue[]'
     ];
 
     /**
@@ -243,7 +243,7 @@ class DictionaryServiceDisapprovalReasonPage implements ModelInterface, ArrayAcc
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\DictionaryServiceDisapprovalReasonValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\DictionaryServiceDisapprovalReasonValue[]|null
      */
     public function getValues()
     {
@@ -253,7 +253,7 @@ class DictionaryServiceDisapprovalReasonPage implements ModelInterface, ArrayAcc
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\DictionaryServiceDisapprovalReasonValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\DictionaryServiceDisapprovalReasonValue[]|null $values values
      *
      * @return self
      */

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * FeedDataServiceSelector Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;get操作の検索条件を保持するオブジェクト&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedDataServiceSelector object retains search condition of get operation.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -63,11 +63,11 @@ class FeedDataServiceSelector implements ModelInterface, ArrayAccess, \JsonSeria
     protected static $openAPITypes = [
         'account_id' => 'int',
         'feed_ids' => 'int[]',
-        'file_upload_date_range' => '\OpenAPI\Client\Model\FeedDataServiceFileUploadDateRange',
+        'file_upload_date_range' => '\YahooAdsDisplayApi\Client\Model\FeedDataServiceFileUploadDateRange',
         'item_list_upload_ids' => 'int[]',
         'number_results' => 'int',
         'start_index' => 'int',
-        'upload_statuses' => '\OpenAPI\Client\Model\FeedDataServiceFileUploadStatus[]'
+        'upload_statuses' => '\YahooAdsDisplayApi\Client\Model\FeedDataServiceFileUploadStatus[]'
     ];
 
     /**
@@ -328,7 +328,7 @@ class FeedDataServiceSelector implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Gets file_upload_date_range
      *
-     * @return \OpenAPI\Client\Model\FeedDataServiceFileUploadDateRange|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedDataServiceFileUploadDateRange|null
      */
     public function getFileUploadDateRange()
     {
@@ -338,7 +338,7 @@ class FeedDataServiceSelector implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Sets file_upload_date_range
      *
-     * @param \OpenAPI\Client\Model\FeedDataServiceFileUploadDateRange|null $file_upload_date_range file_upload_date_range
+     * @param \YahooAdsDisplayApi\Client\Model\FeedDataServiceFileUploadDateRange|null $file_upload_date_range file_upload_date_range
      *
      * @return self
      */
@@ -441,7 +441,7 @@ class FeedDataServiceSelector implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Gets upload_statuses
      *
-     * @return \OpenAPI\Client\Model\FeedDataServiceFileUploadStatus[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedDataServiceFileUploadStatus[]|null
      */
     public function getUploadStatuses()
     {
@@ -451,7 +451,7 @@ class FeedDataServiceSelector implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Sets upload_statuses
      *
-     * @param \OpenAPI\Client\Model\FeedDataServiceFileUploadStatus[]|null $upload_statuses upload_statuses
+     * @param \YahooAdsDisplayApi\Client\Model\FeedDataServiceFileUploadStatus[]|null $upload_statuses upload_statuses
      *
      * @return self
      */

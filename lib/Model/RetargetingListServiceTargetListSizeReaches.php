@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RetargetingListServiceTargetListSizeReaches Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; ターゲットリストのサイズの各リーチ数を保持するオブジェクトです。&lt;br&gt; このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; RetargetingListServiceTargetListSizeReaches object contains each reaches of target list size. &lt;br&gt; Although this field will be returned in the response, it will be ignored on input. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class RetargetingListServiceTargetListSizeReaches implements ModelInterface, Arr
       */
     protected static $openAPITypes = [
         'reach' => 'int',
-        'target_list_size' => '\OpenAPI\Client\Model\RetargetingListServiceTargetListSize'
+        'target_list_size' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceTargetListSize'
     ];
 
     /**
@@ -243,7 +243,7 @@ class RetargetingListServiceTargetListSizeReaches implements ModelInterface, Arr
     /**
      * Gets target_list_size
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceTargetListSize|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceTargetListSize|null
      */
     public function getTargetListSize()
     {
@@ -253,7 +253,7 @@ class RetargetingListServiceTargetListSizeReaches implements ModelInterface, Arr
     /**
      * Sets target_list_size
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceTargetListSize|null $target_list_size target_list_size
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceTargetListSize|null $target_list_size target_list_size
      *
      * @return self
      */

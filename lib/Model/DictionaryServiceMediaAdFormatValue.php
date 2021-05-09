@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * DictionaryServiceMediaAdFormatValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;DictionaryServiceMediaAdFormatValueオブジェクトは、getMediaAdFormatメソッドの実行結果（１Entity）を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;DictionaryServiceMediaAdFormatValue object contains the results (1 Entity) for getMediaAdFormat method.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class DictionaryServiceMediaAdFormatValue implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $openAPITypes = [
-        'errors' => '\OpenAPI\Client\Model\Error[]',
-        'media_ad_format' => '\OpenAPI\Client\Model\DictionaryServiceMediaAdFormat[]',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
+        'media_ad_format' => '\YahooAdsDisplayApi\Client\Model\DictionaryServiceMediaAdFormat[]',
         'operation_succeeded' => 'bool'
     ];
 
@@ -225,7 +225,7 @@ class DictionaryServiceMediaAdFormatValue implements ModelInterface, ArrayAccess
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -235,7 +235,7 @@ class DictionaryServiceMediaAdFormatValue implements ModelInterface, ArrayAccess
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class DictionaryServiceMediaAdFormatValue implements ModelInterface, ArrayAccess
     /**
      * Gets media_ad_format
      *
-     * @return \OpenAPI\Client\Model\DictionaryServiceMediaAdFormat[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\DictionaryServiceMediaAdFormat[]|null
      */
     public function getMediaAdFormat()
     {
@@ -259,7 +259,7 @@ class DictionaryServiceMediaAdFormatValue implements ModelInterface, ArrayAccess
     /**
      * Sets media_ad_format
      *
-     * @param \OpenAPI\Client\Model\DictionaryServiceMediaAdFormat[]|null $media_ad_format media_ad_format
+     * @param \YahooAdsDisplayApi\Client\Model\DictionaryServiceMediaAdFormat[]|null $media_ad_format media_ad_format
      *
      * @return self
      */

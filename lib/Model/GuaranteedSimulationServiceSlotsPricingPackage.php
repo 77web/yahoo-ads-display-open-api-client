@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServiceSlotsPricingPackage Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;   GuaranteedSimulationServiceSlotsPricingPackageは、枠購入型の購入タイプ設定情報を保持します。&lt;br&gt;   このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;   GuaranteedSimulationServiceSlotsPricingPackage holds purchase type setting information of slots purchase type.&lt;br&gt;   Although this field will be returned in the response, it will be ignored on input. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class GuaranteedSimulationServiceSlotsPricingPackage implements ModelInterface, 
       */
     protected static $openAPITypes = [
         'fixed_lifetime_budget' => 'int',
-        'fixed_budget_apply_term_type' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceFixedBudgetApplyTermType',
+        'fixed_budget_apply_term_type' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceFixedBudgetApplyTermType',
         'selling_slots' => 'int',
         'minimum_buying_slots' => 'int'
     ];
@@ -255,7 +255,7 @@ class GuaranteedSimulationServiceSlotsPricingPackage implements ModelInterface, 
     /**
      * Gets fixed_budget_apply_term_type
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceFixedBudgetApplyTermType|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceFixedBudgetApplyTermType|null
      */
     public function getFixedBudgetApplyTermType()
     {
@@ -265,7 +265,7 @@ class GuaranteedSimulationServiceSlotsPricingPackage implements ModelInterface, 
     /**
      * Sets fixed_budget_apply_term_type
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceFixedBudgetApplyTermType|null $fixed_budget_apply_term_type fixed_budget_apply_term_type
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceFixedBudgetApplyTermType|null $fixed_budget_apply_term_type fixed_budget_apply_term_type
      *
      * @return self
      */

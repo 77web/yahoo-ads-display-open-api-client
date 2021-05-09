@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedPreviewServiceMaterialMedia Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedPreviewServiceMaterialMediaオブジェクトは、プレビュー素材（メディア）の情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;GuaranteedPreviewServiceMaterialMedia object holds information about the preview material (media).&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class GuaranteedPreviewServiceMaterialMedia implements ModelInterface, ArrayAcce
       * @var string[]
       */
     protected static $openAPITypes = [
-        'ad_type' => '\OpenAPI\Client\Model\GuaranteedPreviewServiceAdType',
+        'ad_type' => '\YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceAdType',
         'media_id' => 'int',
         'thumbnail_media_id' => 'int',
         'ad_left_side_media_id' => 'int',
@@ -249,7 +249,7 @@ class GuaranteedPreviewServiceMaterialMedia implements ModelInterface, ArrayAcce
     /**
      * Gets ad_type
      *
-     * @return \OpenAPI\Client\Model\GuaranteedPreviewServiceAdType|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceAdType|null
      */
     public function getAdType()
     {
@@ -259,7 +259,7 @@ class GuaranteedPreviewServiceMaterialMedia implements ModelInterface, ArrayAcce
     /**
      * Sets ad_type
      *
-     * @param \OpenAPI\Client\Model\GuaranteedPreviewServiceAdType|null $ad_type ad_type
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceAdType|null $ad_type ad_type
      *
      * @return self
      */

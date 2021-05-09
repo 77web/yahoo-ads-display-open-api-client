@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServicePermittedAdScheduleTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedSimulationServicePermittedAdScheduleTargetオブジェクトは、時間帯ターゲットの設定情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;GuaranteedSimulationServicePermittedAdScheduleTarget object is a container for storing day of week/hours targeting settings.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class GuaranteedSimulationServicePermittedAdScheduleTarget implements ModelInter
       */
     protected static $openAPITypes = [
         'target_id' => 'string',
-        'day_of_week' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceDayOfWeek',
+        'day_of_week' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceDayOfWeek',
         'end_hour' => 'int',
         'start_hour' => 'int',
         'price' => 'int'
@@ -261,7 +261,7 @@ class GuaranteedSimulationServicePermittedAdScheduleTarget implements ModelInter
     /**
      * Gets day_of_week
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceDayOfWeek|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceDayOfWeek|null
      */
     public function getDayOfWeek()
     {
@@ -271,7 +271,7 @@ class GuaranteedSimulationServicePermittedAdScheduleTarget implements ModelInter
     /**
      * Sets day_of_week
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceDayOfWeek|null $day_of_week day_of_week
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceDayOfWeek|null $day_of_week day_of_week
      *
      * @return self
      */

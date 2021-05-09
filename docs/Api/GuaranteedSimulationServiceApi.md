@@ -1,4 +1,4 @@
-# OpenAPI\Client\GuaranteedSimulationServiceApi
+# YahooAdsDisplayApi\Client\GuaranteedSimulationServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -13,7 +13,7 @@ Method | HTTP request | Description
 ## `guaranteedSimulationServiceAddPost()`
 
 ```php
-guaranteedSimulationServiceAddPost($guaranteed_simulation_service_operation): \OpenAPI\Client\Model\GuaranteedSimulationServiceMutateResponse
+guaranteedSimulationServiceAddPost($guaranteed_simulation_service_operation): \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceMutateResponse
 ```
 
 
@@ -28,16 +28,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\GuaranteedSimulationServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\GuaranteedSimulationServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$guaranteed_simulation_service_operation = new \OpenAPI\Client\Model\GuaranteedSimulationServiceOperation(); // \OpenAPI\Client\Model\GuaranteedSimulationServiceOperation
+$guaranteed_simulation_service_operation = new \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceOperation(); // \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceOperation
 
 try {
     $result = $apiInstance->guaranteedSimulationServiceAddPost($guaranteed_simulation_service_operation);
@@ -51,11 +51,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **guaranteed_simulation_service_operation** | [**\OpenAPI\Client\Model\GuaranteedSimulationServiceOperation**](../Model/GuaranteedSimulationServiceOperation.md)|  | [optional]
+ **guaranteed_simulation_service_operation** | [**\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceOperation**](../Model/GuaranteedSimulationServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\GuaranteedSimulationServiceMutateResponse**](../Model/GuaranteedSimulationServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceMutateResponse**](../Model/GuaranteedSimulationServiceMutateResponse.md)
 
 ### Authorization
 
@@ -73,7 +73,7 @@ Name | Type | Description  | Notes
 ## `guaranteedSimulationServiceGetAdCategoryPost()`
 
 ```php
-guaranteedSimulationServiceGetAdCategoryPost($body): \OpenAPI\Client\Model\GuaranteedSimulationServiceGetAdCategoryResponse
+guaranteedSimulationServiceGetAdCategoryPost($body): \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGetAdCategoryResponse
 ```
 
 
@@ -88,10 +88,10 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\GuaranteedSimulationServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\GuaranteedSimulationServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -115,7 +115,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\OpenAPI\Client\Model\GuaranteedSimulationServiceGetAdCategoryResponse**](../Model/GuaranteedSimulationServiceGetAdCategoryResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGetAdCategoryResponse**](../Model/GuaranteedSimulationServiceGetAdCategoryResponse.md)
 
 ### Authorization
 
@@ -133,7 +133,7 @@ Name | Type | Description  | Notes
 ## `guaranteedSimulationServiceGetPackagePost()`
 
 ```php
-guaranteedSimulationServiceGetPackagePost($guaranteed_simulation_service_package_selector): \OpenAPI\Client\Model\GuaranteedSimulationServiceGetPackageResponse
+guaranteedSimulationServiceGetPackagePost($guaranteed_simulation_service_package_selector): \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGetPackageResponse
 ```
 
 
@@ -148,16 +148,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\GuaranteedSimulationServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\GuaranteedSimulationServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$guaranteed_simulation_service_package_selector = new \OpenAPI\Client\Model\GuaranteedSimulationServicePackageSelector(); // \OpenAPI\Client\Model\GuaranteedSimulationServicePackageSelector
+$guaranteed_simulation_service_package_selector = new \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackageSelector(); // \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackageSelector
 
 try {
     $result = $apiInstance->guaranteedSimulationServiceGetPackagePost($guaranteed_simulation_service_package_selector);
@@ -171,11 +171,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **guaranteed_simulation_service_package_selector** | [**\OpenAPI\Client\Model\GuaranteedSimulationServicePackageSelector**](../Model/GuaranteedSimulationServicePackageSelector.md)|  | [optional]
+ **guaranteed_simulation_service_package_selector** | [**\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackageSelector**](../Model/GuaranteedSimulationServicePackageSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\GuaranteedSimulationServiceGetPackageResponse**](../Model/GuaranteedSimulationServiceGetPackageResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGetPackageResponse**](../Model/GuaranteedSimulationServiceGetPackageResponse.md)
 
 ### Authorization
 
@@ -193,7 +193,7 @@ Name | Type | Description  | Notes
 ## `guaranteedSimulationServiceGetPost()`
 
 ```php
-guaranteedSimulationServiceGetPost($guaranteed_simulation_service_selector): \OpenAPI\Client\Model\GuaranteedSimulationServiceGetResponse
+guaranteedSimulationServiceGetPost($guaranteed_simulation_service_selector): \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGetResponse
 ```
 
 
@@ -208,16 +208,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\GuaranteedSimulationServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\GuaranteedSimulationServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$guaranteed_simulation_service_selector = new \OpenAPI\Client\Model\GuaranteedSimulationServiceSelector(); // \OpenAPI\Client\Model\GuaranteedSimulationServiceSelector
+$guaranteed_simulation_service_selector = new \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceSelector(); // \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceSelector
 
 try {
     $result = $apiInstance->guaranteedSimulationServiceGetPost($guaranteed_simulation_service_selector);
@@ -231,11 +231,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **guaranteed_simulation_service_selector** | [**\OpenAPI\Client\Model\GuaranteedSimulationServiceSelector**](../Model/GuaranteedSimulationServiceSelector.md)|  | [optional]
+ **guaranteed_simulation_service_selector** | [**\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceSelector**](../Model/GuaranteedSimulationServiceSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\GuaranteedSimulationServiceGetResponse**](../Model/GuaranteedSimulationServiceGetResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGetResponse**](../Model/GuaranteedSimulationServiceGetResponse.md)
 
 ### Authorization
 

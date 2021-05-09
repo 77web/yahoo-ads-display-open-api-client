@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedPreview Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedPreviewオブジェクトは、予約型キャンペーンのプレビュー情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The GuaranteedPreview object is a container for storing preview of the guaranteed campaign information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class GuaranteedPreview implements ModelInterface, ArrayAccess, \JsonSerializabl
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'material' => '\OpenAPI\Client\Model\GuaranteedPreviewServiceMaterial',
+        'material' => '\YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceMaterial',
         'preview_url' => 'string'
     ];
 
@@ -249,7 +249,7 @@ class GuaranteedPreview implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets material
      *
-     * @return \OpenAPI\Client\Model\GuaranteedPreviewServiceMaterial|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceMaterial|null
      */
     public function getMaterial()
     {
@@ -259,7 +259,7 @@ class GuaranteedPreview implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets material
      *
-     * @param \OpenAPI\Client\Model\GuaranteedPreviewServiceMaterial|null $material material
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceMaterial|null $material material
      *
      * @return self
      */

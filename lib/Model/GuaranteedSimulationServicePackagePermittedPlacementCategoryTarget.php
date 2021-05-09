@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServicePackagePermittedPlacementCategoryTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedSimulationServicePackagePermittedPlacementCategoryTargetオブジェクトは、プレイスメントカテゴリターゲット設定の制限情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;GuaranteedSimulationServicePackagePermittedPlacementCategoryTarget object holds the restriction information about the placement category target setting.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,9 +61,9 @@ class GuaranteedSimulationServicePackagePermittedPlacementCategoryTarget impleme
       * @var string[]
       */
     protected static $openAPITypes = [
-        'target_permission' => '\OpenAPI\Client\Model\GuaranteedSimulationServicePackagePermissionType',
-        'permitted_targets' => '\OpenAPI\Client\Model\GuaranteedSimulationServicePermittedPlacementCategoryTarget[]',
-        'placement_monopoly_flg' => '\OpenAPI\Client\Model\GuaranteedSimulationServicePlacementMonopolyFlg'
+        'target_permission' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackagePermissionType',
+        'permitted_targets' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePermittedPlacementCategoryTarget[]',
+        'placement_monopoly_flg' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePlacementMonopolyFlg'
     ];
 
     /**
@@ -225,7 +225,7 @@ class GuaranteedSimulationServicePackagePermittedPlacementCategoryTarget impleme
     /**
      * Gets target_permission
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServicePackagePermissionType|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackagePermissionType|null
      */
     public function getTargetPermission()
     {
@@ -235,7 +235,7 @@ class GuaranteedSimulationServicePackagePermittedPlacementCategoryTarget impleme
     /**
      * Sets target_permission
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServicePackagePermissionType|null $target_permission target_permission
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackagePermissionType|null $target_permission target_permission
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class GuaranteedSimulationServicePackagePermittedPlacementCategoryTarget impleme
     /**
      * Gets permitted_targets
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServicePermittedPlacementCategoryTarget[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePermittedPlacementCategoryTarget[]|null
      */
     public function getPermittedTargets()
     {
@@ -259,7 +259,7 @@ class GuaranteedSimulationServicePackagePermittedPlacementCategoryTarget impleme
     /**
      * Sets permitted_targets
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServicePermittedPlacementCategoryTarget[]|null $permitted_targets permitted_targets
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePermittedPlacementCategoryTarget[]|null $permitted_targets permitted_targets
      *
      * @return self
      */
@@ -273,7 +273,7 @@ class GuaranteedSimulationServicePackagePermittedPlacementCategoryTarget impleme
     /**
      * Gets placement_monopoly_flg
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServicePlacementMonopolyFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePlacementMonopolyFlg|null
      */
     public function getPlacementMonopolyFlg()
     {
@@ -283,7 +283,7 @@ class GuaranteedSimulationServicePackagePermittedPlacementCategoryTarget impleme
     /**
      * Sets placement_monopoly_flg
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServicePlacementMonopolyFlg|null $placement_monopoly_flg placement_monopoly_flg
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePlacementMonopolyFlg|null $placement_monopoly_flg placement_monopoly_flg
      *
      * @return self
      */

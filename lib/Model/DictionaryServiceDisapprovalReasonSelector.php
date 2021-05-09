@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * DictionaryServiceDisapprovalReasonSelector Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;DictionaryServiceDisapprovalReasonSelectorオブジェクトは、EditorialReason一覧を格納するコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;DictionaryServiceDisapprovalReasonSelector object is a container of EditorialReason list request.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class DictionaryServiceDisapprovalReasonSelector implements ModelInterface, Arra
       * @var string[]
       */
     protected static $openAPITypes = [
-        'lang' => '\OpenAPI\Client\Model\DictionaryServiceLang',
+        'lang' => '\YahooAdsDisplayApi\Client\Model\DictionaryServiceLang',
         'start_index' => 'int',
         'number_results' => 'int'
     ];
@@ -236,7 +236,7 @@ class DictionaryServiceDisapprovalReasonSelector implements ModelInterface, Arra
     /**
      * Gets lang
      *
-     * @return \OpenAPI\Client\Model\DictionaryServiceLang
+     * @return \YahooAdsDisplayApi\Client\Model\DictionaryServiceLang
      */
     public function getLang()
     {
@@ -246,7 +246,7 @@ class DictionaryServiceDisapprovalReasonSelector implements ModelInterface, Arra
     /**
      * Sets lang
      *
-     * @param \OpenAPI\Client\Model\DictionaryServiceLang $lang lang
+     * @param \YahooAdsDisplayApi\Client\Model\DictionaryServiceLang $lang lang
      *
      * @return self
      */

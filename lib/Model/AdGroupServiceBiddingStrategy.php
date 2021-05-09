@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupServiceBiddingStrategy Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; AdGroupServiceBiddingStrategyは、広告グループ入札戦略を表します。&lt;br&gt; ADDおよびSET時、このフィールドは省略可能となります。&lt;br&gt; ※目的ありのキャンペーンの場合のみ設定可能です。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; AdGroupServiceBiddingStrategy object describes bidding strategy of ad group.&lt;br&gt; This field is optional in ADD and SET operation.&lt;br&gt; *This can only be specified for campaigns with campaignGoal. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class AdGroupServiceBiddingStrategy implements ModelInterface, ArrayAccess, \Jso
       * @var string[]
       */
     protected static $openAPITypes = [
-        'campaign_bidding_strategy_type' => '\OpenAPI\Client\Model\AdGroupServiceCampaignBiddingStrategyType',
+        'campaign_bidding_strategy_type' => '\YahooAdsDisplayApi\Client\Model\AdGroupServiceCampaignBiddingStrategyType',
         'max_cpc_bid_value' => 'int',
         'max_cpv_bid_value' => 'int',
         'max_vcpm_bid_value' => 'int',
@@ -237,7 +237,7 @@ class AdGroupServiceBiddingStrategy implements ModelInterface, ArrayAccess, \Jso
     /**
      * Gets campaign_bidding_strategy_type
      *
-     * @return \OpenAPI\Client\Model\AdGroupServiceCampaignBiddingStrategyType|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupServiceCampaignBiddingStrategyType|null
      */
     public function getCampaignBiddingStrategyType()
     {
@@ -247,7 +247,7 @@ class AdGroupServiceBiddingStrategy implements ModelInterface, ArrayAccess, \Jso
     /**
      * Sets campaign_bidding_strategy_type
      *
-     * @param \OpenAPI\Client\Model\AdGroupServiceCampaignBiddingStrategyType|null $campaign_bidding_strategy_type campaign_bidding_strategy_type
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupServiceCampaignBiddingStrategyType|null $campaign_bidding_strategy_type campaign_bidding_strategy_type
      *
      * @return self
      */

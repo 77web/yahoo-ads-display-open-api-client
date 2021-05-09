@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * PlacementUrlList Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;PlacementUrlListオブジェクトは、プレイスメントUrl情報を保持するオブジェクトです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The objects to keep Placement Url Information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -63,12 +63,12 @@ class PlacementUrlList implements ModelInterface, ArrayAccess, \JsonSerializable
     protected static $openAPITypes = [
         'account_id' => 'int',
         'description' => 'string',
-        'is_remove_description' => '\OpenAPI\Client\Model\PlacementUrlListServiceIsRemoveFlg',
-        'unknown_domain_flg' => '\OpenAPI\Client\Model\PlacementUrlListServiceUnknownDomainFlg',
+        'is_remove_description' => '\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceIsRemoveFlg',
+        'unknown_domain_flg' => '\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceUnknownDomainFlg',
         'url_list_id' => 'int',
         'url_list_name' => 'string',
         'brand_safety_deny_list_flg' => 'bool',
-        'urls' => '\OpenAPI\Client\Model\PlacementUrlListServiceUrlList[]'
+        'urls' => '\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceUrlList[]'
     ];
 
     /**
@@ -306,7 +306,7 @@ class PlacementUrlList implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets is_remove_description
      *
-     * @return \OpenAPI\Client\Model\PlacementUrlListServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceIsRemoveFlg|null
      */
     public function getIsRemoveDescription()
     {
@@ -316,7 +316,7 @@ class PlacementUrlList implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets is_remove_description
      *
-     * @param \OpenAPI\Client\Model\PlacementUrlListServiceIsRemoveFlg|null $is_remove_description is_remove_description
+     * @param \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceIsRemoveFlg|null $is_remove_description is_remove_description
      *
      * @return self
      */
@@ -330,7 +330,7 @@ class PlacementUrlList implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets unknown_domain_flg
      *
-     * @return \OpenAPI\Client\Model\PlacementUrlListServiceUnknownDomainFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceUnknownDomainFlg|null
      */
     public function getUnknownDomainFlg()
     {
@@ -340,7 +340,7 @@ class PlacementUrlList implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets unknown_domain_flg
      *
-     * @param \OpenAPI\Client\Model\PlacementUrlListServiceUnknownDomainFlg|null $unknown_domain_flg unknown_domain_flg
+     * @param \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceUnknownDomainFlg|null $unknown_domain_flg unknown_domain_flg
      *
      * @return self
      */
@@ -426,7 +426,7 @@ class PlacementUrlList implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets urls
      *
-     * @return \OpenAPI\Client\Model\PlacementUrlListServiceUrlList[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceUrlList[]|null
      */
     public function getUrls()
     {
@@ -436,7 +436,7 @@ class PlacementUrlList implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets urls
      *
-     * @param \OpenAPI\Client\Model\PlacementUrlListServiceUrlList[]|null $urls urls
+     * @param \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceUrlList[]|null $urls urls
      *
      * @return self
      */

@@ -4,7 +4,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Api;
+namespace YahooAdsDisplayApi\Client\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use OpenAPI\Client\ApiException;
-use OpenAPI\Client\Configuration;
-use OpenAPI\Client\HeaderSelector;
-use OpenAPI\Client\ObjectSerializer;
+use YahooAdsDisplayApi\Client\ApiException;
+use YahooAdsDisplayApi\Client\Configuration;
+use YahooAdsDisplayApi\Client\HeaderSelector;
+use YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupLabelServiceApi Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -118,11 +118,11 @@ class AdGroupLabelServiceApi
     /**
      * Operation adGroupLabelServiceAddPost
      *
-     * @param  \OpenAPI\Client\Model\AdGroupLabelServiceOperation $ad_group_label_service_operation ad_group_label_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceOperation $ad_group_label_service_operation ad_group_label_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\AdGroupLabelServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceMutateResponse
      */
     public function adGroupLabelServiceAddPost($ad_group_label_service_operation = null)
     {
@@ -133,11 +133,11 @@ class AdGroupLabelServiceApi
     /**
      * Operation adGroupLabelServiceAddPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\AdGroupLabelServiceOperation $ad_group_label_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceOperation $ad_group_label_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\AdGroupLabelServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function adGroupLabelServiceAddPostWithHttpInfo($ad_group_label_service_operation = null)
     {
@@ -174,20 +174,20 @@ class AdGroupLabelServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\AdGroupLabelServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\AdGroupLabelServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\AdGroupLabelServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -206,7 +206,7 @@ class AdGroupLabelServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\AdGroupLabelServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -221,7 +221,7 @@ class AdGroupLabelServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\AdGroupLabelServiceOperation $ad_group_label_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceOperation $ad_group_label_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -241,14 +241,14 @@ class AdGroupLabelServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\AdGroupLabelServiceOperation $ad_group_label_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceOperation $ad_group_label_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function adGroupLabelServiceAddPostAsyncWithHttpInfo($ad_group_label_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\AdGroupLabelServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceMutateResponse';
         $request = $this->adGroupLabelServiceAddPostRequest($ad_group_label_service_operation);
 
         return $this->client
@@ -288,7 +288,7 @@ class AdGroupLabelServiceApi
     /**
      * Create request for operation 'adGroupLabelServiceAddPost'
      *
-     * @param  \OpenAPI\Client\Model\AdGroupLabelServiceOperation $ad_group_label_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceOperation $ad_group_label_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -377,11 +377,11 @@ class AdGroupLabelServiceApi
     /**
      * Operation adGroupLabelServiceRemovePost
      *
-     * @param  \OpenAPI\Client\Model\AdGroupLabelServiceOperation $ad_group_label_service_operation ad_group_label_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceOperation $ad_group_label_service_operation ad_group_label_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\AdGroupLabelServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceMutateResponse
      */
     public function adGroupLabelServiceRemovePost($ad_group_label_service_operation = null)
     {
@@ -392,11 +392,11 @@ class AdGroupLabelServiceApi
     /**
      * Operation adGroupLabelServiceRemovePostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\AdGroupLabelServiceOperation $ad_group_label_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceOperation $ad_group_label_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\AdGroupLabelServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function adGroupLabelServiceRemovePostWithHttpInfo($ad_group_label_service_operation = null)
     {
@@ -433,20 +433,20 @@ class AdGroupLabelServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\AdGroupLabelServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\AdGroupLabelServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\AdGroupLabelServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -465,7 +465,7 @@ class AdGroupLabelServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\AdGroupLabelServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -480,7 +480,7 @@ class AdGroupLabelServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\AdGroupLabelServiceOperation $ad_group_label_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceOperation $ad_group_label_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -500,14 +500,14 @@ class AdGroupLabelServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\AdGroupLabelServiceOperation $ad_group_label_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceOperation $ad_group_label_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function adGroupLabelServiceRemovePostAsyncWithHttpInfo($ad_group_label_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\AdGroupLabelServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceMutateResponse';
         $request = $this->adGroupLabelServiceRemovePostRequest($ad_group_label_service_operation);
 
         return $this->client
@@ -547,7 +547,7 @@ class AdGroupLabelServiceApi
     /**
      * Create request for operation 'adGroupLabelServiceRemovePost'
      *
-     * @param  \OpenAPI\Client\Model\AdGroupLabelServiceOperation $ad_group_label_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceOperation $ad_group_label_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedAdGroupServicePage Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedAdGroupServicePageオブジェクトは、取得される予約型の広告グループに関するエントリーを表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The GuaranteedAdGroupServicePage object serves retrieved guaranteed ad group entry.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class GuaranteedAdGroupServicePage implements ModelInterface, ArrayAccess, \Json
       */
     protected static $openAPITypes = [
         'total_num_entries' => 'int',
-        'values' => '\OpenAPI\Client\Model\GuaranteedAdGroupServiceValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceValue[]'
     ];
 
     /**
@@ -243,7 +243,7 @@ class GuaranteedAdGroupServicePage implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupServiceValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceValue[]|null
      */
     public function getValues()
     {
@@ -253,7 +253,7 @@ class GuaranteedAdGroupServicePage implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupServiceValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceValue[]|null $values values
      *
      * @return self
      */

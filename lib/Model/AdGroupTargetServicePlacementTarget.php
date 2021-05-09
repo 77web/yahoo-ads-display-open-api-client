@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupTargetServicePlacementTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; AdGroupTargetServicePlacementTargetオブジェクトは、プレイスメントターゲティングの設定情報を保持するオブジェクトです。&lt;br&gt; ADD、SETおよびREPLACE時、このフィールドは省略可能となります。&lt;br&gt; ※targetTypeがPLACEMENT_TARGETの場合は必須です。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; AdGroupTargetServicePlacementTarget object is a container for storing placement targeting settings.&lt;br&gt; This field is optional in ADD, SET and REPLACE operation.&lt;br&gt; ∗If targetType is PLACEMENT_TARGET, this field is required. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class AdGroupTargetServicePlacementTarget implements ModelInterface, ArrayAccess
       */
     protected static $openAPITypes = [
         'placement_url_list_name' => 'string',
-        'placement_url_list_type' => '\OpenAPI\Client\Model\AdGroupTargetServicePlacementUrlListType'
+        'placement_url_list_type' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServicePlacementUrlListType'
     ];
 
     /**
@@ -243,7 +243,7 @@ class AdGroupTargetServicePlacementTarget implements ModelInterface, ArrayAccess
     /**
      * Gets placement_url_list_type
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServicePlacementUrlListType|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServicePlacementUrlListType|null
      */
     public function getPlacementUrlListType()
     {
@@ -253,7 +253,7 @@ class AdGroupTargetServicePlacementTarget implements ModelInterface, ArrayAccess
     /**
      * Sets placement_url_list_type
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServicePlacementUrlListType|null $placement_url_list_type placement_url_list_type
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServicePlacementUrlListType|null $placement_url_list_type placement_url_list_type
      *
      * @return self
      */

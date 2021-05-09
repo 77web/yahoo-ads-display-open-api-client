@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AccountLink Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;AccountLinkオブジェクトは、アカウントリンク情報を示します。&lt;br&gt; &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;AccountLink objects serve account link information.&lt;br&gt; &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -63,9 +63,9 @@ class AccountLink implements ModelInterface, ArrayAccess, \JsonSerializable
     protected static $openAPITypes = [
         'manager_account_id' => 'int',
         'account_id' => 'int',
-        'link_access_permission' => '\OpenAPI\Client\Model\AccountLinkServiceLinkAccessPermission',
-        'retargeting_list_sharing_enabled' => '\OpenAPI\Client\Model\AccountLinkServiceRetargetingListSharingEnabled',
-        'owner_ship_type' => '\OpenAPI\Client\Model\AccountLinkServiceOwnerShipType'
+        'link_access_permission' => '\YahooAdsDisplayApi\Client\Model\AccountLinkServiceLinkAccessPermission',
+        'retargeting_list_sharing_enabled' => '\YahooAdsDisplayApi\Client\Model\AccountLinkServiceRetargetingListSharingEnabled',
+        'owner_ship_type' => '\YahooAdsDisplayApi\Client\Model\AccountLinkServiceOwnerShipType'
     ];
 
     /**
@@ -285,7 +285,7 @@ class AccountLink implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets link_access_permission
      *
-     * @return \OpenAPI\Client\Model\AccountLinkServiceLinkAccessPermission|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountLinkServiceLinkAccessPermission|null
      */
     public function getLinkAccessPermission()
     {
@@ -295,7 +295,7 @@ class AccountLink implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets link_access_permission
      *
-     * @param \OpenAPI\Client\Model\AccountLinkServiceLinkAccessPermission|null $link_access_permission link_access_permission
+     * @param \YahooAdsDisplayApi\Client\Model\AccountLinkServiceLinkAccessPermission|null $link_access_permission link_access_permission
      *
      * @return self
      */
@@ -309,7 +309,7 @@ class AccountLink implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets retargeting_list_sharing_enabled
      *
-     * @return \OpenAPI\Client\Model\AccountLinkServiceRetargetingListSharingEnabled|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountLinkServiceRetargetingListSharingEnabled|null
      */
     public function getRetargetingListSharingEnabled()
     {
@@ -319,7 +319,7 @@ class AccountLink implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets retargeting_list_sharing_enabled
      *
-     * @param \OpenAPI\Client\Model\AccountLinkServiceRetargetingListSharingEnabled|null $retargeting_list_sharing_enabled retargeting_list_sharing_enabled
+     * @param \YahooAdsDisplayApi\Client\Model\AccountLinkServiceRetargetingListSharingEnabled|null $retargeting_list_sharing_enabled retargeting_list_sharing_enabled
      *
      * @return self
      */
@@ -333,7 +333,7 @@ class AccountLink implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets owner_ship_type
      *
-     * @return \OpenAPI\Client\Model\AccountLinkServiceOwnerShipType|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountLinkServiceOwnerShipType|null
      */
     public function getOwnerShipType()
     {
@@ -343,7 +343,7 @@ class AccountLink implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets owner_ship_type
      *
-     * @param \OpenAPI\Client\Model\AccountLinkServiceOwnerShipType|null $owner_ship_type owner_ship_type
+     * @param \YahooAdsDisplayApi\Client\Model\AccountLinkServiceOwnerShipType|null $owner_ship_type owner_ship_type
      *
      * @return self
      */

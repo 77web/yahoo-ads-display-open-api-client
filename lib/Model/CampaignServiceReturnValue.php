@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * CampaignServiceReturnValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;CampaignServiceReturnValueオブジェクトは、キャンペーンの情報を格納するコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The CampaignServiceReturnValue object is a container for storing campaign information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class CampaignServiceReturnValue implements ModelInterface, ArrayAccess, \JsonSe
       * @var string[]
       */
     protected static $openAPITypes = [
-        'values' => '\OpenAPI\Client\Model\CampaignServiceValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\CampaignServiceValue[]'
     ];
 
     /**
@@ -213,7 +213,7 @@ class CampaignServiceReturnValue implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\CampaignServiceValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignServiceValue[]|null
      */
     public function getValues()
     {
@@ -223,7 +223,7 @@ class CampaignServiceReturnValue implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\CampaignServiceValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignServiceValue[]|null $values values
      *
      * @return self
      */

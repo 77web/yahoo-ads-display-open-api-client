@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * VideoServiceOperation Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;VideoServiceOperationオブジェクトは、メソッドの操作対象を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;VideoServiceOperation object stores the operation target of method.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class VideoServiceOperation implements ModelInterface, ArrayAccess, \JsonSeriali
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'operand' => '\OpenAPI\Client\Model\Video[]'
+        'operand' => '\YahooAdsDisplayApi\Client\Model\Video[]'
     ];
 
     /**
@@ -257,7 +257,7 @@ class VideoServiceOperation implements ModelInterface, ArrayAccess, \JsonSeriali
     /**
      * Gets operand
      *
-     * @return \OpenAPI\Client\Model\Video[]
+     * @return \YahooAdsDisplayApi\Client\Model\Video[]
      */
     public function getOperand()
     {
@@ -267,7 +267,7 @@ class VideoServiceOperation implements ModelInterface, ArrayAccess, \JsonSeriali
     /**
      * Sets operand
      *
-     * @param \OpenAPI\Client\Model\Video[] $operand <div lang=\"ja\">このフィールドは、SETおよびREMOVE時に必須となります。</div> <div lang=\"en\">This field is required in SET and REMOVE operation.</div>
+     * @param \YahooAdsDisplayApi\Client\Model\Video[] $operand <div lang=\"ja\">このフィールドは、SETおよびREMOVE時に必須となります。</div> <div lang=\"en\">This field is required in SET and REMOVE operation.</div>
      *
      * @return self
      */

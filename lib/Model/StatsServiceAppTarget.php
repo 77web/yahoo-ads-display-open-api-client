@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * StatsServiceAppTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;StatsServiceAppTargetオブジェクトは、アプリターゲットの設定情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;StatsServiceAppTarget object holds configuration information of app targeting.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class StatsServiceAppTarget implements ModelInterface, ArrayAccess, \JsonSeriali
       * @var string[]
       */
     protected static $openAPITypes = [
-        'device_app_type' => '\OpenAPI\Client\Model\StatsServiceDeviceAppType'
+        'device_app_type' => '\YahooAdsDisplayApi\Client\Model\StatsServiceDeviceAppType'
     ];
 
     /**
@@ -213,7 +213,7 @@ class StatsServiceAppTarget implements ModelInterface, ArrayAccess, \JsonSeriali
     /**
      * Gets device_app_type
      *
-     * @return \OpenAPI\Client\Model\StatsServiceDeviceAppType|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceDeviceAppType|null
      */
     public function getDeviceAppType()
     {
@@ -223,7 +223,7 @@ class StatsServiceAppTarget implements ModelInterface, ArrayAccess, \JsonSeriali
     /**
      * Sets device_app_type
      *
-     * @param \OpenAPI\Client\Model\StatsServiceDeviceAppType|null $device_app_type device_app_type
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceDeviceAppType|null $device_app_type device_app_type
      *
      * @return self
      */

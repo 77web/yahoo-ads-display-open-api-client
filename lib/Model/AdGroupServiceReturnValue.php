@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupServiceReturnValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;AdGroupServiceReturnValueオブジェクトは、広告グループの情報を格納するコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The AdGroupServiceReturnValue object is a container for storing ad group information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class AdGroupServiceReturnValue implements ModelInterface, ArrayAccess, \JsonSer
       * @var string[]
       */
     protected static $openAPITypes = [
-        'values' => '\OpenAPI\Client\Model\AdGroupServiceValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\AdGroupServiceValue[]'
     ];
 
     /**
@@ -213,7 +213,7 @@ class AdGroupServiceReturnValue implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\AdGroupServiceValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupServiceValue[]|null
      */
     public function getValues()
     {
@@ -223,7 +223,7 @@ class AdGroupServiceReturnValue implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\AdGroupServiceValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupServiceValue[]|null $values values
      *
      * @return self
      */

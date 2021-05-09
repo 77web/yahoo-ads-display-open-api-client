@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * DictionaryServiceGeographicLocationPage Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;DictionaryServiceGeographicLocationPageオブジェクトは、地域情報のリストを取得するためのエントリーを表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;DictionaryServiceGeographicLocationPage object displays the entry to retrieve the geographic location list.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class DictionaryServiceGeographicLocationPage implements ModelInterface, ArrayAc
       */
     protected static $openAPITypes = [
         'total_num_entries' => 'int',
-        'values' => '\OpenAPI\Client\Model\DictionaryServiceGeographicLocationValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGeographicLocationValue[]'
     ];
 
     /**
@@ -243,7 +243,7 @@ class DictionaryServiceGeographicLocationPage implements ModelInterface, ArrayAc
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\DictionaryServiceGeographicLocationValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\DictionaryServiceGeographicLocationValue[]|null
      */
     public function getValues()
     {
@@ -253,7 +253,7 @@ class DictionaryServiceGeographicLocationPage implements ModelInterface, ArrayAc
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\DictionaryServiceGeographicLocationValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\DictionaryServiceGeographicLocationValue[]|null $values values
      *
      * @return self
      */

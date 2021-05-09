@@ -1,4 +1,4 @@
-# OpenAPI\Client\CampaignMigrationServiceApi
+# YahooAdsDisplayApi\Client\CampaignMigrationServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -29,16 +29,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\CampaignMigrationServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\CampaignMigrationServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$campaign_migration_service_download_file_selector = new \OpenAPI\Client\Model\CampaignMigrationServiceDownloadFileSelector(); // \OpenAPI\Client\Model\CampaignMigrationServiceDownloadFileSelector
+$campaign_migration_service_download_file_selector = new \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceDownloadFileSelector(); // \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceDownloadFileSelector
 
 try {
     $result = $apiInstance->campaignMigrationServiceDownloadErrorFilePost($campaign_migration_service_download_file_selector);
@@ -52,7 +52,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **campaign_migration_service_download_file_selector** | [**\OpenAPI\Client\Model\CampaignMigrationServiceDownloadFileSelector**](../Model/CampaignMigrationServiceDownloadFileSelector.md)|  | [optional]
+ **campaign_migration_service_download_file_selector** | [**\YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceDownloadFileSelector**](../Model/CampaignMigrationServiceDownloadFileSelector.md)|  | [optional]
 
 ### Return type
 
@@ -89,16 +89,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\CampaignMigrationServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\CampaignMigrationServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$campaign_migration_service_download_file_selector = new \OpenAPI\Client\Model\CampaignMigrationServiceDownloadFileSelector(); // \OpenAPI\Client\Model\CampaignMigrationServiceDownloadFileSelector
+$campaign_migration_service_download_file_selector = new \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceDownloadFileSelector(); // \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceDownloadFileSelector
 
 try {
     $result = $apiInstance->campaignMigrationServiceDownloadOriginalFilePost($campaign_migration_service_download_file_selector);
@@ -112,7 +112,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **campaign_migration_service_download_file_selector** | [**\OpenAPI\Client\Model\CampaignMigrationServiceDownloadFileSelector**](../Model/CampaignMigrationServiceDownloadFileSelector.md)|  | [optional]
+ **campaign_migration_service_download_file_selector** | [**\YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceDownloadFileSelector**](../Model/CampaignMigrationServiceDownloadFileSelector.md)|  | [optional]
 
 ### Return type
 
@@ -149,16 +149,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\CampaignMigrationServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\CampaignMigrationServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$campaign_migration_service_download_selector = new \OpenAPI\Client\Model\CampaignMigrationServiceDownloadSelector(); // \OpenAPI\Client\Model\CampaignMigrationServiceDownloadSelector
+$campaign_migration_service_download_selector = new \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceDownloadSelector(); // \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceDownloadSelector
 
 try {
     $result = $apiInstance->campaignMigrationServiceDownloadPost($campaign_migration_service_download_selector);
@@ -172,7 +172,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **campaign_migration_service_download_selector** | [**\OpenAPI\Client\Model\CampaignMigrationServiceDownloadSelector**](../Model/CampaignMigrationServiceDownloadSelector.md)|  | [optional]
+ **campaign_migration_service_download_selector** | [**\YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceDownloadSelector**](../Model/CampaignMigrationServiceDownloadSelector.md)|  | [optional]
 
 ### Return type
 
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 ## `campaignMigrationServiceGetPost()`
 
 ```php
-campaignMigrationServiceGetPost($campaign_migration_service_selector): \OpenAPI\Client\Model\CampaignMigrationServiceGetResponse
+campaignMigrationServiceGetPost($campaign_migration_service_selector): \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceGetResponse
 ```
 
 
@@ -209,16 +209,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\CampaignMigrationServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\CampaignMigrationServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$campaign_migration_service_selector = new \OpenAPI\Client\Model\CampaignMigrationServiceSelector(); // \OpenAPI\Client\Model\CampaignMigrationServiceSelector
+$campaign_migration_service_selector = new \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceSelector(); // \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceSelector
 
 try {
     $result = $apiInstance->campaignMigrationServiceGetPost($campaign_migration_service_selector);
@@ -232,11 +232,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **campaign_migration_service_selector** | [**\OpenAPI\Client\Model\CampaignMigrationServiceSelector**](../Model/CampaignMigrationServiceSelector.md)|  | [optional]
+ **campaign_migration_service_selector** | [**\YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceSelector**](../Model/CampaignMigrationServiceSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\CampaignMigrationServiceGetResponse**](../Model/CampaignMigrationServiceGetResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceGetResponse**](../Model/CampaignMigrationServiceGetResponse.md)
 
 ### Authorization
 
@@ -254,7 +254,7 @@ Name | Type | Description  | Notes
 ## `campaignMigrationServiceUploadPost()`
 
 ```php
-campaignMigrationServiceUploadPost($account_id, $file): \OpenAPI\Client\Model\CampaignMigrationServiceUploadResponse
+campaignMigrationServiceUploadPost($account_id, $file): \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceUploadResponse
 ```
 
 
@@ -269,10 +269,10 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\CampaignMigrationServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\CampaignMigrationServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -298,7 +298,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\OpenAPI\Client\Model\CampaignMigrationServiceUploadResponse**](../Model/CampaignMigrationServiceUploadResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceUploadResponse**](../Model/CampaignMigrationServiceUploadResponse.md)
 
 ### Authorization
 

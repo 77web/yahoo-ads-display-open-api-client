@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * Campaign Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;Campaignオブジェクトは、キャンペーン情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Campaign object describes campaign information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -65,23 +65,23 @@ class Campaign implements ModelInterface, ArrayAccess, \JsonSerializable
         'ad_product_type' => 'string',
         'app_id' => 'string',
         'app_name' => 'string',
-        'bidding_strategy' => '\OpenAPI\Client\Model\CampaignServiceBiddingStrategy',
-        'budget' => '\OpenAPI\Client\Model\CampaignServiceBudget',
-        'campaign_bidding_strategy' => '\OpenAPI\Client\Model\CampaignServiceCampaignBiddingStrategy',
+        'bidding_strategy' => '\YahooAdsDisplayApi\Client\Model\CampaignServiceBiddingStrategy',
+        'budget' => '\YahooAdsDisplayApi\Client\Model\CampaignServiceBudget',
+        'campaign_bidding_strategy' => '\YahooAdsDisplayApi\Client\Model\CampaignServiceCampaignBiddingStrategy',
         'campaign_goal' => 'string',
         'campaign_id' => 'int',
         'campaign_name' => 'string',
-        'conversion_optimizer' => '\OpenAPI\Client\Model\CampaignServiceConversionOptimizer',
-        'device_os_type' => '\OpenAPI\Client\Model\CampaignServiceDeviceOsType',
+        'conversion_optimizer' => '\YahooAdsDisplayApi\Client\Model\CampaignServiceConversionOptimizer',
+        'device_os_type' => '\YahooAdsDisplayApi\Client\Model\CampaignServiceDeviceOsType',
         'end_date' => 'string',
         'feed_id' => 'int',
-        'frequency_cap' => '\OpenAPI\Client\Model\CampaignServiceFrequencyCap',
-        'labels' => '\OpenAPI\Client\Model\CampaignServiceLabel[]',
-        'serving_status' => '\OpenAPI\Client\Model\CampaignServiceServingStatus',
+        'frequency_cap' => '\YahooAdsDisplayApi\Client\Model\CampaignServiceFrequencyCap',
+        'labels' => '\YahooAdsDisplayApi\Client\Model\CampaignServiceLabel[]',
+        'serving_status' => '\YahooAdsDisplayApi\Client\Model\CampaignServiceServingStatus',
         'start_date' => 'string',
-        'type' => '\OpenAPI\Client\Model\CampaignServiceType',
-        'user_status' => '\OpenAPI\Client\Model\CampaignServiceUserStatus',
-        'viewable_frequency_cap' => '\OpenAPI\Client\Model\CampaignServiceViewableFrequencyCap',
+        'type' => '\YahooAdsDisplayApi\Client\Model\CampaignServiceType',
+        'user_status' => '\YahooAdsDisplayApi\Client\Model\CampaignServiceUserStatus',
+        'viewable_frequency_cap' => '\YahooAdsDisplayApi\Client\Model\CampaignServiceViewableFrequencyCap',
         'campaign_delivery_type' => 'string',
         'created_date' => 'string'
     ];
@@ -441,7 +441,7 @@ class Campaign implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets bidding_strategy
      *
-     * @return \OpenAPI\Client\Model\CampaignServiceBiddingStrategy|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignServiceBiddingStrategy|null
      */
     public function getBiddingStrategy()
     {
@@ -451,7 +451,7 @@ class Campaign implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets bidding_strategy
      *
-     * @param \OpenAPI\Client\Model\CampaignServiceBiddingStrategy|null $bidding_strategy bidding_strategy
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignServiceBiddingStrategy|null $bidding_strategy bidding_strategy
      *
      * @return self
      */
@@ -465,7 +465,7 @@ class Campaign implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets budget
      *
-     * @return \OpenAPI\Client\Model\CampaignServiceBudget|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignServiceBudget|null
      */
     public function getBudget()
     {
@@ -475,7 +475,7 @@ class Campaign implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets budget
      *
-     * @param \OpenAPI\Client\Model\CampaignServiceBudget|null $budget budget
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignServiceBudget|null $budget budget
      *
      * @return self
      */
@@ -489,7 +489,7 @@ class Campaign implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets campaign_bidding_strategy
      *
-     * @return \OpenAPI\Client\Model\CampaignServiceCampaignBiddingStrategy|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignServiceCampaignBiddingStrategy|null
      */
     public function getCampaignBiddingStrategy()
     {
@@ -499,7 +499,7 @@ class Campaign implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets campaign_bidding_strategy
      *
-     * @param \OpenAPI\Client\Model\CampaignServiceCampaignBiddingStrategy|null $campaign_bidding_strategy campaign_bidding_strategy
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignServiceCampaignBiddingStrategy|null $campaign_bidding_strategy campaign_bidding_strategy
      *
      * @return self
      */
@@ -585,7 +585,7 @@ class Campaign implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets conversion_optimizer
      *
-     * @return \OpenAPI\Client\Model\CampaignServiceConversionOptimizer|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignServiceConversionOptimizer|null
      */
     public function getConversionOptimizer()
     {
@@ -595,7 +595,7 @@ class Campaign implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets conversion_optimizer
      *
-     * @param \OpenAPI\Client\Model\CampaignServiceConversionOptimizer|null $conversion_optimizer conversion_optimizer
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignServiceConversionOptimizer|null $conversion_optimizer conversion_optimizer
      *
      * @return self
      */
@@ -609,7 +609,7 @@ class Campaign implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets device_os_type
      *
-     * @return \OpenAPI\Client\Model\CampaignServiceDeviceOsType|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignServiceDeviceOsType|null
      */
     public function getDeviceOsType()
     {
@@ -619,7 +619,7 @@ class Campaign implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets device_os_type
      *
-     * @param \OpenAPI\Client\Model\CampaignServiceDeviceOsType|null $device_os_type device_os_type
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignServiceDeviceOsType|null $device_os_type device_os_type
      *
      * @return self
      */
@@ -681,7 +681,7 @@ class Campaign implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets frequency_cap
      *
-     * @return \OpenAPI\Client\Model\CampaignServiceFrequencyCap|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignServiceFrequencyCap|null
      */
     public function getFrequencyCap()
     {
@@ -691,7 +691,7 @@ class Campaign implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets frequency_cap
      *
-     * @param \OpenAPI\Client\Model\CampaignServiceFrequencyCap|null $frequency_cap frequency_cap
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignServiceFrequencyCap|null $frequency_cap frequency_cap
      *
      * @return self
      */
@@ -705,7 +705,7 @@ class Campaign implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets labels
      *
-     * @return \OpenAPI\Client\Model\CampaignServiceLabel[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignServiceLabel[]|null
      */
     public function getLabels()
     {
@@ -715,7 +715,7 @@ class Campaign implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets labels
      *
-     * @param \OpenAPI\Client\Model\CampaignServiceLabel[]|null $labels labels
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignServiceLabel[]|null $labels labels
      *
      * @return self
      */
@@ -729,7 +729,7 @@ class Campaign implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets serving_status
      *
-     * @return \OpenAPI\Client\Model\CampaignServiceServingStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignServiceServingStatus|null
      */
     public function getServingStatus()
     {
@@ -739,7 +739,7 @@ class Campaign implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets serving_status
      *
-     * @param \OpenAPI\Client\Model\CampaignServiceServingStatus|null $serving_status serving_status
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignServiceServingStatus|null $serving_status serving_status
      *
      * @return self
      */
@@ -777,7 +777,7 @@ class Campaign implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets type
      *
-     * @return \OpenAPI\Client\Model\CampaignServiceType|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignServiceType|null
      */
     public function getType()
     {
@@ -787,7 +787,7 @@ class Campaign implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets type
      *
-     * @param \OpenAPI\Client\Model\CampaignServiceType|null $type type
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignServiceType|null $type type
      *
      * @return self
      */
@@ -801,7 +801,7 @@ class Campaign implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets user_status
      *
-     * @return \OpenAPI\Client\Model\CampaignServiceUserStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignServiceUserStatus|null
      */
     public function getUserStatus()
     {
@@ -811,7 +811,7 @@ class Campaign implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets user_status
      *
-     * @param \OpenAPI\Client\Model\CampaignServiceUserStatus|null $user_status user_status
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignServiceUserStatus|null $user_status user_status
      *
      * @return self
      */
@@ -825,7 +825,7 @@ class Campaign implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets viewable_frequency_cap
      *
-     * @return \OpenAPI\Client\Model\CampaignServiceViewableFrequencyCap|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignServiceViewableFrequencyCap|null
      */
     public function getViewableFrequencyCap()
     {
@@ -835,7 +835,7 @@ class Campaign implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets viewable_frequency_cap
      *
-     * @param \OpenAPI\Client\Model\CampaignServiceViewableFrequencyCap|null $viewable_frequency_cap viewable_frequency_cap
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignServiceViewableFrequencyCap|null $viewable_frequency_cap viewable_frequency_cap
      *
      * @return self
      */

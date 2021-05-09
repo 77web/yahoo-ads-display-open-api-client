@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * SearchLift Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;SearchLiftオブジェクトは、サーチリフトの情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;SearchLift object describes information about the search lift.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -64,7 +64,7 @@ class SearchLift implements ModelInterface, ArrayAccess, \JsonSerializable
         'account_id' => 'int',
         'campaign_id' => 'int',
         'search_lift_id' => 'int',
-        'keywords' => '\OpenAPI\Client\Model\SearchLiftServiceKeyword[]'
+        'keywords' => '\YahooAdsDisplayApi\Client\Model\SearchLiftServiceKeyword[]'
     ];
 
     /**
@@ -303,7 +303,7 @@ class SearchLift implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets keywords
      *
-     * @return \OpenAPI\Client\Model\SearchLiftServiceKeyword[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\SearchLiftServiceKeyword[]|null
      */
     public function getKeywords()
     {
@@ -313,7 +313,7 @@ class SearchLift implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets keywords
      *
-     * @param \OpenAPI\Client\Model\SearchLiftServiceKeyword[]|null $keywords keywords
+     * @param \YahooAdsDisplayApi\Client\Model\SearchLiftServiceKeyword[]|null $keywords keywords
      *
      * @return self
      */

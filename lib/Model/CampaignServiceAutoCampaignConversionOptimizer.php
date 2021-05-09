@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * CampaignServiceAutoCampaignConversionOptimizer Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;CampaignServiceAutoCampaignConversionOptimizerオブジェクトは、コンバージョン最適化設定情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;CampaignServiceAutoCampaignConversionOptimizer retains conversion optimization settings.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class CampaignServiceAutoCampaignConversionOptimizer implements ModelInterface, 
       * @var string[]
       */
     protected static $openAPITypes = [
-        'conversion_optimizer_eligibility_flg' => '\OpenAPI\Client\Model\CampaignServiceConversionOptimizerEligibilityFlg',
+        'conversion_optimizer_eligibility_flg' => '\YahooAdsDisplayApi\Client\Model\CampaignServiceConversionOptimizerEligibilityFlg',
         'target_cpa' => 'int'
     ];
 
@@ -219,7 +219,7 @@ class CampaignServiceAutoCampaignConversionOptimizer implements ModelInterface, 
     /**
      * Gets conversion_optimizer_eligibility_flg
      *
-     * @return \OpenAPI\Client\Model\CampaignServiceConversionOptimizerEligibilityFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignServiceConversionOptimizerEligibilityFlg|null
      */
     public function getConversionOptimizerEligibilityFlg()
     {
@@ -229,7 +229,7 @@ class CampaignServiceAutoCampaignConversionOptimizer implements ModelInterface, 
     /**
      * Sets conversion_optimizer_eligibility_flg
      *
-     * @param \OpenAPI\Client\Model\CampaignServiceConversionOptimizerEligibilityFlg|null $conversion_optimizer_eligibility_flg conversion_optimizer_eligibility_flg
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignServiceConversionOptimizerEligibilityFlg|null $conversion_optimizer_eligibility_flg conversion_optimizer_eligibility_flg
      *
      * @return self
      */

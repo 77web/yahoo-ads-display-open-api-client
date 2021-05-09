@@ -1,4 +1,4 @@
-# OpenAPI\Client\CampaignLabelServiceApi
+# YahooAdsDisplayApi\Client\CampaignLabelServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 ## `campaignLabelServiceAddPost()`
 
 ```php
-campaignLabelServiceAddPost($campaign_label_service_operation): \OpenAPI\Client\Model\CampaignLabelServiceMutateResponse
+campaignLabelServiceAddPost($campaign_label_service_operation): \YahooAdsDisplayApi\Client\Model\CampaignLabelServiceMutateResponse
 ```
 
 
@@ -26,16 +26,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\CampaignLabelServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\CampaignLabelServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$campaign_label_service_operation = new \OpenAPI\Client\Model\CampaignLabelServiceOperation(); // \OpenAPI\Client\Model\CampaignLabelServiceOperation
+$campaign_label_service_operation = new \YahooAdsDisplayApi\Client\Model\CampaignLabelServiceOperation(); // \YahooAdsDisplayApi\Client\Model\CampaignLabelServiceOperation
 
 try {
     $result = $apiInstance->campaignLabelServiceAddPost($campaign_label_service_operation);
@@ -49,11 +49,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **campaign_label_service_operation** | [**\OpenAPI\Client\Model\CampaignLabelServiceOperation**](../Model/CampaignLabelServiceOperation.md)|  | [optional]
+ **campaign_label_service_operation** | [**\YahooAdsDisplayApi\Client\Model\CampaignLabelServiceOperation**](../Model/CampaignLabelServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\CampaignLabelServiceMutateResponse**](../Model/CampaignLabelServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\CampaignLabelServiceMutateResponse**](../Model/CampaignLabelServiceMutateResponse.md)
 
 ### Authorization
 
@@ -71,7 +71,7 @@ Name | Type | Description  | Notes
 ## `campaignLabelServiceRemovePost()`
 
 ```php
-campaignLabelServiceRemovePost($campaign_label_service_operation): \OpenAPI\Client\Model\CampaignLabelServiceMutateResponse
+campaignLabelServiceRemovePost($campaign_label_service_operation): \YahooAdsDisplayApi\Client\Model\CampaignLabelServiceMutateResponse
 ```
 
 
@@ -86,16 +86,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\CampaignLabelServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\CampaignLabelServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$campaign_label_service_operation = new \OpenAPI\Client\Model\CampaignLabelServiceOperation(); // \OpenAPI\Client\Model\CampaignLabelServiceOperation
+$campaign_label_service_operation = new \YahooAdsDisplayApi\Client\Model\CampaignLabelServiceOperation(); // \YahooAdsDisplayApi\Client\Model\CampaignLabelServiceOperation
 
 try {
     $result = $apiInstance->campaignLabelServiceRemovePost($campaign_label_service_operation);
@@ -109,11 +109,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **campaign_label_service_operation** | [**\OpenAPI\Client\Model\CampaignLabelServiceOperation**](../Model/CampaignLabelServiceOperation.md)|  | [optional]
+ **campaign_label_service_operation** | [**\YahooAdsDisplayApi\Client\Model\CampaignLabelServiceOperation**](../Model/CampaignLabelServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\CampaignLabelServiceMutateResponse**](../Model/CampaignLabelServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\CampaignLabelServiceMutateResponse**](../Model/CampaignLabelServiceMutateResponse.md)
 
 ### Authorization
 

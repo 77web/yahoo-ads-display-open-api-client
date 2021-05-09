@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServicePackageValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedSimulationServicePackageValueオブジェクトは、商品情報を取得するコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;GuaranteedSimulationServicePackageValue object is a container that retrieves package information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class GuaranteedSimulationServicePackageValue implements ModelInterface, ArrayAc
       * @var string[]
       */
     protected static $openAPITypes = [
-        'package' => '\OpenAPI\Client\Model\GuaranteedSimulationServicePackage',
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'package' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackage',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool'
     ];
 
@@ -225,7 +225,7 @@ class GuaranteedSimulationServicePackageValue implements ModelInterface, ArrayAc
     /**
      * Gets package
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServicePackage|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackage|null
      */
     public function getPackage()
     {
@@ -235,7 +235,7 @@ class GuaranteedSimulationServicePackageValue implements ModelInterface, ArrayAc
     /**
      * Sets package
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServicePackage|null $package package
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackage|null $package package
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class GuaranteedSimulationServicePackageValue implements ModelInterface, ArrayAc
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -259,7 +259,7 @@ class GuaranteedSimulationServicePackageValue implements ModelInterface, ArrayAc
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */

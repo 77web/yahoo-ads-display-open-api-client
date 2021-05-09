@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * LabelServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;LabelServiceValueオブジェクトは、操作結果を含むラベルの情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;LabelServiceValue object describes label information including its operation results.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class LabelServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
       * @var string[]
       */
     protected static $openAPITypes = [
-        'errors' => '\OpenAPI\Client\Model\Error[]',
-        'label' => '\OpenAPI\Client\Model\Label',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
+        'label' => '\YahooAdsDisplayApi\Client\Model\Label',
         'operation_succeeded' => 'bool'
     ];
 
@@ -225,7 +225,7 @@ class LabelServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -235,7 +235,7 @@ class LabelServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors <div lang=\"ja\">エラー内容です。</div> <div lang=\"en\">Error content.</div>
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors <div lang=\"ja\">エラー内容です。</div> <div lang=\"en\">Error content.</div>
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class LabelServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets label
      *
-     * @return \OpenAPI\Client\Model\Label|null
+     * @return \YahooAdsDisplayApi\Client\Model\Label|null
      */
     public function getLabel()
     {
@@ -259,7 +259,7 @@ class LabelServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets label
      *
-     * @param \OpenAPI\Client\Model\Label|null $label label
+     * @param \YahooAdsDisplayApi\Client\Model\Label|null $label label
      *
      * @return self
      */

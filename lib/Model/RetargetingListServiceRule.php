@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RetargetingListServiceRule Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; RetargetingListServiceRuleオブジェクトは、ターゲットリストに設定可能な条件を表します。&lt;br&gt; このフィールドは、ADDおよびSET時に必須となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; RetargetingListServiceRule object displays the possible conditions for target list.&lt;br&gt; This field is required in ADD and SET operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class RetargetingListServiceRule implements ModelInterface, ArrayAccess, \JsonSe
       * @var string[]
       */
     protected static $openAPITypes = [
-        'rule_conditions' => '\OpenAPI\Client\Model\RetargetingListServiceRuleCondition[]'
+        'rule_conditions' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceRuleCondition[]'
     ];
 
     /**
@@ -213,7 +213,7 @@ class RetargetingListServiceRule implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets rule_conditions
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceRuleCondition[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceRuleCondition[]|null
      */
     public function getRuleConditions()
     {
@@ -223,7 +223,7 @@ class RetargetingListServiceRule implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets rule_conditions
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceRuleCondition[]|null $rule_conditions rule_conditions
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceRuleCondition[]|null $rule_conditions rule_conditions
      *
      * @return self
      */

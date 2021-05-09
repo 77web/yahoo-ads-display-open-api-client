@@ -4,7 +4,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Api;
+namespace YahooAdsDisplayApi\Client\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use OpenAPI\Client\ApiException;
-use OpenAPI\Client\Configuration;
-use OpenAPI\Client\HeaderSelector;
-use OpenAPI\Client\ObjectSerializer;
+use YahooAdsDisplayApi\Client\ApiException;
+use YahooAdsDisplayApi\Client\Configuration;
+use YahooAdsDisplayApi\Client\HeaderSelector;
+use YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ConversionTrackerServiceApi Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -118,11 +118,11 @@ class ConversionTrackerServiceApi
     /**
      * Operation conversionTrackerServiceAddPost
      *
-     * @param  \OpenAPI\Client\Model\ConversionTrackerServiceOperation $conversion_tracker_service_operation conversion_tracker_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceOperation $conversion_tracker_service_operation conversion_tracker_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\ConversionTrackerServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceMutateResponse
      */
     public function conversionTrackerServiceAddPost($conversion_tracker_service_operation = null)
     {
@@ -133,11 +133,11 @@ class ConversionTrackerServiceApi
     /**
      * Operation conversionTrackerServiceAddPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\ConversionTrackerServiceOperation $conversion_tracker_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceOperation $conversion_tracker_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\ConversionTrackerServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function conversionTrackerServiceAddPostWithHttpInfo($conversion_tracker_service_operation = null)
     {
@@ -174,20 +174,20 @@ class ConversionTrackerServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\ConversionTrackerServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\ConversionTrackerServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\ConversionTrackerServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -206,7 +206,7 @@ class ConversionTrackerServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\ConversionTrackerServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -221,7 +221,7 @@ class ConversionTrackerServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\ConversionTrackerServiceOperation $conversion_tracker_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceOperation $conversion_tracker_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -241,14 +241,14 @@ class ConversionTrackerServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\ConversionTrackerServiceOperation $conversion_tracker_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceOperation $conversion_tracker_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function conversionTrackerServiceAddPostAsyncWithHttpInfo($conversion_tracker_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\ConversionTrackerServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceMutateResponse';
         $request = $this->conversionTrackerServiceAddPostRequest($conversion_tracker_service_operation);
 
         return $this->client
@@ -288,7 +288,7 @@ class ConversionTrackerServiceApi
     /**
      * Create request for operation 'conversionTrackerServiceAddPost'
      *
-     * @param  \OpenAPI\Client\Model\ConversionTrackerServiceOperation $conversion_tracker_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceOperation $conversion_tracker_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -377,11 +377,11 @@ class ConversionTrackerServiceApi
     /**
      * Operation conversionTrackerServiceGetPost
      *
-     * @param  \OpenAPI\Client\Model\ConversionTrackerServiceSelector $conversion_tracker_service_selector conversion_tracker_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceSelector $conversion_tracker_service_selector conversion_tracker_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\ConversionTrackerServiceGetResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceGetResponse
      */
     public function conversionTrackerServiceGetPost($conversion_tracker_service_selector = null)
     {
@@ -392,11 +392,11 @@ class ConversionTrackerServiceApi
     /**
      * Operation conversionTrackerServiceGetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\ConversionTrackerServiceSelector $conversion_tracker_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceSelector $conversion_tracker_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\ConversionTrackerServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function conversionTrackerServiceGetPostWithHttpInfo($conversion_tracker_service_selector = null)
     {
@@ -433,20 +433,20 @@ class ConversionTrackerServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\ConversionTrackerServiceGetResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceGetResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\ConversionTrackerServiceGetResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceGetResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\ConversionTrackerServiceGetResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceGetResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -465,7 +465,7 @@ class ConversionTrackerServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\ConversionTrackerServiceGetResponse',
+                        '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceGetResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -480,7 +480,7 @@ class ConversionTrackerServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\ConversionTrackerServiceSelector $conversion_tracker_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceSelector $conversion_tracker_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -500,14 +500,14 @@ class ConversionTrackerServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\ConversionTrackerServiceSelector $conversion_tracker_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceSelector $conversion_tracker_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function conversionTrackerServiceGetPostAsyncWithHttpInfo($conversion_tracker_service_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\ConversionTrackerServiceGetResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceGetResponse';
         $request = $this->conversionTrackerServiceGetPostRequest($conversion_tracker_service_selector);
 
         return $this->client
@@ -547,7 +547,7 @@ class ConversionTrackerServiceApi
     /**
      * Create request for operation 'conversionTrackerServiceGetPost'
      *
-     * @param  \OpenAPI\Client\Model\ConversionTrackerServiceSelector $conversion_tracker_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceSelector $conversion_tracker_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -636,11 +636,11 @@ class ConversionTrackerServiceApi
     /**
      * Operation conversionTrackerServiceSetPost
      *
-     * @param  \OpenAPI\Client\Model\ConversionTrackerServiceOperation $conversion_tracker_service_operation conversion_tracker_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceOperation $conversion_tracker_service_operation conversion_tracker_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\ConversionTrackerServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceMutateResponse
      */
     public function conversionTrackerServiceSetPost($conversion_tracker_service_operation = null)
     {
@@ -651,11 +651,11 @@ class ConversionTrackerServiceApi
     /**
      * Operation conversionTrackerServiceSetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\ConversionTrackerServiceOperation $conversion_tracker_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceOperation $conversion_tracker_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\ConversionTrackerServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function conversionTrackerServiceSetPostWithHttpInfo($conversion_tracker_service_operation = null)
     {
@@ -692,20 +692,20 @@ class ConversionTrackerServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\ConversionTrackerServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\ConversionTrackerServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\ConversionTrackerServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -724,7 +724,7 @@ class ConversionTrackerServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\ConversionTrackerServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -739,7 +739,7 @@ class ConversionTrackerServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\ConversionTrackerServiceOperation $conversion_tracker_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceOperation $conversion_tracker_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -759,14 +759,14 @@ class ConversionTrackerServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\ConversionTrackerServiceOperation $conversion_tracker_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceOperation $conversion_tracker_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function conversionTrackerServiceSetPostAsyncWithHttpInfo($conversion_tracker_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\ConversionTrackerServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceMutateResponse';
         $request = $this->conversionTrackerServiceSetPostRequest($conversion_tracker_service_operation);
 
         return $this->client
@@ -806,7 +806,7 @@ class ConversionTrackerServiceApi
     /**
      * Create request for operation 'conversionTrackerServiceSetPost'
      *
-     * @param  \OpenAPI\Client\Model\ConversionTrackerServiceOperation $conversion_tracker_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceOperation $conversion_tracker_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

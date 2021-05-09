@@ -4,7 +4,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Api;
+namespace YahooAdsDisplayApi\Client\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use OpenAPI\Client\ApiException;
-use OpenAPI\Client\Configuration;
-use OpenAPI\Client\HeaderSelector;
-use OpenAPI\Client\ObjectSerializer;
+use YahooAdsDisplayApi\Client\ApiException;
+use YahooAdsDisplayApi\Client\Configuration;
+use YahooAdsDisplayApi\Client\HeaderSelector;
+use YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * FeedSetServiceApi Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -118,11 +118,11 @@ class FeedSetServiceApi
     /**
      * Operation feedSetServiceAddPost
      *
-     * @param  \OpenAPI\Client\Model\FeedSetServiceOperation $feed_set_service_operation feed_set_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedSetServiceOperation $feed_set_service_operation feed_set_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\FeedSetServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\FeedSetServiceMutateResponse
      */
     public function feedSetServiceAddPost($feed_set_service_operation = null)
     {
@@ -133,11 +133,11 @@ class FeedSetServiceApi
     /**
      * Operation feedSetServiceAddPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\FeedSetServiceOperation $feed_set_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedSetServiceOperation $feed_set_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\FeedSetServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\FeedSetServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function feedSetServiceAddPostWithHttpInfo($feed_set_service_operation = null)
     {
@@ -174,20 +174,20 @@ class FeedSetServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\FeedSetServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\FeedSetServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\FeedSetServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\FeedSetServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\FeedSetServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\FeedSetServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -206,7 +206,7 @@ class FeedSetServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\FeedSetServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\FeedSetServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -221,7 +221,7 @@ class FeedSetServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\FeedSetServiceOperation $feed_set_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedSetServiceOperation $feed_set_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -241,14 +241,14 @@ class FeedSetServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\FeedSetServiceOperation $feed_set_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedSetServiceOperation $feed_set_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function feedSetServiceAddPostAsyncWithHttpInfo($feed_set_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\FeedSetServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\FeedSetServiceMutateResponse';
         $request = $this->feedSetServiceAddPostRequest($feed_set_service_operation);
 
         return $this->client
@@ -288,7 +288,7 @@ class FeedSetServiceApi
     /**
      * Create request for operation 'feedSetServiceAddPost'
      *
-     * @param  \OpenAPI\Client\Model\FeedSetServiceOperation $feed_set_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedSetServiceOperation $feed_set_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -377,11 +377,11 @@ class FeedSetServiceApi
     /**
      * Operation feedSetServiceGetPost
      *
-     * @param  \OpenAPI\Client\Model\FeedSetServiceSelector $feed_set_service_selector feed_set_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedSetServiceSelector $feed_set_service_selector feed_set_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\FeedSetServiceGetResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\FeedSetServiceGetResponse
      */
     public function feedSetServiceGetPost($feed_set_service_selector = null)
     {
@@ -392,11 +392,11 @@ class FeedSetServiceApi
     /**
      * Operation feedSetServiceGetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\FeedSetServiceSelector $feed_set_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedSetServiceSelector $feed_set_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\FeedSetServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\FeedSetServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function feedSetServiceGetPostWithHttpInfo($feed_set_service_selector = null)
     {
@@ -433,20 +433,20 @@ class FeedSetServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\FeedSetServiceGetResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\FeedSetServiceGetResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\FeedSetServiceGetResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\FeedSetServiceGetResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\FeedSetServiceGetResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\FeedSetServiceGetResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -465,7 +465,7 @@ class FeedSetServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\FeedSetServiceGetResponse',
+                        '\YahooAdsDisplayApi\Client\Model\FeedSetServiceGetResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -480,7 +480,7 @@ class FeedSetServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\FeedSetServiceSelector $feed_set_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedSetServiceSelector $feed_set_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -500,14 +500,14 @@ class FeedSetServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\FeedSetServiceSelector $feed_set_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedSetServiceSelector $feed_set_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function feedSetServiceGetPostAsyncWithHttpInfo($feed_set_service_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\FeedSetServiceGetResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\FeedSetServiceGetResponse';
         $request = $this->feedSetServiceGetPostRequest($feed_set_service_selector);
 
         return $this->client
@@ -547,7 +547,7 @@ class FeedSetServiceApi
     /**
      * Create request for operation 'feedSetServiceGetPost'
      *
-     * @param  \OpenAPI\Client\Model\FeedSetServiceSelector $feed_set_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedSetServiceSelector $feed_set_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -636,11 +636,11 @@ class FeedSetServiceApi
     /**
      * Operation feedSetServiceRemovePost
      *
-     * @param  \OpenAPI\Client\Model\FeedSetServiceOperation $feed_set_service_operation feed_set_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedSetServiceOperation $feed_set_service_operation feed_set_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\FeedSetServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\FeedSetServiceMutateResponse
      */
     public function feedSetServiceRemovePost($feed_set_service_operation = null)
     {
@@ -651,11 +651,11 @@ class FeedSetServiceApi
     /**
      * Operation feedSetServiceRemovePostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\FeedSetServiceOperation $feed_set_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedSetServiceOperation $feed_set_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\FeedSetServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\FeedSetServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function feedSetServiceRemovePostWithHttpInfo($feed_set_service_operation = null)
     {
@@ -692,20 +692,20 @@ class FeedSetServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\FeedSetServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\FeedSetServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\FeedSetServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\FeedSetServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\FeedSetServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\FeedSetServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -724,7 +724,7 @@ class FeedSetServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\FeedSetServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\FeedSetServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -739,7 +739,7 @@ class FeedSetServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\FeedSetServiceOperation $feed_set_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedSetServiceOperation $feed_set_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -759,14 +759,14 @@ class FeedSetServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\FeedSetServiceOperation $feed_set_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedSetServiceOperation $feed_set_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function feedSetServiceRemovePostAsyncWithHttpInfo($feed_set_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\FeedSetServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\FeedSetServiceMutateResponse';
         $request = $this->feedSetServiceRemovePostRequest($feed_set_service_operation);
 
         return $this->client
@@ -806,7 +806,7 @@ class FeedSetServiceApi
     /**
      * Create request for operation 'feedSetServiceRemovePost'
      *
-     * @param  \OpenAPI\Client\Model\FeedSetServiceOperation $feed_set_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedSetServiceOperation $feed_set_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

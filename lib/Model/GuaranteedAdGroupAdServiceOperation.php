@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedAdGroupAdServiceOperation Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedAdGroupAdServiceOperationオブジェクトは、操作を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The GuaranteedAdGroupAdServiceOperation object is a container for operation.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class GuaranteedAdGroupAdServiceOperation implements ModelInterface, ArrayAccess
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'operand' => '\OpenAPI\Client\Model\GuaranteedAdGroupAd[]'
+        'operand' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAd[]'
     ];
 
     /**
@@ -257,7 +257,7 @@ class GuaranteedAdGroupAdServiceOperation implements ModelInterface, ArrayAccess
     /**
      * Gets operand
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAd[]
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAd[]
      */
     public function getOperand()
     {
@@ -267,7 +267,7 @@ class GuaranteedAdGroupAdServiceOperation implements ModelInterface, ArrayAccess
     /**
      * Sets operand
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAd[] $operand operand
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAd[] $operand operand
      *
      * @return self
      */

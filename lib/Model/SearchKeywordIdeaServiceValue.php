@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * SearchKeywordIdeaServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;SearchKeywordIdeaServiceValueオブジェクトは、サーチターゲティング対象キーワードを含むコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;SearchKeywordIdeaServiceValue object is a container that includes keyword for search targeting.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,9 +61,9 @@ class SearchKeywordIdeaServiceValue implements ModelInterface, ArrayAccess, \Jso
       * @var string[]
       */
     protected static $openAPITypes = [
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool',
-        'search_keyword_idea' => '\OpenAPI\Client\Model\SearchKeywordIdea'
+        'search_keyword_idea' => '\YahooAdsDisplayApi\Client\Model\SearchKeywordIdea'
     ];
 
     /**
@@ -225,7 +225,7 @@ class SearchKeywordIdeaServiceValue implements ModelInterface, ArrayAccess, \Jso
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -235,7 +235,7 @@ class SearchKeywordIdeaServiceValue implements ModelInterface, ArrayAccess, \Jso
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */
@@ -273,7 +273,7 @@ class SearchKeywordIdeaServiceValue implements ModelInterface, ArrayAccess, \Jso
     /**
      * Gets search_keyword_idea
      *
-     * @return \OpenAPI\Client\Model\SearchKeywordIdea|null
+     * @return \YahooAdsDisplayApi\Client\Model\SearchKeywordIdea|null
      */
     public function getSearchKeywordIdea()
     {
@@ -283,7 +283,7 @@ class SearchKeywordIdeaServiceValue implements ModelInterface, ArrayAccess, \Jso
     /**
      * Sets search_keyword_idea
      *
-     * @param \OpenAPI\Client\Model\SearchKeywordIdea|null $search_keyword_idea search_keyword_idea
+     * @param \YahooAdsDisplayApi\Client\Model\SearchKeywordIdea|null $search_keyword_idea search_keyword_idea
      *
      * @return self
      */

@@ -4,7 +4,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Api;
+namespace YahooAdsDisplayApi\Client\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use OpenAPI\Client\ApiException;
-use OpenAPI\Client\Configuration;
-use OpenAPI\Client\HeaderSelector;
-use OpenAPI\Client\ObjectSerializer;
+use YahooAdsDisplayApi\Client\ApiException;
+use YahooAdsDisplayApi\Client\Configuration;
+use YahooAdsDisplayApi\Client\HeaderSelector;
+use YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * CampaignMigrationServiceApi Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -118,9 +118,9 @@ class CampaignMigrationServiceApi
     /**
      * Operation campaignMigrationServiceDownloadErrorFilePost
      *
-     * @param  \OpenAPI\Client\Model\CampaignMigrationServiceDownloadFileSelector $campaign_migration_service_download_file_selector campaign_migration_service_download_file_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceDownloadFileSelector $campaign_migration_service_download_file_selector campaign_migration_service_download_file_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return \SplFileObject
      */
@@ -133,9 +133,9 @@ class CampaignMigrationServiceApi
     /**
      * Operation campaignMigrationServiceDownloadErrorFilePostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\CampaignMigrationServiceDownloadFileSelector $campaign_migration_service_download_file_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceDownloadFileSelector $campaign_migration_service_download_file_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of \SplFileObject, HTTP status code, HTTP response headers (array of strings)
      */
@@ -221,7 +221,7 @@ class CampaignMigrationServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\CampaignMigrationServiceDownloadFileSelector $campaign_migration_service_download_file_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceDownloadFileSelector $campaign_migration_service_download_file_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -241,7 +241,7 @@ class CampaignMigrationServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\CampaignMigrationServiceDownloadFileSelector $campaign_migration_service_download_file_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceDownloadFileSelector $campaign_migration_service_download_file_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -288,7 +288,7 @@ class CampaignMigrationServiceApi
     /**
      * Create request for operation 'campaignMigrationServiceDownloadErrorFilePost'
      *
-     * @param  \OpenAPI\Client\Model\CampaignMigrationServiceDownloadFileSelector $campaign_migration_service_download_file_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceDownloadFileSelector $campaign_migration_service_download_file_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -377,9 +377,9 @@ class CampaignMigrationServiceApi
     /**
      * Operation campaignMigrationServiceDownloadOriginalFilePost
      *
-     * @param  \OpenAPI\Client\Model\CampaignMigrationServiceDownloadFileSelector $campaign_migration_service_download_file_selector campaign_migration_service_download_file_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceDownloadFileSelector $campaign_migration_service_download_file_selector campaign_migration_service_download_file_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return \SplFileObject
      */
@@ -392,9 +392,9 @@ class CampaignMigrationServiceApi
     /**
      * Operation campaignMigrationServiceDownloadOriginalFilePostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\CampaignMigrationServiceDownloadFileSelector $campaign_migration_service_download_file_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceDownloadFileSelector $campaign_migration_service_download_file_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of \SplFileObject, HTTP status code, HTTP response headers (array of strings)
      */
@@ -480,7 +480,7 @@ class CampaignMigrationServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\CampaignMigrationServiceDownloadFileSelector $campaign_migration_service_download_file_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceDownloadFileSelector $campaign_migration_service_download_file_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -500,7 +500,7 @@ class CampaignMigrationServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\CampaignMigrationServiceDownloadFileSelector $campaign_migration_service_download_file_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceDownloadFileSelector $campaign_migration_service_download_file_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -547,7 +547,7 @@ class CampaignMigrationServiceApi
     /**
      * Create request for operation 'campaignMigrationServiceDownloadOriginalFilePost'
      *
-     * @param  \OpenAPI\Client\Model\CampaignMigrationServiceDownloadFileSelector $campaign_migration_service_download_file_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceDownloadFileSelector $campaign_migration_service_download_file_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -636,9 +636,9 @@ class CampaignMigrationServiceApi
     /**
      * Operation campaignMigrationServiceDownloadPost
      *
-     * @param  \OpenAPI\Client\Model\CampaignMigrationServiceDownloadSelector $campaign_migration_service_download_selector campaign_migration_service_download_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceDownloadSelector $campaign_migration_service_download_selector campaign_migration_service_download_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return \SplFileObject
      */
@@ -651,9 +651,9 @@ class CampaignMigrationServiceApi
     /**
      * Operation campaignMigrationServiceDownloadPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\CampaignMigrationServiceDownloadSelector $campaign_migration_service_download_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceDownloadSelector $campaign_migration_service_download_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of \SplFileObject, HTTP status code, HTTP response headers (array of strings)
      */
@@ -739,7 +739,7 @@ class CampaignMigrationServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\CampaignMigrationServiceDownloadSelector $campaign_migration_service_download_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceDownloadSelector $campaign_migration_service_download_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -759,7 +759,7 @@ class CampaignMigrationServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\CampaignMigrationServiceDownloadSelector $campaign_migration_service_download_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceDownloadSelector $campaign_migration_service_download_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -806,7 +806,7 @@ class CampaignMigrationServiceApi
     /**
      * Create request for operation 'campaignMigrationServiceDownloadPost'
      *
-     * @param  \OpenAPI\Client\Model\CampaignMigrationServiceDownloadSelector $campaign_migration_service_download_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceDownloadSelector $campaign_migration_service_download_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -895,11 +895,11 @@ class CampaignMigrationServiceApi
     /**
      * Operation campaignMigrationServiceGetPost
      *
-     * @param  \OpenAPI\Client\Model\CampaignMigrationServiceSelector $campaign_migration_service_selector campaign_migration_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceSelector $campaign_migration_service_selector campaign_migration_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\CampaignMigrationServiceGetResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceGetResponse
      */
     public function campaignMigrationServiceGetPost($campaign_migration_service_selector = null)
     {
@@ -910,11 +910,11 @@ class CampaignMigrationServiceApi
     /**
      * Operation campaignMigrationServiceGetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\CampaignMigrationServiceSelector $campaign_migration_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceSelector $campaign_migration_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\CampaignMigrationServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function campaignMigrationServiceGetPostWithHttpInfo($campaign_migration_service_selector = null)
     {
@@ -951,20 +951,20 @@ class CampaignMigrationServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\CampaignMigrationServiceGetResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceGetResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\CampaignMigrationServiceGetResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceGetResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\CampaignMigrationServiceGetResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceGetResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -983,7 +983,7 @@ class CampaignMigrationServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\CampaignMigrationServiceGetResponse',
+                        '\YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceGetResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -998,7 +998,7 @@ class CampaignMigrationServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\CampaignMigrationServiceSelector $campaign_migration_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceSelector $campaign_migration_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1018,14 +1018,14 @@ class CampaignMigrationServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\CampaignMigrationServiceSelector $campaign_migration_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceSelector $campaign_migration_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function campaignMigrationServiceGetPostAsyncWithHttpInfo($campaign_migration_service_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\CampaignMigrationServiceGetResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceGetResponse';
         $request = $this->campaignMigrationServiceGetPostRequest($campaign_migration_service_selector);
 
         return $this->client
@@ -1065,7 +1065,7 @@ class CampaignMigrationServiceApi
     /**
      * Create request for operation 'campaignMigrationServiceGetPost'
      *
-     * @param  \OpenAPI\Client\Model\CampaignMigrationServiceSelector $campaign_migration_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceSelector $campaign_migration_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -1157,9 +1157,9 @@ class CampaignMigrationServiceApi
      * @param  int $account_id &lt;div lang&#x3D;\&quot;ja\&quot;&gt;アカウントIDです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Account ID.&lt;/div&gt; (required)
      * @param  \SplFileObject $file file (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\CampaignMigrationServiceUploadResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceUploadResponse
      */
     public function campaignMigrationServiceUploadPost($account_id, $file = null)
     {
@@ -1173,9 +1173,9 @@ class CampaignMigrationServiceApi
      * @param  int $account_id &lt;div lang&#x3D;\&quot;ja\&quot;&gt;アカウントIDです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Account ID.&lt;/div&gt; (required)
      * @param  \SplFileObject $file (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\CampaignMigrationServiceUploadResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceUploadResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function campaignMigrationServiceUploadPostWithHttpInfo($account_id, $file = null)
     {
@@ -1212,20 +1212,20 @@ class CampaignMigrationServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\CampaignMigrationServiceUploadResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceUploadResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\CampaignMigrationServiceUploadResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceUploadResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\CampaignMigrationServiceUploadResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceUploadResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -1244,7 +1244,7 @@ class CampaignMigrationServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\CampaignMigrationServiceUploadResponse',
+                        '\YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceUploadResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1288,7 +1288,7 @@ class CampaignMigrationServiceApi
      */
     public function campaignMigrationServiceUploadPostAsyncWithHttpInfo($account_id, $file = null)
     {
-        $returnType = '\OpenAPI\Client\Model\CampaignMigrationServiceUploadResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceUploadResponse';
         $request = $this->campaignMigrationServiceUploadPostRequest($account_id, $file);
 
         return $this->client

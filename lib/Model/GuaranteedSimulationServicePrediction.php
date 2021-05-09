@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServicePrediction Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; GuaranteedSimulationServicePredictionオブジェクトは、GuaranteedSimulationオブジェクトで定義された条件に基づく配信シミュレーションの予測結果を表します。&lt;br&gt; - results: 予約確定前の配信シミュレーションの予測結果のデータセットです。&lt;br&gt; - requestedConditionResult: 指定された条件（sov, reach, vImps, lifetimeBudget）に関連する予約確定前の配信シミュレーションの予測結果です。&lt;br&gt; - reservedConditionResult: 指定された条件（sov, reach, vImps, lifetimeBudget）に関連する予約確定後の配信シミュレーションの予測結果です。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; GuaranteedSimulationServicePrediction object describes the prediction result of the delivery simulation based on conditions defined in GuaranteedSimulation object.&lt;br&gt; - results: Prediction result data set of the delivery simulation before reservation is confirmed.&lt;br&gt; - requestedConditionResult: Prediction result of the delivery simulation before reservation is confirmed that is related to the specified conditions (sov, reach, vImps, lifetimeBudget).&lt;br&gt; - reservedConditionResult: Prediction result of the delivery simulation after reservation is confirmed that is related to the specified conditions (sov, reach, vImps, lifetimeBudget). &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,9 +61,9 @@ class GuaranteedSimulationServicePrediction implements ModelInterface, ArrayAcce
       * @var string[]
       */
     protected static $openAPITypes = [
-        'results' => '\OpenAPI\Client\Model\GuaranteedSimulationServicePredictionResult[]',
-        'requested_condition_result' => '\OpenAPI\Client\Model\GuaranteedSimulationServicePredictionResult',
-        'reserved_condition_result' => '\OpenAPI\Client\Model\GuaranteedSimulationServicePredictionResult'
+        'results' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePredictionResult[]',
+        'requested_condition_result' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePredictionResult',
+        'reserved_condition_result' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePredictionResult'
     ];
 
     /**
@@ -225,7 +225,7 @@ class GuaranteedSimulationServicePrediction implements ModelInterface, ArrayAcce
     /**
      * Gets results
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServicePredictionResult[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePredictionResult[]|null
      */
     public function getResults()
     {
@@ -235,7 +235,7 @@ class GuaranteedSimulationServicePrediction implements ModelInterface, ArrayAcce
     /**
      * Sets results
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServicePredictionResult[]|null $results results
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePredictionResult[]|null $results results
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class GuaranteedSimulationServicePrediction implements ModelInterface, ArrayAcce
     /**
      * Gets requested_condition_result
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServicePredictionResult|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePredictionResult|null
      */
     public function getRequestedConditionResult()
     {
@@ -259,7 +259,7 @@ class GuaranteedSimulationServicePrediction implements ModelInterface, ArrayAcce
     /**
      * Sets requested_condition_result
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServicePredictionResult|null $requested_condition_result requested_condition_result
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePredictionResult|null $requested_condition_result requested_condition_result
      *
      * @return self
      */
@@ -273,7 +273,7 @@ class GuaranteedSimulationServicePrediction implements ModelInterface, ArrayAcce
     /**
      * Gets reserved_condition_result
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServicePredictionResult|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePredictionResult|null
      */
     public function getReservedConditionResult()
     {
@@ -283,7 +283,7 @@ class GuaranteedSimulationServicePrediction implements ModelInterface, ArrayAcce
     /**
      * Sets reserved_condition_result
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServicePredictionResult|null $reserved_condition_result reserved_condition_result
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePredictionResult|null $reserved_condition_result reserved_condition_result
      *
      * @return self
      */

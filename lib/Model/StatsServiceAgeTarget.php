@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * StatsServiceAgeTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;StatsServiceAgeTargetオブジェクトは、年齢ターゲットの設定情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;StatsServiceAgeTarget object holds configuration information of age targeting.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class StatsServiceAgeTarget implements ModelInterface, ArrayAccess, \JsonSeriali
       * @var string[]
       */
     protected static $openAPITypes = [
-        'age' => '\OpenAPI\Client\Model\StatsServiceAge',
-        'estimate_flg' => '\OpenAPI\Client\Model\StatsServiceEstimateFlg'
+        'age' => '\YahooAdsDisplayApi\Client\Model\StatsServiceAge',
+        'estimate_flg' => '\YahooAdsDisplayApi\Client\Model\StatsServiceEstimateFlg'
     ];
 
     /**
@@ -219,7 +219,7 @@ class StatsServiceAgeTarget implements ModelInterface, ArrayAccess, \JsonSeriali
     /**
      * Gets age
      *
-     * @return \OpenAPI\Client\Model\StatsServiceAge|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceAge|null
      */
     public function getAge()
     {
@@ -229,7 +229,7 @@ class StatsServiceAgeTarget implements ModelInterface, ArrayAccess, \JsonSeriali
     /**
      * Sets age
      *
-     * @param \OpenAPI\Client\Model\StatsServiceAge|null $age age
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceAge|null $age age
      *
      * @return self
      */
@@ -243,7 +243,7 @@ class StatsServiceAgeTarget implements ModelInterface, ArrayAccess, \JsonSeriali
     /**
      * Gets estimate_flg
      *
-     * @return \OpenAPI\Client\Model\StatsServiceEstimateFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceEstimateFlg|null
      */
     public function getEstimateFlg()
     {
@@ -253,7 +253,7 @@ class StatsServiceAgeTarget implements ModelInterface, ArrayAccess, \JsonSeriali
     /**
      * Sets estimate_flg
      *
-     * @param \OpenAPI\Client\Model\StatsServiceEstimateFlg|null $estimate_flg estimate_flg
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceEstimateFlg|null $estimate_flg estimate_flg
      *
      * @return self
      */

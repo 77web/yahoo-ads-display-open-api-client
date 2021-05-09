@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * DictionaryServiceOsVersionValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;DictionaryServiceOsVersionValueオブジェクトは、getOsVersionメソッドの実行結果（１Entity）を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;DictionaryServiceOsVersionValue object contains the results (1 Entity) for getOsVersion method.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,9 +61,9 @@ class DictionaryServiceOsVersionValue implements ModelInterface, ArrayAccess, \J
       * @var string[]
       */
     protected static $openAPITypes = [
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool',
-        'os_version' => '\OpenAPI\Client\Model\DictionaryServiceOsVersion[]'
+        'os_version' => '\YahooAdsDisplayApi\Client\Model\DictionaryServiceOsVersion[]'
     ];
 
     /**
@@ -225,7 +225,7 @@ class DictionaryServiceOsVersionValue implements ModelInterface, ArrayAccess, \J
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -235,7 +235,7 @@ class DictionaryServiceOsVersionValue implements ModelInterface, ArrayAccess, \J
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */
@@ -273,7 +273,7 @@ class DictionaryServiceOsVersionValue implements ModelInterface, ArrayAccess, \J
     /**
      * Gets os_version
      *
-     * @return \OpenAPI\Client\Model\DictionaryServiceOsVersion[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\DictionaryServiceOsVersion[]|null
      */
     public function getOsVersion()
     {
@@ -283,7 +283,7 @@ class DictionaryServiceOsVersionValue implements ModelInterface, ArrayAccess, \J
     /**
      * Sets os_version
      *
-     * @param \OpenAPI\Client\Model\DictionaryServiceOsVersion[]|null $os_version os_version
+     * @param \YahooAdsDisplayApi\Client\Model\DictionaryServiceOsVersion[]|null $os_version os_version
      *
      * @return self
      */

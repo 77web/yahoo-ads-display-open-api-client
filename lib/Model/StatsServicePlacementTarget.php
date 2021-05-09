@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * StatsServicePlacementTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;StatsServicePlacementTargetオブジェクトは、プレイスメントターゲットの設定情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;StatsServicePlacementTarget object holds configuration information of placement targeting.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class StatsServicePlacementTarget implements ModelInterface, ArrayAccess, \JsonS
       */
     protected static $openAPITypes = [
         'placement_url_list_name' => 'string',
-        'placement_url_list_type' => '\OpenAPI\Client\Model\StatsServicePlacementUrlListType'
+        'placement_url_list_type' => '\YahooAdsDisplayApi\Client\Model\StatsServicePlacementUrlListType'
     ];
 
     /**
@@ -243,7 +243,7 @@ class StatsServicePlacementTarget implements ModelInterface, ArrayAccess, \JsonS
     /**
      * Gets placement_url_list_type
      *
-     * @return \OpenAPI\Client\Model\StatsServicePlacementUrlListType|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServicePlacementUrlListType|null
      */
     public function getPlacementUrlListType()
     {
@@ -253,7 +253,7 @@ class StatsServicePlacementTarget implements ModelInterface, ArrayAccess, \JsonS
     /**
      * Sets placement_url_list_type
      *
-     * @param \OpenAPI\Client\Model\StatsServicePlacementUrlListType|null $placement_url_list_type placement_url_list_type
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServicePlacementUrlListType|null $placement_url_list_type placement_url_list_type
      *
      * @return self
      */

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * BudgetOrderServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;BudgetOrderServiceValueオブジェクトは、アカウント予算情報を格納するコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The BudgetOrderServiceValue object is a container for storing account budget.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class BudgetOrderServiceValue implements ModelInterface, ArrayAccess, \JsonSeria
       * @var string[]
       */
     protected static $openAPITypes = [
-        'budget_order' => '\OpenAPI\Client\Model\BudgetOrder',
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'budget_order' => '\YahooAdsDisplayApi\Client\Model\BudgetOrder',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool'
     ];
 
@@ -225,7 +225,7 @@ class BudgetOrderServiceValue implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Gets budget_order
      *
-     * @return \OpenAPI\Client\Model\BudgetOrder|null
+     * @return \YahooAdsDisplayApi\Client\Model\BudgetOrder|null
      */
     public function getBudgetOrder()
     {
@@ -235,7 +235,7 @@ class BudgetOrderServiceValue implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Sets budget_order
      *
-     * @param \OpenAPI\Client\Model\BudgetOrder|null $budget_order budget_order
+     * @param \YahooAdsDisplayApi\Client\Model\BudgetOrder|null $budget_order budget_order
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class BudgetOrderServiceValue implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -259,7 +259,7 @@ class BudgetOrderServiceValue implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */

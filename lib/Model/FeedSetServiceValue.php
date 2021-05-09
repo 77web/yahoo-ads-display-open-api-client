@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * FeedSetServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;FeedSetServiceValueオブジェクトは、操作結果を含む商品セット情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedSetServiceValue object describes Item Set information including operation result.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class FeedSetServiceValue implements ModelInterface, ArrayAccess, \JsonSerializa
       * @var string[]
       */
     protected static $openAPITypes = [
-        'errors' => '\OpenAPI\Client\Model\Error[]',
-        'feed_set' => '\OpenAPI\Client\Model\FeedSet',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
+        'feed_set' => '\YahooAdsDisplayApi\Client\Model\FeedSet',
         'operation_succeeded' => 'bool'
     ];
 
@@ -225,7 +225,7 @@ class FeedSetServiceValue implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -235,7 +235,7 @@ class FeedSetServiceValue implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class FeedSetServiceValue implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Gets feed_set
      *
-     * @return \OpenAPI\Client\Model\FeedSet|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedSet|null
      */
     public function getFeedSet()
     {
@@ -259,7 +259,7 @@ class FeedSetServiceValue implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Sets feed_set
      *
-     * @param \OpenAPI\Client\Model\FeedSet|null $feed_set feed_set
+     * @param \YahooAdsDisplayApi\Client\Model\FeedSet|null $feed_set feed_set
      *
      * @return self
      */

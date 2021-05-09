@@ -4,7 +4,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Api;
+namespace YahooAdsDisplayApi\Client\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use OpenAPI\Client\ApiException;
-use OpenAPI\Client\Configuration;
-use OpenAPI\Client\HeaderSelector;
-use OpenAPI\Client\ObjectSerializer;
+use YahooAdsDisplayApi\Client\ApiException;
+use YahooAdsDisplayApi\Client\Configuration;
+use YahooAdsDisplayApi\Client\HeaderSelector;
+use YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServiceApi Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -118,11 +118,11 @@ class GuaranteedSimulationServiceApi
     /**
      * Operation guaranteedSimulationServiceAddPost
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedSimulationServiceOperation $guaranteed_simulation_service_operation guaranteed_simulation_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceOperation $guaranteed_simulation_service_operation guaranteed_simulation_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\GuaranteedSimulationServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceMutateResponse
      */
     public function guaranteedSimulationServiceAddPost($guaranteed_simulation_service_operation = null)
     {
@@ -133,11 +133,11 @@ class GuaranteedSimulationServiceApi
     /**
      * Operation guaranteedSimulationServiceAddPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedSimulationServiceOperation $guaranteed_simulation_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceOperation $guaranteed_simulation_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\GuaranteedSimulationServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function guaranteedSimulationServiceAddPostWithHttpInfo($guaranteed_simulation_service_operation = null)
     {
@@ -174,20 +174,20 @@ class GuaranteedSimulationServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\GuaranteedSimulationServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\GuaranteedSimulationServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\GuaranteedSimulationServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -206,7 +206,7 @@ class GuaranteedSimulationServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\GuaranteedSimulationServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -221,7 +221,7 @@ class GuaranteedSimulationServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedSimulationServiceOperation $guaranteed_simulation_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceOperation $guaranteed_simulation_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -241,14 +241,14 @@ class GuaranteedSimulationServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedSimulationServiceOperation $guaranteed_simulation_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceOperation $guaranteed_simulation_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function guaranteedSimulationServiceAddPostAsyncWithHttpInfo($guaranteed_simulation_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\GuaranteedSimulationServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceMutateResponse';
         $request = $this->guaranteedSimulationServiceAddPostRequest($guaranteed_simulation_service_operation);
 
         return $this->client
@@ -288,7 +288,7 @@ class GuaranteedSimulationServiceApi
     /**
      * Create request for operation 'guaranteedSimulationServiceAddPost'
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedSimulationServiceOperation $guaranteed_simulation_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceOperation $guaranteed_simulation_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -379,9 +379,9 @@ class GuaranteedSimulationServiceApi
      *
      * @param  object $body body (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\GuaranteedSimulationServiceGetAdCategoryResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGetAdCategoryResponse
      */
     public function guaranteedSimulationServiceGetAdCategoryPost($body = null)
     {
@@ -394,9 +394,9 @@ class GuaranteedSimulationServiceApi
      *
      * @param  object $body (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\GuaranteedSimulationServiceGetAdCategoryResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGetAdCategoryResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function guaranteedSimulationServiceGetAdCategoryPostWithHttpInfo($body = null)
     {
@@ -433,20 +433,20 @@ class GuaranteedSimulationServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\GuaranteedSimulationServiceGetAdCategoryResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGetAdCategoryResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\GuaranteedSimulationServiceGetAdCategoryResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGetAdCategoryResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\GuaranteedSimulationServiceGetAdCategoryResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGetAdCategoryResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -465,7 +465,7 @@ class GuaranteedSimulationServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\GuaranteedSimulationServiceGetAdCategoryResponse',
+                        '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGetAdCategoryResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -507,7 +507,7 @@ class GuaranteedSimulationServiceApi
      */
     public function guaranteedSimulationServiceGetAdCategoryPostAsyncWithHttpInfo($body = null)
     {
-        $returnType = '\OpenAPI\Client\Model\GuaranteedSimulationServiceGetAdCategoryResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGetAdCategoryResponse';
         $request = $this->guaranteedSimulationServiceGetAdCategoryPostRequest($body);
 
         return $this->client
@@ -636,11 +636,11 @@ class GuaranteedSimulationServiceApi
     /**
      * Operation guaranteedSimulationServiceGetPackagePost
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedSimulationServicePackageSelector $guaranteed_simulation_service_package_selector guaranteed_simulation_service_package_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackageSelector $guaranteed_simulation_service_package_selector guaranteed_simulation_service_package_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\GuaranteedSimulationServiceGetPackageResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGetPackageResponse
      */
     public function guaranteedSimulationServiceGetPackagePost($guaranteed_simulation_service_package_selector = null)
     {
@@ -651,11 +651,11 @@ class GuaranteedSimulationServiceApi
     /**
      * Operation guaranteedSimulationServiceGetPackagePostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedSimulationServicePackageSelector $guaranteed_simulation_service_package_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackageSelector $guaranteed_simulation_service_package_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\GuaranteedSimulationServiceGetPackageResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGetPackageResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function guaranteedSimulationServiceGetPackagePostWithHttpInfo($guaranteed_simulation_service_package_selector = null)
     {
@@ -692,20 +692,20 @@ class GuaranteedSimulationServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\GuaranteedSimulationServiceGetPackageResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGetPackageResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\GuaranteedSimulationServiceGetPackageResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGetPackageResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\GuaranteedSimulationServiceGetPackageResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGetPackageResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -724,7 +724,7 @@ class GuaranteedSimulationServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\GuaranteedSimulationServiceGetPackageResponse',
+                        '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGetPackageResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -739,7 +739,7 @@ class GuaranteedSimulationServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedSimulationServicePackageSelector $guaranteed_simulation_service_package_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackageSelector $guaranteed_simulation_service_package_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -759,14 +759,14 @@ class GuaranteedSimulationServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedSimulationServicePackageSelector $guaranteed_simulation_service_package_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackageSelector $guaranteed_simulation_service_package_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function guaranteedSimulationServiceGetPackagePostAsyncWithHttpInfo($guaranteed_simulation_service_package_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\GuaranteedSimulationServiceGetPackageResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGetPackageResponse';
         $request = $this->guaranteedSimulationServiceGetPackagePostRequest($guaranteed_simulation_service_package_selector);
 
         return $this->client
@@ -806,7 +806,7 @@ class GuaranteedSimulationServiceApi
     /**
      * Create request for operation 'guaranteedSimulationServiceGetPackagePost'
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedSimulationServicePackageSelector $guaranteed_simulation_service_package_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackageSelector $guaranteed_simulation_service_package_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -895,11 +895,11 @@ class GuaranteedSimulationServiceApi
     /**
      * Operation guaranteedSimulationServiceGetPost
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedSimulationServiceSelector $guaranteed_simulation_service_selector guaranteed_simulation_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceSelector $guaranteed_simulation_service_selector guaranteed_simulation_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\GuaranteedSimulationServiceGetResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGetResponse
      */
     public function guaranteedSimulationServiceGetPost($guaranteed_simulation_service_selector = null)
     {
@@ -910,11 +910,11 @@ class GuaranteedSimulationServiceApi
     /**
      * Operation guaranteedSimulationServiceGetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedSimulationServiceSelector $guaranteed_simulation_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceSelector $guaranteed_simulation_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\GuaranteedSimulationServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function guaranteedSimulationServiceGetPostWithHttpInfo($guaranteed_simulation_service_selector = null)
     {
@@ -951,20 +951,20 @@ class GuaranteedSimulationServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\GuaranteedSimulationServiceGetResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGetResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\GuaranteedSimulationServiceGetResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGetResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\GuaranteedSimulationServiceGetResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGetResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -983,7 +983,7 @@ class GuaranteedSimulationServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\GuaranteedSimulationServiceGetResponse',
+                        '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGetResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -998,7 +998,7 @@ class GuaranteedSimulationServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedSimulationServiceSelector $guaranteed_simulation_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceSelector $guaranteed_simulation_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1018,14 +1018,14 @@ class GuaranteedSimulationServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedSimulationServiceSelector $guaranteed_simulation_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceSelector $guaranteed_simulation_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function guaranteedSimulationServiceGetPostAsyncWithHttpInfo($guaranteed_simulation_service_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\GuaranteedSimulationServiceGetResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGetResponse';
         $request = $this->guaranteedSimulationServiceGetPostRequest($guaranteed_simulation_service_selector);
 
         return $this->client
@@ -1065,7 +1065,7 @@ class GuaranteedSimulationServiceApi
     /**
      * Create request for operation 'guaranteedSimulationServiceGetPost'
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedSimulationServiceSelector $guaranteed_simulation_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceSelector $guaranteed_simulation_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

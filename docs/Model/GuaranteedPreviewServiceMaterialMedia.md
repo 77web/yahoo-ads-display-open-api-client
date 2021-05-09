@@ -4,7 +4,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**ad_type** | [**\OpenAPI\Client\Model\GuaranteedPreviewServiceAdType**](GuaranteedPreviewServiceAdType.md) |  | [optional]
+**ad_type** | [**\YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceAdType**](GuaranteedPreviewServiceAdType.md) |  | [optional]
 **media_id** | **int** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; メディアIDです。&lt;br&gt; このフィールドは、リクエストの場合は必須です。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Media ID.&lt;br&gt; This field is required in requests. &lt;/div&gt; | [optional]
 **thumbnail_media_id** | **int** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; サムネイルIDです。&lt;br&gt; このフィールドは、リクエストの場合は省略可能となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Thumbnail ID.&lt;br&gt; This field is optional in requests. &lt;/div&gt; | [optional]
 **ad_left_side_media_id** | **int** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; 左サイド画像です。&lt;br&gt; このフィールドは、リクエストの場合は省略可能となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Left side image.&lt;br&gt; This field is optional in requests. &lt;/div&gt; | [optional]

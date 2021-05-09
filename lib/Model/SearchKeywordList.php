@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * SearchKeywordList Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;SearchKeywordListオブジェクトは、サーチキーワードリストを表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;SearchKeywordList object displays the search list.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,12 +62,12 @@ class SearchKeywordList implements ModelInterface, ArrayAccess, \JsonSerializabl
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'delivery_status' => '\OpenAPI\Client\Model\SearchKeywordListServiceDeliveryStatus',
-        'keyword_frequency' => '\OpenAPI\Client\Model\SearchKeywordListServiceKeywordFrequency',
-        'keyword_recency' => '\OpenAPI\Client\Model\SearchKeywordListServiceKeywordRecency',
-        'search_keyword' => '\OpenAPI\Client\Model\SearchKeywordListServiceSearchKeyword[]',
+        'delivery_status' => '\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceDeliveryStatus',
+        'keyword_frequency' => '\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceKeywordFrequency',
+        'keyword_recency' => '\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceKeywordRecency',
+        'search_keyword' => '\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceSearchKeyword[]',
         'search_keyword_list_description' => 'string',
-        'is_remove_search_keyword_list_description' => '\OpenAPI\Client\Model\SearchKeywordListServiceIsRemoveFlg',
+        'is_remove_search_keyword_list_description' => '\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceIsRemoveFlg',
         'search_keyword_list_id' => 'int',
         'search_keyword_list_name' => 'string'
     ];
@@ -285,7 +285,7 @@ class SearchKeywordList implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets delivery_status
      *
-     * @return \OpenAPI\Client\Model\SearchKeywordListServiceDeliveryStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceDeliveryStatus|null
      */
     public function getDeliveryStatus()
     {
@@ -295,7 +295,7 @@ class SearchKeywordList implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets delivery_status
      *
-     * @param \OpenAPI\Client\Model\SearchKeywordListServiceDeliveryStatus|null $delivery_status delivery_status
+     * @param \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceDeliveryStatus|null $delivery_status delivery_status
      *
      * @return self
      */
@@ -309,7 +309,7 @@ class SearchKeywordList implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets keyword_frequency
      *
-     * @return \OpenAPI\Client\Model\SearchKeywordListServiceKeywordFrequency|null
+     * @return \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceKeywordFrequency|null
      */
     public function getKeywordFrequency()
     {
@@ -319,7 +319,7 @@ class SearchKeywordList implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets keyword_frequency
      *
-     * @param \OpenAPI\Client\Model\SearchKeywordListServiceKeywordFrequency|null $keyword_frequency keyword_frequency
+     * @param \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceKeywordFrequency|null $keyword_frequency keyword_frequency
      *
      * @return self
      */
@@ -333,7 +333,7 @@ class SearchKeywordList implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets keyword_recency
      *
-     * @return \OpenAPI\Client\Model\SearchKeywordListServiceKeywordRecency|null
+     * @return \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceKeywordRecency|null
      */
     public function getKeywordRecency()
     {
@@ -343,7 +343,7 @@ class SearchKeywordList implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets keyword_recency
      *
-     * @param \OpenAPI\Client\Model\SearchKeywordListServiceKeywordRecency|null $keyword_recency keyword_recency
+     * @param \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceKeywordRecency|null $keyword_recency keyword_recency
      *
      * @return self
      */
@@ -357,7 +357,7 @@ class SearchKeywordList implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets search_keyword
      *
-     * @return \OpenAPI\Client\Model\SearchKeywordListServiceSearchKeyword[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceSearchKeyword[]|null
      */
     public function getSearchKeyword()
     {
@@ -367,7 +367,7 @@ class SearchKeywordList implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets search_keyword
      *
-     * @param \OpenAPI\Client\Model\SearchKeywordListServiceSearchKeyword[]|null $search_keyword search_keyword
+     * @param \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceSearchKeyword[]|null $search_keyword search_keyword
      *
      * @return self
      */
@@ -405,7 +405,7 @@ class SearchKeywordList implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets is_remove_search_keyword_list_description
      *
-     * @return \OpenAPI\Client\Model\SearchKeywordListServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceIsRemoveFlg|null
      */
     public function getIsRemoveSearchKeywordListDescription()
     {
@@ -415,7 +415,7 @@ class SearchKeywordList implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets is_remove_search_keyword_list_description
      *
-     * @param \OpenAPI\Client\Model\SearchKeywordListServiceIsRemoveFlg|null $is_remove_search_keyword_list_description is_remove_search_keyword_list_description
+     * @param \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceIsRemoveFlg|null $is_remove_search_keyword_list_description is_remove_search_keyword_list_description
      *
      * @return self
      */

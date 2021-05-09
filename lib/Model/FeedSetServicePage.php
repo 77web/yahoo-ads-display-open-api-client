@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * FeedSetServicePage Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;FeedSetServicePageオブジェクトは、取得される商品セット情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedSetServicePage object contains Item Set information to be acquired.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class FeedSetServicePage implements ModelInterface, ArrayAccess, \JsonSerializab
       */
     protected static $openAPITypes = [
         'total_num_entries' => 'int',
-        'values' => '\OpenAPI\Client\Model\FeedSetServiceValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\FeedSetServiceValue[]'
     ];
 
     /**
@@ -243,7 +243,7 @@ class FeedSetServicePage implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\FeedSetServiceValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedSetServiceValue[]|null
      */
     public function getValues()
     {
@@ -253,7 +253,7 @@ class FeedSetServicePage implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\FeedSetServiceValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\FeedSetServiceValue[]|null $values values
      *
      * @return self
      */

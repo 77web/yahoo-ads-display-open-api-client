@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * BalanceServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;BalanceValueオブジェクトは、選択したアカウントの未消化予算を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The BalanceValue object is a container for storing balance information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class BalanceServiceValue implements ModelInterface, ArrayAccess, \JsonSerializa
       * @var string[]
       */
     protected static $openAPITypes = [
-        'balance' => '\OpenAPI\Client\Model\Balance',
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'balance' => '\YahooAdsDisplayApi\Client\Model\Balance',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool'
     ];
 
@@ -225,7 +225,7 @@ class BalanceServiceValue implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Gets balance
      *
-     * @return \OpenAPI\Client\Model\Balance|null
+     * @return \YahooAdsDisplayApi\Client\Model\Balance|null
      */
     public function getBalance()
     {
@@ -235,7 +235,7 @@ class BalanceServiceValue implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Sets balance
      *
-     * @param \OpenAPI\Client\Model\Balance|null $balance balance
+     * @param \YahooAdsDisplayApi\Client\Model\Balance|null $balance balance
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class BalanceServiceValue implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -259,7 +259,7 @@ class BalanceServiceValue implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */

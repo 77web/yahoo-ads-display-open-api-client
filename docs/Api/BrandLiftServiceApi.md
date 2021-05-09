@@ -1,4 +1,4 @@
-# OpenAPI\Client\BrandLiftServiceApi
+# YahooAdsDisplayApi\Client\BrandLiftServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -10,7 +10,7 @@ Method | HTTP request | Description
 ## `brandLiftServiceGetPost()`
 
 ```php
-brandLiftServiceGetPost($brand_lift_service_selector): \OpenAPI\Client\Model\BrandLiftServiceGetResponse
+brandLiftServiceGetPost($brand_lift_service_selector): \YahooAdsDisplayApi\Client\Model\BrandLiftServiceGetResponse
 ```
 
 
@@ -25,16 +25,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\BrandLiftServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\BrandLiftServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$brand_lift_service_selector = new \OpenAPI\Client\Model\BrandLiftServiceSelector(); // \OpenAPI\Client\Model\BrandLiftServiceSelector
+$brand_lift_service_selector = new \YahooAdsDisplayApi\Client\Model\BrandLiftServiceSelector(); // \YahooAdsDisplayApi\Client\Model\BrandLiftServiceSelector
 
 try {
     $result = $apiInstance->brandLiftServiceGetPost($brand_lift_service_selector);
@@ -48,11 +48,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **brand_lift_service_selector** | [**\OpenAPI\Client\Model\BrandLiftServiceSelector**](../Model/BrandLiftServiceSelector.md)|  | [optional]
+ **brand_lift_service_selector** | [**\YahooAdsDisplayApi\Client\Model\BrandLiftServiceSelector**](../Model/BrandLiftServiceSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\BrandLiftServiceGetResponse**](../Model/BrandLiftServiceGetResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\BrandLiftServiceGetResponse**](../Model/BrandLiftServiceGetResponse.md)
 
 ### Authorization
 

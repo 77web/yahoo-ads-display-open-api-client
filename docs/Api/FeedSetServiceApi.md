@@ -1,4 +1,4 @@
-# OpenAPI\Client\FeedSetServiceApi
+# YahooAdsDisplayApi\Client\FeedSetServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -12,7 +12,7 @@ Method | HTTP request | Description
 ## `feedSetServiceAddPost()`
 
 ```php
-feedSetServiceAddPost($feed_set_service_operation): \OpenAPI\Client\Model\FeedSetServiceMutateResponse
+feedSetServiceAddPost($feed_set_service_operation): \YahooAdsDisplayApi\Client\Model\FeedSetServiceMutateResponse
 ```
 
 
@@ -27,16 +27,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\FeedSetServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\FeedSetServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$feed_set_service_operation = new \OpenAPI\Client\Model\FeedSetServiceOperation(); // \OpenAPI\Client\Model\FeedSetServiceOperation
+$feed_set_service_operation = new \YahooAdsDisplayApi\Client\Model\FeedSetServiceOperation(); // \YahooAdsDisplayApi\Client\Model\FeedSetServiceOperation
 
 try {
     $result = $apiInstance->feedSetServiceAddPost($feed_set_service_operation);
@@ -50,11 +50,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **feed_set_service_operation** | [**\OpenAPI\Client\Model\FeedSetServiceOperation**](../Model/FeedSetServiceOperation.md)|  | [optional]
+ **feed_set_service_operation** | [**\YahooAdsDisplayApi\Client\Model\FeedSetServiceOperation**](../Model/FeedSetServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\FeedSetServiceMutateResponse**](../Model/FeedSetServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\FeedSetServiceMutateResponse**](../Model/FeedSetServiceMutateResponse.md)
 
 ### Authorization
 
@@ -72,7 +72,7 @@ Name | Type | Description  | Notes
 ## `feedSetServiceGetPost()`
 
 ```php
-feedSetServiceGetPost($feed_set_service_selector): \OpenAPI\Client\Model\FeedSetServiceGetResponse
+feedSetServiceGetPost($feed_set_service_selector): \YahooAdsDisplayApi\Client\Model\FeedSetServiceGetResponse
 ```
 
 
@@ -87,16 +87,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\FeedSetServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\FeedSetServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$feed_set_service_selector = new \OpenAPI\Client\Model\FeedSetServiceSelector(); // \OpenAPI\Client\Model\FeedSetServiceSelector
+$feed_set_service_selector = new \YahooAdsDisplayApi\Client\Model\FeedSetServiceSelector(); // \YahooAdsDisplayApi\Client\Model\FeedSetServiceSelector
 
 try {
     $result = $apiInstance->feedSetServiceGetPost($feed_set_service_selector);
@@ -110,11 +110,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **feed_set_service_selector** | [**\OpenAPI\Client\Model\FeedSetServiceSelector**](../Model/FeedSetServiceSelector.md)|  | [optional]
+ **feed_set_service_selector** | [**\YahooAdsDisplayApi\Client\Model\FeedSetServiceSelector**](../Model/FeedSetServiceSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\FeedSetServiceGetResponse**](../Model/FeedSetServiceGetResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\FeedSetServiceGetResponse**](../Model/FeedSetServiceGetResponse.md)
 
 ### Authorization
 
@@ -132,7 +132,7 @@ Name | Type | Description  | Notes
 ## `feedSetServiceRemovePost()`
 
 ```php
-feedSetServiceRemovePost($feed_set_service_operation): \OpenAPI\Client\Model\FeedSetServiceMutateResponse
+feedSetServiceRemovePost($feed_set_service_operation): \YahooAdsDisplayApi\Client\Model\FeedSetServiceMutateResponse
 ```
 
 
@@ -147,16 +147,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\FeedSetServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\FeedSetServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$feed_set_service_operation = new \OpenAPI\Client\Model\FeedSetServiceOperation(); // \OpenAPI\Client\Model\FeedSetServiceOperation
+$feed_set_service_operation = new \YahooAdsDisplayApi\Client\Model\FeedSetServiceOperation(); // \YahooAdsDisplayApi\Client\Model\FeedSetServiceOperation
 
 try {
     $result = $apiInstance->feedSetServiceRemovePost($feed_set_service_operation);
@@ -170,11 +170,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **feed_set_service_operation** | [**\OpenAPI\Client\Model\FeedSetServiceOperation**](../Model/FeedSetServiceOperation.md)|  | [optional]
+ **feed_set_service_operation** | [**\YahooAdsDisplayApi\Client\Model\FeedSetServiceOperation**](../Model/FeedSetServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\FeedSetServiceMutateResponse**](../Model/FeedSetServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\FeedSetServiceMutateResponse**](../Model/FeedSetServiceMutateResponse.md)
 
 ### Authorization
 

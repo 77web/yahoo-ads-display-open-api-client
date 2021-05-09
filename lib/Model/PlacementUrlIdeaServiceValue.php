@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * PlacementUrlIdeaServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;PlacementUrlIdeaServiceValueオブジェクトは、メソッドの実行結果（１Entity）を保持するオブジェクトです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The objects to keep execution result of method (1 Entity).&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,9 +61,9 @@ class PlacementUrlIdeaServiceValue implements ModelInterface, ArrayAccess, \Json
       * @var string[]
       */
     protected static $openAPITypes = [
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool',
-        'placement_url_idea' => '\OpenAPI\Client\Model\PlacementUrlIdea'
+        'placement_url_idea' => '\YahooAdsDisplayApi\Client\Model\PlacementUrlIdea'
     ];
 
     /**
@@ -225,7 +225,7 @@ class PlacementUrlIdeaServiceValue implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -235,7 +235,7 @@ class PlacementUrlIdeaServiceValue implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */
@@ -273,7 +273,7 @@ class PlacementUrlIdeaServiceValue implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets placement_url_idea
      *
-     * @return \OpenAPI\Client\Model\PlacementUrlIdea|null
+     * @return \YahooAdsDisplayApi\Client\Model\PlacementUrlIdea|null
      */
     public function getPlacementUrlIdea()
     {
@@ -283,7 +283,7 @@ class PlacementUrlIdeaServiceValue implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets placement_url_idea
      *
-     * @param \OpenAPI\Client\Model\PlacementUrlIdea|null $placement_url_idea placement_url_idea
+     * @param \YahooAdsDisplayApi\Client\Model\PlacementUrlIdea|null $placement_url_idea placement_url_idea
      *
      * @return self
      */

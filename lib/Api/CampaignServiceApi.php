@@ -4,7 +4,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Api;
+namespace YahooAdsDisplayApi\Client\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use OpenAPI\Client\ApiException;
-use OpenAPI\Client\Configuration;
-use OpenAPI\Client\HeaderSelector;
-use OpenAPI\Client\ObjectSerializer;
+use YahooAdsDisplayApi\Client\ApiException;
+use YahooAdsDisplayApi\Client\Configuration;
+use YahooAdsDisplayApi\Client\HeaderSelector;
+use YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * CampaignServiceApi Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -118,11 +118,11 @@ class CampaignServiceApi
     /**
      * Operation campaignServiceAddPost
      *
-     * @param  \OpenAPI\Client\Model\CampaignServiceOperation $campaign_service_operation campaign_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignServiceOperation $campaign_service_operation campaign_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\CampaignServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\CampaignServiceMutateResponse
      */
     public function campaignServiceAddPost($campaign_service_operation = null)
     {
@@ -133,11 +133,11 @@ class CampaignServiceApi
     /**
      * Operation campaignServiceAddPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\CampaignServiceOperation $campaign_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignServiceOperation $campaign_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\CampaignServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\CampaignServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function campaignServiceAddPostWithHttpInfo($campaign_service_operation = null)
     {
@@ -174,20 +174,20 @@ class CampaignServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\CampaignServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\CampaignServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\CampaignServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\CampaignServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\CampaignServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\CampaignServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -206,7 +206,7 @@ class CampaignServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\CampaignServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\CampaignServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -221,7 +221,7 @@ class CampaignServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\CampaignServiceOperation $campaign_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignServiceOperation $campaign_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -241,14 +241,14 @@ class CampaignServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\CampaignServiceOperation $campaign_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignServiceOperation $campaign_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function campaignServiceAddPostAsyncWithHttpInfo($campaign_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\CampaignServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\CampaignServiceMutateResponse';
         $request = $this->campaignServiceAddPostRequest($campaign_service_operation);
 
         return $this->client
@@ -288,7 +288,7 @@ class CampaignServiceApi
     /**
      * Create request for operation 'campaignServiceAddPost'
      *
-     * @param  \OpenAPI\Client\Model\CampaignServiceOperation $campaign_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignServiceOperation $campaign_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -377,11 +377,11 @@ class CampaignServiceApi
     /**
      * Operation campaignServiceGetPost
      *
-     * @param  \OpenAPI\Client\Model\CampaignServiceSelector $campaign_service_selector campaign_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignServiceSelector $campaign_service_selector campaign_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\CampaignServiceGetResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\CampaignServiceGetResponse
      */
     public function campaignServiceGetPost($campaign_service_selector = null)
     {
@@ -392,11 +392,11 @@ class CampaignServiceApi
     /**
      * Operation campaignServiceGetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\CampaignServiceSelector $campaign_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignServiceSelector $campaign_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\CampaignServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\CampaignServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function campaignServiceGetPostWithHttpInfo($campaign_service_selector = null)
     {
@@ -433,20 +433,20 @@ class CampaignServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\CampaignServiceGetResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\CampaignServiceGetResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\CampaignServiceGetResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\CampaignServiceGetResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\CampaignServiceGetResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\CampaignServiceGetResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -465,7 +465,7 @@ class CampaignServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\CampaignServiceGetResponse',
+                        '\YahooAdsDisplayApi\Client\Model\CampaignServiceGetResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -480,7 +480,7 @@ class CampaignServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\CampaignServiceSelector $campaign_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignServiceSelector $campaign_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -500,14 +500,14 @@ class CampaignServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\CampaignServiceSelector $campaign_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignServiceSelector $campaign_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function campaignServiceGetPostAsyncWithHttpInfo($campaign_service_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\CampaignServiceGetResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\CampaignServiceGetResponse';
         $request = $this->campaignServiceGetPostRequest($campaign_service_selector);
 
         return $this->client
@@ -547,7 +547,7 @@ class CampaignServiceApi
     /**
      * Create request for operation 'campaignServiceGetPost'
      *
-     * @param  \OpenAPI\Client\Model\CampaignServiceSelector $campaign_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignServiceSelector $campaign_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -636,11 +636,11 @@ class CampaignServiceApi
     /**
      * Operation campaignServiceRemovePost
      *
-     * @param  \OpenAPI\Client\Model\CampaignServiceOperation $campaign_service_operation campaign_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignServiceOperation $campaign_service_operation campaign_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\CampaignServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\CampaignServiceMutateResponse
      */
     public function campaignServiceRemovePost($campaign_service_operation = null)
     {
@@ -651,11 +651,11 @@ class CampaignServiceApi
     /**
      * Operation campaignServiceRemovePostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\CampaignServiceOperation $campaign_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignServiceOperation $campaign_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\CampaignServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\CampaignServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function campaignServiceRemovePostWithHttpInfo($campaign_service_operation = null)
     {
@@ -692,20 +692,20 @@ class CampaignServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\CampaignServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\CampaignServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\CampaignServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\CampaignServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\CampaignServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\CampaignServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -724,7 +724,7 @@ class CampaignServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\CampaignServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\CampaignServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -739,7 +739,7 @@ class CampaignServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\CampaignServiceOperation $campaign_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignServiceOperation $campaign_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -759,14 +759,14 @@ class CampaignServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\CampaignServiceOperation $campaign_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignServiceOperation $campaign_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function campaignServiceRemovePostAsyncWithHttpInfo($campaign_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\CampaignServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\CampaignServiceMutateResponse';
         $request = $this->campaignServiceRemovePostRequest($campaign_service_operation);
 
         return $this->client
@@ -806,7 +806,7 @@ class CampaignServiceApi
     /**
      * Create request for operation 'campaignServiceRemovePost'
      *
-     * @param  \OpenAPI\Client\Model\CampaignServiceOperation $campaign_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignServiceOperation $campaign_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -895,11 +895,11 @@ class CampaignServiceApi
     /**
      * Operation campaignServiceSetPost
      *
-     * @param  \OpenAPI\Client\Model\CampaignServiceOperation $campaign_service_operation campaign_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignServiceOperation $campaign_service_operation campaign_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\CampaignServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\CampaignServiceMutateResponse
      */
     public function campaignServiceSetPost($campaign_service_operation = null)
     {
@@ -910,11 +910,11 @@ class CampaignServiceApi
     /**
      * Operation campaignServiceSetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\CampaignServiceOperation $campaign_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignServiceOperation $campaign_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\CampaignServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\CampaignServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function campaignServiceSetPostWithHttpInfo($campaign_service_operation = null)
     {
@@ -951,20 +951,20 @@ class CampaignServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\CampaignServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\CampaignServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\CampaignServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\CampaignServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\CampaignServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\CampaignServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -983,7 +983,7 @@ class CampaignServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\CampaignServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\CampaignServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -998,7 +998,7 @@ class CampaignServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\CampaignServiceOperation $campaign_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignServiceOperation $campaign_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1018,14 +1018,14 @@ class CampaignServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\CampaignServiceOperation $campaign_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignServiceOperation $campaign_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function campaignServiceSetPostAsyncWithHttpInfo($campaign_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\CampaignServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\CampaignServiceMutateResponse';
         $request = $this->campaignServiceSetPostRequest($campaign_service_operation);
 
         return $this->client
@@ -1065,7 +1065,7 @@ class CampaignServiceApi
     /**
      * Create request for operation 'campaignServiceSetPost'
      *
-     * @param  \OpenAPI\Client\Model\CampaignServiceOperation $campaign_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\CampaignServiceOperation $campaign_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

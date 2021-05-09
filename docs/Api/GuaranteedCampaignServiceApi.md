@@ -1,4 +1,4 @@
-# OpenAPI\Client\GuaranteedCampaignServiceApi
+# YahooAdsDisplayApi\Client\GuaranteedCampaignServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 ## `guaranteedCampaignServiceGetPost()`
 
 ```php
-guaranteedCampaignServiceGetPost($guaranteed_campaign_service_selector): \OpenAPI\Client\Model\GuaranteedCampaignServiceGetResponse
+guaranteedCampaignServiceGetPost($guaranteed_campaign_service_selector): \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceGetResponse
 ```
 
 
@@ -26,16 +26,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\GuaranteedCampaignServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\GuaranteedCampaignServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$guaranteed_campaign_service_selector = new \OpenAPI\Client\Model\GuaranteedCampaignServiceSelector(); // \OpenAPI\Client\Model\GuaranteedCampaignServiceSelector
+$guaranteed_campaign_service_selector = new \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceSelector(); // \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceSelector
 
 try {
     $result = $apiInstance->guaranteedCampaignServiceGetPost($guaranteed_campaign_service_selector);
@@ -49,11 +49,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **guaranteed_campaign_service_selector** | [**\OpenAPI\Client\Model\GuaranteedCampaignServiceSelector**](../Model/GuaranteedCampaignServiceSelector.md)|  | [optional]
+ **guaranteed_campaign_service_selector** | [**\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceSelector**](../Model/GuaranteedCampaignServiceSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\GuaranteedCampaignServiceGetResponse**](../Model/GuaranteedCampaignServiceGetResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceGetResponse**](../Model/GuaranteedCampaignServiceGetResponse.md)
 
 ### Authorization
 
@@ -71,7 +71,7 @@ Name | Type | Description  | Notes
 ## `guaranteedCampaignServiceSetPost()`
 
 ```php
-guaranteedCampaignServiceSetPost($guaranteed_campaign_service_operation): \OpenAPI\Client\Model\GuaranteedCampaignServiceMutateResponse
+guaranteedCampaignServiceSetPost($guaranteed_campaign_service_operation): \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceMutateResponse
 ```
 
 
@@ -86,16 +86,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\GuaranteedCampaignServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\GuaranteedCampaignServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$guaranteed_campaign_service_operation = new \OpenAPI\Client\Model\GuaranteedCampaignServiceOperation(); // \OpenAPI\Client\Model\GuaranteedCampaignServiceOperation
+$guaranteed_campaign_service_operation = new \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceOperation(); // \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceOperation
 
 try {
     $result = $apiInstance->guaranteedCampaignServiceSetPost($guaranteed_campaign_service_operation);
@@ -109,11 +109,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **guaranteed_campaign_service_operation** | [**\OpenAPI\Client\Model\GuaranteedCampaignServiceOperation**](../Model/GuaranteedCampaignServiceOperation.md)|  | [optional]
+ **guaranteed_campaign_service_operation** | [**\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceOperation**](../Model/GuaranteedCampaignServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\GuaranteedCampaignServiceMutateResponse**](../Model/GuaranteedCampaignServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceMutateResponse**](../Model/GuaranteedCampaignServiceMutateResponse.md)
 
 ### Authorization
 

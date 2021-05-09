@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedAdGroupAdServiceTopImpactQuintieVideo Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; GuaranteedAdGroupAdServiceTopImpactQuintieVideoオブジェクトは、予約型専用広告：メインの16:9の縮小機能付き動画と、センター画像、右サイド画像、左サイド画像で構成される広告の情報を表します。&lt;br&gt; このフィールドは、省略可能となります。&lt;br&gt; &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; GuaranteedAdGroupAdServiceTopImpactQuintieVideo object describes information about a guaranteed ad composed of the main 16:9 video with reduction function, the center image, the right side image, and the left side image.&lt;br&gt; This field is optional.&lt;br&gt; &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -64,13 +64,13 @@ class GuaranteedAdGroupAdServiceTopImpactQuintieVideo implements ModelInterface,
         'display_url' => 'string',
         'thumbnail_media_id' => 'int',
         'url' => 'string',
-        'is_remove_video10_sec_beacon_urls' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg',
-        'is_remove_video25_percent_beacon_urls' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg',
-        'is_remove_video3_sec_beacon_urls' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg',
-        'is_remove_video50_percent_beacon_urls' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg',
-        'is_remove_video75_percent_beacon_urls' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg',
-        'is_remove_video_complete_beacon_urls' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg',
-        'is_remove_video_start_beacon_urls' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg',
+        'is_remove_video10_sec_beacon_urls' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg',
+        'is_remove_video25_percent_beacon_urls' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg',
+        'is_remove_video3_sec_beacon_urls' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg',
+        'is_remove_video50_percent_beacon_urls' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg',
+        'is_remove_video75_percent_beacon_urls' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg',
+        'is_remove_video_complete_beacon_urls' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg',
+        'is_remove_video_start_beacon_urls' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg',
         'video3_sec_beacon_urls' => 'string[]',
         'video25_percent_beacon_urls' => 'string[]',
         'video50_percent_beacon_urls' => 'string[]',
@@ -399,7 +399,7 @@ class GuaranteedAdGroupAdServiceTopImpactQuintieVideo implements ModelInterface,
     /**
      * Gets is_remove_video10_sec_beacon_urls
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null
      */
     public function getIsRemoveVideo10SecBeaconUrls()
     {
@@ -409,7 +409,7 @@ class GuaranteedAdGroupAdServiceTopImpactQuintieVideo implements ModelInterface,
     /**
      * Sets is_remove_video10_sec_beacon_urls
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null $is_remove_video10_sec_beacon_urls is_remove_video10_sec_beacon_urls
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null $is_remove_video10_sec_beacon_urls is_remove_video10_sec_beacon_urls
      *
      * @return self
      */
@@ -423,7 +423,7 @@ class GuaranteedAdGroupAdServiceTopImpactQuintieVideo implements ModelInterface,
     /**
      * Gets is_remove_video25_percent_beacon_urls
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null
      */
     public function getIsRemoveVideo25PercentBeaconUrls()
     {
@@ -433,7 +433,7 @@ class GuaranteedAdGroupAdServiceTopImpactQuintieVideo implements ModelInterface,
     /**
      * Sets is_remove_video25_percent_beacon_urls
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null $is_remove_video25_percent_beacon_urls is_remove_video25_percent_beacon_urls
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null $is_remove_video25_percent_beacon_urls is_remove_video25_percent_beacon_urls
      *
      * @return self
      */
@@ -447,7 +447,7 @@ class GuaranteedAdGroupAdServiceTopImpactQuintieVideo implements ModelInterface,
     /**
      * Gets is_remove_video3_sec_beacon_urls
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null
      */
     public function getIsRemoveVideo3SecBeaconUrls()
     {
@@ -457,7 +457,7 @@ class GuaranteedAdGroupAdServiceTopImpactQuintieVideo implements ModelInterface,
     /**
      * Sets is_remove_video3_sec_beacon_urls
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null $is_remove_video3_sec_beacon_urls is_remove_video3_sec_beacon_urls
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null $is_remove_video3_sec_beacon_urls is_remove_video3_sec_beacon_urls
      *
      * @return self
      */
@@ -471,7 +471,7 @@ class GuaranteedAdGroupAdServiceTopImpactQuintieVideo implements ModelInterface,
     /**
      * Gets is_remove_video50_percent_beacon_urls
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null
      */
     public function getIsRemoveVideo50PercentBeaconUrls()
     {
@@ -481,7 +481,7 @@ class GuaranteedAdGroupAdServiceTopImpactQuintieVideo implements ModelInterface,
     /**
      * Sets is_remove_video50_percent_beacon_urls
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null $is_remove_video50_percent_beacon_urls is_remove_video50_percent_beacon_urls
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null $is_remove_video50_percent_beacon_urls is_remove_video50_percent_beacon_urls
      *
      * @return self
      */
@@ -495,7 +495,7 @@ class GuaranteedAdGroupAdServiceTopImpactQuintieVideo implements ModelInterface,
     /**
      * Gets is_remove_video75_percent_beacon_urls
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null
      */
     public function getIsRemoveVideo75PercentBeaconUrls()
     {
@@ -505,7 +505,7 @@ class GuaranteedAdGroupAdServiceTopImpactQuintieVideo implements ModelInterface,
     /**
      * Sets is_remove_video75_percent_beacon_urls
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null $is_remove_video75_percent_beacon_urls is_remove_video75_percent_beacon_urls
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null $is_remove_video75_percent_beacon_urls is_remove_video75_percent_beacon_urls
      *
      * @return self
      */
@@ -519,7 +519,7 @@ class GuaranteedAdGroupAdServiceTopImpactQuintieVideo implements ModelInterface,
     /**
      * Gets is_remove_video_complete_beacon_urls
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null
      */
     public function getIsRemoveVideoCompleteBeaconUrls()
     {
@@ -529,7 +529,7 @@ class GuaranteedAdGroupAdServiceTopImpactQuintieVideo implements ModelInterface,
     /**
      * Sets is_remove_video_complete_beacon_urls
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null $is_remove_video_complete_beacon_urls is_remove_video_complete_beacon_urls
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null $is_remove_video_complete_beacon_urls is_remove_video_complete_beacon_urls
      *
      * @return self
      */
@@ -543,7 +543,7 @@ class GuaranteedAdGroupAdServiceTopImpactQuintieVideo implements ModelInterface,
     /**
      * Gets is_remove_video_start_beacon_urls
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null
      */
     public function getIsRemoveVideoStartBeaconUrls()
     {
@@ -553,7 +553,7 @@ class GuaranteedAdGroupAdServiceTopImpactQuintieVideo implements ModelInterface,
     /**
      * Sets is_remove_video_start_beacon_urls
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null $is_remove_video_start_beacon_urls is_remove_video_start_beacon_urls
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null $is_remove_video_start_beacon_urls is_remove_video_start_beacon_urls
      *
      * @return self
      */

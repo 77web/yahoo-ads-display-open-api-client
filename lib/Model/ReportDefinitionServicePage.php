@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ReportDefinitionServicePage Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;ReportDefinitionServicePageオブジェクトは、レポートのエントリーを表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;ReportDefinitionServicePage object serves the entry of report definition.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class ReportDefinitionServicePage implements ModelInterface, ArrayAccess, \JsonS
       */
     protected static $openAPITypes = [
         'total_num_entries' => 'int',
-        'values' => '\OpenAPI\Client\Model\ReportDefinitionServiceValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceValue[]'
     ];
 
     /**
@@ -243,7 +243,7 @@ class ReportDefinitionServicePage implements ModelInterface, ArrayAccess, \JsonS
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceValue[]|null
      */
     public function getValues()
     {
@@ -253,7 +253,7 @@ class ReportDefinitionServicePage implements ModelInterface, ArrayAccess, \JsonS
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceValue[]|null $values values
      *
      * @return self
      */

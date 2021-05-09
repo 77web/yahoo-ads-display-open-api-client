@@ -1,4 +1,4 @@
-# OpenAPI\Client\RetargetingListServiceApi
+# YahooAdsDisplayApi\Client\RetargetingListServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -15,7 +15,7 @@ Method | HTTP request | Description
 ## `retargetingListServiceAddPost()`
 
 ```php
-retargetingListServiceAddPost($retargeting_list_service_operation): \OpenAPI\Client\Model\RetargetingListServiceMutateResponse
+retargetingListServiceAddPost($retargeting_list_service_operation): \YahooAdsDisplayApi\Client\Model\RetargetingListServiceMutateResponse
 ```
 
 
@@ -30,16 +30,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\RetargetingListServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\RetargetingListServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$retargeting_list_service_operation = new \OpenAPI\Client\Model\RetargetingListServiceOperation(); // \OpenAPI\Client\Model\RetargetingListServiceOperation
+$retargeting_list_service_operation = new \YahooAdsDisplayApi\Client\Model\RetargetingListServiceOperation(); // \YahooAdsDisplayApi\Client\Model\RetargetingListServiceOperation
 
 try {
     $result = $apiInstance->retargetingListServiceAddPost($retargeting_list_service_operation);
@@ -53,11 +53,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **retargeting_list_service_operation** | [**\OpenAPI\Client\Model\RetargetingListServiceOperation**](../Model/RetargetingListServiceOperation.md)|  | [optional]
+ **retargeting_list_service_operation** | [**\YahooAdsDisplayApi\Client\Model\RetargetingListServiceOperation**](../Model/RetargetingListServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\RetargetingListServiceMutateResponse**](../Model/RetargetingListServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\RetargetingListServiceMutateResponse**](../Model/RetargetingListServiceMutateResponse.md)
 
 ### Authorization
 
@@ -75,7 +75,7 @@ Name | Type | Description  | Notes
 ## `retargetingListServiceGetPost()`
 
 ```php
-retargetingListServiceGetPost($retargeting_list_service_selector): \OpenAPI\Client\Model\RetargetingListServiceGetResponse
+retargetingListServiceGetPost($retargeting_list_service_selector): \YahooAdsDisplayApi\Client\Model\RetargetingListServiceGetResponse
 ```
 
 
@@ -90,16 +90,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\RetargetingListServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\RetargetingListServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$retargeting_list_service_selector = new \OpenAPI\Client\Model\RetargetingListServiceSelector(); // \OpenAPI\Client\Model\RetargetingListServiceSelector
+$retargeting_list_service_selector = new \YahooAdsDisplayApi\Client\Model\RetargetingListServiceSelector(); // \YahooAdsDisplayApi\Client\Model\RetargetingListServiceSelector
 
 try {
     $result = $apiInstance->retargetingListServiceGetPost($retargeting_list_service_selector);
@@ -113,11 +113,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **retargeting_list_service_selector** | [**\OpenAPI\Client\Model\RetargetingListServiceSelector**](../Model/RetargetingListServiceSelector.md)|  | [optional]
+ **retargeting_list_service_selector** | [**\YahooAdsDisplayApi\Client\Model\RetargetingListServiceSelector**](../Model/RetargetingListServiceSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\RetargetingListServiceGetResponse**](../Model/RetargetingListServiceGetResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\RetargetingListServiceGetResponse**](../Model/RetargetingListServiceGetResponse.md)
 
 ### Authorization
 
@@ -135,7 +135,7 @@ Name | Type | Description  | Notes
 ## `retargetingListServiceGetUploadUserListStatusPost()`
 
 ```php
-retargetingListServiceGetUploadUserListStatusPost($retargeting_list_service_upload_user_list_status_selector): \OpenAPI\Client\Model\RetargetingListServiceGetUploadUserListResponse
+retargetingListServiceGetUploadUserListStatusPost($retargeting_list_service_upload_user_list_status_selector): \YahooAdsDisplayApi\Client\Model\RetargetingListServiceGetUploadUserListResponse
 ```
 
 
@@ -150,16 +150,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\RetargetingListServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\RetargetingListServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$retargeting_list_service_upload_user_list_status_selector = new \OpenAPI\Client\Model\RetargetingListServiceUploadUserListStatusSelector(); // \OpenAPI\Client\Model\RetargetingListServiceUploadUserListStatusSelector
+$retargeting_list_service_upload_user_list_status_selector = new \YahooAdsDisplayApi\Client\Model\RetargetingListServiceUploadUserListStatusSelector(); // \YahooAdsDisplayApi\Client\Model\RetargetingListServiceUploadUserListStatusSelector
 
 try {
     $result = $apiInstance->retargetingListServiceGetUploadUserListStatusPost($retargeting_list_service_upload_user_list_status_selector);
@@ -173,11 +173,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **retargeting_list_service_upload_user_list_status_selector** | [**\OpenAPI\Client\Model\RetargetingListServiceUploadUserListStatusSelector**](../Model/RetargetingListServiceUploadUserListStatusSelector.md)|  | [optional]
+ **retargeting_list_service_upload_user_list_status_selector** | [**\YahooAdsDisplayApi\Client\Model\RetargetingListServiceUploadUserListStatusSelector**](../Model/RetargetingListServiceUploadUserListStatusSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\RetargetingListServiceGetUploadUserListResponse**](../Model/RetargetingListServiceGetUploadUserListResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\RetargetingListServiceGetUploadUserListResponse**](../Model/RetargetingListServiceGetUploadUserListResponse.md)
 
 ### Authorization
 
@@ -195,7 +195,7 @@ Name | Type | Description  | Notes
 ## `retargetingListServiceRemovePost()`
 
 ```php
-retargetingListServiceRemovePost($retargeting_list_service_operation): \OpenAPI\Client\Model\RetargetingListServiceMutateResponse
+retargetingListServiceRemovePost($retargeting_list_service_operation): \YahooAdsDisplayApi\Client\Model\RetargetingListServiceMutateResponse
 ```
 
 
@@ -210,16 +210,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\RetargetingListServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\RetargetingListServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$retargeting_list_service_operation = new \OpenAPI\Client\Model\RetargetingListServiceOperation(); // \OpenAPI\Client\Model\RetargetingListServiceOperation
+$retargeting_list_service_operation = new \YahooAdsDisplayApi\Client\Model\RetargetingListServiceOperation(); // \YahooAdsDisplayApi\Client\Model\RetargetingListServiceOperation
 
 try {
     $result = $apiInstance->retargetingListServiceRemovePost($retargeting_list_service_operation);
@@ -233,11 +233,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **retargeting_list_service_operation** | [**\OpenAPI\Client\Model\RetargetingListServiceOperation**](../Model/RetargetingListServiceOperation.md)|  | [optional]
+ **retargeting_list_service_operation** | [**\YahooAdsDisplayApi\Client\Model\RetargetingListServiceOperation**](../Model/RetargetingListServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\RetargetingListServiceMutateResponse**](../Model/RetargetingListServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\RetargetingListServiceMutateResponse**](../Model/RetargetingListServiceMutateResponse.md)
 
 ### Authorization
 
@@ -255,7 +255,7 @@ Name | Type | Description  | Notes
 ## `retargetingListServiceSetPost()`
 
 ```php
-retargetingListServiceSetPost($retargeting_list_service_operation): \OpenAPI\Client\Model\RetargetingListServiceMutateResponse
+retargetingListServiceSetPost($retargeting_list_service_operation): \YahooAdsDisplayApi\Client\Model\RetargetingListServiceMutateResponse
 ```
 
 
@@ -270,16 +270,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\RetargetingListServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\RetargetingListServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$retargeting_list_service_operation = new \OpenAPI\Client\Model\RetargetingListServiceOperation(); // \OpenAPI\Client\Model\RetargetingListServiceOperation
+$retargeting_list_service_operation = new \YahooAdsDisplayApi\Client\Model\RetargetingListServiceOperation(); // \YahooAdsDisplayApi\Client\Model\RetargetingListServiceOperation
 
 try {
     $result = $apiInstance->retargetingListServiceSetPost($retargeting_list_service_operation);
@@ -293,11 +293,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **retargeting_list_service_operation** | [**\OpenAPI\Client\Model\RetargetingListServiceOperation**](../Model/RetargetingListServiceOperation.md)|  | [optional]
+ **retargeting_list_service_operation** | [**\YahooAdsDisplayApi\Client\Model\RetargetingListServiceOperation**](../Model/RetargetingListServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\RetargetingListServiceMutateResponse**](../Model/RetargetingListServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\RetargetingListServiceMutateResponse**](../Model/RetargetingListServiceMutateResponse.md)
 
 ### Authorization
 
@@ -315,7 +315,7 @@ Name | Type | Description  | Notes
 ## `retargetingListServiceUploadUserListPost()`
 
 ```php
-retargetingListServiceUploadUserListPost($account_id, $retargeting_tag_id, $target_list_id, $upload_type, $compress_type, $custom_user_id, $body): \OpenAPI\Client\Model\RetargetingListServiceUploadUserListResponse
+retargetingListServiceUploadUserListPost($account_id, $retargeting_tag_id, $target_list_id, $upload_type, $compress_type, $custom_user_id, $body): \YahooAdsDisplayApi\Client\Model\RetargetingListServiceUploadUserListResponse
 ```
 
 
@@ -330,10 +330,10 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\RetargetingListServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\RetargetingListServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -342,8 +342,8 @@ $apiInstance = new OpenAPI\Client\Api\RetargetingListServiceApi(
 $account_id = 56; // int | <div lang=\"ja\">アカウントIDです。</div> <div lang=\"en\">Account ID.</div>
 $retargeting_tag_id = 'retargeting_tag_id_example'; // string | <div lang=\"ja\">サイトリターゲティングのタグIDです。</div> <div lang=\"en\">Tag ID for site retargeting.</div>
 $target_list_id = 56; // int | <div lang=\"ja\">カスタムオーディエンスのターゲットリストIDです。</div> <div lang=\"en\">Target list ID for the custom audience.</div>
-$upload_type = new \OpenAPI\Client\Model\\OpenAPI\Client\Model\RetargetingListServiceUploadUserListUploadType(); // \OpenAPI\Client\Model\RetargetingListServiceUploadUserListUploadType | <div lang=\"ja\">   RetargetingListServiceUploadUserListUploadTypeは、アップロードする方法の種類を表します。<br>   ハッシュ化メールアドレスの詳細については、<a href=\"https://ads-help.yahoo.co.jp/yahooads/display/articledetail?lan=ja&aid=69234\">ヘルプ</a>をご参照ください。 </div> <div lang=\"en\">   RetargetingListServiceUploadUserListUploadType displays kind of upload method.<br>   Refer to <a href=\"https://ads-help.yahoo.co.jp/yahooads/display/articledetail?lan=en&aid=37704\">Help page</a> for more details about hashed Email Address. </div> </div> <dl class=term>   <dt class=\"term__item\"><code>IDFA</dt>   <dd class=\"term__desc\"><span lang=\"ja\">iOS端末用広告識別子です。</span><span lang=\"en\">Ad identifier for iOS devices.</span></dd>   <dt class=\"term__item\"><code>AAID</dt>   <dd class=\"term__desc\"><span lang=\"ja\">Android端末用広告識別子です。</span><span lang=\"en\">Ad identifier for Android devices.</span></dd>   <dt class=\"term__item\"><code>MAIL_ADDRESS</dt>   <dd class=\"term__desc\"><span lang=\"ja\">ハッシュ化メールアドレスです。</span><span lang=\"en\">Hashed email address.</span></dd>   <dt class=\"term__item\"><code>UNKNOWN</dt>   <dd class=\"term__desc\"><span lang=\"ja\">未知の値です。</span><span lang=\"en\">Unknown Value</span></dd> </dl>
-$compress_type = new \OpenAPI\Client\Model\\OpenAPI\Client\Model\RetargetingListServiceUploadUserListCompressType(); // \OpenAPI\Client\Model\RetargetingListServiceUploadUserListCompressType | <div lang=\"ja\">RetargetingListServiceUploadUserListCompressTypeは、アップロードするファイルの圧縮形式を表します。</div> <div lang=\"en\">RetargetingListServiceUploadUserListCompressType displays kind of compress type of upload file.</div> <dl class=term>   <dt class=\"term__item\"><code>NONE</dt>   <dd class=\"term__desc\"><span lang=\"ja\">非圧縮形式です。</span><span lang=\"en\">Uncompressed format.</span></dd>   <dt class=\"term__item\"><code>ZIP</dt>   <dd class=\"term__desc\"><span lang=\"ja\">ZIP形式です。</span><span lang=\"en\">ZIP format. </span></dd>   <dt class=\"term__item\"><code>GZIP</dt>   <dd class=\"term__desc\"><span lang=\"ja\">GZIP形式です。</span><span lang=\"en\">GZIP format.</span></dd>   <dt class=\"term__item\"><code>UNKNOWN</dt>   <dd class=\"term__desc\"><span lang=\"ja\">未知の値です。</span><span lang=\"en\">Unknown Value</span></dd> </dl>
+$upload_type = new \YahooAdsDisplayApi\Client\Model\\YahooAdsDisplayApi\Client\Model\RetargetingListServiceUploadUserListUploadType(); // \YahooAdsDisplayApi\Client\Model\RetargetingListServiceUploadUserListUploadType | <div lang=\"ja\">   RetargetingListServiceUploadUserListUploadTypeは、アップロードする方法の種類を表します。<br>   ハッシュ化メールアドレスの詳細については、<a href=\"https://ads-help.yahoo.co.jp/yahooads/display/articledetail?lan=ja&aid=69234\">ヘルプ</a>をご参照ください。 </div> <div lang=\"en\">   RetargetingListServiceUploadUserListUploadType displays kind of upload method.<br>   Refer to <a href=\"https://ads-help.yahoo.co.jp/yahooads/display/articledetail?lan=en&aid=37704\">Help page</a> for more details about hashed Email Address. </div> </div> <dl class=term>   <dt class=\"term__item\"><code>IDFA</dt>   <dd class=\"term__desc\"><span lang=\"ja\">iOS端末用広告識別子です。</span><span lang=\"en\">Ad identifier for iOS devices.</span></dd>   <dt class=\"term__item\"><code>AAID</dt>   <dd class=\"term__desc\"><span lang=\"ja\">Android端末用広告識別子です。</span><span lang=\"en\">Ad identifier for Android devices.</span></dd>   <dt class=\"term__item\"><code>MAIL_ADDRESS</dt>   <dd class=\"term__desc\"><span lang=\"ja\">ハッシュ化メールアドレスです。</span><span lang=\"en\">Hashed email address.</span></dd>   <dt class=\"term__item\"><code>UNKNOWN</dt>   <dd class=\"term__desc\"><span lang=\"ja\">未知の値です。</span><span lang=\"en\">Unknown Value</span></dd> </dl>
+$compress_type = new \YahooAdsDisplayApi\Client\Model\\YahooAdsDisplayApi\Client\Model\RetargetingListServiceUploadUserListCompressType(); // \YahooAdsDisplayApi\Client\Model\RetargetingListServiceUploadUserListCompressType | <div lang=\"ja\">RetargetingListServiceUploadUserListCompressTypeは、アップロードするファイルの圧縮形式を表します。</div> <div lang=\"en\">RetargetingListServiceUploadUserListCompressType displays kind of compress type of upload file.</div> <dl class=term>   <dt class=\"term__item\"><code>NONE</dt>   <dd class=\"term__desc\"><span lang=\"ja\">非圧縮形式です。</span><span lang=\"en\">Uncompressed format.</span></dd>   <dt class=\"term__item\"><code>ZIP</dt>   <dd class=\"term__desc\"><span lang=\"ja\">ZIP形式です。</span><span lang=\"en\">ZIP format. </span></dd>   <dt class=\"term__item\"><code>GZIP</dt>   <dd class=\"term__desc\"><span lang=\"ja\">GZIP形式です。</span><span lang=\"en\">GZIP format.</span></dd>   <dt class=\"term__item\"><code>UNKNOWN</dt>   <dd class=\"term__desc\"><span lang=\"ja\">未知の値です。</span><span lang=\"en\">Unknown Value</span></dd> </dl>
 $custom_user_id = 'custom_user_id_example'; // string | <div lang=\"ja\">   customUserIdの指定は、一部の利用者向けの限定機能となります。 </div> <div lang=\"en\">   Specifying customUserId is a limited function for some users. </div>
 $body = "/path/to/file.txt"; // \SplFileObject
 
@@ -362,14 +362,14 @@ Name | Type | Description  | Notes
  **account_id** | **int**| &lt;div lang&#x3D;\&quot;ja\&quot;&gt;アカウントIDです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Account ID.&lt;/div&gt; |
  **retargeting_tag_id** | **string**| &lt;div lang&#x3D;\&quot;ja\&quot;&gt;サイトリターゲティングのタグIDです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Tag ID for site retargeting.&lt;/div&gt; |
  **target_list_id** | **int**| &lt;div lang&#x3D;\&quot;ja\&quot;&gt;カスタムオーディエンスのターゲットリストIDです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Target list ID for the custom audience.&lt;/div&gt; |
- **upload_type** | [**\OpenAPI\Client\Model\RetargetingListServiceUploadUserListUploadType**](../Model/.md)| &lt;div lang&#x3D;\&quot;ja\&quot;&gt;   RetargetingListServiceUploadUserListUploadTypeは、アップロードする方法の種類を表します。&lt;br&gt;   ハッシュ化メールアドレスの詳細については、&lt;a href&#x3D;\&quot;https://ads-help.yahoo.co.jp/yahooads/display/articledetail?lan&#x3D;ja&amp;aid&#x3D;69234\&quot;&gt;ヘルプ&lt;/a&gt;をご参照ください。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;   RetargetingListServiceUploadUserListUploadType displays kind of upload method.&lt;br&gt;   Refer to &lt;a href&#x3D;\&quot;https://ads-help.yahoo.co.jp/yahooads/display/articledetail?lan&#x3D;en&amp;aid&#x3D;37704\&quot;&gt;Help page&lt;/a&gt; for more details about hashed Email Address. &lt;/div&gt; &lt;/div&gt; &lt;dl class&#x3D;term&gt;   &lt;dt class&#x3D;\&quot;term__item\&quot;&gt;&lt;code&gt;IDFA&lt;/dt&gt;   &lt;dd class&#x3D;\&quot;term__desc\&quot;&gt;&lt;span lang&#x3D;\&quot;ja\&quot;&gt;iOS端末用広告識別子です。&lt;/span&gt;&lt;span lang&#x3D;\&quot;en\&quot;&gt;Ad identifier for iOS devices.&lt;/span&gt;&lt;/dd&gt;   &lt;dt class&#x3D;\&quot;term__item\&quot;&gt;&lt;code&gt;AAID&lt;/dt&gt;   &lt;dd class&#x3D;\&quot;term__desc\&quot;&gt;&lt;span lang&#x3D;\&quot;ja\&quot;&gt;Android端末用広告識別子です。&lt;/span&gt;&lt;span lang&#x3D;\&quot;en\&quot;&gt;Ad identifier for Android devices.&lt;/span&gt;&lt;/dd&gt;   &lt;dt class&#x3D;\&quot;term__item\&quot;&gt;&lt;code&gt;MAIL_ADDRESS&lt;/dt&gt;   &lt;dd class&#x3D;\&quot;term__desc\&quot;&gt;&lt;span lang&#x3D;\&quot;ja\&quot;&gt;ハッシュ化メールアドレスです。&lt;/span&gt;&lt;span lang&#x3D;\&quot;en\&quot;&gt;Hashed email address.&lt;/span&gt;&lt;/dd&gt;   &lt;dt class&#x3D;\&quot;term__item\&quot;&gt;&lt;code&gt;UNKNOWN&lt;/dt&gt;   &lt;dd class&#x3D;\&quot;term__desc\&quot;&gt;&lt;span lang&#x3D;\&quot;ja\&quot;&gt;未知の値です。&lt;/span&gt;&lt;span lang&#x3D;\&quot;en\&quot;&gt;Unknown Value&lt;/span&gt;&lt;/dd&gt; &lt;/dl&gt; |
- **compress_type** | [**\OpenAPI\Client\Model\RetargetingListServiceUploadUserListCompressType**](../Model/.md)| &lt;div lang&#x3D;\&quot;ja\&quot;&gt;RetargetingListServiceUploadUserListCompressTypeは、アップロードするファイルの圧縮形式を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;RetargetingListServiceUploadUserListCompressType displays kind of compress type of upload file.&lt;/div&gt; &lt;dl class&#x3D;term&gt;   &lt;dt class&#x3D;\&quot;term__item\&quot;&gt;&lt;code&gt;NONE&lt;/dt&gt;   &lt;dd class&#x3D;\&quot;term__desc\&quot;&gt;&lt;span lang&#x3D;\&quot;ja\&quot;&gt;非圧縮形式です。&lt;/span&gt;&lt;span lang&#x3D;\&quot;en\&quot;&gt;Uncompressed format.&lt;/span&gt;&lt;/dd&gt;   &lt;dt class&#x3D;\&quot;term__item\&quot;&gt;&lt;code&gt;ZIP&lt;/dt&gt;   &lt;dd class&#x3D;\&quot;term__desc\&quot;&gt;&lt;span lang&#x3D;\&quot;ja\&quot;&gt;ZIP形式です。&lt;/span&gt;&lt;span lang&#x3D;\&quot;en\&quot;&gt;ZIP format. &lt;/span&gt;&lt;/dd&gt;   &lt;dt class&#x3D;\&quot;term__item\&quot;&gt;&lt;code&gt;GZIP&lt;/dt&gt;   &lt;dd class&#x3D;\&quot;term__desc\&quot;&gt;&lt;span lang&#x3D;\&quot;ja\&quot;&gt;GZIP形式です。&lt;/span&gt;&lt;span lang&#x3D;\&quot;en\&quot;&gt;GZIP format.&lt;/span&gt;&lt;/dd&gt;   &lt;dt class&#x3D;\&quot;term__item\&quot;&gt;&lt;code&gt;UNKNOWN&lt;/dt&gt;   &lt;dd class&#x3D;\&quot;term__desc\&quot;&gt;&lt;span lang&#x3D;\&quot;ja\&quot;&gt;未知の値です。&lt;/span&gt;&lt;span lang&#x3D;\&quot;en\&quot;&gt;Unknown Value&lt;/span&gt;&lt;/dd&gt; &lt;/dl&gt; |
+ **upload_type** | [**\YahooAdsDisplayApi\Client\Model\RetargetingListServiceUploadUserListUploadType**](../Model/.md)| &lt;div lang&#x3D;\&quot;ja\&quot;&gt;   RetargetingListServiceUploadUserListUploadTypeは、アップロードする方法の種類を表します。&lt;br&gt;   ハッシュ化メールアドレスの詳細については、&lt;a href&#x3D;\&quot;https://ads-help.yahoo.co.jp/yahooads/display/articledetail?lan&#x3D;ja&amp;aid&#x3D;69234\&quot;&gt;ヘルプ&lt;/a&gt;をご参照ください。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;   RetargetingListServiceUploadUserListUploadType displays kind of upload method.&lt;br&gt;   Refer to &lt;a href&#x3D;\&quot;https://ads-help.yahoo.co.jp/yahooads/display/articledetail?lan&#x3D;en&amp;aid&#x3D;37704\&quot;&gt;Help page&lt;/a&gt; for more details about hashed Email Address. &lt;/div&gt; &lt;/div&gt; &lt;dl class&#x3D;term&gt;   &lt;dt class&#x3D;\&quot;term__item\&quot;&gt;&lt;code&gt;IDFA&lt;/dt&gt;   &lt;dd class&#x3D;\&quot;term__desc\&quot;&gt;&lt;span lang&#x3D;\&quot;ja\&quot;&gt;iOS端末用広告識別子です。&lt;/span&gt;&lt;span lang&#x3D;\&quot;en\&quot;&gt;Ad identifier for iOS devices.&lt;/span&gt;&lt;/dd&gt;   &lt;dt class&#x3D;\&quot;term__item\&quot;&gt;&lt;code&gt;AAID&lt;/dt&gt;   &lt;dd class&#x3D;\&quot;term__desc\&quot;&gt;&lt;span lang&#x3D;\&quot;ja\&quot;&gt;Android端末用広告識別子です。&lt;/span&gt;&lt;span lang&#x3D;\&quot;en\&quot;&gt;Ad identifier for Android devices.&lt;/span&gt;&lt;/dd&gt;   &lt;dt class&#x3D;\&quot;term__item\&quot;&gt;&lt;code&gt;MAIL_ADDRESS&lt;/dt&gt;   &lt;dd class&#x3D;\&quot;term__desc\&quot;&gt;&lt;span lang&#x3D;\&quot;ja\&quot;&gt;ハッシュ化メールアドレスです。&lt;/span&gt;&lt;span lang&#x3D;\&quot;en\&quot;&gt;Hashed email address.&lt;/span&gt;&lt;/dd&gt;   &lt;dt class&#x3D;\&quot;term__item\&quot;&gt;&lt;code&gt;UNKNOWN&lt;/dt&gt;   &lt;dd class&#x3D;\&quot;term__desc\&quot;&gt;&lt;span lang&#x3D;\&quot;ja\&quot;&gt;未知の値です。&lt;/span&gt;&lt;span lang&#x3D;\&quot;en\&quot;&gt;Unknown Value&lt;/span&gt;&lt;/dd&gt; &lt;/dl&gt; |
+ **compress_type** | [**\YahooAdsDisplayApi\Client\Model\RetargetingListServiceUploadUserListCompressType**](../Model/.md)| &lt;div lang&#x3D;\&quot;ja\&quot;&gt;RetargetingListServiceUploadUserListCompressTypeは、アップロードするファイルの圧縮形式を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;RetargetingListServiceUploadUserListCompressType displays kind of compress type of upload file.&lt;/div&gt; &lt;dl class&#x3D;term&gt;   &lt;dt class&#x3D;\&quot;term__item\&quot;&gt;&lt;code&gt;NONE&lt;/dt&gt;   &lt;dd class&#x3D;\&quot;term__desc\&quot;&gt;&lt;span lang&#x3D;\&quot;ja\&quot;&gt;非圧縮形式です。&lt;/span&gt;&lt;span lang&#x3D;\&quot;en\&quot;&gt;Uncompressed format.&lt;/span&gt;&lt;/dd&gt;   &lt;dt class&#x3D;\&quot;term__item\&quot;&gt;&lt;code&gt;ZIP&lt;/dt&gt;   &lt;dd class&#x3D;\&quot;term__desc\&quot;&gt;&lt;span lang&#x3D;\&quot;ja\&quot;&gt;ZIP形式です。&lt;/span&gt;&lt;span lang&#x3D;\&quot;en\&quot;&gt;ZIP format. &lt;/span&gt;&lt;/dd&gt;   &lt;dt class&#x3D;\&quot;term__item\&quot;&gt;&lt;code&gt;GZIP&lt;/dt&gt;   &lt;dd class&#x3D;\&quot;term__desc\&quot;&gt;&lt;span lang&#x3D;\&quot;ja\&quot;&gt;GZIP形式です。&lt;/span&gt;&lt;span lang&#x3D;\&quot;en\&quot;&gt;GZIP format.&lt;/span&gt;&lt;/dd&gt;   &lt;dt class&#x3D;\&quot;term__item\&quot;&gt;&lt;code&gt;UNKNOWN&lt;/dt&gt;   &lt;dd class&#x3D;\&quot;term__desc\&quot;&gt;&lt;span lang&#x3D;\&quot;ja\&quot;&gt;未知の値です。&lt;/span&gt;&lt;span lang&#x3D;\&quot;en\&quot;&gt;Unknown Value&lt;/span&gt;&lt;/dd&gt; &lt;/dl&gt; |
  **custom_user_id** | **string**| &lt;div lang&#x3D;\&quot;ja\&quot;&gt;   customUserIdの指定は、一部の利用者向けの限定機能となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;   Specifying customUserId is a limited function for some users. &lt;/div&gt; | [optional]
  **body** | **\SplFileObject****\SplFileObject**|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\RetargetingListServiceUploadUserListResponse**](../Model/RetargetingListServiceUploadUserListResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\RetargetingListServiceUploadUserListResponse**](../Model/RetargetingListServiceUploadUserListResponse.md)
 
 ### Authorization
 

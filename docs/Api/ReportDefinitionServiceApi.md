@@ -1,4 +1,4 @@
-# OpenAPI\Client\ReportDefinitionServiceApi
+# YahooAdsDisplayApi\Client\ReportDefinitionServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -14,7 +14,7 @@ Method | HTTP request | Description
 ## `reportDefinitionServiceAddPost()`
 
 ```php
-reportDefinitionServiceAddPost($report_definition_service_operation): \OpenAPI\Client\Model\ReportDefinitionServiceMutateResponse
+reportDefinitionServiceAddPost($report_definition_service_operation): \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceMutateResponse
 ```
 
 
@@ -29,16 +29,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\ReportDefinitionServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\ReportDefinitionServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$report_definition_service_operation = new \OpenAPI\Client\Model\ReportDefinitionServiceOperation(); // \OpenAPI\Client\Model\ReportDefinitionServiceOperation
+$report_definition_service_operation = new \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceOperation(); // \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceOperation
 
 try {
     $result = $apiInstance->reportDefinitionServiceAddPost($report_definition_service_operation);
@@ -52,11 +52,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **report_definition_service_operation** | [**\OpenAPI\Client\Model\ReportDefinitionServiceOperation**](../Model/ReportDefinitionServiceOperation.md)|  | [optional]
+ **report_definition_service_operation** | [**\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceOperation**](../Model/ReportDefinitionServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\ReportDefinitionServiceMutateResponse**](../Model/ReportDefinitionServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceMutateResponse**](../Model/ReportDefinitionServiceMutateResponse.md)
 
 ### Authorization
 
@@ -89,16 +89,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\ReportDefinitionServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\ReportDefinitionServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$report_definition_service_download_selector = new \OpenAPI\Client\Model\ReportDefinitionServiceDownloadSelector(); // \OpenAPI\Client\Model\ReportDefinitionServiceDownloadSelector
+$report_definition_service_download_selector = new \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceDownloadSelector(); // \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceDownloadSelector
 
 try {
     $result = $apiInstance->reportDefinitionServiceDownloadPost($report_definition_service_download_selector);
@@ -112,7 +112,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **report_definition_service_download_selector** | [**\OpenAPI\Client\Model\ReportDefinitionServiceDownloadSelector**](../Model/ReportDefinitionServiceDownloadSelector.md)|  | [optional]
+ **report_definition_service_download_selector** | [**\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceDownloadSelector**](../Model/ReportDefinitionServiceDownloadSelector.md)|  | [optional]
 
 ### Return type
 
@@ -134,7 +134,7 @@ Name | Type | Description  | Notes
 ## `reportDefinitionServiceGetPost()`
 
 ```php
-reportDefinitionServiceGetPost($report_definition_service_selector): \OpenAPI\Client\Model\ReportDefinitionServiceGetResponse
+reportDefinitionServiceGetPost($report_definition_service_selector): \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceGetResponse
 ```
 
 
@@ -149,16 +149,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\ReportDefinitionServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\ReportDefinitionServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$report_definition_service_selector = new \OpenAPI\Client\Model\ReportDefinitionServiceSelector(); // \OpenAPI\Client\Model\ReportDefinitionServiceSelector
+$report_definition_service_selector = new \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceSelector(); // \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceSelector
 
 try {
     $result = $apiInstance->reportDefinitionServiceGetPost($report_definition_service_selector);
@@ -172,11 +172,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **report_definition_service_selector** | [**\OpenAPI\Client\Model\ReportDefinitionServiceSelector**](../Model/ReportDefinitionServiceSelector.md)|  | [optional]
+ **report_definition_service_selector** | [**\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceSelector**](../Model/ReportDefinitionServiceSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\ReportDefinitionServiceGetResponse**](../Model/ReportDefinitionServiceGetResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceGetResponse**](../Model/ReportDefinitionServiceGetResponse.md)
 
 ### Authorization
 
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 ## `reportDefinitionServiceGetReportFieldsPost()`
 
 ```php
-reportDefinitionServiceGetReportFieldsPost($report_definition_service_get_report_fields): \OpenAPI\Client\Model\ReportDefinitionServiceGetReportFieldsResponse
+reportDefinitionServiceGetReportFieldsPost($report_definition_service_get_report_fields): \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceGetReportFieldsResponse
 ```
 
 
@@ -209,16 +209,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\ReportDefinitionServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\ReportDefinitionServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$report_definition_service_get_report_fields = new \OpenAPI\Client\Model\ReportDefinitionServiceGetReportFields(); // \OpenAPI\Client\Model\ReportDefinitionServiceGetReportFields
+$report_definition_service_get_report_fields = new \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceGetReportFields(); // \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceGetReportFields
 
 try {
     $result = $apiInstance->reportDefinitionServiceGetReportFieldsPost($report_definition_service_get_report_fields);
@@ -232,11 +232,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **report_definition_service_get_report_fields** | [**\OpenAPI\Client\Model\ReportDefinitionServiceGetReportFields**](../Model/ReportDefinitionServiceGetReportFields.md)|  | [optional]
+ **report_definition_service_get_report_fields** | [**\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceGetReportFields**](../Model/ReportDefinitionServiceGetReportFields.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\ReportDefinitionServiceGetReportFieldsResponse**](../Model/ReportDefinitionServiceGetReportFieldsResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceGetReportFieldsResponse**](../Model/ReportDefinitionServiceGetReportFieldsResponse.md)
 
 ### Authorization
 
@@ -254,7 +254,7 @@ Name | Type | Description  | Notes
 ## `reportDefinitionServiceRemovePost()`
 
 ```php
-reportDefinitionServiceRemovePost($report_definition_service_operation): \OpenAPI\Client\Model\ReportDefinitionServiceMutateResponse
+reportDefinitionServiceRemovePost($report_definition_service_operation): \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceMutateResponse
 ```
 
 
@@ -269,16 +269,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\ReportDefinitionServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\ReportDefinitionServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$report_definition_service_operation = new \OpenAPI\Client\Model\ReportDefinitionServiceOperation(); // \OpenAPI\Client\Model\ReportDefinitionServiceOperation
+$report_definition_service_operation = new \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceOperation(); // \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceOperation
 
 try {
     $result = $apiInstance->reportDefinitionServiceRemovePost($report_definition_service_operation);
@@ -292,11 +292,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **report_definition_service_operation** | [**\OpenAPI\Client\Model\ReportDefinitionServiceOperation**](../Model/ReportDefinitionServiceOperation.md)|  | [optional]
+ **report_definition_service_operation** | [**\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceOperation**](../Model/ReportDefinitionServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\ReportDefinitionServiceMutateResponse**](../Model/ReportDefinitionServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceMutateResponse**](../Model/ReportDefinitionServiceMutateResponse.md)
 
 ### Authorization
 

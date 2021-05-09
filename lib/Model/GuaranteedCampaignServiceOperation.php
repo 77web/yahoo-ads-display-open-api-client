@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedCampaignServiceOperation Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedCampaignServiceOperationオブジェクトは、操作の対象となる予約型のキャンペーンの情報と処理の内容を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The GuaranteedCampaignServiceOperation object is a container for storing guaranteed　campaign information and operation results.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class GuaranteedCampaignServiceOperation implements ModelInterface, ArrayAccess,
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'operand' => '\OpenAPI\Client\Model\GuaranteedCampaign[]'
+        'operand' => '\YahooAdsDisplayApi\Client\Model\GuaranteedCampaign[]'
     ];
 
     /**
@@ -257,7 +257,7 @@ class GuaranteedCampaignServiceOperation implements ModelInterface, ArrayAccess,
     /**
      * Gets operand
      *
-     * @return \OpenAPI\Client\Model\GuaranteedCampaign[]
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedCampaign[]
      */
     public function getOperand()
     {
@@ -267,7 +267,7 @@ class GuaranteedCampaignServiceOperation implements ModelInterface, ArrayAccess,
     /**
      * Sets operand
      *
-     * @param \OpenAPI\Client\Model\GuaranteedCampaign[] $operand operand
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedCampaign[] $operand operand
      *
      * @return self
      */

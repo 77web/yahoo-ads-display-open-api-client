@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ReportDefinition Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;ReportDefinitionオブジェクトは、レポート定義を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The ReportDefinition object serves report definitions.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -63,24 +63,24 @@ class ReportDefinition implements ModelInterface, ArrayAccess, \JsonSerializable
     protected static $openAPITypes = [
         'account_id' => 'int',
         'complete_time' => 'string',
-        'date_range' => '\OpenAPI\Client\Model\ReportDefinitionServiceDateRange',
+        'date_range' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceDateRange',
         'fields' => 'string[]',
-        'filters' => '\OpenAPI\Client\Model\ReportDefinitionServiceFilter[]',
-        'report_compress_type' => '\OpenAPI\Client\Model\ReportDefinitionServiceReportCompressType',
-        'report_date_range_type' => '\OpenAPI\Client\Model\ReportDefinitionServiceReportDateRangeType',
-        'report_download_encode' => '\OpenAPI\Client\Model\ReportDefinitionServiceReportDownloadEncode',
-        'report_download_format' => '\OpenAPI\Client\Model\ReportDefinitionServiceReportDownloadFormat',
-        'report_job_status' => '\OpenAPI\Client\Model\ReportDefinitionServiceReportJobStatus',
+        'filters' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceFilter[]',
+        'report_compress_type' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportCompressType',
+        'report_date_range_type' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportDateRangeType',
+        'report_download_encode' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportDownloadEncode',
+        'report_download_format' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportDownloadFormat',
+        'report_job_status' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportJobStatus',
         'report_job_error_detail' => 'string',
         'report_job_id' => 'int',
-        'report_language' => '\OpenAPI\Client\Model\ReportDefinitionServiceReportLanguage',
+        'report_language' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportLanguage',
         'report_name' => 'string',
         'request_time' => 'string',
-        'report_skip_column_header' => '\OpenAPI\Client\Model\ReportDefinitionServiceReportSkipColumnHeader',
-        'report_skip_report_summary' => '\OpenAPI\Client\Model\ReportDefinitionServiceReportSkipReportSummary',
-        'report_decimal_part_display_type' => '\OpenAPI\Client\Model\ReportDefinitionServiceReportDecimalPartDisplayType',
-        'report_type_condition' => '\OpenAPI\Client\Model\ReportDefinitionServiceReportTypeCondition',
-        'sort_fields' => '\OpenAPI\Client\Model\ReportDefinitionServiceReportSortField[]'
+        'report_skip_column_header' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportSkipColumnHeader',
+        'report_skip_report_summary' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportSkipReportSummary',
+        'report_decimal_part_display_type' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportDecimalPartDisplayType',
+        'report_type_condition' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportTypeCondition',
+        'sort_fields' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportSortField[]'
     ];
 
     /**
@@ -379,7 +379,7 @@ class ReportDefinition implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets date_range
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceDateRange|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceDateRange|null
      */
     public function getDateRange()
     {
@@ -389,7 +389,7 @@ class ReportDefinition implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets date_range
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceDateRange|null $date_range date_range
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceDateRange|null $date_range date_range
      *
      * @return self
      */
@@ -427,7 +427,7 @@ class ReportDefinition implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets filters
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceFilter[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceFilter[]|null
      */
     public function getFilters()
     {
@@ -437,7 +437,7 @@ class ReportDefinition implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets filters
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceFilter[]|null $filters filters
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceFilter[]|null $filters filters
      *
      * @return self
      */
@@ -451,7 +451,7 @@ class ReportDefinition implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets report_compress_type
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceReportCompressType|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportCompressType|null
      */
     public function getReportCompressType()
     {
@@ -461,7 +461,7 @@ class ReportDefinition implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets report_compress_type
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceReportCompressType|null $report_compress_type report_compress_type
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportCompressType|null $report_compress_type report_compress_type
      *
      * @return self
      */
@@ -475,7 +475,7 @@ class ReportDefinition implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets report_date_range_type
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceReportDateRangeType|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportDateRangeType|null
      */
     public function getReportDateRangeType()
     {
@@ -485,7 +485,7 @@ class ReportDefinition implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets report_date_range_type
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceReportDateRangeType|null $report_date_range_type report_date_range_type
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportDateRangeType|null $report_date_range_type report_date_range_type
      *
      * @return self
      */
@@ -499,7 +499,7 @@ class ReportDefinition implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets report_download_encode
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceReportDownloadEncode|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportDownloadEncode|null
      */
     public function getReportDownloadEncode()
     {
@@ -509,7 +509,7 @@ class ReportDefinition implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets report_download_encode
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceReportDownloadEncode|null $report_download_encode report_download_encode
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportDownloadEncode|null $report_download_encode report_download_encode
      *
      * @return self
      */
@@ -523,7 +523,7 @@ class ReportDefinition implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets report_download_format
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceReportDownloadFormat|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportDownloadFormat|null
      */
     public function getReportDownloadFormat()
     {
@@ -533,7 +533,7 @@ class ReportDefinition implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets report_download_format
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceReportDownloadFormat|null $report_download_format report_download_format
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportDownloadFormat|null $report_download_format report_download_format
      *
      * @return self
      */
@@ -547,7 +547,7 @@ class ReportDefinition implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets report_job_status
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceReportJobStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportJobStatus|null
      */
     public function getReportJobStatus()
     {
@@ -557,7 +557,7 @@ class ReportDefinition implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets report_job_status
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceReportJobStatus|null $report_job_status report_job_status
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportJobStatus|null $report_job_status report_job_status
      *
      * @return self
      */
@@ -619,7 +619,7 @@ class ReportDefinition implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets report_language
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceReportLanguage|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportLanguage|null
      */
     public function getReportLanguage()
     {
@@ -629,7 +629,7 @@ class ReportDefinition implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets report_language
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceReportLanguage|null $report_language report_language
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportLanguage|null $report_language report_language
      *
      * @return self
      */
@@ -691,7 +691,7 @@ class ReportDefinition implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets report_skip_column_header
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceReportSkipColumnHeader|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportSkipColumnHeader|null
      */
     public function getReportSkipColumnHeader()
     {
@@ -701,7 +701,7 @@ class ReportDefinition implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets report_skip_column_header
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceReportSkipColumnHeader|null $report_skip_column_header report_skip_column_header
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportSkipColumnHeader|null $report_skip_column_header report_skip_column_header
      *
      * @return self
      */
@@ -715,7 +715,7 @@ class ReportDefinition implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets report_skip_report_summary
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceReportSkipReportSummary|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportSkipReportSummary|null
      */
     public function getReportSkipReportSummary()
     {
@@ -725,7 +725,7 @@ class ReportDefinition implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets report_skip_report_summary
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceReportSkipReportSummary|null $report_skip_report_summary report_skip_report_summary
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportSkipReportSummary|null $report_skip_report_summary report_skip_report_summary
      *
      * @return self
      */
@@ -739,7 +739,7 @@ class ReportDefinition implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets report_decimal_part_display_type
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceReportDecimalPartDisplayType|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportDecimalPartDisplayType|null
      */
     public function getReportDecimalPartDisplayType()
     {
@@ -749,7 +749,7 @@ class ReportDefinition implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets report_decimal_part_display_type
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceReportDecimalPartDisplayType|null $report_decimal_part_display_type report_decimal_part_display_type
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportDecimalPartDisplayType|null $report_decimal_part_display_type report_decimal_part_display_type
      *
      * @return self
      */
@@ -763,7 +763,7 @@ class ReportDefinition implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets report_type_condition
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceReportTypeCondition|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportTypeCondition|null
      */
     public function getReportTypeCondition()
     {
@@ -773,7 +773,7 @@ class ReportDefinition implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets report_type_condition
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceReportTypeCondition|null $report_type_condition report_type_condition
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportTypeCondition|null $report_type_condition report_type_condition
      *
      * @return self
      */
@@ -787,7 +787,7 @@ class ReportDefinition implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets sort_fields
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceReportSortField[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportSortField[]|null
      */
     public function getSortFields()
     {
@@ -797,7 +797,7 @@ class ReportDefinition implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets sort_fields
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceReportSortField[]|null $sort_fields sort_fields
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportSortField[]|null $sort_fields sort_fields
      *
      * @return self
      */

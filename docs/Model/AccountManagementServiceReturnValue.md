@@ -4,6 +4,6 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**values** | [**\OpenAPI\Client\Model\AccountManagementServiceValue[]**](AccountManagementServiceValue.md) |  | [optional]
+**values** | [**\YahooAdsDisplayApi\Client\Model\AccountManagementServiceValue[]**](AccountManagementServiceValue.md) |  | [optional]
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

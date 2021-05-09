@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * StatsServiceSiteRetargetingTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;StatsServiceSiteRetargetingTargetオブジェクトは、サイトリターゲティングの設定情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;StatsServiceSiteRetargetingTarget object holds configuration information of Site retargeting.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class StatsServiceSiteRetargetingTarget implements ModelInterface, ArrayAccess, 
       * @var string[]
       */
     protected static $openAPITypes = [
-        'target_list_deliver_type' => '\OpenAPI\Client\Model\StatsServiceTargetListDeliverType',
+        'target_list_deliver_type' => '\YahooAdsDisplayApi\Client\Model\StatsServiceTargetListDeliverType',
         'target_list_name' => 'string'
     ];
 
@@ -219,7 +219,7 @@ class StatsServiceSiteRetargetingTarget implements ModelInterface, ArrayAccess, 
     /**
      * Gets target_list_deliver_type
      *
-     * @return \OpenAPI\Client\Model\StatsServiceTargetListDeliverType|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceTargetListDeliverType|null
      */
     public function getTargetListDeliverType()
     {
@@ -229,7 +229,7 @@ class StatsServiceSiteRetargetingTarget implements ModelInterface, ArrayAccess, 
     /**
      * Sets target_list_deliver_type
      *
-     * @param \OpenAPI\Client\Model\StatsServiceTargetListDeliverType|null $target_list_deliver_type target_list_deliver_type
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceTargetListDeliverType|null $target_list_deliver_type target_list_deliver_type
      *
      * @return self
      */

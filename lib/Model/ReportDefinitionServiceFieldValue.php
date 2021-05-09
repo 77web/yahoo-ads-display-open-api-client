@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ReportDefinitionServiceFieldValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;ReportDefinitionServiceFieldValueは、取得される使用可能なレポートのエントリーを表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;ReportDefinitionServiceFieldValue displays the usable report entry to be retrieved.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class ReportDefinitionServiceFieldValue implements ModelInterface, ArrayAccess, 
       * @var string[]
       */
     protected static $openAPITypes = [
-        'errors' => '\OpenAPI\Client\Model\Error[]',
-        'fields' => '\OpenAPI\Client\Model\ReportDefinitionServiceFieldAttribute[]',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
+        'fields' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceFieldAttribute[]',
         'operation_succeeded' => 'bool'
     ];
 
@@ -225,7 +225,7 @@ class ReportDefinitionServiceFieldValue implements ModelInterface, ArrayAccess, 
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -235,7 +235,7 @@ class ReportDefinitionServiceFieldValue implements ModelInterface, ArrayAccess, 
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class ReportDefinitionServiceFieldValue implements ModelInterface, ArrayAccess, 
     /**
      * Gets fields
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceFieldAttribute[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceFieldAttribute[]|null
      */
     public function getFields()
     {
@@ -259,7 +259,7 @@ class ReportDefinitionServiceFieldValue implements ModelInterface, ArrayAccess, 
     /**
      * Sets fields
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceFieldAttribute[]|null $fields fields
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceFieldAttribute[]|null $fields fields
      *
      * @return self
      */

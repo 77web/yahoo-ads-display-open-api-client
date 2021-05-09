@@ -1,4 +1,4 @@
-# OpenAPI\Client\ConversionTrackerServiceApi
+# YahooAdsDisplayApi\Client\ConversionTrackerServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -12,7 +12,7 @@ Method | HTTP request | Description
 ## `conversionTrackerServiceAddPost()`
 
 ```php
-conversionTrackerServiceAddPost($conversion_tracker_service_operation): \OpenAPI\Client\Model\ConversionTrackerServiceMutateResponse
+conversionTrackerServiceAddPost($conversion_tracker_service_operation): \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceMutateResponse
 ```
 
 
@@ -27,16 +27,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\ConversionTrackerServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\ConversionTrackerServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$conversion_tracker_service_operation = new \OpenAPI\Client\Model\ConversionTrackerServiceOperation(); // \OpenAPI\Client\Model\ConversionTrackerServiceOperation
+$conversion_tracker_service_operation = new \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceOperation(); // \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceOperation
 
 try {
     $result = $apiInstance->conversionTrackerServiceAddPost($conversion_tracker_service_operation);
@@ -50,11 +50,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **conversion_tracker_service_operation** | [**\OpenAPI\Client\Model\ConversionTrackerServiceOperation**](../Model/ConversionTrackerServiceOperation.md)|  | [optional]
+ **conversion_tracker_service_operation** | [**\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceOperation**](../Model/ConversionTrackerServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\ConversionTrackerServiceMutateResponse**](../Model/ConversionTrackerServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceMutateResponse**](../Model/ConversionTrackerServiceMutateResponse.md)
 
 ### Authorization
 
@@ -72,7 +72,7 @@ Name | Type | Description  | Notes
 ## `conversionTrackerServiceGetPost()`
 
 ```php
-conversionTrackerServiceGetPost($conversion_tracker_service_selector): \OpenAPI\Client\Model\ConversionTrackerServiceGetResponse
+conversionTrackerServiceGetPost($conversion_tracker_service_selector): \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceGetResponse
 ```
 
 
@@ -87,16 +87,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\ConversionTrackerServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\ConversionTrackerServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$conversion_tracker_service_selector = new \OpenAPI\Client\Model\ConversionTrackerServiceSelector(); // \OpenAPI\Client\Model\ConversionTrackerServiceSelector
+$conversion_tracker_service_selector = new \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceSelector(); // \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceSelector
 
 try {
     $result = $apiInstance->conversionTrackerServiceGetPost($conversion_tracker_service_selector);
@@ -110,11 +110,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **conversion_tracker_service_selector** | [**\OpenAPI\Client\Model\ConversionTrackerServiceSelector**](../Model/ConversionTrackerServiceSelector.md)|  | [optional]
+ **conversion_tracker_service_selector** | [**\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceSelector**](../Model/ConversionTrackerServiceSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\ConversionTrackerServiceGetResponse**](../Model/ConversionTrackerServiceGetResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceGetResponse**](../Model/ConversionTrackerServiceGetResponse.md)
 
 ### Authorization
 
@@ -132,7 +132,7 @@ Name | Type | Description  | Notes
 ## `conversionTrackerServiceSetPost()`
 
 ```php
-conversionTrackerServiceSetPost($conversion_tracker_service_operation): \OpenAPI\Client\Model\ConversionTrackerServiceMutateResponse
+conversionTrackerServiceSetPost($conversion_tracker_service_operation): \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceMutateResponse
 ```
 
 
@@ -147,16 +147,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\ConversionTrackerServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\ConversionTrackerServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$conversion_tracker_service_operation = new \OpenAPI\Client\Model\ConversionTrackerServiceOperation(); // \OpenAPI\Client\Model\ConversionTrackerServiceOperation
+$conversion_tracker_service_operation = new \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceOperation(); // \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceOperation
 
 try {
     $result = $apiInstance->conversionTrackerServiceSetPost($conversion_tracker_service_operation);
@@ -170,11 +170,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **conversion_tracker_service_operation** | [**\OpenAPI\Client\Model\ConversionTrackerServiceOperation**](../Model/ConversionTrackerServiceOperation.md)|  | [optional]
+ **conversion_tracker_service_operation** | [**\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceOperation**](../Model/ConversionTrackerServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\ConversionTrackerServiceMutateResponse**](../Model/ConversionTrackerServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceMutateResponse**](../Model/ConversionTrackerServiceMutateResponse.md)
 
 ### Authorization
 

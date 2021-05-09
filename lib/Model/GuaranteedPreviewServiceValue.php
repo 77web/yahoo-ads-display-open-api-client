@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedPreviewServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedPreviewServiceValueオブジェクトは、操作結果を含む予約型キャンペーンのプレビュー情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The GuaranteedPreviewServiceValue object is a container for storing the preview of guaranteed campaign information and operation results.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class GuaranteedPreviewServiceValue implements ModelInterface, ArrayAccess, \Jso
       * @var string[]
       */
     protected static $openAPITypes = [
-        'guaranteed_preview' => '\OpenAPI\Client\Model\GuaranteedPreview',
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'guaranteed_preview' => '\YahooAdsDisplayApi\Client\Model\GuaranteedPreview',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool'
     ];
 
@@ -225,7 +225,7 @@ class GuaranteedPreviewServiceValue implements ModelInterface, ArrayAccess, \Jso
     /**
      * Gets guaranteed_preview
      *
-     * @return \OpenAPI\Client\Model\GuaranteedPreview|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedPreview|null
      */
     public function getGuaranteedPreview()
     {
@@ -235,7 +235,7 @@ class GuaranteedPreviewServiceValue implements ModelInterface, ArrayAccess, \Jso
     /**
      * Sets guaranteed_preview
      *
-     * @param \OpenAPI\Client\Model\GuaranteedPreview|null $guaranteed_preview guaranteed_preview
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedPreview|null $guaranteed_preview guaranteed_preview
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class GuaranteedPreviewServiceValue implements ModelInterface, ArrayAccess, \Jso
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -259,7 +259,7 @@ class GuaranteedPreviewServiceValue implements ModelInterface, ArrayAccess, \Jso
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors <div lang=\"ja\">エラー内容です。</div> <div lang=\"en\">Error content.</div>
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors <div lang=\"ja\">エラー内容です。</div> <div lang=\"en\">Error content.</div>
      *
      * @return self
      */

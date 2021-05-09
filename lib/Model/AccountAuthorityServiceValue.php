@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AccountAuthorityServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;AccountAuthorityServiceValueオブジェクトは、アカウント権限情報を格納するコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The AccountAuthorityServiceValue object is a container for storing account authority information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class AccountAuthorityServiceValue implements ModelInterface, ArrayAccess, \Json
       * @var string[]
       */
     protected static $openAPITypes = [
-        'account_authority' => '\OpenAPI\Client\Model\AccountAuthority',
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'account_authority' => '\YahooAdsDisplayApi\Client\Model\AccountAuthority',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool'
     ];
 
@@ -225,7 +225,7 @@ class AccountAuthorityServiceValue implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets account_authority
      *
-     * @return \OpenAPI\Client\Model\AccountAuthority|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountAuthority|null
      */
     public function getAccountAuthority()
     {
@@ -235,7 +235,7 @@ class AccountAuthorityServiceValue implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets account_authority
      *
-     * @param \OpenAPI\Client\Model\AccountAuthority|null $account_authority account_authority
+     * @param \YahooAdsDisplayApi\Client\Model\AccountAuthority|null $account_authority account_authority
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class AccountAuthorityServiceValue implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -259,7 +259,7 @@ class AccountAuthorityServiceValue implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */

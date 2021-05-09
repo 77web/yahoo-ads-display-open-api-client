@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * FeedServiceUploadLimit Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;FeedServiceUploadLimitオブジェクトは、Feedファイルの制限情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedServiceUploadLimit object contains feed file restriction information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class FeedServiceUploadLimit implements ModelInterface, ArrayAccess, \JsonSerial
       * @var string[]
       */
     protected static $openAPITypes = [
-        'source_type' => '\OpenAPI\Client\Model\FeedServiceSourceType',
-        'control_type' => '\OpenAPI\Client\Model\FeedServiceControlType',
+        'source_type' => '\YahooAdsDisplayApi\Client\Model\FeedServiceSourceType',
+        'control_type' => '\YahooAdsDisplayApi\Client\Model\FeedServiceControlType',
         'limit_value' => 'int'
     ];
 
@@ -225,7 +225,7 @@ class FeedServiceUploadLimit implements ModelInterface, ArrayAccess, \JsonSerial
     /**
      * Gets source_type
      *
-     * @return \OpenAPI\Client\Model\FeedServiceSourceType|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedServiceSourceType|null
      */
     public function getSourceType()
     {
@@ -235,7 +235,7 @@ class FeedServiceUploadLimit implements ModelInterface, ArrayAccess, \JsonSerial
     /**
      * Sets source_type
      *
-     * @param \OpenAPI\Client\Model\FeedServiceSourceType|null $source_type source_type
+     * @param \YahooAdsDisplayApi\Client\Model\FeedServiceSourceType|null $source_type source_type
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class FeedServiceUploadLimit implements ModelInterface, ArrayAccess, \JsonSerial
     /**
      * Gets control_type
      *
-     * @return \OpenAPI\Client\Model\FeedServiceControlType|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedServiceControlType|null
      */
     public function getControlType()
     {
@@ -259,7 +259,7 @@ class FeedServiceUploadLimit implements ModelInterface, ArrayAccess, \JsonSerial
     /**
      * Sets control_type
      *
-     * @param \OpenAPI\Client\Model\FeedServiceControlType|null $control_type control_type
+     * @param \YahooAdsDisplayApi\Client\Model\FeedServiceControlType|null $control_type control_type
      *
      * @return self
      */

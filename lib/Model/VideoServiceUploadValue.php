@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * VideoServiceUploadValue Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -60,8 +60,8 @@ class VideoServiceUploadValue implements ModelInterface, ArrayAccess, \JsonSeria
       * @var string[]
       */
     protected static $openAPITypes = [
-        'errors' => '\OpenAPI\Client\Model\Error[]',
-        'upload_data' => '\OpenAPI\Client\Model\VideoServiceUploadData',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
+        'upload_data' => '\YahooAdsDisplayApi\Client\Model\VideoServiceUploadData',
         'operation_succeeded' => 'bool'
     ];
 
@@ -224,7 +224,7 @@ class VideoServiceUploadValue implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -234,7 +234,7 @@ class VideoServiceUploadValue implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */
@@ -248,7 +248,7 @@ class VideoServiceUploadValue implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Gets upload_data
      *
-     * @return \OpenAPI\Client\Model\VideoServiceUploadData|null
+     * @return \YahooAdsDisplayApi\Client\Model\VideoServiceUploadData|null
      */
     public function getUploadData()
     {
@@ -258,7 +258,7 @@ class VideoServiceUploadValue implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Sets upload_data
      *
-     * @param \OpenAPI\Client\Model\VideoServiceUploadData|null $upload_data upload_data
+     * @param \YahooAdsDisplayApi\Client\Model\VideoServiceUploadData|null $upload_data upload_data
      *
      * @return self
      */

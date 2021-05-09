@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ReportDefinitionServiceReportTypeCondition Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;   ReportDefinitionServiceReportTypeConditionオブジェクトは、各レポートタイプごとのレポート作成条件を表します。&lt;br&gt;   このフィールドは、ADD時に省略可能となり、REMOVE時に無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;   ReportDefinitionServiceReportTypeCondition describes the condition to create each report type.   This field is optional in ADD operation, and will be ignored in REMOVE operation.  &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,11 +61,11 @@ class ReportDefinitionServiceReportTypeCondition implements ModelInterface, Arra
       * @var string[]
       */
     protected static $openAPITypes = [
-        'conversion_path_report_condition' => '\OpenAPI\Client\Model\ReportDefinitionServiceConversionPathReportCondition',
-        'cross_campaign_reaches_report_condition' => '\OpenAPI\Client\Model\ReportDefinitionServiceCrossCampaignReachesReportCondition',
-        'frequency_report_condition' => '\OpenAPI\Client\Model\ReportDefinitionServiceFrequencyReportCondition',
-        'reach_report_condition' => '\OpenAPI\Client\Model\ReportDefinitionServiceReachReportCondition',
-        'report_type' => '\OpenAPI\Client\Model\ReportDefinitionServiceType'
+        'conversion_path_report_condition' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceConversionPathReportCondition',
+        'cross_campaign_reaches_report_condition' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceCrossCampaignReachesReportCondition',
+        'frequency_report_condition' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceFrequencyReportCondition',
+        'reach_report_condition' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReachReportCondition',
+        'report_type' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceType'
     ];
 
     /**
@@ -237,7 +237,7 @@ class ReportDefinitionServiceReportTypeCondition implements ModelInterface, Arra
     /**
      * Gets conversion_path_report_condition
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceConversionPathReportCondition|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceConversionPathReportCondition|null
      */
     public function getConversionPathReportCondition()
     {
@@ -247,7 +247,7 @@ class ReportDefinitionServiceReportTypeCondition implements ModelInterface, Arra
     /**
      * Sets conversion_path_report_condition
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceConversionPathReportCondition|null $conversion_path_report_condition conversion_path_report_condition
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceConversionPathReportCondition|null $conversion_path_report_condition conversion_path_report_condition
      *
      * @return self
      */
@@ -261,7 +261,7 @@ class ReportDefinitionServiceReportTypeCondition implements ModelInterface, Arra
     /**
      * Gets cross_campaign_reaches_report_condition
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceCrossCampaignReachesReportCondition|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceCrossCampaignReachesReportCondition|null
      */
     public function getCrossCampaignReachesReportCondition()
     {
@@ -271,7 +271,7 @@ class ReportDefinitionServiceReportTypeCondition implements ModelInterface, Arra
     /**
      * Sets cross_campaign_reaches_report_condition
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceCrossCampaignReachesReportCondition|null $cross_campaign_reaches_report_condition cross_campaign_reaches_report_condition
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceCrossCampaignReachesReportCondition|null $cross_campaign_reaches_report_condition cross_campaign_reaches_report_condition
      *
      * @return self
      */
@@ -285,7 +285,7 @@ class ReportDefinitionServiceReportTypeCondition implements ModelInterface, Arra
     /**
      * Gets frequency_report_condition
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceFrequencyReportCondition|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceFrequencyReportCondition|null
      */
     public function getFrequencyReportCondition()
     {
@@ -295,7 +295,7 @@ class ReportDefinitionServiceReportTypeCondition implements ModelInterface, Arra
     /**
      * Sets frequency_report_condition
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceFrequencyReportCondition|null $frequency_report_condition frequency_report_condition
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceFrequencyReportCondition|null $frequency_report_condition frequency_report_condition
      *
      * @return self
      */
@@ -309,7 +309,7 @@ class ReportDefinitionServiceReportTypeCondition implements ModelInterface, Arra
     /**
      * Gets reach_report_condition
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceReachReportCondition|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReachReportCondition|null
      */
     public function getReachReportCondition()
     {
@@ -319,7 +319,7 @@ class ReportDefinitionServiceReportTypeCondition implements ModelInterface, Arra
     /**
      * Sets reach_report_condition
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceReachReportCondition|null $reach_report_condition reach_report_condition
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReachReportCondition|null $reach_report_condition reach_report_condition
      *
      * @return self
      */
@@ -333,7 +333,7 @@ class ReportDefinitionServiceReportTypeCondition implements ModelInterface, Arra
     /**
      * Gets report_type
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceType|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceType|null
      */
     public function getReportType()
     {
@@ -343,7 +343,7 @@ class ReportDefinitionServiceReportTypeCondition implements ModelInterface, Arra
     /**
      * Sets report_type
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceType|null $report_type report_type
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceType|null $report_type report_type
      *
      * @return self
      */

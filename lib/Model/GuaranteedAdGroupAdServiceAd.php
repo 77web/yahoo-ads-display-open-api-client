@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedAdGroupAdServiceAd Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; GuaranteedAdGroupAdServiceAdオブジェクトは、広告を格納するコンテナです。&lt;br&gt; &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; GuaranteedAdGroupAdServiceAd object is a container for storing ads.&lt;br&gt; &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,27 +61,27 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
       * @var string[]
       */
     protected static $openAPITypes = [
-        'ad_type' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceAdType',
-        'banner_image_ad' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceBannerImageAd',
-        'banner_video_ad' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceBannerVideoAd',
-        'brand_panel_quintie' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceBrandPanelQuintie',
-        'brand_panel_panorama' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceBrandPanelPanorama',
-        'brand_panel_panorama_video' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceBrandPanelPanoramaVideo',
-        'brand_panel_quintie_video' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceBrandPanelQuintieVideo',
-        'top_impact_square' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactSquare',
-        'top_impact_square_video' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactSquareVideo',
-        'top_impact_quintie' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactQuintie',
-        'top_impact_quintie_video' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactQuintieVideo',
-        'top_impact_panorama' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactPanorama',
-        'top_impact_panorama_video' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactPanoramaVideo',
-        'top_impact_panorama_side_vision_video' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactPanoramaSideVisionVideo',
-        'top_impact_panorama_side_switch_video' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactPanoramaSideSwitchVideo',
-        'top_impact_theater_video' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactTheaterVideo',
-        'top_impact_square_special' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactSquareSpecial',
-        'top_impact_square_special_video' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactSquareSpecialVideo',
-        'top_impact_prime_display_double' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactPrimeDisplayDouble',
-        'top_impact_prime_display_double_video' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactPrimeDisplayDoubleVideo',
-        'instream_video' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceInstreamVideoAd'
+        'ad_type' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceAdType',
+        'banner_image_ad' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceBannerImageAd',
+        'banner_video_ad' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceBannerVideoAd',
+        'brand_panel_quintie' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceBrandPanelQuintie',
+        'brand_panel_panorama' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceBrandPanelPanorama',
+        'brand_panel_panorama_video' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceBrandPanelPanoramaVideo',
+        'brand_panel_quintie_video' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceBrandPanelQuintieVideo',
+        'top_impact_square' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactSquare',
+        'top_impact_square_video' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactSquareVideo',
+        'top_impact_quintie' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactQuintie',
+        'top_impact_quintie_video' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactQuintieVideo',
+        'top_impact_panorama' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactPanorama',
+        'top_impact_panorama_video' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactPanoramaVideo',
+        'top_impact_panorama_side_vision_video' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactPanoramaSideVisionVideo',
+        'top_impact_panorama_side_switch_video' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactPanoramaSideSwitchVideo',
+        'top_impact_theater_video' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactTheaterVideo',
+        'top_impact_square_special' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactSquareSpecial',
+        'top_impact_square_special_video' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactSquareSpecialVideo',
+        'top_impact_prime_display_double' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactPrimeDisplayDouble',
+        'top_impact_prime_display_double_video' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactPrimeDisplayDoubleVideo',
+        'instream_video' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceInstreamVideoAd'
     ];
 
     /**
@@ -333,7 +333,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets ad_type
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceAdType|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceAdType|null
      */
     public function getAdType()
     {
@@ -343,7 +343,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets ad_type
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceAdType|null $ad_type ad_type
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceAdType|null $ad_type ad_type
      *
      * @return self
      */
@@ -357,7 +357,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets banner_image_ad
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceBannerImageAd|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceBannerImageAd|null
      */
     public function getBannerImageAd()
     {
@@ -367,7 +367,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets banner_image_ad
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceBannerImageAd|null $banner_image_ad banner_image_ad
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceBannerImageAd|null $banner_image_ad banner_image_ad
      *
      * @return self
      */
@@ -381,7 +381,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets banner_video_ad
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceBannerVideoAd|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceBannerVideoAd|null
      */
     public function getBannerVideoAd()
     {
@@ -391,7 +391,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets banner_video_ad
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceBannerVideoAd|null $banner_video_ad banner_video_ad
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceBannerVideoAd|null $banner_video_ad banner_video_ad
      *
      * @return self
      */
@@ -405,7 +405,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets brand_panel_quintie
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceBrandPanelQuintie|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceBrandPanelQuintie|null
      */
     public function getBrandPanelQuintie()
     {
@@ -415,7 +415,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets brand_panel_quintie
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceBrandPanelQuintie|null $brand_panel_quintie brand_panel_quintie
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceBrandPanelQuintie|null $brand_panel_quintie brand_panel_quintie
      *
      * @return self
      */
@@ -429,7 +429,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets brand_panel_panorama
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceBrandPanelPanorama|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceBrandPanelPanorama|null
      */
     public function getBrandPanelPanorama()
     {
@@ -439,7 +439,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets brand_panel_panorama
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceBrandPanelPanorama|null $brand_panel_panorama brand_panel_panorama
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceBrandPanelPanorama|null $brand_panel_panorama brand_panel_panorama
      *
      * @return self
      */
@@ -453,7 +453,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets brand_panel_panorama_video
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceBrandPanelPanoramaVideo|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceBrandPanelPanoramaVideo|null
      */
     public function getBrandPanelPanoramaVideo()
     {
@@ -463,7 +463,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets brand_panel_panorama_video
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceBrandPanelPanoramaVideo|null $brand_panel_panorama_video brand_panel_panorama_video
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceBrandPanelPanoramaVideo|null $brand_panel_panorama_video brand_panel_panorama_video
      *
      * @return self
      */
@@ -477,7 +477,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets brand_panel_quintie_video
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceBrandPanelQuintieVideo|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceBrandPanelQuintieVideo|null
      */
     public function getBrandPanelQuintieVideo()
     {
@@ -487,7 +487,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets brand_panel_quintie_video
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceBrandPanelQuintieVideo|null $brand_panel_quintie_video brand_panel_quintie_video
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceBrandPanelQuintieVideo|null $brand_panel_quintie_video brand_panel_quintie_video
      *
      * @return self
      */
@@ -501,7 +501,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets top_impact_square
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactSquare|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactSquare|null
      */
     public function getTopImpactSquare()
     {
@@ -511,7 +511,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets top_impact_square
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactSquare|null $top_impact_square top_impact_square
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactSquare|null $top_impact_square top_impact_square
      *
      * @return self
      */
@@ -525,7 +525,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets top_impact_square_video
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactSquareVideo|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactSquareVideo|null
      */
     public function getTopImpactSquareVideo()
     {
@@ -535,7 +535,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets top_impact_square_video
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactSquareVideo|null $top_impact_square_video top_impact_square_video
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactSquareVideo|null $top_impact_square_video top_impact_square_video
      *
      * @return self
      */
@@ -549,7 +549,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets top_impact_quintie
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactQuintie|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactQuintie|null
      */
     public function getTopImpactQuintie()
     {
@@ -559,7 +559,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets top_impact_quintie
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactQuintie|null $top_impact_quintie top_impact_quintie
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactQuintie|null $top_impact_quintie top_impact_quintie
      *
      * @return self
      */
@@ -573,7 +573,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets top_impact_quintie_video
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactQuintieVideo|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactQuintieVideo|null
      */
     public function getTopImpactQuintieVideo()
     {
@@ -583,7 +583,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets top_impact_quintie_video
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactQuintieVideo|null $top_impact_quintie_video top_impact_quintie_video
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactQuintieVideo|null $top_impact_quintie_video top_impact_quintie_video
      *
      * @return self
      */
@@ -597,7 +597,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets top_impact_panorama
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactPanorama|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactPanorama|null
      */
     public function getTopImpactPanorama()
     {
@@ -607,7 +607,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets top_impact_panorama
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactPanorama|null $top_impact_panorama top_impact_panorama
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactPanorama|null $top_impact_panorama top_impact_panorama
      *
      * @return self
      */
@@ -621,7 +621,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets top_impact_panorama_video
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactPanoramaVideo|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactPanoramaVideo|null
      */
     public function getTopImpactPanoramaVideo()
     {
@@ -631,7 +631,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets top_impact_panorama_video
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactPanoramaVideo|null $top_impact_panorama_video top_impact_panorama_video
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactPanoramaVideo|null $top_impact_panorama_video top_impact_panorama_video
      *
      * @return self
      */
@@ -645,7 +645,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets top_impact_panorama_side_vision_video
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactPanoramaSideVisionVideo|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactPanoramaSideVisionVideo|null
      */
     public function getTopImpactPanoramaSideVisionVideo()
     {
@@ -655,7 +655,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets top_impact_panorama_side_vision_video
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactPanoramaSideVisionVideo|null $top_impact_panorama_side_vision_video top_impact_panorama_side_vision_video
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactPanoramaSideVisionVideo|null $top_impact_panorama_side_vision_video top_impact_panorama_side_vision_video
      *
      * @return self
      */
@@ -669,7 +669,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets top_impact_panorama_side_switch_video
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactPanoramaSideSwitchVideo|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactPanoramaSideSwitchVideo|null
      */
     public function getTopImpactPanoramaSideSwitchVideo()
     {
@@ -679,7 +679,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets top_impact_panorama_side_switch_video
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactPanoramaSideSwitchVideo|null $top_impact_panorama_side_switch_video top_impact_panorama_side_switch_video
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactPanoramaSideSwitchVideo|null $top_impact_panorama_side_switch_video top_impact_panorama_side_switch_video
      *
      * @return self
      */
@@ -693,7 +693,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets top_impact_theater_video
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactTheaterVideo|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactTheaterVideo|null
      */
     public function getTopImpactTheaterVideo()
     {
@@ -703,7 +703,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets top_impact_theater_video
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactTheaterVideo|null $top_impact_theater_video top_impact_theater_video
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactTheaterVideo|null $top_impact_theater_video top_impact_theater_video
      *
      * @return self
      */
@@ -717,7 +717,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets top_impact_square_special
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactSquareSpecial|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactSquareSpecial|null
      */
     public function getTopImpactSquareSpecial()
     {
@@ -727,7 +727,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets top_impact_square_special
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactSquareSpecial|null $top_impact_square_special top_impact_square_special
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactSquareSpecial|null $top_impact_square_special top_impact_square_special
      *
      * @return self
      */
@@ -741,7 +741,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets top_impact_square_special_video
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactSquareSpecialVideo|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactSquareSpecialVideo|null
      */
     public function getTopImpactSquareSpecialVideo()
     {
@@ -751,7 +751,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets top_impact_square_special_video
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactSquareSpecialVideo|null $top_impact_square_special_video top_impact_square_special_video
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactSquareSpecialVideo|null $top_impact_square_special_video top_impact_square_special_video
      *
      * @return self
      */
@@ -765,7 +765,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets top_impact_prime_display_double
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactPrimeDisplayDouble|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactPrimeDisplayDouble|null
      */
     public function getTopImpactPrimeDisplayDouble()
     {
@@ -775,7 +775,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets top_impact_prime_display_double
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactPrimeDisplayDouble|null $top_impact_prime_display_double top_impact_prime_display_double
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactPrimeDisplayDouble|null $top_impact_prime_display_double top_impact_prime_display_double
      *
      * @return self
      */
@@ -789,7 +789,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets top_impact_prime_display_double_video
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactPrimeDisplayDoubleVideo|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactPrimeDisplayDoubleVideo|null
      */
     public function getTopImpactPrimeDisplayDoubleVideo()
     {
@@ -799,7 +799,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets top_impact_prime_display_double_video
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceTopImpactPrimeDisplayDoubleVideo|null $top_impact_prime_display_double_video top_impact_prime_display_double_video
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceTopImpactPrimeDisplayDoubleVideo|null $top_impact_prime_display_double_video top_impact_prime_display_double_video
      *
      * @return self
      */
@@ -813,7 +813,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets instream_video
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceInstreamVideoAd|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceInstreamVideoAd|null
      */
     public function getInstreamVideo()
     {
@@ -823,7 +823,7 @@ class GuaranteedAdGroupAdServiceAd implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets instream_video
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceInstreamVideoAd|null $instream_video instream_video
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceInstreamVideoAd|null $instream_video instream_video
      *
      * @return self
      */

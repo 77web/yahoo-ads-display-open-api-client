@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServiceSalesDocument Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;   GuaranteedSimulationServiceSalesDocumentは、セールスシート情報を保持します。&lt;br&gt;   このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;   GuaranteedSimulationServiceSalesDocument holds the sales sheet information.&lt;br&gt;   Although this field will be returned in the response, it will be ignored on input.  &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class GuaranteedSimulationServiceSalesDocument implements ModelInterface, ArrayA
       * @var string[]
       */
     protected static $openAPITypes = [
-        'file' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceDocumentFile'
+        'file' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceDocumentFile'
     ];
 
     /**
@@ -213,7 +213,7 @@ class GuaranteedSimulationServiceSalesDocument implements ModelInterface, ArrayA
     /**
      * Gets file
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceDocumentFile|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceDocumentFile|null
      */
     public function getFile()
     {
@@ -223,7 +223,7 @@ class GuaranteedSimulationServiceSalesDocument implements ModelInterface, ArrayA
     /**
      * Sets file
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceDocumentFile|null $file file
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceDocumentFile|null $file file
      *
      * @return self
      */

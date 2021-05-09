@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * FeedFtpServiceScheduleWeekly Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;FeedFtpServiceScheduleWeeklyオブジェクトは、定期アップロードを何曜日の何時に実行するかを表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedFtpServiceScheduleWeekly object displays what day of the week and what time of the day the Periodic Upload runs.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class FeedFtpServiceScheduleWeekly implements ModelInterface, ArrayAccess, \Json
       * @var string[]
       */
     protected static $openAPITypes = [
-        'schedule_week' => '\OpenAPI\Client\Model\FeedFtpServiceScheduleWeek',
+        'schedule_week' => '\YahooAdsDisplayApi\Client\Model\FeedFtpServiceScheduleWeek',
         'time' => 'int'
     ];
 
@@ -219,7 +219,7 @@ class FeedFtpServiceScheduleWeekly implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets schedule_week
      *
-     * @return \OpenAPI\Client\Model\FeedFtpServiceScheduleWeek|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedFtpServiceScheduleWeek|null
      */
     public function getScheduleWeek()
     {
@@ -229,7 +229,7 @@ class FeedFtpServiceScheduleWeekly implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets schedule_week
      *
-     * @param \OpenAPI\Client\Model\FeedFtpServiceScheduleWeek|null $schedule_week schedule_week
+     * @param \YahooAdsDisplayApi\Client\Model\FeedFtpServiceScheduleWeek|null $schedule_week schedule_week
      *
      * @return self
      */

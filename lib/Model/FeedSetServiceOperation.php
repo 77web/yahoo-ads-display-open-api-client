@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * FeedSetServiceOperation Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;FeedSetServiceOperationオブジェクトは、mutate対象となる商品セットを保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedSetServiceOperation object contains Item Set for mutate operation.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class FeedSetServiceOperation implements ModelInterface, ArrayAccess, \JsonSeria
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'operand' => '\OpenAPI\Client\Model\FeedSet[]'
+        'operand' => '\YahooAdsDisplayApi\Client\Model\FeedSet[]'
     ];
 
     /**
@@ -257,7 +257,7 @@ class FeedSetServiceOperation implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Gets operand
      *
-     * @return \OpenAPI\Client\Model\FeedSet[]
+     * @return \YahooAdsDisplayApi\Client\Model\FeedSet[]
      */
     public function getOperand()
     {
@@ -267,7 +267,7 @@ class FeedSetServiceOperation implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Sets operand
      *
-     * @param \OpenAPI\Client\Model\FeedSet[] $operand operand
+     * @param \YahooAdsDisplayApi\Client\Model\FeedSet[] $operand operand
      *
      * @return self
      */

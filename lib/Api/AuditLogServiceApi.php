@@ -4,7 +4,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Api;
+namespace YahooAdsDisplayApi\Client\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use OpenAPI\Client\ApiException;
-use OpenAPI\Client\Configuration;
-use OpenAPI\Client\HeaderSelector;
-use OpenAPI\Client\ObjectSerializer;
+use YahooAdsDisplayApi\Client\ApiException;
+use YahooAdsDisplayApi\Client\Configuration;
+use YahooAdsDisplayApi\Client\HeaderSelector;
+use YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AuditLogServiceApi Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -118,11 +118,11 @@ class AuditLogServiceApi
     /**
      * Operation auditLogServiceAddPost
      *
-     * @param  \OpenAPI\Client\Model\AuditLogServiceOperation $audit_log_service_operation audit_log_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AuditLogServiceOperation $audit_log_service_operation audit_log_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\AuditLogServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\AuditLogServiceMutateResponse
      */
     public function auditLogServiceAddPost($audit_log_service_operation = null)
     {
@@ -133,11 +133,11 @@ class AuditLogServiceApi
     /**
      * Operation auditLogServiceAddPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\AuditLogServiceOperation $audit_log_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AuditLogServiceOperation $audit_log_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\AuditLogServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\AuditLogServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function auditLogServiceAddPostWithHttpInfo($audit_log_service_operation = null)
     {
@@ -174,20 +174,20 @@ class AuditLogServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\AuditLogServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\AuditLogServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\AuditLogServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\AuditLogServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\AuditLogServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\AuditLogServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -206,7 +206,7 @@ class AuditLogServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\AuditLogServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\AuditLogServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -221,7 +221,7 @@ class AuditLogServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\AuditLogServiceOperation $audit_log_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AuditLogServiceOperation $audit_log_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -241,14 +241,14 @@ class AuditLogServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\AuditLogServiceOperation $audit_log_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AuditLogServiceOperation $audit_log_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function auditLogServiceAddPostAsyncWithHttpInfo($audit_log_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\AuditLogServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\AuditLogServiceMutateResponse';
         $request = $this->auditLogServiceAddPostRequest($audit_log_service_operation);
 
         return $this->client
@@ -288,7 +288,7 @@ class AuditLogServiceApi
     /**
      * Create request for operation 'auditLogServiceAddPost'
      *
-     * @param  \OpenAPI\Client\Model\AuditLogServiceOperation $audit_log_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AuditLogServiceOperation $audit_log_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -377,9 +377,9 @@ class AuditLogServiceApi
     /**
      * Operation auditLogServiceDownloadPost
      *
-     * @param  \OpenAPI\Client\Model\AuditLogServiceDownloadSelector $audit_log_service_download_selector audit_log_service_download_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AuditLogServiceDownloadSelector $audit_log_service_download_selector audit_log_service_download_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return |\SplFileObject
      */
@@ -392,9 +392,9 @@ class AuditLogServiceApi
     /**
      * Operation auditLogServiceDownloadPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\AuditLogServiceDownloadSelector $audit_log_service_download_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AuditLogServiceDownloadSelector $audit_log_service_download_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of |\SplFileObject, HTTP status code, HTTP response headers (array of strings)
      */
@@ -480,7 +480,7 @@ class AuditLogServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\AuditLogServiceDownloadSelector $audit_log_service_download_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AuditLogServiceDownloadSelector $audit_log_service_download_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -500,7 +500,7 @@ class AuditLogServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\AuditLogServiceDownloadSelector $audit_log_service_download_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AuditLogServiceDownloadSelector $audit_log_service_download_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -547,7 +547,7 @@ class AuditLogServiceApi
     /**
      * Create request for operation 'auditLogServiceDownloadPost'
      *
-     * @param  \OpenAPI\Client\Model\AuditLogServiceDownloadSelector $audit_log_service_download_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AuditLogServiceDownloadSelector $audit_log_service_download_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -636,11 +636,11 @@ class AuditLogServiceApi
     /**
      * Operation auditLogServiceGetPost
      *
-     * @param  \OpenAPI\Client\Model\AuditLogServiceSelector $audit_log_service_selector audit_log_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AuditLogServiceSelector $audit_log_service_selector audit_log_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\AuditLogServiceGetResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\AuditLogServiceGetResponse
      */
     public function auditLogServiceGetPost($audit_log_service_selector = null)
     {
@@ -651,11 +651,11 @@ class AuditLogServiceApi
     /**
      * Operation auditLogServiceGetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\AuditLogServiceSelector $audit_log_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AuditLogServiceSelector $audit_log_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\AuditLogServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\AuditLogServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function auditLogServiceGetPostWithHttpInfo($audit_log_service_selector = null)
     {
@@ -692,20 +692,20 @@ class AuditLogServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\AuditLogServiceGetResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\AuditLogServiceGetResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\AuditLogServiceGetResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\AuditLogServiceGetResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\AuditLogServiceGetResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\AuditLogServiceGetResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -724,7 +724,7 @@ class AuditLogServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\AuditLogServiceGetResponse',
+                        '\YahooAdsDisplayApi\Client\Model\AuditLogServiceGetResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -739,7 +739,7 @@ class AuditLogServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\AuditLogServiceSelector $audit_log_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AuditLogServiceSelector $audit_log_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -759,14 +759,14 @@ class AuditLogServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\AuditLogServiceSelector $audit_log_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AuditLogServiceSelector $audit_log_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function auditLogServiceGetPostAsyncWithHttpInfo($audit_log_service_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\AuditLogServiceGetResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\AuditLogServiceGetResponse';
         $request = $this->auditLogServiceGetPostRequest($audit_log_service_selector);
 
         return $this->client
@@ -806,7 +806,7 @@ class AuditLogServiceApi
     /**
      * Create request for operation 'auditLogServiceGetPost'
      *
-     * @param  \OpenAPI\Client\Model\AuditLogServiceSelector $audit_log_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AuditLogServiceSelector $audit_log_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

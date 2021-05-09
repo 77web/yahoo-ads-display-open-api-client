@@ -4,7 +4,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Api;
+namespace YahooAdsDisplayApi\Client\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use OpenAPI\Client\ApiException;
-use OpenAPI\Client\Configuration;
-use OpenAPI\Client\HeaderSelector;
-use OpenAPI\Client\ObjectSerializer;
+use YahooAdsDisplayApi\Client\ApiException;
+use YahooAdsDisplayApi\Client\Configuration;
+use YahooAdsDisplayApi\Client\HeaderSelector;
+use YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * PlacementUrlIdeaServiceApi Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -118,11 +118,11 @@ class PlacementUrlIdeaServiceApi
     /**
      * Operation placementUrlIdeaServiceGetPost
      *
-     * @param  \OpenAPI\Client\Model\PlacementUrlIdeaServiceSelector $placement_url_idea_service_selector placement_url_idea_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\PlacementUrlIdeaServiceSelector $placement_url_idea_service_selector placement_url_idea_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\PlacementUrlIdeaServiceGetResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\PlacementUrlIdeaServiceGetResponse
      */
     public function placementUrlIdeaServiceGetPost($placement_url_idea_service_selector = null)
     {
@@ -133,11 +133,11 @@ class PlacementUrlIdeaServiceApi
     /**
      * Operation placementUrlIdeaServiceGetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\PlacementUrlIdeaServiceSelector $placement_url_idea_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\PlacementUrlIdeaServiceSelector $placement_url_idea_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\PlacementUrlIdeaServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\PlacementUrlIdeaServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function placementUrlIdeaServiceGetPostWithHttpInfo($placement_url_idea_service_selector = null)
     {
@@ -174,20 +174,20 @@ class PlacementUrlIdeaServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\PlacementUrlIdeaServiceGetResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\PlacementUrlIdeaServiceGetResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\PlacementUrlIdeaServiceGetResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\PlacementUrlIdeaServiceGetResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\PlacementUrlIdeaServiceGetResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\PlacementUrlIdeaServiceGetResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -206,7 +206,7 @@ class PlacementUrlIdeaServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\PlacementUrlIdeaServiceGetResponse',
+                        '\YahooAdsDisplayApi\Client\Model\PlacementUrlIdeaServiceGetResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -221,7 +221,7 @@ class PlacementUrlIdeaServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\PlacementUrlIdeaServiceSelector $placement_url_idea_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\PlacementUrlIdeaServiceSelector $placement_url_idea_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -241,14 +241,14 @@ class PlacementUrlIdeaServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\PlacementUrlIdeaServiceSelector $placement_url_idea_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\PlacementUrlIdeaServiceSelector $placement_url_idea_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function placementUrlIdeaServiceGetPostAsyncWithHttpInfo($placement_url_idea_service_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\PlacementUrlIdeaServiceGetResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\PlacementUrlIdeaServiceGetResponse';
         $request = $this->placementUrlIdeaServiceGetPostRequest($placement_url_idea_service_selector);
 
         return $this->client
@@ -288,7 +288,7 @@ class PlacementUrlIdeaServiceApi
     /**
      * Create request for operation 'placementUrlIdeaServiceGetPost'
      *
-     * @param  \OpenAPI\Client\Model\PlacementUrlIdeaServiceSelector $placement_url_idea_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\PlacementUrlIdeaServiceSelector $placement_url_idea_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * BudgetOrder Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;BudgetOrderオブジェクトは、アカウント予算情報を示します。&lt;br&gt; &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;BudgetOrder object is a container for storing the account budget.&lt;br&gt; &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,9 +62,9 @@ class BudgetOrder implements ModelInterface, ArrayAccess, \JsonSerializable
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'account_type' => '\OpenAPI\Client\Model\BudgetOrderServiceAccountType',
+        'account_type' => '\YahooAdsDisplayApi\Client\Model\BudgetOrderServiceAccountType',
         'amount' => 'int',
-        'limit_charge_type' => '\OpenAPI\Client\Model\BudgetOrderServiceLimitChargeType'
+        'limit_charge_type' => '\YahooAdsDisplayApi\Client\Model\BudgetOrderServiceLimitChargeType'
     ];
 
     /**
@@ -255,7 +255,7 @@ class BudgetOrder implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets account_type
      *
-     * @return \OpenAPI\Client\Model\BudgetOrderServiceAccountType|null
+     * @return \YahooAdsDisplayApi\Client\Model\BudgetOrderServiceAccountType|null
      */
     public function getAccountType()
     {
@@ -265,7 +265,7 @@ class BudgetOrder implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets account_type
      *
-     * @param \OpenAPI\Client\Model\BudgetOrderServiceAccountType|null $account_type account_type
+     * @param \YahooAdsDisplayApi\Client\Model\BudgetOrderServiceAccountType|null $account_type account_type
      *
      * @return self
      */
@@ -303,7 +303,7 @@ class BudgetOrder implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets limit_charge_type
      *
-     * @return \OpenAPI\Client\Model\BudgetOrderServiceLimitChargeType|null
+     * @return \YahooAdsDisplayApi\Client\Model\BudgetOrderServiceLimitChargeType|null
      */
     public function getLimitChargeType()
     {
@@ -313,7 +313,7 @@ class BudgetOrder implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets limit_charge_type
      *
-     * @param \OpenAPI\Client\Model\BudgetOrderServiceLimitChargeType|null $limit_charge_type limit_charge_type
+     * @param \YahooAdsDisplayApi\Client\Model\BudgetOrderServiceLimitChargeType|null $limit_charge_type limit_charge_type
      *
      * @return self
      */

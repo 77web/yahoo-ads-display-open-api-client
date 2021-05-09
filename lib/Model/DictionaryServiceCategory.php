@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * DictionaryServiceCategory Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;DictionaryServiceCategoryオブジェクトは、カテゴリー情報を格納するコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;DictionaryServiceCategory object is a container of category information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class DictionaryServiceCategory implements ModelInterface, ArrayAccess, \JsonSer
       * @var string[]
       */
     protected static $openAPITypes = [
-        'child' => '\OpenAPI\Client\Model\DictionaryServiceCategoryChild[]',
+        'child' => '\YahooAdsDisplayApi\Client\Model\DictionaryServiceCategoryChild[]',
         'name' => 'string'
     ];
 
@@ -219,7 +219,7 @@ class DictionaryServiceCategory implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Gets child
      *
-     * @return \OpenAPI\Client\Model\DictionaryServiceCategoryChild[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\DictionaryServiceCategoryChild[]|null
      */
     public function getChild()
     {
@@ -229,7 +229,7 @@ class DictionaryServiceCategory implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Sets child
      *
-     * @param \OpenAPI\Client\Model\DictionaryServiceCategoryChild[]|null $child child
+     * @param \YahooAdsDisplayApi\Client\Model\DictionaryServiceCategoryChild[]|null $child child
      *
      * @return self
      */

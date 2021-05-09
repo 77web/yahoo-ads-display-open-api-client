@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * VideoServiceDownloadSelector Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;ビデオをダウンロードします。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Download the video.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -63,7 +63,7 @@ class VideoServiceDownloadSelector implements ModelInterface, ArrayAccess, \Json
     protected static $openAPITypes = [
         'account_id' => 'int',
         'media_id' => 'int',
-        'quality_type' => '\OpenAPI\Client\Model\VideoServiceQualityType'
+        'quality_type' => '\YahooAdsDisplayApi\Client\Model\VideoServiceQualityType'
     ];
 
     /**
@@ -282,7 +282,7 @@ class VideoServiceDownloadSelector implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets quality_type
      *
-     * @return \OpenAPI\Client\Model\VideoServiceQualityType
+     * @return \YahooAdsDisplayApi\Client\Model\VideoServiceQualityType
      */
     public function getQualityType()
     {
@@ -292,7 +292,7 @@ class VideoServiceDownloadSelector implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets quality_type
      *
-     * @param \OpenAPI\Client\Model\VideoServiceQualityType $quality_type quality_type
+     * @param \YahooAdsDisplayApi\Client\Model\VideoServiceQualityType $quality_type quality_type
      *
      * @return self
      */

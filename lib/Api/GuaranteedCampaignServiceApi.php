@@ -4,7 +4,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Api;
+namespace YahooAdsDisplayApi\Client\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use OpenAPI\Client\ApiException;
-use OpenAPI\Client\Configuration;
-use OpenAPI\Client\HeaderSelector;
-use OpenAPI\Client\ObjectSerializer;
+use YahooAdsDisplayApi\Client\ApiException;
+use YahooAdsDisplayApi\Client\Configuration;
+use YahooAdsDisplayApi\Client\HeaderSelector;
+use YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedCampaignServiceApi Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -118,11 +118,11 @@ class GuaranteedCampaignServiceApi
     /**
      * Operation guaranteedCampaignServiceGetPost
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedCampaignServiceSelector $guaranteed_campaign_service_selector guaranteed_campaign_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceSelector $guaranteed_campaign_service_selector guaranteed_campaign_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\GuaranteedCampaignServiceGetResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceGetResponse
      */
     public function guaranteedCampaignServiceGetPost($guaranteed_campaign_service_selector = null)
     {
@@ -133,11 +133,11 @@ class GuaranteedCampaignServiceApi
     /**
      * Operation guaranteedCampaignServiceGetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedCampaignServiceSelector $guaranteed_campaign_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceSelector $guaranteed_campaign_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\GuaranteedCampaignServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function guaranteedCampaignServiceGetPostWithHttpInfo($guaranteed_campaign_service_selector = null)
     {
@@ -174,20 +174,20 @@ class GuaranteedCampaignServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\GuaranteedCampaignServiceGetResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceGetResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\GuaranteedCampaignServiceGetResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceGetResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\GuaranteedCampaignServiceGetResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceGetResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -206,7 +206,7 @@ class GuaranteedCampaignServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\GuaranteedCampaignServiceGetResponse',
+                        '\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceGetResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -221,7 +221,7 @@ class GuaranteedCampaignServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedCampaignServiceSelector $guaranteed_campaign_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceSelector $guaranteed_campaign_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -241,14 +241,14 @@ class GuaranteedCampaignServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedCampaignServiceSelector $guaranteed_campaign_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceSelector $guaranteed_campaign_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function guaranteedCampaignServiceGetPostAsyncWithHttpInfo($guaranteed_campaign_service_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\GuaranteedCampaignServiceGetResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceGetResponse';
         $request = $this->guaranteedCampaignServiceGetPostRequest($guaranteed_campaign_service_selector);
 
         return $this->client
@@ -288,7 +288,7 @@ class GuaranteedCampaignServiceApi
     /**
      * Create request for operation 'guaranteedCampaignServiceGetPost'
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedCampaignServiceSelector $guaranteed_campaign_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceSelector $guaranteed_campaign_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -377,11 +377,11 @@ class GuaranteedCampaignServiceApi
     /**
      * Operation guaranteedCampaignServiceSetPost
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedCampaignServiceOperation $guaranteed_campaign_service_operation guaranteed_campaign_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceOperation $guaranteed_campaign_service_operation guaranteed_campaign_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\GuaranteedCampaignServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceMutateResponse
      */
     public function guaranteedCampaignServiceSetPost($guaranteed_campaign_service_operation = null)
     {
@@ -392,11 +392,11 @@ class GuaranteedCampaignServiceApi
     /**
      * Operation guaranteedCampaignServiceSetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedCampaignServiceOperation $guaranteed_campaign_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceOperation $guaranteed_campaign_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\GuaranteedCampaignServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function guaranteedCampaignServiceSetPostWithHttpInfo($guaranteed_campaign_service_operation = null)
     {
@@ -433,20 +433,20 @@ class GuaranteedCampaignServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\GuaranteedCampaignServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\GuaranteedCampaignServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\GuaranteedCampaignServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -465,7 +465,7 @@ class GuaranteedCampaignServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\GuaranteedCampaignServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -480,7 +480,7 @@ class GuaranteedCampaignServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedCampaignServiceOperation $guaranteed_campaign_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceOperation $guaranteed_campaign_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -500,14 +500,14 @@ class GuaranteedCampaignServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedCampaignServiceOperation $guaranteed_campaign_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceOperation $guaranteed_campaign_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function guaranteedCampaignServiceSetPostAsyncWithHttpInfo($guaranteed_campaign_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\GuaranteedCampaignServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceMutateResponse';
         $request = $this->guaranteedCampaignServiceSetPostRequest($guaranteed_campaign_service_operation);
 
         return $this->client
@@ -547,7 +547,7 @@ class GuaranteedCampaignServiceApi
     /**
      * Create request for operation 'guaranteedCampaignServiceSetPost'
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedCampaignServiceOperation $guaranteed_campaign_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceOperation $guaranteed_campaign_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

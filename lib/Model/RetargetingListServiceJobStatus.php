@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,15 +27,15 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
-use \OpenAPI\Client\ObjectSerializer;
+namespace YahooAdsDisplayApi\Client\Model;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RetargetingListServiceJobStatus Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;RetargetingListServiceJobStatusはアップロードジョブの状態を示します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;RetargetingListServiceJobStatus indicates the status of the upload job.&lt;/div&gt; &lt;div lang&#x3D;\&quot;ja\&quot;&gt;   * ステータスが「RECEIVED」になった後、通常は数時間でユーザーリストの反映が完了します。&lt;br&gt;   * ステータスが「INVALID_FILE」の場合、ファイル内容に問題がある、ファイルフォーマットが間違っている、あるいはファイルサイズが上限（1,073,741,824 byte）を超えています。&lt;br&gt;   * ステータスが「FAILED」の場合、ファイル内容以外に起因する問題でジョブが正常に完了しなかったことを意味します。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;   * The user list will usually be reflected within a few hours after the status becomes \&quot;RECEIVED\&quot;.&lt;br&gt;   * If the status is \&quot;INVALID_FILE\&quot;, there is a problem with the file contents, the file format is incorrect, or the file size exceeds the upper limit (1,073,741,824 bytes).&lt;br&gt;   * If the status is \&quot;FAILED\&quot;, it means that the job did not complete successfully due to a problem other than the file contents. &lt;/div&gt; &lt;dl class&#x3D;term&gt;   &lt;dt class&#x3D;\&quot;term__item\&quot;&gt;RECEIVING&lt;/dt&gt;   &lt;dd class&#x3D;\&quot;term__desc\&quot;&gt;&lt;span lang&#x3D;\&quot;ja\&quot;&gt;データ取り込み中です。&lt;/span&gt;&lt;span lang&#x3D;\&quot;en\&quot;&gt;Data is being imported.&lt;/span&gt;&lt;/dd&gt;   &lt;dt class&#x3D;\&quot;term__item\&quot;&gt;RECEIVED&lt;/dt&gt;   &lt;dd class&#x3D;\&quot;term__desc\&quot;&gt;&lt;span lang&#x3D;\&quot;ja\&quot;&gt;データ取り込み完了です。&lt;/span&gt;&lt;span lang&#x3D;\&quot;en\&quot;&gt;Importing data is completed.&lt;/span&gt;&lt;/dd&gt;   &lt;dt class&#x3D;\&quot;term__item\&quot;&gt;INVALID_FILE&lt;/dt&gt;   &lt;dd class&#x3D;\&quot;term__desc\&quot;&gt;&lt;span lang&#x3D;\&quot;ja\&quot;&gt;ファイルフォーマットエラーです。&lt;/span&gt;&lt;span lang&#x3D;\&quot;en\&quot;&gt;File format error.&lt;/span&gt;&lt;/dd&gt;   &lt;dt class&#x3D;\&quot;term__item\&quot;&gt;FAILED&lt;/dt&gt;   &lt;dd class&#x3D;\&quot;term__desc\&quot;&gt;&lt;span lang&#x3D;\&quot;ja\&quot;&gt;ジョブが失敗しました。&lt;/span&gt;&lt;span lang&#x3D;\&quot;en\&quot;&gt;Job failed.&lt;/span&gt;&lt;/dd&gt;   &lt;dt class&#x3D;\&quot;term__item\&quot;&gt;UNKNOWN&lt;/dt&gt;   &lt;dd class&#x3D;\&quot;term__desc\&quot;&gt;&lt;span lang&#x3D;\&quot;ja\&quot;&gt;未知の値です。&lt;/span&gt;&lt;span lang&#x3D;\&quot;en\&quot;&gt;Unknown Value.&lt;/span&gt;&lt;/dd&gt; &lt;/dl&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */

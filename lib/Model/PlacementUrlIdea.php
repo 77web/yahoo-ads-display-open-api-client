@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * PlacementUrlIdea Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;PlacementUrlIdeaオブジェクトは、プレイスメントUrl情報を保持するオブジェクトです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;An object that holds the placement Url information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -64,7 +64,7 @@ class PlacementUrlIdea implements ModelInterface, ArrayAccess, \JsonSerializable
         'keyword' => 'string',
         'site_category' => 'string[]',
         'search_url' => 'string',
-        'ad_format' => '\OpenAPI\Client\Model\PlacementUrlIdeaServiceAdFormat[]',
+        'ad_format' => '\YahooAdsDisplayApi\Client\Model\PlacementUrlIdeaServiceAdFormat[]',
         'desktop_reaches' => 'int',
         'desktop_ad_requests' => 'int',
         'smart_phone_reaches' => 'int',
@@ -339,7 +339,7 @@ class PlacementUrlIdea implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets ad_format
      *
-     * @return \OpenAPI\Client\Model\PlacementUrlIdeaServiceAdFormat[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\PlacementUrlIdeaServiceAdFormat[]|null
      */
     public function getAdFormat()
     {
@@ -349,7 +349,7 @@ class PlacementUrlIdea implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets ad_format
      *
-     * @param \OpenAPI\Client\Model\PlacementUrlIdeaServiceAdFormat[]|null $ad_format ad_format
+     * @param \YahooAdsDisplayApi\Client\Model\PlacementUrlIdeaServiceAdFormat[]|null $ad_format ad_format
      *
      * @return self
      */

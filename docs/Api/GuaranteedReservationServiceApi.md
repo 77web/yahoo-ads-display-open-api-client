@@ -1,4 +1,4 @@
-# OpenAPI\Client\GuaranteedReservationServiceApi
+# YahooAdsDisplayApi\Client\GuaranteedReservationServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -10,7 +10,7 @@ Method | HTTP request | Description
 ## `guaranteedReservationServiceAddPost()`
 
 ```php
-guaranteedReservationServiceAddPost($guaranteed_reservation_service_operation): \OpenAPI\Client\Model\GuaranteedReservationServiceMutateResponse
+guaranteedReservationServiceAddPost($guaranteed_reservation_service_operation): \YahooAdsDisplayApi\Client\Model\GuaranteedReservationServiceMutateResponse
 ```
 
 
@@ -25,16 +25,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\GuaranteedReservationServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\GuaranteedReservationServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$guaranteed_reservation_service_operation = new \OpenAPI\Client\Model\GuaranteedReservationServiceOperation(); // \OpenAPI\Client\Model\GuaranteedReservationServiceOperation
+$guaranteed_reservation_service_operation = new \YahooAdsDisplayApi\Client\Model\GuaranteedReservationServiceOperation(); // \YahooAdsDisplayApi\Client\Model\GuaranteedReservationServiceOperation
 
 try {
     $result = $apiInstance->guaranteedReservationServiceAddPost($guaranteed_reservation_service_operation);
@@ -48,11 +48,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **guaranteed_reservation_service_operation** | [**\OpenAPI\Client\Model\GuaranteedReservationServiceOperation**](../Model/GuaranteedReservationServiceOperation.md)|  | [optional]
+ **guaranteed_reservation_service_operation** | [**\YahooAdsDisplayApi\Client\Model\GuaranteedReservationServiceOperation**](../Model/GuaranteedReservationServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\GuaranteedReservationServiceMutateResponse**](../Model/GuaranteedReservationServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\GuaranteedReservationServiceMutateResponse**](../Model/GuaranteedReservationServiceMutateResponse.md)
 
 ### Authorization
 

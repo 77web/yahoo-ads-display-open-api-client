@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupTargetServiceGenderTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; AdGroupTargetServiceGenderTargetオブジェクトは、性別ターゲティングの設定を保持します。&lt;br&gt; ADD、SETおよびREPLACE時、このフィールドは省略可能となります。&lt;br&gt; ※targetTypeがGENDER_TARGETの場合は必須です。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; AdGroupTargetServiceGenderTarget object is a container for storing gender targeting settings.&lt;br&gt; This field is optional in ADD, SET and REPLACE operation.&lt;br&gt; ∗If targetType is GENDER_TARGET, this field is required. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class AdGroupTargetServiceGenderTarget implements ModelInterface, ArrayAccess, \
       * @var string[]
       */
     protected static $openAPITypes = [
-        'estimate_flg' => '\OpenAPI\Client\Model\AdGroupTargetServiceEstimateFlg',
-        'gender' => '\OpenAPI\Client\Model\AdGroupTargetServiceGender'
+        'estimate_flg' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceEstimateFlg',
+        'gender' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceGender'
     ];
 
     /**
@@ -219,7 +219,7 @@ class AdGroupTargetServiceGenderTarget implements ModelInterface, ArrayAccess, \
     /**
      * Gets estimate_flg
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServiceEstimateFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceEstimateFlg|null
      */
     public function getEstimateFlg()
     {
@@ -229,7 +229,7 @@ class AdGroupTargetServiceGenderTarget implements ModelInterface, ArrayAccess, \
     /**
      * Sets estimate_flg
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServiceEstimateFlg|null $estimate_flg estimate_flg
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceEstimateFlg|null $estimate_flg estimate_flg
      *
      * @return self
      */
@@ -243,7 +243,7 @@ class AdGroupTargetServiceGenderTarget implements ModelInterface, ArrayAccess, \
     /**
      * Gets gender
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServiceGender|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceGender|null
      */
     public function getGender()
     {
@@ -253,7 +253,7 @@ class AdGroupTargetServiceGenderTarget implements ModelInterface, ArrayAccess, \
     /**
      * Sets gender
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServiceGender|null $gender gender
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceGender|null $gender gender
      *
      * @return self
      */

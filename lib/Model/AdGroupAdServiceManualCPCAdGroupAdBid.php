@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupAdServiceManualCPCAdGroupAdBid Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; AdGroupAdServiceManualCPCAdGroupAdBidオブジェクトは、広告の手動入札方法（CPC）を表します。&lt;br&gt; ※広告掲載方式がVIDEO_AD（動画広告）のキャンペーンIDを指定した時は利用できません。&lt;br&gt; このフィールドは、省略可能となります。&lt;br&gt; ※ADD時、biddingStrategyTypeがMANUAL_CPCの場合は必須です。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; AdGroupAdServiceManualCPCAdGroupAdBid object serves the manual bid (CPC) of the ad level.&lt;br&gt; *It is not available when a campaign ID with ad distribution type &#39;VIDEO_AD&#39; is specified.&lt;br&gt; This field is optional.&lt;br&gt; *If biddingStrategyType is MANUAL_CPC, this field is required in ADD operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>

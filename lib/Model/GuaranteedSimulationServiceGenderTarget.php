@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServiceGenderTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; GuaranteedSimulationServiceGenderTargetオブジェクトは、性別ターゲティングの設定を保持します。&lt;br&gt; ADD時、このフィールドは省略可能となります。&lt;br&gt; ※targetTypeがGENDER_TARGETの場合は必須です。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; GuaranteedSimulationServiceGenderTarget object is a container for storing gender targeting settings.&lt;br&gt; This field is optional in ADD operation.&lt;br&gt; ∗If targetType is GENDER_TARGET, this field is required. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class GuaranteedSimulationServiceGenderTarget implements ModelInterface, ArrayAc
       * @var string[]
       */
     protected static $openAPITypes = [
-        'gender' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceGender'
+        'gender' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGender'
     ];
 
     /**
@@ -213,7 +213,7 @@ class GuaranteedSimulationServiceGenderTarget implements ModelInterface, ArrayAc
     /**
      * Gets gender
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceGender|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGender|null
      */
     public function getGender()
     {
@@ -223,7 +223,7 @@ class GuaranteedSimulationServiceGenderTarget implements ModelInterface, ArrayAc
     /**
      * Sets gender
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceGender|null $gender gender
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGender|null $gender gender
      *
      * @return self
      */

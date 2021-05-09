@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedReservationServiceOperation Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedReservationServiceOperationオブジェクトは、操作の対象となるシミュレーション結果に基づいた予約情報と処理の内容を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;GuaranteedReservationServiceOperation object describes the reservation information and process detail to be operated based on simulation result.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class GuaranteedReservationServiceOperation implements ModelInterface, ArrayAcce
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'operand' => '\OpenAPI\Client\Model\GuaranteedReservation[]'
+        'operand' => '\YahooAdsDisplayApi\Client\Model\GuaranteedReservation[]'
     ];
 
     /**
@@ -257,7 +257,7 @@ class GuaranteedReservationServiceOperation implements ModelInterface, ArrayAcce
     /**
      * Gets operand
      *
-     * @return \OpenAPI\Client\Model\GuaranteedReservation[]
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedReservation[]
      */
     public function getOperand()
     {
@@ -267,7 +267,7 @@ class GuaranteedReservationServiceOperation implements ModelInterface, ArrayAcce
     /**
      * Sets operand
      *
-     * @param \OpenAPI\Client\Model\GuaranteedReservation[] $operand operand
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedReservation[] $operand operand
      *
      * @return self
      */

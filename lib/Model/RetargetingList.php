@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RetargetingList Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;RetargetingListオブジェクトは、サイトリターゲティング のターゲットリストの情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;RetargetingList object diplays the target list for site retargeting.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,11 +62,11 @@ class RetargetingList implements ModelInterface, ArrayAccess, \JsonSerializable
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'delivery_status' => '\OpenAPI\Client\Model\RetargetingListServiceDeliveryStatus',
+        'delivery_status' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceDeliveryStatus',
         'description' => 'string',
-        'is_remove_description' => '\OpenAPI\Client\Model\RetargetingListServiceIsRemoveFlg',
+        'is_remove_description' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceIsRemoveFlg',
         'reach' => 'int',
-        'target_list' => '\OpenAPI\Client\Model\RetargetingListServiceTargetList',
+        'target_list' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceTargetList',
         'target_list_id' => 'int',
         'target_list_name' => 'string',
         'source_account_id' => 'int',
@@ -297,7 +297,7 @@ class RetargetingList implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets delivery_status
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceDeliveryStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceDeliveryStatus|null
      */
     public function getDeliveryStatus()
     {
@@ -307,7 +307,7 @@ class RetargetingList implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets delivery_status
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceDeliveryStatus|null $delivery_status delivery_status
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceDeliveryStatus|null $delivery_status delivery_status
      *
      * @return self
      */
@@ -345,7 +345,7 @@ class RetargetingList implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets is_remove_description
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceIsRemoveFlg|null
      */
     public function getIsRemoveDescription()
     {
@@ -355,7 +355,7 @@ class RetargetingList implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets is_remove_description
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceIsRemoveFlg|null $is_remove_description is_remove_description
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceIsRemoveFlg|null $is_remove_description is_remove_description
      *
      * @return self
      */
@@ -393,7 +393,7 @@ class RetargetingList implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets target_list
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceTargetList|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceTargetList|null
      */
     public function getTargetList()
     {
@@ -403,7 +403,7 @@ class RetargetingList implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets target_list
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceTargetList|null $target_list target_list
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceTargetList|null $target_list target_list
      *
      * @return self
      */

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServicePermittedAgeTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedSimulationServicePermittedAgeTargetオブジェクトは、年齢ターゲットの設定情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;GuaranteedSimulationServicePermittedAgeTarget object holds configuration information of age targeting.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class GuaranteedSimulationServicePermittedAgeTarget implements ModelInterface, A
       */
     protected static $openAPITypes = [
         'target_id' => 'string',
-        'age' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceAge'
+        'age' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAge'
     ];
 
     /**
@@ -243,7 +243,7 @@ class GuaranteedSimulationServicePermittedAgeTarget implements ModelInterface, A
     /**
      * Gets age
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceAge|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAge|null
      */
     public function getAge()
     {
@@ -253,7 +253,7 @@ class GuaranteedSimulationServicePermittedAgeTarget implements ModelInterface, A
     /**
      * Sets age
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceAge|null $age age
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAge|null $age age
      *
      * @return self
      */

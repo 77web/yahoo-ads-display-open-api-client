@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ReportDefinitionServiceOperation Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;ReportDefinitionServiceOperationオブジェクトは、操作の対象となるレポート定義および操作の内容を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The ReportDefinitionServiceOperation object serves operation target report definitions and operation content.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class ReportDefinitionServiceOperation implements ModelInterface, ArrayAccess, \
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'operand' => '\OpenAPI\Client\Model\ReportDefinition[]'
+        'operand' => '\YahooAdsDisplayApi\Client\Model\ReportDefinition[]'
     ];
 
     /**
@@ -257,7 +257,7 @@ class ReportDefinitionServiceOperation implements ModelInterface, ArrayAccess, \
     /**
      * Gets operand
      *
-     * @return \OpenAPI\Client\Model\ReportDefinition[]
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinition[]
      */
     public function getOperand()
     {
@@ -267,7 +267,7 @@ class ReportDefinitionServiceOperation implements ModelInterface, ArrayAccess, \
     /**
      * Sets operand
      *
-     * @param \OpenAPI\Client\Model\ReportDefinition[] $operand operand
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinition[] $operand operand
      *
      * @return self
      */

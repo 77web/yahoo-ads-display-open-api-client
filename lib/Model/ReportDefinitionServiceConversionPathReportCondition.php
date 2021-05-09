@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ReportDefinitionServiceConversionPathReportCondition Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;   ReportDefinitionServiceConversionPathReportConditionオブジェクトは、コンバージョン経路レポートの作成条件を表します。&lt;br&gt;   このフィールドは、ADD時に省略可能となり、REMOVE時に無視されます。&lt;br&gt;   ※ADD時、reportTypeが&lt;code&gt;CONVERSION_PATH&lt;/code&gt;の場合は必須です。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;   ReportDefinitionServiceConversionPathReportCondition describes the condition to create Conversion Path Report. &lt;br&gt;   This field is optional in ADD operation, and will be ignored in REMOVE operation. &lt;br&gt;   *If reportType is &lt;code&gt;CONVERSION_PATH&lt;/code&gt;, this field is required in ADD operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,9 +62,9 @@ class ReportDefinitionServiceConversionPathReportCondition implements ModelInter
       */
     protected static $openAPITypes = [
         'lookback_window' => 'int',
-        'include_view_interaction' => '\OpenAPI\Client\Model\ReportDefinitionServiceIncludeViewInteractionFlg',
-        'conversion_path_filters' => '\OpenAPI\Client\Model\ReportDefinitionServiceConversionPathFilter[]',
-        'conversion_path_account_setting' => '\OpenAPI\Client\Model\ReportDefinitionServiceConversionPathAccountSetting'
+        'include_view_interaction' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceIncludeViewInteractionFlg',
+        'conversion_path_filters' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceConversionPathFilter[]',
+        'conversion_path_account_setting' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceConversionPathAccountSetting'
     ];
 
     /**
@@ -255,7 +255,7 @@ class ReportDefinitionServiceConversionPathReportCondition implements ModelInter
     /**
      * Gets include_view_interaction
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceIncludeViewInteractionFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceIncludeViewInteractionFlg|null
      */
     public function getIncludeViewInteraction()
     {
@@ -265,7 +265,7 @@ class ReportDefinitionServiceConversionPathReportCondition implements ModelInter
     /**
      * Sets include_view_interaction
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceIncludeViewInteractionFlg|null $include_view_interaction include_view_interaction
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceIncludeViewInteractionFlg|null $include_view_interaction include_view_interaction
      *
      * @return self
      */
@@ -279,7 +279,7 @@ class ReportDefinitionServiceConversionPathReportCondition implements ModelInter
     /**
      * Gets conversion_path_filters
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceConversionPathFilter[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceConversionPathFilter[]|null
      */
     public function getConversionPathFilters()
     {
@@ -289,7 +289,7 @@ class ReportDefinitionServiceConversionPathReportCondition implements ModelInter
     /**
      * Sets conversion_path_filters
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceConversionPathFilter[]|null $conversion_path_filters conversion_path_filters
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceConversionPathFilter[]|null $conversion_path_filters conversion_path_filters
      *
      * @return self
      */
@@ -303,7 +303,7 @@ class ReportDefinitionServiceConversionPathReportCondition implements ModelInter
     /**
      * Gets conversion_path_account_setting
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceConversionPathAccountSetting|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceConversionPathAccountSetting|null
      */
     public function getConversionPathAccountSetting()
     {
@@ -313,7 +313,7 @@ class ReportDefinitionServiceConversionPathReportCondition implements ModelInter
     /**
      * Sets conversion_path_account_setting
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceConversionPathAccountSetting|null $conversion_path_account_setting conversion_path_account_setting
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceConversionPathAccountSetting|null $conversion_path_account_setting conversion_path_account_setting
      *
      * @return self
      */

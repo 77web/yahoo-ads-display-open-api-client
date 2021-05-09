@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ReportDefinitionServiceCrossCampaignGoal Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; ReportDefinitionServiceCrossCampaignGoalは、横断リーチレポートの組み合わせの対象となるアカウントおよびキャンペーン目的を示します。&lt;br&gt; このフィールドは、ADD時に省略可能となり、REMOVE時に無視されます。&lt;br&gt; ※ADD時、crossCampaignTypeが&lt;code&gt;CAMPAIGN_GOAL&lt;/code&gt;の場合は必須です。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; ReportDefinitionServiceCrossCampaignGoal indicates account and campaign goal that is subject to Cross-campaign Reach Report combination.&lt;br&gt; This field is optional in ADD operation, and will be ignored in REMOVE operation.&lt;br&gt; *If crossCampaignType is &lt;code&gt;CAMPAIGN_GOAL&lt;/code&gt;, this field is required in ADD operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class ReportDefinitionServiceCrossCampaignGoal implements ModelInterface, ArrayA
       * @var string[]
       */
     protected static $openAPITypes = [
-        'account' => '\OpenAPI\Client\Model\ReportDefinitionServiceAccount',
+        'account' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceAccount',
         'campaign_goal' => 'string'
     ];
 
@@ -219,7 +219,7 @@ class ReportDefinitionServiceCrossCampaignGoal implements ModelInterface, ArrayA
     /**
      * Gets account
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceAccount|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceAccount|null
      */
     public function getAccount()
     {
@@ -229,7 +229,7 @@ class ReportDefinitionServiceCrossCampaignGoal implements ModelInterface, ArrayA
     /**
      * Sets account
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceAccount|null $account account
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceAccount|null $account account
      *
      * @return self
      */

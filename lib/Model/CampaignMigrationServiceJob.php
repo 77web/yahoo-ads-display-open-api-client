@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * CampaignMigrationServiceJob Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;CampaignMigrationServiceJobオブジェクトは、マイグレーションジョブの処理状況を示すオブジェクトです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;CampaignMigrationServiceJob object indicates processing status of migration job.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -64,11 +64,11 @@ class CampaignMigrationServiceJob implements ModelInterface, ArrayAccess, \JsonS
         'account_id' => 'int',
         'failed_count' => 'int',
         'in_progress_count' => 'int',
-        'job_status' => '\OpenAPI\Client\Model\CampaignMigrationServiceJobStatus',
+        'job_status' => '\YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceJobStatus',
         'migration_job_end_date' => 'string',
         'migration_job_id' => 'int',
         'migration_job_submit_date' => 'string',
-        'scope' => '\OpenAPI\Client\Model\CampaignMigrationServiceScope',
+        'scope' => '\YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceScope',
         'succeeded_count' => 'int',
         'total_count' => 'int'
     ];
@@ -339,7 +339,7 @@ class CampaignMigrationServiceJob implements ModelInterface, ArrayAccess, \JsonS
     /**
      * Gets job_status
      *
-     * @return \OpenAPI\Client\Model\CampaignMigrationServiceJobStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceJobStatus|null
      */
     public function getJobStatus()
     {
@@ -349,7 +349,7 @@ class CampaignMigrationServiceJob implements ModelInterface, ArrayAccess, \JsonS
     /**
      * Sets job_status
      *
-     * @param \OpenAPI\Client\Model\CampaignMigrationServiceJobStatus|null $job_status job_status
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceJobStatus|null $job_status job_status
      *
      * @return self
      */
@@ -435,7 +435,7 @@ class CampaignMigrationServiceJob implements ModelInterface, ArrayAccess, \JsonS
     /**
      * Gets scope
      *
-     * @return \OpenAPI\Client\Model\CampaignMigrationServiceScope|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceScope|null
      */
     public function getScope()
     {
@@ -445,7 +445,7 @@ class CampaignMigrationServiceJob implements ModelInterface, ArrayAccess, \JsonS
     /**
      * Sets scope
      *
-     * @param \OpenAPI\Client\Model\CampaignMigrationServiceScope|null $scope scope
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceScope|null $scope scope
      *
      * @return self
      */

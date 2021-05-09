@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * FeedServiceOperation Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;FeedServiceOperationオブジェクトは、mutate対象となるFeed情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedServiceOperation object contains Feed information by mutate operation.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class FeedServiceOperation implements ModelInterface, ArrayAccess, \JsonSerializ
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'operand' => '\OpenAPI\Client\Model\Feed[]'
+        'operand' => '\YahooAdsDisplayApi\Client\Model\Feed[]'
     ];
 
     /**
@@ -257,7 +257,7 @@ class FeedServiceOperation implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Gets operand
      *
-     * @return \OpenAPI\Client\Model\Feed[]
+     * @return \YahooAdsDisplayApi\Client\Model\Feed[]
      */
     public function getOperand()
     {
@@ -267,7 +267,7 @@ class FeedServiceOperation implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Sets operand
      *
-     * @param \OpenAPI\Client\Model\Feed[] $operand operand
+     * @param \YahooAdsDisplayApi\Client\Model\Feed[] $operand operand
      *
      * @return self
      */

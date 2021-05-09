@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * StatsServiceTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;StatsServiceTargetオブジェクトは、ターゲット設定情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;StatsServiceTarget object holds configuration information of StatsServiceTargeting.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,24 +61,24 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
       * @var string[]
       */
     protected static $openAPITypes = [
-        'ad_schedule_target' => '\OpenAPI\Client\Model\StatsServiceAdScheduleTarget',
-        'age_target' => '\OpenAPI\Client\Model\StatsServiceAgeTarget',
-        'app_target' => '\OpenAPI\Client\Model\StatsServiceAppTarget',
-        'audience_category_target' => '\OpenAPI\Client\Model\StatsServiceAudienceCategoryTarget',
-        'carrier_target' => '\OpenAPI\Client\Model\StatsServiceCarrierTarget',
-        'device_target' => '\OpenAPI\Client\Model\StatsServiceDeviceTarget',
-        'gender_target' => '\OpenAPI\Client\Model\StatsServiceGenderTarget',
-        'geo_target' => '\OpenAPI\Client\Model\StatsServiceGeoTarget',
-        'interest_category_target' => '\OpenAPI\Client\Model\StatsServiceInterestCategoryTarget',
-        'os_target' => '\OpenAPI\Client\Model\StatsServiceOsTarget',
-        'os_version_target' => '\OpenAPI\Client\Model\StatsServiceOsVersionTarget',
-        'placement_target' => '\OpenAPI\Client\Model\StatsServicePlacementTarget',
-        'search_target' => '\OpenAPI\Client\Model\StatsServiceSearchTarget',
-        'site_category_target' => '\OpenAPI\Client\Model\StatsServiceSiteCategoryTarget',
-        'site_retargeting_target' => '\OpenAPI\Client\Model\StatsServiceSiteRetargetingTarget',
+        'ad_schedule_target' => '\YahooAdsDisplayApi\Client\Model\StatsServiceAdScheduleTarget',
+        'age_target' => '\YahooAdsDisplayApi\Client\Model\StatsServiceAgeTarget',
+        'app_target' => '\YahooAdsDisplayApi\Client\Model\StatsServiceAppTarget',
+        'audience_category_target' => '\YahooAdsDisplayApi\Client\Model\StatsServiceAudienceCategoryTarget',
+        'carrier_target' => '\YahooAdsDisplayApi\Client\Model\StatsServiceCarrierTarget',
+        'device_target' => '\YahooAdsDisplayApi\Client\Model\StatsServiceDeviceTarget',
+        'gender_target' => '\YahooAdsDisplayApi\Client\Model\StatsServiceGenderTarget',
+        'geo_target' => '\YahooAdsDisplayApi\Client\Model\StatsServiceGeoTarget',
+        'interest_category_target' => '\YahooAdsDisplayApi\Client\Model\StatsServiceInterestCategoryTarget',
+        'os_target' => '\YahooAdsDisplayApi\Client\Model\StatsServiceOsTarget',
+        'os_version_target' => '\YahooAdsDisplayApi\Client\Model\StatsServiceOsVersionTarget',
+        'placement_target' => '\YahooAdsDisplayApi\Client\Model\StatsServicePlacementTarget',
+        'search_target' => '\YahooAdsDisplayApi\Client\Model\StatsServiceSearchTarget',
+        'site_category_target' => '\YahooAdsDisplayApi\Client\Model\StatsServiceSiteCategoryTarget',
+        'site_retargeting_target' => '\YahooAdsDisplayApi\Client\Model\StatsServiceSiteRetargetingTarget',
         'target_id' => 'string',
-        'target_setting' => '\OpenAPI\Client\Model\StatsServiceTargetSetting',
-        'target_type' => '\OpenAPI\Client\Model\StatsServiceTargetType'
+        'target_setting' => '\YahooAdsDisplayApi\Client\Model\StatsServiceTargetSetting',
+        'target_type' => '\YahooAdsDisplayApi\Client\Model\StatsServiceTargetType'
     ];
 
     /**
@@ -315,7 +315,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets ad_schedule_target
      *
-     * @return \OpenAPI\Client\Model\StatsServiceAdScheduleTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceAdScheduleTarget|null
      */
     public function getAdScheduleTarget()
     {
@@ -325,7 +325,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets ad_schedule_target
      *
-     * @param \OpenAPI\Client\Model\StatsServiceAdScheduleTarget|null $ad_schedule_target ad_schedule_target
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceAdScheduleTarget|null $ad_schedule_target ad_schedule_target
      *
      * @return self
      */
@@ -339,7 +339,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets age_target
      *
-     * @return \OpenAPI\Client\Model\StatsServiceAgeTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceAgeTarget|null
      */
     public function getAgeTarget()
     {
@@ -349,7 +349,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets age_target
      *
-     * @param \OpenAPI\Client\Model\StatsServiceAgeTarget|null $age_target age_target
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceAgeTarget|null $age_target age_target
      *
      * @return self
      */
@@ -363,7 +363,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets app_target
      *
-     * @return \OpenAPI\Client\Model\StatsServiceAppTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceAppTarget|null
      */
     public function getAppTarget()
     {
@@ -373,7 +373,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets app_target
      *
-     * @param \OpenAPI\Client\Model\StatsServiceAppTarget|null $app_target app_target
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceAppTarget|null $app_target app_target
      *
      * @return self
      */
@@ -387,7 +387,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets audience_category_target
      *
-     * @return \OpenAPI\Client\Model\StatsServiceAudienceCategoryTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceAudienceCategoryTarget|null
      */
     public function getAudienceCategoryTarget()
     {
@@ -397,7 +397,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets audience_category_target
      *
-     * @param \OpenAPI\Client\Model\StatsServiceAudienceCategoryTarget|null $audience_category_target audience_category_target
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceAudienceCategoryTarget|null $audience_category_target audience_category_target
      *
      * @return self
      */
@@ -411,7 +411,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets carrier_target
      *
-     * @return \OpenAPI\Client\Model\StatsServiceCarrierTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceCarrierTarget|null
      */
     public function getCarrierTarget()
     {
@@ -421,7 +421,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets carrier_target
      *
-     * @param \OpenAPI\Client\Model\StatsServiceCarrierTarget|null $carrier_target carrier_target
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceCarrierTarget|null $carrier_target carrier_target
      *
      * @return self
      */
@@ -435,7 +435,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets device_target
      *
-     * @return \OpenAPI\Client\Model\StatsServiceDeviceTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceDeviceTarget|null
      */
     public function getDeviceTarget()
     {
@@ -445,7 +445,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets device_target
      *
-     * @param \OpenAPI\Client\Model\StatsServiceDeviceTarget|null $device_target device_target
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceDeviceTarget|null $device_target device_target
      *
      * @return self
      */
@@ -459,7 +459,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets gender_target
      *
-     * @return \OpenAPI\Client\Model\StatsServiceGenderTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceGenderTarget|null
      */
     public function getGenderTarget()
     {
@@ -469,7 +469,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets gender_target
      *
-     * @param \OpenAPI\Client\Model\StatsServiceGenderTarget|null $gender_target gender_target
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceGenderTarget|null $gender_target gender_target
      *
      * @return self
      */
@@ -483,7 +483,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets geo_target
      *
-     * @return \OpenAPI\Client\Model\StatsServiceGeoTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceGeoTarget|null
      */
     public function getGeoTarget()
     {
@@ -493,7 +493,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets geo_target
      *
-     * @param \OpenAPI\Client\Model\StatsServiceGeoTarget|null $geo_target geo_target
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceGeoTarget|null $geo_target geo_target
      *
      * @return self
      */
@@ -507,7 +507,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets interest_category_target
      *
-     * @return \OpenAPI\Client\Model\StatsServiceInterestCategoryTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceInterestCategoryTarget|null
      */
     public function getInterestCategoryTarget()
     {
@@ -517,7 +517,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets interest_category_target
      *
-     * @param \OpenAPI\Client\Model\StatsServiceInterestCategoryTarget|null $interest_category_target interest_category_target
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceInterestCategoryTarget|null $interest_category_target interest_category_target
      *
      * @return self
      */
@@ -531,7 +531,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets os_target
      *
-     * @return \OpenAPI\Client\Model\StatsServiceOsTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceOsTarget|null
      */
     public function getOsTarget()
     {
@@ -541,7 +541,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets os_target
      *
-     * @param \OpenAPI\Client\Model\StatsServiceOsTarget|null $os_target os_target
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceOsTarget|null $os_target os_target
      *
      * @return self
      */
@@ -555,7 +555,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets os_version_target
      *
-     * @return \OpenAPI\Client\Model\StatsServiceOsVersionTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceOsVersionTarget|null
      */
     public function getOsVersionTarget()
     {
@@ -565,7 +565,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets os_version_target
      *
-     * @param \OpenAPI\Client\Model\StatsServiceOsVersionTarget|null $os_version_target os_version_target
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceOsVersionTarget|null $os_version_target os_version_target
      *
      * @return self
      */
@@ -579,7 +579,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets placement_target
      *
-     * @return \OpenAPI\Client\Model\StatsServicePlacementTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServicePlacementTarget|null
      */
     public function getPlacementTarget()
     {
@@ -589,7 +589,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets placement_target
      *
-     * @param \OpenAPI\Client\Model\StatsServicePlacementTarget|null $placement_target placement_target
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServicePlacementTarget|null $placement_target placement_target
      *
      * @return self
      */
@@ -603,7 +603,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets search_target
      *
-     * @return \OpenAPI\Client\Model\StatsServiceSearchTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceSearchTarget|null
      */
     public function getSearchTarget()
     {
@@ -613,7 +613,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets search_target
      *
-     * @param \OpenAPI\Client\Model\StatsServiceSearchTarget|null $search_target search_target
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceSearchTarget|null $search_target search_target
      *
      * @return self
      */
@@ -627,7 +627,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets site_category_target
      *
-     * @return \OpenAPI\Client\Model\StatsServiceSiteCategoryTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceSiteCategoryTarget|null
      */
     public function getSiteCategoryTarget()
     {
@@ -637,7 +637,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets site_category_target
      *
-     * @param \OpenAPI\Client\Model\StatsServiceSiteCategoryTarget|null $site_category_target site_category_target
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceSiteCategoryTarget|null $site_category_target site_category_target
      *
      * @return self
      */
@@ -651,7 +651,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets site_retargeting_target
      *
-     * @return \OpenAPI\Client\Model\StatsServiceSiteRetargetingTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceSiteRetargetingTarget|null
      */
     public function getSiteRetargetingTarget()
     {
@@ -661,7 +661,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets site_retargeting_target
      *
-     * @param \OpenAPI\Client\Model\StatsServiceSiteRetargetingTarget|null $site_retargeting_target site_retargeting_target
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceSiteRetargetingTarget|null $site_retargeting_target site_retargeting_target
      *
      * @return self
      */
@@ -699,7 +699,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets target_setting
      *
-     * @return \OpenAPI\Client\Model\StatsServiceTargetSetting|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceTargetSetting|null
      */
     public function getTargetSetting()
     {
@@ -709,7 +709,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets target_setting
      *
-     * @param \OpenAPI\Client\Model\StatsServiceTargetSetting|null $target_setting target_setting
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceTargetSetting|null $target_setting target_setting
      *
      * @return self
      */
@@ -723,7 +723,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets target_type
      *
-     * @return \OpenAPI\Client\Model\StatsServiceTargetType|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceTargetType|null
      */
     public function getTargetType()
     {
@@ -733,7 +733,7 @@ class StatsServiceTarget implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets target_type
      *
-     * @param \OpenAPI\Client\Model\StatsServiceTargetType|null $target_type target_type
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceTargetType|null $target_type target_type
      *
      * @return self
      */

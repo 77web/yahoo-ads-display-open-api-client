@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * SearchKeywordIdeaServiceSelector Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;SearchKeywordIdeaServiceSelectorオブジェクトは、サーチターゲティング対象キーワードのリストを表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;SearchKeywordIdeaServiceSelector object displays the list of keyword for search targeting.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,16 +61,16 @@ class SearchKeywordIdeaServiceSelector implements ModelInterface, ArrayAccess, \
       * @var string[]
       */
     protected static $openAPITypes = [
-        'keyword_frequency' => '\OpenAPI\Client\Model\SearchKeywordIdeaServiceKeywordFrequency',
+        'keyword_frequency' => '\YahooAdsDisplayApi\Client\Model\SearchKeywordIdeaServiceKeywordFrequency',
         'keyword_ids' => 'int[]',
-        'keyword_recency' => '\OpenAPI\Client\Model\SearchKeywordIdeaServiceKeywordRecency',
+        'keyword_recency' => '\YahooAdsDisplayApi\Client\Model\SearchKeywordIdeaServiceKeywordRecency',
         'keywords' => 'string[]',
-        'match_type' => '\OpenAPI\Client\Model\SearchKeywordIdeaServiceMatchType',
+        'match_type' => '\YahooAdsDisplayApi\Client\Model\SearchKeywordIdeaServiceMatchType',
         'number_results' => 'int',
-        'sort_field' => '\OpenAPI\Client\Model\SearchKeywordIdeaServiceSortField',
-        'sort_type' => '\OpenAPI\Client\Model\SearchKeywordIdeaServiceSortType',
+        'sort_field' => '\YahooAdsDisplayApi\Client\Model\SearchKeywordIdeaServiceSortField',
+        'sort_type' => '\YahooAdsDisplayApi\Client\Model\SearchKeywordIdeaServiceSortType',
         'start_index' => 'int',
-        'availability_status' => '\OpenAPI\Client\Model\SearchKeywordIdeaServiceAvailabilityStatus'
+        'availability_status' => '\YahooAdsDisplayApi\Client\Model\SearchKeywordIdeaServiceAvailabilityStatus'
     ];
 
     /**
@@ -287,7 +287,7 @@ class SearchKeywordIdeaServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Gets keyword_frequency
      *
-     * @return \OpenAPI\Client\Model\SearchKeywordIdeaServiceKeywordFrequency|null
+     * @return \YahooAdsDisplayApi\Client\Model\SearchKeywordIdeaServiceKeywordFrequency|null
      */
     public function getKeywordFrequency()
     {
@@ -297,7 +297,7 @@ class SearchKeywordIdeaServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Sets keyword_frequency
      *
-     * @param \OpenAPI\Client\Model\SearchKeywordIdeaServiceKeywordFrequency|null $keyword_frequency keyword_frequency
+     * @param \YahooAdsDisplayApi\Client\Model\SearchKeywordIdeaServiceKeywordFrequency|null $keyword_frequency keyword_frequency
      *
      * @return self
      */
@@ -339,7 +339,7 @@ class SearchKeywordIdeaServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Gets keyword_recency
      *
-     * @return \OpenAPI\Client\Model\SearchKeywordIdeaServiceKeywordRecency|null
+     * @return \YahooAdsDisplayApi\Client\Model\SearchKeywordIdeaServiceKeywordRecency|null
      */
     public function getKeywordRecency()
     {
@@ -349,7 +349,7 @@ class SearchKeywordIdeaServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Sets keyword_recency
      *
-     * @param \OpenAPI\Client\Model\SearchKeywordIdeaServiceKeywordRecency|null $keyword_recency keyword_recency
+     * @param \YahooAdsDisplayApi\Client\Model\SearchKeywordIdeaServiceKeywordRecency|null $keyword_recency keyword_recency
      *
      * @return self
      */
@@ -391,7 +391,7 @@ class SearchKeywordIdeaServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Gets match_type
      *
-     * @return \OpenAPI\Client\Model\SearchKeywordIdeaServiceMatchType|null
+     * @return \YahooAdsDisplayApi\Client\Model\SearchKeywordIdeaServiceMatchType|null
      */
     public function getMatchType()
     {
@@ -401,7 +401,7 @@ class SearchKeywordIdeaServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Sets match_type
      *
-     * @param \OpenAPI\Client\Model\SearchKeywordIdeaServiceMatchType|null $match_type match_type
+     * @param \YahooAdsDisplayApi\Client\Model\SearchKeywordIdeaServiceMatchType|null $match_type match_type
      *
      * @return self
      */
@@ -447,7 +447,7 @@ class SearchKeywordIdeaServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Gets sort_field
      *
-     * @return \OpenAPI\Client\Model\SearchKeywordIdeaServiceSortField|null
+     * @return \YahooAdsDisplayApi\Client\Model\SearchKeywordIdeaServiceSortField|null
      */
     public function getSortField()
     {
@@ -457,7 +457,7 @@ class SearchKeywordIdeaServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Sets sort_field
      *
-     * @param \OpenAPI\Client\Model\SearchKeywordIdeaServiceSortField|null $sort_field sort_field
+     * @param \YahooAdsDisplayApi\Client\Model\SearchKeywordIdeaServiceSortField|null $sort_field sort_field
      *
      * @return self
      */
@@ -471,7 +471,7 @@ class SearchKeywordIdeaServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Gets sort_type
      *
-     * @return \OpenAPI\Client\Model\SearchKeywordIdeaServiceSortType|null
+     * @return \YahooAdsDisplayApi\Client\Model\SearchKeywordIdeaServiceSortType|null
      */
     public function getSortType()
     {
@@ -481,7 +481,7 @@ class SearchKeywordIdeaServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Sets sort_type
      *
-     * @param \OpenAPI\Client\Model\SearchKeywordIdeaServiceSortType|null $sort_type sort_type
+     * @param \YahooAdsDisplayApi\Client\Model\SearchKeywordIdeaServiceSortType|null $sort_type sort_type
      *
      * @return self
      */
@@ -524,7 +524,7 @@ class SearchKeywordIdeaServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Gets availability_status
      *
-     * @return \OpenAPI\Client\Model\SearchKeywordIdeaServiceAvailabilityStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\SearchKeywordIdeaServiceAvailabilityStatus|null
      */
     public function getAvailabilityStatus()
     {
@@ -534,7 +534,7 @@ class SearchKeywordIdeaServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Sets availability_status
      *
-     * @param \OpenAPI\Client\Model\SearchKeywordIdeaServiceAvailabilityStatus|null $availability_status availability_status
+     * @param \YahooAdsDisplayApi\Client\Model\SearchKeywordIdeaServiceAvailabilityStatus|null $availability_status availability_status
      *
      * @return self
      */

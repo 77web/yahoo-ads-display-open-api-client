@@ -1,4 +1,4 @@
-# OpenAPI\Client\BalanceServiceApi
+# YahooAdsDisplayApi\Client\BalanceServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -10,7 +10,7 @@ Method | HTTP request | Description
 ## `balanceServiceGetPost()`
 
 ```php
-balanceServiceGetPost($balance_service_selector): \OpenAPI\Client\Model\BalanceServiceGetResponse
+balanceServiceGetPost($balance_service_selector): \YahooAdsDisplayApi\Client\Model\BalanceServiceGetResponse
 ```
 
 
@@ -25,16 +25,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\BalanceServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\BalanceServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$balance_service_selector = new \OpenAPI\Client\Model\BalanceServiceSelector(); // \OpenAPI\Client\Model\BalanceServiceSelector
+$balance_service_selector = new \YahooAdsDisplayApi\Client\Model\BalanceServiceSelector(); // \YahooAdsDisplayApi\Client\Model\BalanceServiceSelector
 
 try {
     $result = $apiInstance->balanceServiceGetPost($balance_service_selector);
@@ -48,11 +48,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **balance_service_selector** | [**\OpenAPI\Client\Model\BalanceServiceSelector**](../Model/BalanceServiceSelector.md)|  | [optional]
+ **balance_service_selector** | [**\YahooAdsDisplayApi\Client\Model\BalanceServiceSelector**](../Model/BalanceServiceSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\BalanceServiceGetResponse**](../Model/BalanceServiceGetResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\BalanceServiceGetResponse**](../Model/BalanceServiceGetResponse.md)
 
 ### Authorization
 

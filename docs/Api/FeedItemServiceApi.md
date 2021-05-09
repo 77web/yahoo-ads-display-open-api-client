@@ -1,4 +1,4 @@
-# OpenAPI\Client\FeedItemServiceApi
+# YahooAdsDisplayApi\Client\FeedItemServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -10,7 +10,7 @@ Method | HTTP request | Description
 ## `feedItemServiceSetPost()`
 
 ```php
-feedItemServiceSetPost($feed_item_service_operation): \OpenAPI\Client\Model\FeedItemServiceMutateResponse
+feedItemServiceSetPost($feed_item_service_operation): \YahooAdsDisplayApi\Client\Model\FeedItemServiceMutateResponse
 ```
 
 
@@ -25,16 +25,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\FeedItemServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\FeedItemServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$feed_item_service_operation = new \OpenAPI\Client\Model\FeedItemServiceOperation(); // \OpenAPI\Client\Model\FeedItemServiceOperation
+$feed_item_service_operation = new \YahooAdsDisplayApi\Client\Model\FeedItemServiceOperation(); // \YahooAdsDisplayApi\Client\Model\FeedItemServiceOperation
 
 try {
     $result = $apiInstance->feedItemServiceSetPost($feed_item_service_operation);
@@ -48,11 +48,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **feed_item_service_operation** | [**\OpenAPI\Client\Model\FeedItemServiceOperation**](../Model/FeedItemServiceOperation.md)|  | [optional]
+ **feed_item_service_operation** | [**\YahooAdsDisplayApi\Client\Model\FeedItemServiceOperation**](../Model/FeedItemServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\FeedItemServiceMutateResponse**](../Model/FeedItemServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\FeedItemServiceMutateResponse**](../Model/FeedItemServiceMutateResponse.md)
 
 ### Authorization
 

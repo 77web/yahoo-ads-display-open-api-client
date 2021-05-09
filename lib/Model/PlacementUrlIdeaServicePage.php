@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * PlacementUrlIdeaServicePage Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;PlacementUrlIdeaServicePageオブジェクトは、getメソッドの実行結果（全Entityのリスト）を保持するオブジェクトです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The objects to keep execution result of get method (All Entity list).&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class PlacementUrlIdeaServicePage implements ModelInterface, ArrayAccess, \JsonS
       */
     protected static $openAPITypes = [
         'total_num_entries' => 'int',
-        'values' => '\OpenAPI\Client\Model\PlacementUrlIdeaServiceValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\PlacementUrlIdeaServiceValue[]'
     ];
 
     /**
@@ -243,7 +243,7 @@ class PlacementUrlIdeaServicePage implements ModelInterface, ArrayAccess, \JsonS
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\PlacementUrlIdeaServiceValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\PlacementUrlIdeaServiceValue[]|null
      */
     public function getValues()
     {
@@ -253,7 +253,7 @@ class PlacementUrlIdeaServicePage implements ModelInterface, ArrayAccess, \JsonS
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\PlacementUrlIdeaServiceValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\PlacementUrlIdeaServiceValue[]|null $values values
      *
      * @return self
      */

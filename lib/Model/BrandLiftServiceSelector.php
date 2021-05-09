@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * BrandLiftServiceSelector Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;BrandLiftServiceSelectorオブジェクトは、getメソッドの検索条件（実行パラメータ）を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The BrandLiftServiceSelector object is a container for storing a set of criteria (parameters) for get method.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -64,7 +64,7 @@ class BrandLiftServiceSelector implements ModelInterface, ArrayAccess, \JsonSeri
         'account_id' => 'int',
         'brand_lift_ids' => 'int[]',
         'campaign_ids' => 'int[]',
-        'approval_statuses' => '\OpenAPI\Client\Model\BrandLiftServiceApprovalStatus[]',
+        'approval_statuses' => '\YahooAdsDisplayApi\Client\Model\BrandLiftServiceApprovalStatus[]',
         'number_results' => 'int',
         'start_index' => 'int'
     ];
@@ -350,7 +350,7 @@ class BrandLiftServiceSelector implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Gets approval_statuses
      *
-     * @return \OpenAPI\Client\Model\BrandLiftServiceApprovalStatus[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\BrandLiftServiceApprovalStatus[]|null
      */
     public function getApprovalStatuses()
     {
@@ -360,7 +360,7 @@ class BrandLiftServiceSelector implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Sets approval_statuses
      *
-     * @param \OpenAPI\Client\Model\BrandLiftServiceApprovalStatus[]|null $approval_statuses approval_statuses
+     * @param \YahooAdsDisplayApi\Client\Model\BrandLiftServiceApprovalStatus[]|null $approval_statuses approval_statuses
      *
      * @return self
      */

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * StatsServicePeriod Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;StatsServicePeriodオブジェクトは、統計情報の更新日を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;StatsServicePeriod object contains the update date of stats information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class StatsServicePeriod implements ModelInterface, ArrayAccess, \JsonSerializab
       * @var string[]
       */
     protected static $openAPITypes = [
-        'period_end_date' => '\OpenAPI\Client\Model\StatsServicePeriodDatetime',
-        'period_start_date' => '\OpenAPI\Client\Model\StatsServicePeriodDatetime'
+        'period_end_date' => '\YahooAdsDisplayApi\Client\Model\StatsServicePeriodDatetime',
+        'period_start_date' => '\YahooAdsDisplayApi\Client\Model\StatsServicePeriodDatetime'
     ];
 
     /**
@@ -219,7 +219,7 @@ class StatsServicePeriod implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets period_end_date
      *
-     * @return \OpenAPI\Client\Model\StatsServicePeriodDatetime|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServicePeriodDatetime|null
      */
     public function getPeriodEndDate()
     {
@@ -229,7 +229,7 @@ class StatsServicePeriod implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets period_end_date
      *
-     * @param \OpenAPI\Client\Model\StatsServicePeriodDatetime|null $period_end_date period_end_date
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServicePeriodDatetime|null $period_end_date period_end_date
      *
      * @return self
      */
@@ -243,7 +243,7 @@ class StatsServicePeriod implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets period_start_date
      *
-     * @return \OpenAPI\Client\Model\StatsServicePeriodDatetime|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServicePeriodDatetime|null
      */
     public function getPeriodStartDate()
     {
@@ -253,7 +253,7 @@ class StatsServicePeriod implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets period_start_date
      *
-     * @param \OpenAPI\Client\Model\StatsServicePeriodDatetime|null $period_start_date period_start_date
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServicePeriodDatetime|null $period_start_date period_start_date
      *
      * @return self
      */

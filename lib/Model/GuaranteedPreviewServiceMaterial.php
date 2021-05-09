@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedPreviewServiceMaterial Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedPreviewServiceMaterialオブジェクトは、プレビュー素材に関する情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;GuaranteedPreviewServiceMaterial object describes information about the preview material.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,9 +61,9 @@ class GuaranteedPreviewServiceMaterial implements ModelInterface, ArrayAccess, \
       * @var string[]
       */
     protected static $openAPITypes = [
-        'material_type' => '\OpenAPI\Client\Model\GuaranteedPreviewServiceMaterialType',
-        'material_ad' => '\OpenAPI\Client\Model\GuaranteedPreviewServiceMaterialAd',
-        'material_media' => '\OpenAPI\Client\Model\GuaranteedPreviewServiceMaterialMedia'
+        'material_type' => '\YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceMaterialType',
+        'material_ad' => '\YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceMaterialAd',
+        'material_media' => '\YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceMaterialMedia'
     ];
 
     /**
@@ -225,7 +225,7 @@ class GuaranteedPreviewServiceMaterial implements ModelInterface, ArrayAccess, \
     /**
      * Gets material_type
      *
-     * @return \OpenAPI\Client\Model\GuaranteedPreviewServiceMaterialType|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceMaterialType|null
      */
     public function getMaterialType()
     {
@@ -235,7 +235,7 @@ class GuaranteedPreviewServiceMaterial implements ModelInterface, ArrayAccess, \
     /**
      * Sets material_type
      *
-     * @param \OpenAPI\Client\Model\GuaranteedPreviewServiceMaterialType|null $material_type material_type
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceMaterialType|null $material_type material_type
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class GuaranteedPreviewServiceMaterial implements ModelInterface, ArrayAccess, \
     /**
      * Gets material_ad
      *
-     * @return \OpenAPI\Client\Model\GuaranteedPreviewServiceMaterialAd|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceMaterialAd|null
      */
     public function getMaterialAd()
     {
@@ -259,7 +259,7 @@ class GuaranteedPreviewServiceMaterial implements ModelInterface, ArrayAccess, \
     /**
      * Sets material_ad
      *
-     * @param \OpenAPI\Client\Model\GuaranteedPreviewServiceMaterialAd|null $material_ad material_ad
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceMaterialAd|null $material_ad material_ad
      *
      * @return self
      */
@@ -273,7 +273,7 @@ class GuaranteedPreviewServiceMaterial implements ModelInterface, ArrayAccess, \
     /**
      * Gets material_media
      *
-     * @return \OpenAPI\Client\Model\GuaranteedPreviewServiceMaterialMedia|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceMaterialMedia|null
      */
     public function getMaterialMedia()
     {
@@ -283,7 +283,7 @@ class GuaranteedPreviewServiceMaterial implements ModelInterface, ArrayAccess, \
     /**
      * Sets material_media
      *
-     * @param \OpenAPI\Client\Model\GuaranteedPreviewServiceMaterialMedia|null $material_media material_media
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceMaterialMedia|null $material_media material_media
      *
      * @return self
      */

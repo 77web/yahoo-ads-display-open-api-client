@@ -4,7 +4,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Api;
+namespace YahooAdsDisplayApi\Client\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use OpenAPI\Client\ApiException;
-use OpenAPI\Client\Configuration;
-use OpenAPI\Client\HeaderSelector;
-use OpenAPI\Client\ObjectSerializer;
+use YahooAdsDisplayApi\Client\ApiException;
+use YahooAdsDisplayApi\Client\Configuration;
+use YahooAdsDisplayApi\Client\HeaderSelector;
+use YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AccountAuthorityServiceApi Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -118,11 +118,11 @@ class AccountAuthorityServiceApi
     /**
      * Operation accountAuthorityServiceGetPost
      *
-     * @param  \OpenAPI\Client\Model\AccountAuthorityServiceSelector $account_authority_service_selector account_authority_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AccountAuthorityServiceSelector $account_authority_service_selector account_authority_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\AccountAuthorityServiceGetResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\AccountAuthorityServiceGetResponse
      */
     public function accountAuthorityServiceGetPost($account_authority_service_selector = null)
     {
@@ -133,11 +133,11 @@ class AccountAuthorityServiceApi
     /**
      * Operation accountAuthorityServiceGetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\AccountAuthorityServiceSelector $account_authority_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AccountAuthorityServiceSelector $account_authority_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\AccountAuthorityServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\AccountAuthorityServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function accountAuthorityServiceGetPostWithHttpInfo($account_authority_service_selector = null)
     {
@@ -174,20 +174,20 @@ class AccountAuthorityServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\AccountAuthorityServiceGetResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\AccountAuthorityServiceGetResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\AccountAuthorityServiceGetResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\AccountAuthorityServiceGetResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\AccountAuthorityServiceGetResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\AccountAuthorityServiceGetResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -206,7 +206,7 @@ class AccountAuthorityServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\AccountAuthorityServiceGetResponse',
+                        '\YahooAdsDisplayApi\Client\Model\AccountAuthorityServiceGetResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -221,7 +221,7 @@ class AccountAuthorityServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\AccountAuthorityServiceSelector $account_authority_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AccountAuthorityServiceSelector $account_authority_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -241,14 +241,14 @@ class AccountAuthorityServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\AccountAuthorityServiceSelector $account_authority_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AccountAuthorityServiceSelector $account_authority_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function accountAuthorityServiceGetPostAsyncWithHttpInfo($account_authority_service_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\AccountAuthorityServiceGetResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\AccountAuthorityServiceGetResponse';
         $request = $this->accountAuthorityServiceGetPostRequest($account_authority_service_selector);
 
         return $this->client
@@ -288,7 +288,7 @@ class AccountAuthorityServiceApi
     /**
      * Create request for operation 'accountAuthorityServiceGetPost'
      *
-     * @param  \OpenAPI\Client\Model\AccountAuthorityServiceSelector $account_authority_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\AccountAuthorityServiceSelector $account_authority_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

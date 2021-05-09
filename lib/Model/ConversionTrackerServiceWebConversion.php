@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ConversionTrackerServiceWebConversion Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; ConversionTrackerServiceWebConversionは、ウェブページのコンバージョントラッカー情報を表します。&lt;br&gt; このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; ConversionTrackerServiceWebConversion object displays the Web Conversion Tracker information.&lt;br&gt; Although this field will be returned in the response, it will be ignored on input. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class ConversionTrackerServiceWebConversion implements ModelInterface, ArrayAcce
       * @var string[]
       */
     protected static $openAPITypes = [
-        'snippet' => '\OpenAPI\Client\Model\ConversionTrackerServiceWebConversionSnippet[]'
+        'snippet' => '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceWebConversionSnippet[]'
     ];
 
     /**
@@ -213,7 +213,7 @@ class ConversionTrackerServiceWebConversion implements ModelInterface, ArrayAcce
     /**
      * Gets snippet
      *
-     * @return \OpenAPI\Client\Model\ConversionTrackerServiceWebConversionSnippet[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceWebConversionSnippet[]|null
      */
     public function getSnippet()
     {
@@ -223,7 +223,7 @@ class ConversionTrackerServiceWebConversion implements ModelInterface, ArrayAcce
     /**
      * Sets snippet
      *
-     * @param \OpenAPI\Client\Model\ConversionTrackerServiceWebConversionSnippet[]|null $snippet snippet
+     * @param \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceWebConversionSnippet[]|null $snippet snippet
      *
      * @return self
      */

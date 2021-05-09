@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupTargetServiceCarrierTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; AdGroupTargetServiceCarrierTargetオブジェクトは、モバイルキャリアターゲティングの設定情報を保持します。&lt;br&gt; SET時のみ指定可能です。ADD、REMOVEおよびREPLACE時、このフィールドは無視されます。&lt;br&gt; SET時に必要なtargetIdは、AdGroupオブジェクトにキャリアが設定されている場合にレスポンスされます。&lt;br&gt; ※SET時、入札価格調整率のみ設定可能です。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; AdGroupTargetServiceCarrierTarget object is a container for storing mobile carrier targeting settings.&lt;br&gt; This field can be specified only in SET operation and is ignored in ADD, REMOVE and REPLACE operation.&lt;br&gt; The targetId required on SET will be responded when carriers are set on AdGroup object.&lt;br&gt; *Can set only bid adjustment in SET operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class AdGroupTargetServiceCarrierTarget implements ModelInterface, ArrayAccess, 
       * @var string[]
       */
     protected static $openAPITypes = [
-        'carrier_type' => '\OpenAPI\Client\Model\AdGroupTargetServiceCarrierType'
+        'carrier_type' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceCarrierType'
     ];
 
     /**
@@ -213,7 +213,7 @@ class AdGroupTargetServiceCarrierTarget implements ModelInterface, ArrayAccess, 
     /**
      * Gets carrier_type
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServiceCarrierType|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceCarrierType|null
      */
     public function getCarrierType()
     {
@@ -223,7 +223,7 @@ class AdGroupTargetServiceCarrierTarget implements ModelInterface, ArrayAccess, 
     /**
      * Sets carrier_type
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServiceCarrierType|null $carrier_type carrier_type
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceCarrierType|null $carrier_type carrier_type
      *
      * @return self
      */

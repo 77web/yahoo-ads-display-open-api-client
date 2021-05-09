@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupServiceManualCPVBid Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; AdGroupServiceManualCPVBidオブジェクトは、広告グループの入札価格（CPV）を保持します。&lt;br&gt; SET時、このフィールドは省略可能となります。&lt;br&gt; ADD時、このフィールドは指定できません。&lt;br&gt; 詳細は、「&lt;a href&#x3D;\&quot;https://ads-help.yahoo.co.jp/yahooads/ydn/articledetail?lan&#x3D;ja&amp;aid&#x3D;1281\&quot;&gt;広告グループの作成 - 広告グループの入札価格を入力&lt;/a&gt;」を参照してください。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; AdGroupServiceManualCPVBid object stores the bid amount of ad group (CPV).&lt;br&gt; This field is optional in SET operation.&lt;br&gt; In ADD operation, this field can not be set.&lt;br&gt; More details are described on &lt;a href&#x3D;\&quot;https://ads-help.yahoo.co.jp/yahooads/ydn/articledetail?lan&#x3D;en&amp;aid&#x3D;487\&quot;&gt;Create Ad Group - Enter the Bid amount of the Ad Group&lt;/a&gt;. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>

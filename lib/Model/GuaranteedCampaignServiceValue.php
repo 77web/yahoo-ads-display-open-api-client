@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedCampaignServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedCampaignServiceValueオブジェクトは、操作結果を含む予約型のキャンペーンの情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The GuaranteedCampaignServiceValue object is a container for storing guaranteed campaign information and operation results.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class GuaranteedCampaignServiceValue implements ModelInterface, ArrayAccess, \Js
       * @var string[]
       */
     protected static $openAPITypes = [
-        'campaign' => '\OpenAPI\Client\Model\GuaranteedCampaign',
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'campaign' => '\YahooAdsDisplayApi\Client\Model\GuaranteedCampaign',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool'
     ];
 
@@ -225,7 +225,7 @@ class GuaranteedCampaignServiceValue implements ModelInterface, ArrayAccess, \Js
     /**
      * Gets campaign
      *
-     * @return \OpenAPI\Client\Model\GuaranteedCampaign|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedCampaign|null
      */
     public function getCampaign()
     {
@@ -235,7 +235,7 @@ class GuaranteedCampaignServiceValue implements ModelInterface, ArrayAccess, \Js
     /**
      * Sets campaign
      *
-     * @param \OpenAPI\Client\Model\GuaranteedCampaign|null $campaign campaign
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedCampaign|null $campaign campaign
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class GuaranteedCampaignServiceValue implements ModelInterface, ArrayAccess, \Js
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -259,7 +259,7 @@ class GuaranteedCampaignServiceValue implements ModelInterface, ArrayAccess, \Js
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors <div lang=\"ja\">エラー内容です。</div> <div lang=\"en\">Error content.</div>
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors <div lang=\"ja\">エラー内容です。</div> <div lang=\"en\">Error content.</div>
      *
      * @return self
      */

@@ -5,7 +5,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **question_id** | **int** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt;調査IDです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Question ID. &lt;/div&gt; | [optional]
-**goal** | [**\OpenAPI\Client\Model\BrandLiftServiceGoal**](BrandLiftServiceGoal.md) |  | [optional]
+**goal** | [**\YahooAdsDisplayApi\Client\Model\BrandLiftServiceGoal**](BrandLiftServiceGoal.md) |  | [optional]
 **pre_approve_id** | **string** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt;事前承認IDです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Preapprove ID. &lt;/div&gt; | [optional]
 **question** | **string** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt;設問です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Question. &lt;/div&gt; | [optional]
 **answer_option1** | **string** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt;回答選択肢1です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Answer Option1. &lt;/div&gt; | [optional]

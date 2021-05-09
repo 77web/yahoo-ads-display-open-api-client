@@ -1,4 +1,4 @@
-# OpenAPI\Client\FeedDataServiceApi
+# YahooAdsDisplayApi\Client\FeedDataServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -27,16 +27,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\FeedDataServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\FeedDataServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$feed_data_service_download_error_file_selector = new \OpenAPI\Client\Model\FeedDataServiceDownloadErrorFileSelector(); // \OpenAPI\Client\Model\FeedDataServiceDownloadErrorFileSelector
+$feed_data_service_download_error_file_selector = new \YahooAdsDisplayApi\Client\Model\FeedDataServiceDownloadErrorFileSelector(); // \YahooAdsDisplayApi\Client\Model\FeedDataServiceDownloadErrorFileSelector
 
 try {
     $result = $apiInstance->feedDataServiceDownloadErrorFilePost($feed_data_service_download_error_file_selector);
@@ -50,7 +50,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **feed_data_service_download_error_file_selector** | [**\OpenAPI\Client\Model\FeedDataServiceDownloadErrorFileSelector**](../Model/FeedDataServiceDownloadErrorFileSelector.md)|  | [optional]
+ **feed_data_service_download_error_file_selector** | [**\YahooAdsDisplayApi\Client\Model\FeedDataServiceDownloadErrorFileSelector**](../Model/FeedDataServiceDownloadErrorFileSelector.md)|  | [optional]
 
 ### Return type
 
@@ -72,7 +72,7 @@ Name | Type | Description  | Notes
 ## `feedDataServiceGetPost()`
 
 ```php
-feedDataServiceGetPost($feed_data_service_selector): \OpenAPI\Client\Model\FeedDataServiceGetResponse
+feedDataServiceGetPost($feed_data_service_selector): \YahooAdsDisplayApi\Client\Model\FeedDataServiceGetResponse
 ```
 
 
@@ -87,16 +87,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\FeedDataServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\FeedDataServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$feed_data_service_selector = new \OpenAPI\Client\Model\FeedDataServiceSelector(); // \OpenAPI\Client\Model\FeedDataServiceSelector
+$feed_data_service_selector = new \YahooAdsDisplayApi\Client\Model\FeedDataServiceSelector(); // \YahooAdsDisplayApi\Client\Model\FeedDataServiceSelector
 
 try {
     $result = $apiInstance->feedDataServiceGetPost($feed_data_service_selector);
@@ -110,11 +110,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **feed_data_service_selector** | [**\OpenAPI\Client\Model\FeedDataServiceSelector**](../Model/FeedDataServiceSelector.md)|  | [optional]
+ **feed_data_service_selector** | [**\YahooAdsDisplayApi\Client\Model\FeedDataServiceSelector**](../Model/FeedDataServiceSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\FeedDataServiceGetResponse**](../Model/FeedDataServiceGetResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\FeedDataServiceGetResponse**](../Model/FeedDataServiceGetResponse.md)
 
 ### Authorization
 
@@ -132,7 +132,7 @@ Name | Type | Description  | Notes
 ## `feedDataServiceUploadPost()`
 
 ```php
-feedDataServiceUploadPost($account_id, $feed_id, $upload_type, $is_debug, $file): \OpenAPI\Client\Model\FeedDataServiceUploadResponse
+feedDataServiceUploadPost($account_id, $feed_id, $upload_type, $is_debug, $file): \YahooAdsDisplayApi\Client\Model\FeedDataServiceUploadResponse
 ```
 
 
@@ -147,10 +147,10 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\FeedDataServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\FeedDataServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -158,7 +158,7 @@ $apiInstance = new OpenAPI\Client\Api\FeedDataServiceApi(
 );
 $account_id = 56; // int | <div lang=\"ja\">アカウントIDです。</div> <div lang=\"en\">Account ID.</div>
 $feed_id = 56; // int | <div lang=\"ja\">フィードIDです。</div> <div lang=\"en\">Feed ID.</div>
-$upload_type = new \OpenAPI\Client\Model\\OpenAPI\Client\Model\FeedDataServiceItemListUploadType(); // \OpenAPI\Client\Model\FeedDataServiceItemListUploadType | <div lang=\"ja\">商品リストファイルアップロード時の取り込み種別です。</div> <div lang=\"en\">FeedDataServiceItemListUploadType object displays upload type of item list.</div>
+$upload_type = new \YahooAdsDisplayApi\Client\Model\\YahooAdsDisplayApi\Client\Model\FeedDataServiceItemListUploadType(); // \YahooAdsDisplayApi\Client\Model\FeedDataServiceItemListUploadType | <div lang=\"ja\">商品リストファイルアップロード時の取り込み種別です。</div> <div lang=\"en\">FeedDataServiceItemListUploadType object displays upload type of item list.</div>
 $is_debug = True; // bool | <div lang=\"ja\">trueはデバッグモードでの実行を意味します。</div> <div lang=\"en\">true means to run in debug mode.</div>
 $file = "/path/to/file.txt"; // \SplFileObject
 
@@ -176,13 +176,13 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **account_id** | **int**| &lt;div lang&#x3D;\&quot;ja\&quot;&gt;アカウントIDです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Account ID.&lt;/div&gt; |
  **feed_id** | **int**| &lt;div lang&#x3D;\&quot;ja\&quot;&gt;フィードIDです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Feed ID.&lt;/div&gt; |
- **upload_type** | [**\OpenAPI\Client\Model\FeedDataServiceItemListUploadType**](../Model/.md)| &lt;div lang&#x3D;\&quot;ja\&quot;&gt;商品リストファイルアップロード時の取り込み種別です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedDataServiceItemListUploadType object displays upload type of item list.&lt;/div&gt; |
+ **upload_type** | [**\YahooAdsDisplayApi\Client\Model\FeedDataServiceItemListUploadType**](../Model/.md)| &lt;div lang&#x3D;\&quot;ja\&quot;&gt;商品リストファイルアップロード時の取り込み種別です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedDataServiceItemListUploadType object displays upload type of item list.&lt;/div&gt; |
  **is_debug** | **bool**| &lt;div lang&#x3D;\&quot;ja\&quot;&gt;trueはデバッグモードでの実行を意味します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;true means to run in debug mode.&lt;/div&gt; |
  **file** | **\SplFileObject****\SplFileObject**|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\FeedDataServiceUploadResponse**](../Model/FeedDataServiceUploadResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\FeedDataServiceUploadResponse**](../Model/FeedDataServiceUploadResponse.md)
 
 ### Authorization
 

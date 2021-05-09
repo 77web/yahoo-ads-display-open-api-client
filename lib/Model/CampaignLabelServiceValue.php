@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * CampaignLabelServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;CampaignLabelServiceValueオブジェクトは、操作結果を含むキャンペーンラベルの情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;CampaignLabelServiceValue object describes campaign label information including its operation results.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class CampaignLabelServiceValue implements ModelInterface, ArrayAccess, \JsonSer
       * @var string[]
       */
     protected static $openAPITypes = [
-        'campaign_label' => '\OpenAPI\Client\Model\CampaignLabel',
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'campaign_label' => '\YahooAdsDisplayApi\Client\Model\CampaignLabel',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool'
     ];
 
@@ -225,7 +225,7 @@ class CampaignLabelServiceValue implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Gets campaign_label
      *
-     * @return \OpenAPI\Client\Model\CampaignLabel|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignLabel|null
      */
     public function getCampaignLabel()
     {
@@ -235,7 +235,7 @@ class CampaignLabelServiceValue implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Sets campaign_label
      *
-     * @param \OpenAPI\Client\Model\CampaignLabel|null $campaign_label campaign_label
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignLabel|null $campaign_label campaign_label
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class CampaignLabelServiceValue implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -259,7 +259,7 @@ class CampaignLabelServiceValue implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors <div lang=\"ja\">エラー内容です。</div> <div lang=\"en\">Error content.</div>
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors <div lang=\"ja\">エラー内容です。</div> <div lang=\"en\">Error content.</div>
      *
      * @return self
      */

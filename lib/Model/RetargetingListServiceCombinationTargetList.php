@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RetargetingListServiceCombinationTargetList Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; RetargetingListServiceCombinationTargetListオブジェクトは、ターゲットリストの組み合わせ情報のリストを表します。&lt;br&gt; このフィールドは、ADDおよびSET時に省略可能となります。&lt;br&gt; ※targetListTypeがCOMBINATIONの場合は、ADDおよびSET時に必須となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; RetargetingListServiceCombinationTargetList object is a container for storing list of combination of target list information. &lt;br&gt; This field is optional in ADD and SET operation. &lt;br&gt; *If targetListType is COMBINATION, this field is required in  ADD and SET operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class RetargetingListServiceCombinationTargetList implements ModelInterface, Arr
       * @var string[]
       */
     protected static $openAPITypes = [
-        'combinations' => '\OpenAPI\Client\Model\RetargetingListServiceCombination[]'
+        'combinations' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceCombination[]'
     ];
 
     /**
@@ -213,7 +213,7 @@ class RetargetingListServiceCombinationTargetList implements ModelInterface, Arr
     /**
      * Gets combinations
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceCombination[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceCombination[]|null
      */
     public function getCombinations()
     {
@@ -223,7 +223,7 @@ class RetargetingListServiceCombinationTargetList implements ModelInterface, Arr
     /**
      * Sets combinations
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceCombination[]|null $combinations combinations
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceCombination[]|null $combinations combinations
      *
      * @return self
      */

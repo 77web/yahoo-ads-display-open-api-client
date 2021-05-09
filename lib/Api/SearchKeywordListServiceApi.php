@@ -4,7 +4,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Api;
+namespace YahooAdsDisplayApi\Client\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use OpenAPI\Client\ApiException;
-use OpenAPI\Client\Configuration;
-use OpenAPI\Client\HeaderSelector;
-use OpenAPI\Client\ObjectSerializer;
+use YahooAdsDisplayApi\Client\ApiException;
+use YahooAdsDisplayApi\Client\Configuration;
+use YahooAdsDisplayApi\Client\HeaderSelector;
+use YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * SearchKeywordListServiceApi Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -118,11 +118,11 @@ class SearchKeywordListServiceApi
     /**
      * Operation searchKeywordListServiceAddPost
      *
-     * @param  \OpenAPI\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation search_keyword_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation search_keyword_list_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\SearchKeywordListServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceMutateResponse
      */
     public function searchKeywordListServiceAddPost($search_keyword_list_service_operation = null)
     {
@@ -133,11 +133,11 @@ class SearchKeywordListServiceApi
     /**
      * Operation searchKeywordListServiceAddPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\SearchKeywordListServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function searchKeywordListServiceAddPostWithHttpInfo($search_keyword_list_service_operation = null)
     {
@@ -174,20 +174,20 @@ class SearchKeywordListServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\SearchKeywordListServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\SearchKeywordListServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\SearchKeywordListServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -206,7 +206,7 @@ class SearchKeywordListServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\SearchKeywordListServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -221,7 +221,7 @@ class SearchKeywordListServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -241,14 +241,14 @@ class SearchKeywordListServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function searchKeywordListServiceAddPostAsyncWithHttpInfo($search_keyword_list_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\SearchKeywordListServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceMutateResponse';
         $request = $this->searchKeywordListServiceAddPostRequest($search_keyword_list_service_operation);
 
         return $this->client
@@ -288,7 +288,7 @@ class SearchKeywordListServiceApi
     /**
      * Create request for operation 'searchKeywordListServiceAddPost'
      *
-     * @param  \OpenAPI\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -377,11 +377,11 @@ class SearchKeywordListServiceApi
     /**
      * Operation searchKeywordListServiceGetPost
      *
-     * @param  \OpenAPI\Client\Model\SearchKeywordListServiceSelector $search_keyword_list_service_selector search_keyword_list_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceSelector $search_keyword_list_service_selector search_keyword_list_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\SearchKeywordListServiceGetResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceGetResponse
      */
     public function searchKeywordListServiceGetPost($search_keyword_list_service_selector = null)
     {
@@ -392,11 +392,11 @@ class SearchKeywordListServiceApi
     /**
      * Operation searchKeywordListServiceGetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\SearchKeywordListServiceSelector $search_keyword_list_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceSelector $search_keyword_list_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\SearchKeywordListServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function searchKeywordListServiceGetPostWithHttpInfo($search_keyword_list_service_selector = null)
     {
@@ -433,20 +433,20 @@ class SearchKeywordListServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\SearchKeywordListServiceGetResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceGetResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\SearchKeywordListServiceGetResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceGetResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\SearchKeywordListServiceGetResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceGetResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -465,7 +465,7 @@ class SearchKeywordListServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\SearchKeywordListServiceGetResponse',
+                        '\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceGetResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -480,7 +480,7 @@ class SearchKeywordListServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\SearchKeywordListServiceSelector $search_keyword_list_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceSelector $search_keyword_list_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -500,14 +500,14 @@ class SearchKeywordListServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\SearchKeywordListServiceSelector $search_keyword_list_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceSelector $search_keyword_list_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function searchKeywordListServiceGetPostAsyncWithHttpInfo($search_keyword_list_service_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\SearchKeywordListServiceGetResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceGetResponse';
         $request = $this->searchKeywordListServiceGetPostRequest($search_keyword_list_service_selector);
 
         return $this->client
@@ -547,7 +547,7 @@ class SearchKeywordListServiceApi
     /**
      * Create request for operation 'searchKeywordListServiceGetPost'
      *
-     * @param  \OpenAPI\Client\Model\SearchKeywordListServiceSelector $search_keyword_list_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceSelector $search_keyword_list_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -636,11 +636,11 @@ class SearchKeywordListServiceApi
     /**
      * Operation searchKeywordListServiceRemovePost
      *
-     * @param  \OpenAPI\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation search_keyword_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation search_keyword_list_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\SearchKeywordListServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceMutateResponse
      */
     public function searchKeywordListServiceRemovePost($search_keyword_list_service_operation = null)
     {
@@ -651,11 +651,11 @@ class SearchKeywordListServiceApi
     /**
      * Operation searchKeywordListServiceRemovePostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\SearchKeywordListServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function searchKeywordListServiceRemovePostWithHttpInfo($search_keyword_list_service_operation = null)
     {
@@ -692,20 +692,20 @@ class SearchKeywordListServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\SearchKeywordListServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\SearchKeywordListServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\SearchKeywordListServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -724,7 +724,7 @@ class SearchKeywordListServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\SearchKeywordListServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -739,7 +739,7 @@ class SearchKeywordListServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -759,14 +759,14 @@ class SearchKeywordListServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function searchKeywordListServiceRemovePostAsyncWithHttpInfo($search_keyword_list_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\SearchKeywordListServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceMutateResponse';
         $request = $this->searchKeywordListServiceRemovePostRequest($search_keyword_list_service_operation);
 
         return $this->client
@@ -806,7 +806,7 @@ class SearchKeywordListServiceApi
     /**
      * Create request for operation 'searchKeywordListServiceRemovePost'
      *
-     * @param  \OpenAPI\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -895,11 +895,11 @@ class SearchKeywordListServiceApi
     /**
      * Operation searchKeywordListServiceSetPost
      *
-     * @param  \OpenAPI\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation search_keyword_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation search_keyword_list_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\SearchKeywordListServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceMutateResponse
      */
     public function searchKeywordListServiceSetPost($search_keyword_list_service_operation = null)
     {
@@ -910,11 +910,11 @@ class SearchKeywordListServiceApi
     /**
      * Operation searchKeywordListServiceSetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\SearchKeywordListServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function searchKeywordListServiceSetPostWithHttpInfo($search_keyword_list_service_operation = null)
     {
@@ -951,20 +951,20 @@ class SearchKeywordListServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\SearchKeywordListServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\SearchKeywordListServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\SearchKeywordListServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -983,7 +983,7 @@ class SearchKeywordListServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\SearchKeywordListServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -998,7 +998,7 @@ class SearchKeywordListServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1018,14 +1018,14 @@ class SearchKeywordListServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function searchKeywordListServiceSetPostAsyncWithHttpInfo($search_keyword_list_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\SearchKeywordListServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceMutateResponse';
         $request = $this->searchKeywordListServiceSetPostRequest($search_keyword_list_service_operation);
 
         return $this->client
@@ -1065,7 +1065,7 @@ class SearchKeywordListServiceApi
     /**
      * Create request for operation 'searchKeywordListServiceSetPost'
      *
-     * @param  \OpenAPI\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceOperation $search_keyword_list_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

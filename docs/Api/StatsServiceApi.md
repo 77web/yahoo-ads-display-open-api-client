@@ -1,4 +1,4 @@
-# OpenAPI\Client\StatsServiceApi
+# YahooAdsDisplayApi\Client\StatsServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -10,7 +10,7 @@ Method | HTTP request | Description
 ## `statsServiceGetPost()`
 
 ```php
-statsServiceGetPost($stats_service_selector): \OpenAPI\Client\Model\StatsServiceGetResponse
+statsServiceGetPost($stats_service_selector): \YahooAdsDisplayApi\Client\Model\StatsServiceGetResponse
 ```
 
 
@@ -25,16 +25,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\StatsServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\StatsServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$stats_service_selector = new \OpenAPI\Client\Model\StatsServiceSelector(); // \OpenAPI\Client\Model\StatsServiceSelector
+$stats_service_selector = new \YahooAdsDisplayApi\Client\Model\StatsServiceSelector(); // \YahooAdsDisplayApi\Client\Model\StatsServiceSelector
 
 try {
     $result = $apiInstance->statsServiceGetPost($stats_service_selector);
@@ -48,11 +48,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **stats_service_selector** | [**\OpenAPI\Client\Model\StatsServiceSelector**](../Model/StatsServiceSelector.md)|  | [optional]
+ **stats_service_selector** | [**\YahooAdsDisplayApi\Client\Model\StatsServiceSelector**](../Model/StatsServiceSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\StatsServiceGetResponse**](../Model/StatsServiceGetResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\StatsServiceGetResponse**](../Model/StatsServiceGetResponse.md)
 
 ### Authorization
 

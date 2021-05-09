@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServicePage Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedSimulationServicePageオブジェクトは、取得される配信シミュレーションに関する情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;GuaranteedSimulationServicePageobject describes the information about the delivery simulation that will be retrieved.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class GuaranteedSimulationServicePage implements ModelInterface, ArrayAccess, \J
       */
     protected static $openAPITypes = [
         'total_num_entries' => 'int',
-        'values' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceValue[]'
     ];
 
     /**
@@ -243,7 +243,7 @@ class GuaranteedSimulationServicePage implements ModelInterface, ArrayAccess, \J
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceValue[]|null
      */
     public function getValues()
     {
@@ -253,7 +253,7 @@ class GuaranteedSimulationServicePage implements ModelInterface, ArrayAccess, \J
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceValue[]|null $values values
      *
      * @return self
      */

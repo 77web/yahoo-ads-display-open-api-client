@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServicePackagePermittedAdPlaceTypes Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedSimulationServicePackagePermittedAdPlaceTypesオブジェクトは、掲載面設定の制限情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;GuaranteedSimulationServicePackagePermittedAdPlaceTypes object holds the restriction information about the ad placement setting.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class GuaranteedSimulationServicePackagePermittedAdPlaceTypes implements ModelIn
       * @var string[]
       */
     protected static $openAPITypes = [
-        'permission' => '\OpenAPI\Client\Model\GuaranteedSimulationServicePackagePermissionType',
-        'ad_place_types' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceAdPlaceType[]'
+        'permission' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackagePermissionType',
+        'ad_place_types' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAdPlaceType[]'
     ];
 
     /**
@@ -219,7 +219,7 @@ class GuaranteedSimulationServicePackagePermittedAdPlaceTypes implements ModelIn
     /**
      * Gets permission
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServicePackagePermissionType|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackagePermissionType|null
      */
     public function getPermission()
     {
@@ -229,7 +229,7 @@ class GuaranteedSimulationServicePackagePermittedAdPlaceTypes implements ModelIn
     /**
      * Sets permission
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServicePackagePermissionType|null $permission permission
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackagePermissionType|null $permission permission
      *
      * @return self
      */
@@ -243,7 +243,7 @@ class GuaranteedSimulationServicePackagePermittedAdPlaceTypes implements ModelIn
     /**
      * Gets ad_place_types
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceAdPlaceType[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAdPlaceType[]|null
      */
     public function getAdPlaceTypes()
     {
@@ -253,7 +253,7 @@ class GuaranteedSimulationServicePackagePermittedAdPlaceTypes implements ModelIn
     /**
      * Sets ad_place_types
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceAdPlaceType[]|null $ad_place_types ad_place_types
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAdPlaceType[]|null $ad_place_types ad_place_types
      *
      * @return self
      */

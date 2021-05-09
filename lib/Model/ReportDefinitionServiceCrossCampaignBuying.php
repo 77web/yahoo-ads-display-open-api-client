@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ReportDefinitionServiceCrossCampaignBuying Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; ReportDefinitionServiceCrossCampaignBuyingは、横断リーチレポートの組み合わせの対象となるアカウントおよびキャンペーン購入タイプを示します。&lt;br&gt; このフィールドは、ADD時に省略可能となり、REMOVE時に無視されます。&lt;br&gt; ※ADD時、crossCampaignTypeが&lt;code&gt;CAMPAIGN_BUYING_TYPE&lt;/code&gt;の場合は必須です。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; ReportDefinitionServiceCrossCampaignBuying indicates account and campaign purchase type that is subject to Cross-campaign Reach Report combination.&lt;br&gt; This field is optional in ADD operation, and will be ignored in REMOVE operation.&lt;br&gt; *If crossCampaignType is &lt;code&gt;CAMPAIGN_BUYING_TYPE&lt;/code&gt;, this field is required in ADD operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class ReportDefinitionServiceCrossCampaignBuying implements ModelInterface, Arra
       * @var string[]
       */
     protected static $openAPITypes = [
-        'account' => '\OpenAPI\Client\Model\ReportDefinitionServiceAccount',
-        'campaign_buying_type' => '\OpenAPI\Client\Model\ReportDefinitionServiceCrossCampaignBuyingType'
+        'account' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceAccount',
+        'campaign_buying_type' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceCrossCampaignBuyingType'
     ];
 
     /**
@@ -219,7 +219,7 @@ class ReportDefinitionServiceCrossCampaignBuying implements ModelInterface, Arra
     /**
      * Gets account
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceAccount|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceAccount|null
      */
     public function getAccount()
     {
@@ -229,7 +229,7 @@ class ReportDefinitionServiceCrossCampaignBuying implements ModelInterface, Arra
     /**
      * Sets account
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceAccount|null $account account
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceAccount|null $account account
      *
      * @return self
      */
@@ -243,7 +243,7 @@ class ReportDefinitionServiceCrossCampaignBuying implements ModelInterface, Arra
     /**
      * Gets campaign_buying_type
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceCrossCampaignBuyingType|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceCrossCampaignBuyingType|null
      */
     public function getCampaignBuyingType()
     {
@@ -253,7 +253,7 @@ class ReportDefinitionServiceCrossCampaignBuying implements ModelInterface, Arra
     /**
      * Sets campaign_buying_type
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceCrossCampaignBuyingType|null $campaign_buying_type campaign_buying_type
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceCrossCampaignBuyingType|null $campaign_buying_type campaign_buying_type
      *
      * @return self
      */

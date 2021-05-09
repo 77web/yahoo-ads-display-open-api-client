@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * DictionaryServiceFeedItemGoogleProductCategory Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;DictionaryServiceFeedItemGoogleProductCategoryオブジェクトは、DictionaryServiceFeedItemGoogleProductCategoryを格納するコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;DictionaryServiceFeedItemGoogleProductCategory object contains information about Google Product Category.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class DictionaryServiceFeedItemGoogleProductCategory implements ModelInterface, 
       * @var string[]
       */
     protected static $openAPITypes = [
-        'child' => '\OpenAPI\Client\Model\DictionaryServiceFeedItemGoogleProductCategory[]',
+        'child' => '\YahooAdsDisplayApi\Client\Model\DictionaryServiceFeedItemGoogleProductCategory[]',
         'full_name' => 'string',
         'id' => 'string',
         'name' => 'string',
@@ -243,7 +243,7 @@ class DictionaryServiceFeedItemGoogleProductCategory implements ModelInterface, 
     /**
      * Gets child
      *
-     * @return \OpenAPI\Client\Model\DictionaryServiceFeedItemGoogleProductCategory[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\DictionaryServiceFeedItemGoogleProductCategory[]|null
      */
     public function getChild()
     {
@@ -253,7 +253,7 @@ class DictionaryServiceFeedItemGoogleProductCategory implements ModelInterface, 
     /**
      * Sets child
      *
-     * @param \OpenAPI\Client\Model\DictionaryServiceFeedItemGoogleProductCategory[]|null $child <div lang=\"ja\">子要素としてDictionaryServiceFeedItemGoogleProductCategoryオブジェクトを使用します。</div> <div lang=\"en\">DictionaryServiceFeedItemGoogleProductCategory object is used.</div>
+     * @param \YahooAdsDisplayApi\Client\Model\DictionaryServiceFeedItemGoogleProductCategory[]|null $child <div lang=\"ja\">子要素としてDictionaryServiceFeedItemGoogleProductCategoryオブジェクトを使用します。</div> <div lang=\"en\">DictionaryServiceFeedItemGoogleProductCategory object is used.</div>
      *
      * @return self
      */

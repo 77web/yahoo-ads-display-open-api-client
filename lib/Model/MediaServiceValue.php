@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * MediaServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;MediaServiceValueオブジェクトは、処理結果を含む画像に関する情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The MediaServiceValue object is a container for information of media including operation results.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,9 +61,9 @@ class MediaServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
       * @var string[]
       */
     protected static $openAPITypes = [
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool',
-        'media_record' => '\OpenAPI\Client\Model\MediaServiceRecord'
+        'media_record' => '\YahooAdsDisplayApi\Client\Model\MediaServiceRecord'
     ];
 
     /**
@@ -225,7 +225,7 @@ class MediaServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -235,7 +235,7 @@ class MediaServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */
@@ -273,7 +273,7 @@ class MediaServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets media_record
      *
-     * @return \OpenAPI\Client\Model\MediaServiceRecord|null
+     * @return \YahooAdsDisplayApi\Client\Model\MediaServiceRecord|null
      */
     public function getMediaRecord()
     {
@@ -283,7 +283,7 @@ class MediaServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets media_record
      *
-     * @param \OpenAPI\Client\Model\MediaServiceRecord|null $media_record media_record
+     * @param \YahooAdsDisplayApi\Client\Model\MediaServiceRecord|null $media_record media_record
      *
      * @return self
      */

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * BrandLift Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;BrandLiftオブジェクトは、ブランドリフトの情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;BrandLift object describes brand lift information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -64,8 +64,8 @@ class BrandLift implements ModelInterface, ArrayAccess, \JsonSerializable
         'account_id' => 'int',
         'campaign_id' => 'int',
         'brand_lift_id' => 'int',
-        'questions' => '\OpenAPI\Client\Model\BrandLiftServiceQuestion[]',
-        'approval_status' => '\OpenAPI\Client\Model\BrandLiftServiceApprovalStatus',
+        'questions' => '\YahooAdsDisplayApi\Client\Model\BrandLiftServiceQuestion[]',
+        'approval_status' => '\YahooAdsDisplayApi\Client\Model\BrandLiftServiceApprovalStatus',
         'disapproval_reason' => 'string',
         'review_complete_date' => 'string',
         'disapproval_reason_codes' => 'string[]',
@@ -351,7 +351,7 @@ class BrandLift implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets questions
      *
-     * @return \OpenAPI\Client\Model\BrandLiftServiceQuestion[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\BrandLiftServiceQuestion[]|null
      */
     public function getQuestions()
     {
@@ -361,7 +361,7 @@ class BrandLift implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets questions
      *
-     * @param \OpenAPI\Client\Model\BrandLiftServiceQuestion[]|null $questions questions
+     * @param \YahooAdsDisplayApi\Client\Model\BrandLiftServiceQuestion[]|null $questions questions
      *
      * @return self
      */
@@ -375,7 +375,7 @@ class BrandLift implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets approval_status
      *
-     * @return \OpenAPI\Client\Model\BrandLiftServiceApprovalStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\BrandLiftServiceApprovalStatus|null
      */
     public function getApprovalStatus()
     {
@@ -385,7 +385,7 @@ class BrandLift implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets approval_status
      *
-     * @param \OpenAPI\Client\Model\BrandLiftServiceApprovalStatus|null $approval_status approval_status
+     * @param \YahooAdsDisplayApi\Client\Model\BrandLiftServiceApprovalStatus|null $approval_status approval_status
      *
      * @return self
      */

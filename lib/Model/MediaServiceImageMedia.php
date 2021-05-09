@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * MediaServiceImageMedia Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; MediaServiceImageMediaオブジェクトは、画像を格納するコンテナです。&lt;br&gt; このフィールドは、SET時に必須となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; The MediaServiceImageMedia object is a container for storing image. &lt;br&gt; This field is required in SET operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,13 +61,13 @@ class MediaServiceImageMedia implements ModelInterface, ArrayAccess, \JsonSerial
       * @var string[]
       */
     protected static $openAPITypes = [
-        'media_type' => '\OpenAPI\Client\Model\MediaServiceType',
+        'media_type' => '\YahooAdsDisplayApi\Client\Model\MediaServiceType',
         'aspect_ratio' => 'string',
         'data' => 'string',
         'file_size' => 'int',
         'height' => 'int',
         'media_ad_format' => 'string',
-        'media_file_type' => '\OpenAPI\Client\Model\MediaServiceFileType',
+        'media_file_type' => '\YahooAdsDisplayApi\Client\Model\MediaServiceFileType',
         'width' => 'int'
     ];
 
@@ -255,7 +255,7 @@ class MediaServiceImageMedia implements ModelInterface, ArrayAccess, \JsonSerial
     /**
      * Gets media_type
      *
-     * @return \OpenAPI\Client\Model\MediaServiceType|null
+     * @return \YahooAdsDisplayApi\Client\Model\MediaServiceType|null
      */
     public function getMediaType()
     {
@@ -265,7 +265,7 @@ class MediaServiceImageMedia implements ModelInterface, ArrayAccess, \JsonSerial
     /**
      * Sets media_type
      *
-     * @param \OpenAPI\Client\Model\MediaServiceType|null $media_type media_type
+     * @param \YahooAdsDisplayApi\Client\Model\MediaServiceType|null $media_type media_type
      *
      * @return self
      */
@@ -399,7 +399,7 @@ class MediaServiceImageMedia implements ModelInterface, ArrayAccess, \JsonSerial
     /**
      * Gets media_file_type
      *
-     * @return \OpenAPI\Client\Model\MediaServiceFileType|null
+     * @return \YahooAdsDisplayApi\Client\Model\MediaServiceFileType|null
      */
     public function getMediaFileType()
     {
@@ -409,7 +409,7 @@ class MediaServiceImageMedia implements ModelInterface, ArrayAccess, \JsonSerial
     /**
      * Sets media_file_type
      *
-     * @param \OpenAPI\Client\Model\MediaServiceFileType|null $media_file_type media_file_type
+     * @param \YahooAdsDisplayApi\Client\Model\MediaServiceFileType|null $media_file_type media_file_type
      *
      * @return self
      */

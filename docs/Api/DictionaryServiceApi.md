@@ -1,4 +1,4 @@
-# OpenAPI\Client\DictionaryServiceApi
+# YahooAdsDisplayApi\Client\DictionaryServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -19,7 +19,7 @@ Method | HTTP request | Description
 ## `dictionaryServiceGetAudienceCategoryPost()`
 
 ```php
-dictionaryServiceGetAudienceCategoryPost($dictionary_service_category_selector): \OpenAPI\Client\Model\DictionaryServiceGetAudienceCategoryResponse
+dictionaryServiceGetAudienceCategoryPost($dictionary_service_category_selector): \YahooAdsDisplayApi\Client\Model\DictionaryServiceGetAudienceCategoryResponse
 ```
 
 
@@ -34,16 +34,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\DictionaryServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\DictionaryServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$dictionary_service_category_selector = new \OpenAPI\Client\Model\DictionaryServiceCategorySelector(); // \OpenAPI\Client\Model\DictionaryServiceCategorySelector
+$dictionary_service_category_selector = new \YahooAdsDisplayApi\Client\Model\DictionaryServiceCategorySelector(); // \YahooAdsDisplayApi\Client\Model\DictionaryServiceCategorySelector
 
 try {
     $result = $apiInstance->dictionaryServiceGetAudienceCategoryPost($dictionary_service_category_selector);
@@ -57,11 +57,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **dictionary_service_category_selector** | [**\OpenAPI\Client\Model\DictionaryServiceCategorySelector**](../Model/DictionaryServiceCategorySelector.md)|  | [optional]
+ **dictionary_service_category_selector** | [**\YahooAdsDisplayApi\Client\Model\DictionaryServiceCategorySelector**](../Model/DictionaryServiceCategorySelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\DictionaryServiceGetAudienceCategoryResponse**](../Model/DictionaryServiceGetAudienceCategoryResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetAudienceCategoryResponse**](../Model/DictionaryServiceGetAudienceCategoryResponse.md)
 
 ### Authorization
 
@@ -79,7 +79,7 @@ Name | Type | Description  | Notes
 ## `dictionaryServiceGetBusinessCategoryPost()`
 
 ```php
-dictionaryServiceGetBusinessCategoryPost($body): \OpenAPI\Client\Model\DictionaryServiceGetBusinessCategoryResponse
+dictionaryServiceGetBusinessCategoryPost($body): \YahooAdsDisplayApi\Client\Model\DictionaryServiceGetBusinessCategoryResponse
 ```
 
 
@@ -94,10 +94,10 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\DictionaryServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\DictionaryServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -121,7 +121,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\OpenAPI\Client\Model\DictionaryServiceGetBusinessCategoryResponse**](../Model/DictionaryServiceGetBusinessCategoryResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetBusinessCategoryResponse**](../Model/DictionaryServiceGetBusinessCategoryResponse.md)
 
 ### Authorization
 
@@ -139,7 +139,7 @@ Name | Type | Description  | Notes
 ## `dictionaryServiceGetDisapprovalReasonPost()`
 
 ```php
-dictionaryServiceGetDisapprovalReasonPost($dictionary_service_disapproval_reason_selector): \OpenAPI\Client\Model\DictionaryServiceGetDisapprovalReasonResponse
+dictionaryServiceGetDisapprovalReasonPost($dictionary_service_disapproval_reason_selector): \YahooAdsDisplayApi\Client\Model\DictionaryServiceGetDisapprovalReasonResponse
 ```
 
 
@@ -154,16 +154,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\DictionaryServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\DictionaryServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$dictionary_service_disapproval_reason_selector = new \OpenAPI\Client\Model\DictionaryServiceDisapprovalReasonSelector(); // \OpenAPI\Client\Model\DictionaryServiceDisapprovalReasonSelector
+$dictionary_service_disapproval_reason_selector = new \YahooAdsDisplayApi\Client\Model\DictionaryServiceDisapprovalReasonSelector(); // \YahooAdsDisplayApi\Client\Model\DictionaryServiceDisapprovalReasonSelector
 
 try {
     $result = $apiInstance->dictionaryServiceGetDisapprovalReasonPost($dictionary_service_disapproval_reason_selector);
@@ -177,11 +177,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **dictionary_service_disapproval_reason_selector** | [**\OpenAPI\Client\Model\DictionaryServiceDisapprovalReasonSelector**](../Model/DictionaryServiceDisapprovalReasonSelector.md)|  | [optional]
+ **dictionary_service_disapproval_reason_selector** | [**\YahooAdsDisplayApi\Client\Model\DictionaryServiceDisapprovalReasonSelector**](../Model/DictionaryServiceDisapprovalReasonSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\DictionaryServiceGetDisapprovalReasonResponse**](../Model/DictionaryServiceGetDisapprovalReasonResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetDisapprovalReasonResponse**](../Model/DictionaryServiceGetDisapprovalReasonResponse.md)
 
 ### Authorization
 
@@ -199,7 +199,7 @@ Name | Type | Description  | Notes
 ## `dictionaryServiceGetFeedItemGoogleProductCategoryPost()`
 
 ```php
-dictionaryServiceGetFeedItemGoogleProductCategoryPost($dictionary_service_feed_item_google_product_category_selector): \OpenAPI\Client\Model\DictionaryServiceGetFeedItemGoogleProductCategoryResponse
+dictionaryServiceGetFeedItemGoogleProductCategoryPost($dictionary_service_feed_item_google_product_category_selector): \YahooAdsDisplayApi\Client\Model\DictionaryServiceGetFeedItemGoogleProductCategoryResponse
 ```
 
 
@@ -214,16 +214,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\DictionaryServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\DictionaryServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$dictionary_service_feed_item_google_product_category_selector = new \OpenAPI\Client\Model\DictionaryServiceFeedItemGoogleProductCategorySelector(); // \OpenAPI\Client\Model\DictionaryServiceFeedItemGoogleProductCategorySelector
+$dictionary_service_feed_item_google_product_category_selector = new \YahooAdsDisplayApi\Client\Model\DictionaryServiceFeedItemGoogleProductCategorySelector(); // \YahooAdsDisplayApi\Client\Model\DictionaryServiceFeedItemGoogleProductCategorySelector
 
 try {
     $result = $apiInstance->dictionaryServiceGetFeedItemGoogleProductCategoryPost($dictionary_service_feed_item_google_product_category_selector);
@@ -237,11 +237,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **dictionary_service_feed_item_google_product_category_selector** | [**\OpenAPI\Client\Model\DictionaryServiceFeedItemGoogleProductCategorySelector**](../Model/DictionaryServiceFeedItemGoogleProductCategorySelector.md)|  | [optional]
+ **dictionary_service_feed_item_google_product_category_selector** | [**\YahooAdsDisplayApi\Client\Model\DictionaryServiceFeedItemGoogleProductCategorySelector**](../Model/DictionaryServiceFeedItemGoogleProductCategorySelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\DictionaryServiceGetFeedItemGoogleProductCategoryResponse**](../Model/DictionaryServiceGetFeedItemGoogleProductCategoryResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetFeedItemGoogleProductCategoryResponse**](../Model/DictionaryServiceGetFeedItemGoogleProductCategoryResponse.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ Name | Type | Description  | Notes
 ## `dictionaryServiceGetGeographicLocationPost()`
 
 ```php
-dictionaryServiceGetGeographicLocationPost($dictionary_service_geographic_location_selector): \OpenAPI\Client\Model\DictionaryServiceGetGeographicLocationResponse
+dictionaryServiceGetGeographicLocationPost($dictionary_service_geographic_location_selector): \YahooAdsDisplayApi\Client\Model\DictionaryServiceGetGeographicLocationResponse
 ```
 
 
@@ -274,16 +274,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\DictionaryServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\DictionaryServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$dictionary_service_geographic_location_selector = new \OpenAPI\Client\Model\DictionaryServiceGeographicLocationSelector(); // \OpenAPI\Client\Model\DictionaryServiceGeographicLocationSelector
+$dictionary_service_geographic_location_selector = new \YahooAdsDisplayApi\Client\Model\DictionaryServiceGeographicLocationSelector(); // \YahooAdsDisplayApi\Client\Model\DictionaryServiceGeographicLocationSelector
 
 try {
     $result = $apiInstance->dictionaryServiceGetGeographicLocationPost($dictionary_service_geographic_location_selector);
@@ -297,11 +297,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **dictionary_service_geographic_location_selector** | [**\OpenAPI\Client\Model\DictionaryServiceGeographicLocationSelector**](../Model/DictionaryServiceGeographicLocationSelector.md)|  | [optional]
+ **dictionary_service_geographic_location_selector** | [**\YahooAdsDisplayApi\Client\Model\DictionaryServiceGeographicLocationSelector**](../Model/DictionaryServiceGeographicLocationSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\DictionaryServiceGetGeographicLocationResponse**](../Model/DictionaryServiceGetGeographicLocationResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetGeographicLocationResponse**](../Model/DictionaryServiceGetGeographicLocationResponse.md)
 
 ### Authorization
 
@@ -319,7 +319,7 @@ Name | Type | Description  | Notes
 ## `dictionaryServiceGetInterestCategoryPost()`
 
 ```php
-dictionaryServiceGetInterestCategoryPost($dictionary_service_category_selector): \OpenAPI\Client\Model\DictionaryServiceGetInterestCategoryResponse
+dictionaryServiceGetInterestCategoryPost($dictionary_service_category_selector): \YahooAdsDisplayApi\Client\Model\DictionaryServiceGetInterestCategoryResponse
 ```
 
 
@@ -334,16 +334,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\DictionaryServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\DictionaryServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$dictionary_service_category_selector = new \OpenAPI\Client\Model\DictionaryServiceCategorySelector(); // \OpenAPI\Client\Model\DictionaryServiceCategorySelector
+$dictionary_service_category_selector = new \YahooAdsDisplayApi\Client\Model\DictionaryServiceCategorySelector(); // \YahooAdsDisplayApi\Client\Model\DictionaryServiceCategorySelector
 
 try {
     $result = $apiInstance->dictionaryServiceGetInterestCategoryPost($dictionary_service_category_selector);
@@ -357,11 +357,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **dictionary_service_category_selector** | [**\OpenAPI\Client\Model\DictionaryServiceCategorySelector**](../Model/DictionaryServiceCategorySelector.md)|  | [optional]
+ **dictionary_service_category_selector** | [**\YahooAdsDisplayApi\Client\Model\DictionaryServiceCategorySelector**](../Model/DictionaryServiceCategorySelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\DictionaryServiceGetInterestCategoryResponse**](../Model/DictionaryServiceGetInterestCategoryResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetInterestCategoryResponse**](../Model/DictionaryServiceGetInterestCategoryResponse.md)
 
 ### Authorization
 
@@ -379,7 +379,7 @@ Name | Type | Description  | Notes
 ## `dictionaryServiceGetMediaAdFormatPost()`
 
 ```php
-dictionaryServiceGetMediaAdFormatPost($body): \OpenAPI\Client\Model\DictionaryServiceGetMediaAdFormatResponse
+dictionaryServiceGetMediaAdFormatPost($body): \YahooAdsDisplayApi\Client\Model\DictionaryServiceGetMediaAdFormatResponse
 ```
 
 
@@ -394,10 +394,10 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\DictionaryServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\DictionaryServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -421,7 +421,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\OpenAPI\Client\Model\DictionaryServiceGetMediaAdFormatResponse**](../Model/DictionaryServiceGetMediaAdFormatResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetMediaAdFormatResponse**](../Model/DictionaryServiceGetMediaAdFormatResponse.md)
 
 ### Authorization
 
@@ -439,7 +439,7 @@ Name | Type | Description  | Notes
 ## `dictionaryServiceGetOsVersionPost()`
 
 ```php
-dictionaryServiceGetOsVersionPost($dictionary_service_os_version_selector): \OpenAPI\Client\Model\DictionaryServiceGetOsVersionResponse
+dictionaryServiceGetOsVersionPost($dictionary_service_os_version_selector): \YahooAdsDisplayApi\Client\Model\DictionaryServiceGetOsVersionResponse
 ```
 
 
@@ -454,16 +454,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\DictionaryServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\DictionaryServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$dictionary_service_os_version_selector = new \OpenAPI\Client\Model\DictionaryServiceOsVersionSelector(); // \OpenAPI\Client\Model\DictionaryServiceOsVersionSelector
+$dictionary_service_os_version_selector = new \YahooAdsDisplayApi\Client\Model\DictionaryServiceOsVersionSelector(); // \YahooAdsDisplayApi\Client\Model\DictionaryServiceOsVersionSelector
 
 try {
     $result = $apiInstance->dictionaryServiceGetOsVersionPost($dictionary_service_os_version_selector);
@@ -477,11 +477,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **dictionary_service_os_version_selector** | [**\OpenAPI\Client\Model\DictionaryServiceOsVersionSelector**](../Model/DictionaryServiceOsVersionSelector.md)|  | [optional]
+ **dictionary_service_os_version_selector** | [**\YahooAdsDisplayApi\Client\Model\DictionaryServiceOsVersionSelector**](../Model/DictionaryServiceOsVersionSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\DictionaryServiceGetOsVersionResponse**](../Model/DictionaryServiceGetOsVersionResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetOsVersionResponse**](../Model/DictionaryServiceGetOsVersionResponse.md)
 
 ### Authorization
 
@@ -499,7 +499,7 @@ Name | Type | Description  | Notes
 ## `dictionaryServiceGetSiteCategoryPost()`
 
 ```php
-dictionaryServiceGetSiteCategoryPost($dictionary_service_category_selector): \OpenAPI\Client\Model\DictionaryServiceGetSiteCategoryResponse
+dictionaryServiceGetSiteCategoryPost($dictionary_service_category_selector): \YahooAdsDisplayApi\Client\Model\DictionaryServiceGetSiteCategoryResponse
 ```
 
 
@@ -514,16 +514,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\DictionaryServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\DictionaryServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$dictionary_service_category_selector = new \OpenAPI\Client\Model\DictionaryServiceCategorySelector(); // \OpenAPI\Client\Model\DictionaryServiceCategorySelector
+$dictionary_service_category_selector = new \YahooAdsDisplayApi\Client\Model\DictionaryServiceCategorySelector(); // \YahooAdsDisplayApi\Client\Model\DictionaryServiceCategorySelector
 
 try {
     $result = $apiInstance->dictionaryServiceGetSiteCategoryPost($dictionary_service_category_selector);
@@ -537,11 +537,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **dictionary_service_category_selector** | [**\OpenAPI\Client\Model\DictionaryServiceCategorySelector**](../Model/DictionaryServiceCategorySelector.md)|  | [optional]
+ **dictionary_service_category_selector** | [**\YahooAdsDisplayApi\Client\Model\DictionaryServiceCategorySelector**](../Model/DictionaryServiceCategorySelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\DictionaryServiceGetSiteCategoryResponse**](../Model/DictionaryServiceGetSiteCategoryResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetSiteCategoryResponse**](../Model/DictionaryServiceGetSiteCategoryResponse.md)
 
 ### Authorization
 
@@ -559,7 +559,7 @@ Name | Type | Description  | Notes
 ## `dictionaryServiceGetThirdPartyTrackingDomainPost()`
 
 ```php
-dictionaryServiceGetThirdPartyTrackingDomainPost($body): \OpenAPI\Client\Model\DictionaryServiceGetThirdPartyTrackingDomainResponse
+dictionaryServiceGetThirdPartyTrackingDomainPost($body): \YahooAdsDisplayApi\Client\Model\DictionaryServiceGetThirdPartyTrackingDomainResponse
 ```
 
 
@@ -574,10 +574,10 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\DictionaryServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\DictionaryServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -601,7 +601,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\OpenAPI\Client\Model\DictionaryServiceGetThirdPartyTrackingDomainResponse**](../Model/DictionaryServiceGetThirdPartyTrackingDomainResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\DictionaryServiceGetThirdPartyTrackingDomainResponse**](../Model/DictionaryServiceGetThirdPartyTrackingDomainResponse.md)
 
 ### Authorization
 

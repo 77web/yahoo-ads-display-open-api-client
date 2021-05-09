@@ -4,7 +4,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Api;
+namespace YahooAdsDisplayApi\Client\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use OpenAPI\Client\ApiException;
-use OpenAPI\Client\Configuration;
-use OpenAPI\Client\HeaderSelector;
-use OpenAPI\Client\ObjectSerializer;
+use YahooAdsDisplayApi\Client\ApiException;
+use YahooAdsDisplayApi\Client\Configuration;
+use YahooAdsDisplayApi\Client\HeaderSelector;
+use YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * BudgetOrderServiceApi Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -118,11 +118,11 @@ class BudgetOrderServiceApi
     /**
      * Operation budgetOrderServiceGetPost
      *
-     * @param  \OpenAPI\Client\Model\BudgetOrderServiceSelector $budget_order_service_selector budget_order_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\BudgetOrderServiceSelector $budget_order_service_selector budget_order_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\BudgetOrderServiceGetResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\BudgetOrderServiceGetResponse
      */
     public function budgetOrderServiceGetPost($budget_order_service_selector = null)
     {
@@ -133,11 +133,11 @@ class BudgetOrderServiceApi
     /**
      * Operation budgetOrderServiceGetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\BudgetOrderServiceSelector $budget_order_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\BudgetOrderServiceSelector $budget_order_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\BudgetOrderServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\BudgetOrderServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function budgetOrderServiceGetPostWithHttpInfo($budget_order_service_selector = null)
     {
@@ -174,20 +174,20 @@ class BudgetOrderServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\BudgetOrderServiceGetResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\BudgetOrderServiceGetResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\BudgetOrderServiceGetResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\BudgetOrderServiceGetResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\BudgetOrderServiceGetResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\BudgetOrderServiceGetResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -206,7 +206,7 @@ class BudgetOrderServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\BudgetOrderServiceGetResponse',
+                        '\YahooAdsDisplayApi\Client\Model\BudgetOrderServiceGetResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -221,7 +221,7 @@ class BudgetOrderServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\BudgetOrderServiceSelector $budget_order_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\BudgetOrderServiceSelector $budget_order_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -241,14 +241,14 @@ class BudgetOrderServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\BudgetOrderServiceSelector $budget_order_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\BudgetOrderServiceSelector $budget_order_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function budgetOrderServiceGetPostAsyncWithHttpInfo($budget_order_service_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\BudgetOrderServiceGetResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\BudgetOrderServiceGetResponse';
         $request = $this->budgetOrderServiceGetPostRequest($budget_order_service_selector);
 
         return $this->client
@@ -288,7 +288,7 @@ class BudgetOrderServiceApi
     /**
      * Create request for operation 'budgetOrderServiceGetPost'
      *
-     * @param  \OpenAPI\Client\Model\BudgetOrderServiceSelector $budget_order_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\BudgetOrderServiceSelector $budget_order_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -377,11 +377,11 @@ class BudgetOrderServiceApi
     /**
      * Operation budgetOrderServiceSetPost
      *
-     * @param  \OpenAPI\Client\Model\BudgetOrderServiceOperation $budget_order_service_operation budget_order_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\BudgetOrderServiceOperation $budget_order_service_operation budget_order_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\BudgetOrderServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\BudgetOrderServiceMutateResponse
      */
     public function budgetOrderServiceSetPost($budget_order_service_operation = null)
     {
@@ -392,11 +392,11 @@ class BudgetOrderServiceApi
     /**
      * Operation budgetOrderServiceSetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\BudgetOrderServiceOperation $budget_order_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\BudgetOrderServiceOperation $budget_order_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\BudgetOrderServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\BudgetOrderServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function budgetOrderServiceSetPostWithHttpInfo($budget_order_service_operation = null)
     {
@@ -433,20 +433,20 @@ class BudgetOrderServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\BudgetOrderServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\BudgetOrderServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\BudgetOrderServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\BudgetOrderServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\BudgetOrderServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\BudgetOrderServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -465,7 +465,7 @@ class BudgetOrderServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\BudgetOrderServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\BudgetOrderServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -480,7 +480,7 @@ class BudgetOrderServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\BudgetOrderServiceOperation $budget_order_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\BudgetOrderServiceOperation $budget_order_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -500,14 +500,14 @@ class BudgetOrderServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\BudgetOrderServiceOperation $budget_order_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\BudgetOrderServiceOperation $budget_order_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function budgetOrderServiceSetPostAsyncWithHttpInfo($budget_order_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\BudgetOrderServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\BudgetOrderServiceMutateResponse';
         $request = $this->budgetOrderServiceSetPostRequest($budget_order_service_operation);
 
         return $this->client
@@ -547,7 +547,7 @@ class BudgetOrderServiceApi
     /**
      * Create request for operation 'budgetOrderServiceSetPost'
      *
-     * @param  \OpenAPI\Client\Model\BudgetOrderServiceOperation $budget_order_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\BudgetOrderServiceOperation $budget_order_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

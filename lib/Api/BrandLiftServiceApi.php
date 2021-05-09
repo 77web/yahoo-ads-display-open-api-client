@@ -4,7 +4,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Api;
+namespace YahooAdsDisplayApi\Client\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use OpenAPI\Client\ApiException;
-use OpenAPI\Client\Configuration;
-use OpenAPI\Client\HeaderSelector;
-use OpenAPI\Client\ObjectSerializer;
+use YahooAdsDisplayApi\Client\ApiException;
+use YahooAdsDisplayApi\Client\Configuration;
+use YahooAdsDisplayApi\Client\HeaderSelector;
+use YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * BrandLiftServiceApi Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -118,11 +118,11 @@ class BrandLiftServiceApi
     /**
      * Operation brandLiftServiceGetPost
      *
-     * @param  \OpenAPI\Client\Model\BrandLiftServiceSelector $brand_lift_service_selector brand_lift_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\BrandLiftServiceSelector $brand_lift_service_selector brand_lift_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\BrandLiftServiceGetResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\BrandLiftServiceGetResponse
      */
     public function brandLiftServiceGetPost($brand_lift_service_selector = null)
     {
@@ -133,11 +133,11 @@ class BrandLiftServiceApi
     /**
      * Operation brandLiftServiceGetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\BrandLiftServiceSelector $brand_lift_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\BrandLiftServiceSelector $brand_lift_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\BrandLiftServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\BrandLiftServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function brandLiftServiceGetPostWithHttpInfo($brand_lift_service_selector = null)
     {
@@ -174,20 +174,20 @@ class BrandLiftServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\BrandLiftServiceGetResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\BrandLiftServiceGetResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\BrandLiftServiceGetResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\BrandLiftServiceGetResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\BrandLiftServiceGetResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\BrandLiftServiceGetResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -206,7 +206,7 @@ class BrandLiftServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\BrandLiftServiceGetResponse',
+                        '\YahooAdsDisplayApi\Client\Model\BrandLiftServiceGetResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -221,7 +221,7 @@ class BrandLiftServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\BrandLiftServiceSelector $brand_lift_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\BrandLiftServiceSelector $brand_lift_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -241,14 +241,14 @@ class BrandLiftServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\BrandLiftServiceSelector $brand_lift_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\BrandLiftServiceSelector $brand_lift_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function brandLiftServiceGetPostAsyncWithHttpInfo($brand_lift_service_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\BrandLiftServiceGetResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\BrandLiftServiceGetResponse';
         $request = $this->brandLiftServiceGetPostRequest($brand_lift_service_selector);
 
         return $this->client
@@ -288,7 +288,7 @@ class BrandLiftServiceApi
     /**
      * Create request for operation 'brandLiftServiceGetPost'
      *
-     * @param  \OpenAPI\Client\Model\BrandLiftServiceSelector $brand_lift_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\BrandLiftServiceSelector $brand_lift_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

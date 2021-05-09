@@ -4,7 +4,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Api;
+namespace YahooAdsDisplayApi\Client\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use OpenAPI\Client\ApiException;
-use OpenAPI\Client\Configuration;
-use OpenAPI\Client\HeaderSelector;
-use OpenAPI\Client\ObjectSerializer;
+use YahooAdsDisplayApi\Client\ApiException;
+use YahooAdsDisplayApi\Client\Configuration;
+use YahooAdsDisplayApi\Client\HeaderSelector;
+use YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * MediaServiceApi Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -118,11 +118,11 @@ class MediaServiceApi
     /**
      * Operation mediaServiceAddPost
      *
-     * @param  \OpenAPI\Client\Model\MediaServiceOperation $media_service_operation media_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\MediaServiceOperation $media_service_operation media_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\MediaServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\MediaServiceMutateResponse
      */
     public function mediaServiceAddPost($media_service_operation = null)
     {
@@ -133,11 +133,11 @@ class MediaServiceApi
     /**
      * Operation mediaServiceAddPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\MediaServiceOperation $media_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\MediaServiceOperation $media_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\MediaServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\MediaServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function mediaServiceAddPostWithHttpInfo($media_service_operation = null)
     {
@@ -174,20 +174,20 @@ class MediaServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\MediaServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\MediaServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\MediaServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\MediaServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\MediaServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\MediaServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -206,7 +206,7 @@ class MediaServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\MediaServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\MediaServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -221,7 +221,7 @@ class MediaServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\MediaServiceOperation $media_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\MediaServiceOperation $media_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -241,14 +241,14 @@ class MediaServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\MediaServiceOperation $media_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\MediaServiceOperation $media_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function mediaServiceAddPostAsyncWithHttpInfo($media_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\MediaServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\MediaServiceMutateResponse';
         $request = $this->mediaServiceAddPostRequest($media_service_operation);
 
         return $this->client
@@ -288,7 +288,7 @@ class MediaServiceApi
     /**
      * Create request for operation 'mediaServiceAddPost'
      *
-     * @param  \OpenAPI\Client\Model\MediaServiceOperation $media_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\MediaServiceOperation $media_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -377,9 +377,9 @@ class MediaServiceApi
     /**
      * Operation mediaServiceDownloadPost
      *
-     * @param  \OpenAPI\Client\Model\MediaServiceDownloadSelector $media_service_download_selector media_service_download_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\MediaServiceDownloadSelector $media_service_download_selector media_service_download_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return |\SplFileObject
      */
@@ -392,9 +392,9 @@ class MediaServiceApi
     /**
      * Operation mediaServiceDownloadPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\MediaServiceDownloadSelector $media_service_download_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\MediaServiceDownloadSelector $media_service_download_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of |\SplFileObject, HTTP status code, HTTP response headers (array of strings)
      */
@@ -480,7 +480,7 @@ class MediaServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\MediaServiceDownloadSelector $media_service_download_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\MediaServiceDownloadSelector $media_service_download_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -500,7 +500,7 @@ class MediaServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\MediaServiceDownloadSelector $media_service_download_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\MediaServiceDownloadSelector $media_service_download_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -547,7 +547,7 @@ class MediaServiceApi
     /**
      * Create request for operation 'mediaServiceDownloadPost'
      *
-     * @param  \OpenAPI\Client\Model\MediaServiceDownloadSelector $media_service_download_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\MediaServiceDownloadSelector $media_service_download_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -636,11 +636,11 @@ class MediaServiceApi
     /**
      * Operation mediaServiceGetPost
      *
-     * @param  \OpenAPI\Client\Model\MediaServiceSelector $media_service_selector media_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\MediaServiceSelector $media_service_selector media_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\MediaServiceGetResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\MediaServiceGetResponse
      */
     public function mediaServiceGetPost($media_service_selector = null)
     {
@@ -651,11 +651,11 @@ class MediaServiceApi
     /**
      * Operation mediaServiceGetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\MediaServiceSelector $media_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\MediaServiceSelector $media_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\MediaServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\MediaServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function mediaServiceGetPostWithHttpInfo($media_service_selector = null)
     {
@@ -692,20 +692,20 @@ class MediaServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\MediaServiceGetResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\MediaServiceGetResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\MediaServiceGetResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\MediaServiceGetResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\MediaServiceGetResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\MediaServiceGetResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -724,7 +724,7 @@ class MediaServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\MediaServiceGetResponse',
+                        '\YahooAdsDisplayApi\Client\Model\MediaServiceGetResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -739,7 +739,7 @@ class MediaServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\MediaServiceSelector $media_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\MediaServiceSelector $media_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -759,14 +759,14 @@ class MediaServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\MediaServiceSelector $media_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\MediaServiceSelector $media_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function mediaServiceGetPostAsyncWithHttpInfo($media_service_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\MediaServiceGetResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\MediaServiceGetResponse';
         $request = $this->mediaServiceGetPostRequest($media_service_selector);
 
         return $this->client
@@ -806,7 +806,7 @@ class MediaServiceApi
     /**
      * Create request for operation 'mediaServiceGetPost'
      *
-     * @param  \OpenAPI\Client\Model\MediaServiceSelector $media_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\MediaServiceSelector $media_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -895,11 +895,11 @@ class MediaServiceApi
     /**
      * Operation mediaServiceRemovePost
      *
-     * @param  \OpenAPI\Client\Model\MediaServiceOperation $media_service_operation media_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\MediaServiceOperation $media_service_operation media_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\MediaServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\MediaServiceMutateResponse
      */
     public function mediaServiceRemovePost($media_service_operation = null)
     {
@@ -910,11 +910,11 @@ class MediaServiceApi
     /**
      * Operation mediaServiceRemovePostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\MediaServiceOperation $media_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\MediaServiceOperation $media_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\MediaServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\MediaServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function mediaServiceRemovePostWithHttpInfo($media_service_operation = null)
     {
@@ -951,20 +951,20 @@ class MediaServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\MediaServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\MediaServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\MediaServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\MediaServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\MediaServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\MediaServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -983,7 +983,7 @@ class MediaServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\MediaServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\MediaServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -998,7 +998,7 @@ class MediaServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\MediaServiceOperation $media_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\MediaServiceOperation $media_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1018,14 +1018,14 @@ class MediaServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\MediaServiceOperation $media_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\MediaServiceOperation $media_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function mediaServiceRemovePostAsyncWithHttpInfo($media_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\MediaServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\MediaServiceMutateResponse';
         $request = $this->mediaServiceRemovePostRequest($media_service_operation);
 
         return $this->client
@@ -1065,7 +1065,7 @@ class MediaServiceApi
     /**
      * Create request for operation 'mediaServiceRemovePost'
      *
-     * @param  \OpenAPI\Client\Model\MediaServiceOperation $media_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\MediaServiceOperation $media_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -1154,11 +1154,11 @@ class MediaServiceApi
     /**
      * Operation mediaServiceSetPost
      *
-     * @param  \OpenAPI\Client\Model\MediaServiceOperation $media_service_operation media_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\MediaServiceOperation $media_service_operation media_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\MediaServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\MediaServiceMutateResponse
      */
     public function mediaServiceSetPost($media_service_operation = null)
     {
@@ -1169,11 +1169,11 @@ class MediaServiceApi
     /**
      * Operation mediaServiceSetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\MediaServiceOperation $media_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\MediaServiceOperation $media_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\MediaServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\MediaServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function mediaServiceSetPostWithHttpInfo($media_service_operation = null)
     {
@@ -1210,20 +1210,20 @@ class MediaServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\MediaServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\MediaServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\MediaServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\MediaServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\MediaServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\MediaServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -1242,7 +1242,7 @@ class MediaServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\MediaServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\MediaServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1257,7 +1257,7 @@ class MediaServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\MediaServiceOperation $media_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\MediaServiceOperation $media_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1277,14 +1277,14 @@ class MediaServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\MediaServiceOperation $media_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\MediaServiceOperation $media_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function mediaServiceSetPostAsyncWithHttpInfo($media_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\MediaServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\MediaServiceMutateResponse';
         $request = $this->mediaServiceSetPostRequest($media_service_operation);
 
         return $this->client
@@ -1324,7 +1324,7 @@ class MediaServiceApi
     /**
      * Create request for operation 'mediaServiceSetPost'
      *
-     * @param  \OpenAPI\Client\Model\MediaServiceOperation $media_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\MediaServiceOperation $media_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

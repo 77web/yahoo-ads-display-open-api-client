@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AccountManagementServicePage Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;AccountManagementServicePageオブジェクトは、取得されるアカウント情報に関するエントリーを表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The AccountManagementServicePage object is a container for storing account information entry.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class AccountManagementServicePage implements ModelInterface, ArrayAccess, \Json
       */
     protected static $openAPITypes = [
         'total_num_entries' => 'int',
-        'values' => '\OpenAPI\Client\Model\AccountManagementServiceValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\AccountManagementServiceValue[]'
     ];
 
     /**
@@ -243,7 +243,7 @@ class AccountManagementServicePage implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\AccountManagementServiceValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountManagementServiceValue[]|null
      */
     public function getValues()
     {
@@ -253,7 +253,7 @@ class AccountManagementServicePage implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\AccountManagementServiceValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\AccountManagementServiceValue[]|null $values values
      *
      * @return self
      */

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * FeedItemServiceReturnValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;FeedItemServiceReturnValueオブジェクトは、商品の情報を格納するコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedItemServiceReturnValue object contains the information about items.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class FeedItemServiceReturnValue implements ModelInterface, ArrayAccess, \JsonSe
       * @var string[]
       */
     protected static $openAPITypes = [
-        'values' => '\OpenAPI\Client\Model\FeedItemServiceValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\FeedItemServiceValue[]'
     ];
 
     /**
@@ -213,7 +213,7 @@ class FeedItemServiceReturnValue implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\FeedItemServiceValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedItemServiceValue[]|null
      */
     public function getValues()
     {
@@ -223,7 +223,7 @@ class FeedItemServiceReturnValue implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\FeedItemServiceValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\FeedItemServiceValue[]|null $values values
      *
      * @return self
      */

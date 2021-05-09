@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AccountAdProduct Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;AccountAdProductオブジェクトは、広告掲載方式を含むコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;AccountAdProduct object is a container that includes the ad display method.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class AccountAdProduct implements ModelInterface, ArrayAccess, \JsonSerializable
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'ad_product' => '\OpenAPI\Client\Model\AccountAdProductServiceAdProduct[]'
+        'ad_product' => '\YahooAdsDisplayApi\Client\Model\AccountAdProductServiceAdProduct[]'
     ];
 
     /**
@@ -243,7 +243,7 @@ class AccountAdProduct implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets ad_product
      *
-     * @return \OpenAPI\Client\Model\AccountAdProductServiceAdProduct[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountAdProductServiceAdProduct[]|null
      */
     public function getAdProduct()
     {
@@ -253,7 +253,7 @@ class AccountAdProduct implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets ad_product
      *
-     * @param \OpenAPI\Client\Model\AccountAdProductServiceAdProduct[]|null $ad_product ad_product
+     * @param \YahooAdsDisplayApi\Client\Model\AccountAdProductServiceAdProduct[]|null $ad_product ad_product
      *
      * @return self
      */

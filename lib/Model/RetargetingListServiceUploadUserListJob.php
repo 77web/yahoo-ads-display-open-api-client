@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RetargetingListServiceUploadUserListJob Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;RetargetingListServiceUploadUserListJobオブジェクトは、ユーザーリストのアップロードジョブの処理状況を示すオブジェクトです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;RetargetingListServiceUploadUserListJob object indicates the processing status of user list upload.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -64,10 +64,10 @@ class RetargetingListServiceUploadUserListJob implements ModelInterface, ArrayAc
         'upload_job_id' => 'string',
         'retargeting_tag_id' => 'string',
         'target_list_id' => 'int',
-        'upload_type' => '\OpenAPI\Client\Model\RetargetingListServiceUploadUserListUploadType',
+        'upload_type' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceUploadUserListUploadType',
         'upload_submit_date' => 'string',
         'received_date' => 'string',
-        'job_status' => '\OpenAPI\Client\Model\RetargetingListServiceJobStatus'
+        'job_status' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceJobStatus'
     ];
 
     /**
@@ -321,7 +321,7 @@ class RetargetingListServiceUploadUserListJob implements ModelInterface, ArrayAc
     /**
      * Gets upload_type
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceUploadUserListUploadType|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceUploadUserListUploadType|null
      */
     public function getUploadType()
     {
@@ -331,7 +331,7 @@ class RetargetingListServiceUploadUserListJob implements ModelInterface, ArrayAc
     /**
      * Sets upload_type
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceUploadUserListUploadType|null $upload_type upload_type
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceUploadUserListUploadType|null $upload_type upload_type
      *
      * @return self
      */
@@ -393,7 +393,7 @@ class RetargetingListServiceUploadUserListJob implements ModelInterface, ArrayAc
     /**
      * Gets job_status
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceJobStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceJobStatus|null
      */
     public function getJobStatus()
     {
@@ -403,7 +403,7 @@ class RetargetingListServiceUploadUserListJob implements ModelInterface, ArrayAc
     /**
      * Sets job_status
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceJobStatus|null $job_status job_status
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceJobStatus|null $job_status job_status
      *
      * @return self
      */

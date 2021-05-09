@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RetargetingListServiceRuleCondition Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; RetargetingListServiceRuleConditionオブジェクトは、ターゲットリストに設定可能な条件を表します。&lt;br&gt; このフィールドは、ADDおよびSET時に必須となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; RetargetingListServiceRuleCondition object displays the possible conditions to set for target list.&lt;br&gt; This field is required in ADD and SET operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class RetargetingListServiceRuleCondition implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $openAPITypes = [
-        'compare_operator' => '\OpenAPI\Client\Model\RetargetingListServiceCompareOperator',
-        'rule_type' => '\OpenAPI\Client\Model\RetargetingListServiceRuleType',
+        'compare_operator' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceCompareOperator',
+        'rule_type' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceRuleType',
         'value' => 'string'
     ];
 
@@ -225,7 +225,7 @@ class RetargetingListServiceRuleCondition implements ModelInterface, ArrayAccess
     /**
      * Gets compare_operator
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceCompareOperator|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceCompareOperator|null
      */
     public function getCompareOperator()
     {
@@ -235,7 +235,7 @@ class RetargetingListServiceRuleCondition implements ModelInterface, ArrayAccess
     /**
      * Sets compare_operator
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceCompareOperator|null $compare_operator compare_operator
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceCompareOperator|null $compare_operator compare_operator
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class RetargetingListServiceRuleCondition implements ModelInterface, ArrayAccess
     /**
      * Gets rule_type
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceRuleType|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceRuleType|null
      */
     public function getRuleType()
     {
@@ -259,7 +259,7 @@ class RetargetingListServiceRuleCondition implements ModelInterface, ArrayAccess
     /**
      * Sets rule_type
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceRuleType|null $rule_type rule_type
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceRuleType|null $rule_type rule_type
      *
      * @return self
      */

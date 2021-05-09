@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupTargetServicePositionTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; AdGroupTargetServicePositionTargetオブジェクトは、ポジションターゲティングの設定情報を保持します。&lt;br&gt; *このターゲットは予約型専用となります。&lt;br&gt; このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; AdGroupTargetServicePositionTarget object contains position targeting settings.&lt;br&gt; *This target is exclusive for guaranteed ad.&lt;br&gt; Although this field will be returned in the response, it will be ignored on input. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class AdGroupTargetServicePositionTarget implements ModelInterface, ArrayAccess,
       * @var string[]
       */
     protected static $openAPITypes = [
-        'position_type' => '\OpenAPI\Client\Model\AdGroupTargetServicePositionType'
+        'position_type' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServicePositionType'
     ];
 
     /**
@@ -213,7 +213,7 @@ class AdGroupTargetServicePositionTarget implements ModelInterface, ArrayAccess,
     /**
      * Gets position_type
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServicePositionType|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServicePositionType|null
      */
     public function getPositionType()
     {
@@ -223,7 +223,7 @@ class AdGroupTargetServicePositionTarget implements ModelInterface, ArrayAccess,
     /**
      * Sets position_type
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServicePositionType|null $position_type position_type
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServicePositionType|null $position_type position_type
      *
      * @return self
      */

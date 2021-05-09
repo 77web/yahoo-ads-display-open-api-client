@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * DictionaryServiceThirdPartyTrackingDomainPage Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;DictionaryServiceThirdPartyTrackingDomainPageオブジェクトは、getThirdPartyTrackingDomainメソッドの実行結果（全Entityのリスト）を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;DictionaryServiceThirdPartyTrackingDomainPage object contains the results (a list of all entities) of getThirdPartyTrackingDomain method.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class DictionaryServiceThirdPartyTrackingDomainPage implements ModelInterface, A
       */
     protected static $openAPITypes = [
         'total_num_entries' => 'int',
-        'values' => '\OpenAPI\Client\Model\DictionaryServiceThirdPartyTrackingDomainValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\DictionaryServiceThirdPartyTrackingDomainValue[]'
     ];
 
     /**
@@ -243,7 +243,7 @@ class DictionaryServiceThirdPartyTrackingDomainPage implements ModelInterface, A
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\DictionaryServiceThirdPartyTrackingDomainValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\DictionaryServiceThirdPartyTrackingDomainValue[]|null
      */
     public function getValues()
     {
@@ -253,7 +253,7 @@ class DictionaryServiceThirdPartyTrackingDomainPage implements ModelInterface, A
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\DictionaryServiceThirdPartyTrackingDomainValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\DictionaryServiceThirdPartyTrackingDomainValue[]|null $values values
      *
      * @return self
      */

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServiceAdCategoryPage Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedSimulationServiceAdCategoryPageオブジェクトは、広告カテゴリー情報を格納するコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;GuaranteedSimulationServiceAdCategoryPage object contains ad category information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class GuaranteedSimulationServiceAdCategoryPage implements ModelInterface, Array
       */
     protected static $openAPITypes = [
         'total_num_entries' => 'int',
-        'values' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceAdCategoryValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAdCategoryValue[]'
     ];
 
     /**
@@ -243,7 +243,7 @@ class GuaranteedSimulationServiceAdCategoryPage implements ModelInterface, Array
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceAdCategoryValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAdCategoryValue[]|null
      */
     public function getValues()
     {
@@ -253,7 +253,7 @@ class GuaranteedSimulationServiceAdCategoryPage implements ModelInterface, Array
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceAdCategoryValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAdCategoryValue[]|null $values values
      *
      * @return self
      */

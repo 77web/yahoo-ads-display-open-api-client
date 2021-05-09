@@ -1,4 +1,4 @@
-# OpenAPI\Client\VideoServiceApi
+# YahooAdsDisplayApi\Client\VideoServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -29,16 +29,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\VideoServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\VideoServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$video_service_download_selector = new \OpenAPI\Client\Model\VideoServiceDownloadSelector(); // \OpenAPI\Client\Model\VideoServiceDownloadSelector
+$video_service_download_selector = new \YahooAdsDisplayApi\Client\Model\VideoServiceDownloadSelector(); // \YahooAdsDisplayApi\Client\Model\VideoServiceDownloadSelector
 
 try {
     $result = $apiInstance->videoServiceDownloadPost($video_service_download_selector);
@@ -52,7 +52,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **video_service_download_selector** | [**\OpenAPI\Client\Model\VideoServiceDownloadSelector**](../Model/VideoServiceDownloadSelector.md)|  | [optional]
+ **video_service_download_selector** | [**\YahooAdsDisplayApi\Client\Model\VideoServiceDownloadSelector**](../Model/VideoServiceDownloadSelector.md)|  | [optional]
 
 ### Return type
 
@@ -74,7 +74,7 @@ Name | Type | Description  | Notes
 ## `videoServiceGetPost()`
 
 ```php
-videoServiceGetPost($video_service_selector): \OpenAPI\Client\Model\VideoServiceGetResponse
+videoServiceGetPost($video_service_selector): \YahooAdsDisplayApi\Client\Model\VideoServiceGetResponse
 ```
 
 
@@ -89,16 +89,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\VideoServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\VideoServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$video_service_selector = new \OpenAPI\Client\Model\VideoServiceSelector(); // \OpenAPI\Client\Model\VideoServiceSelector
+$video_service_selector = new \YahooAdsDisplayApi\Client\Model\VideoServiceSelector(); // \YahooAdsDisplayApi\Client\Model\VideoServiceSelector
 
 try {
     $result = $apiInstance->videoServiceGetPost($video_service_selector);
@@ -112,11 +112,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **video_service_selector** | [**\OpenAPI\Client\Model\VideoServiceSelector**](../Model/VideoServiceSelector.md)|  | [optional]
+ **video_service_selector** | [**\YahooAdsDisplayApi\Client\Model\VideoServiceSelector**](../Model/VideoServiceSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\VideoServiceGetResponse**](../Model/VideoServiceGetResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\VideoServiceGetResponse**](../Model/VideoServiceGetResponse.md)
 
 ### Authorization
 
@@ -134,7 +134,7 @@ Name | Type | Description  | Notes
 ## `videoServiceRemovePost()`
 
 ```php
-videoServiceRemovePost($video_service_operation): \OpenAPI\Client\Model\VideoServiceMutateResponse
+videoServiceRemovePost($video_service_operation): \YahooAdsDisplayApi\Client\Model\VideoServiceMutateResponse
 ```
 
 
@@ -149,16 +149,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\VideoServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\VideoServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$video_service_operation = new \OpenAPI\Client\Model\VideoServiceOperation(); // \OpenAPI\Client\Model\VideoServiceOperation
+$video_service_operation = new \YahooAdsDisplayApi\Client\Model\VideoServiceOperation(); // \YahooAdsDisplayApi\Client\Model\VideoServiceOperation
 
 try {
     $result = $apiInstance->videoServiceRemovePost($video_service_operation);
@@ -172,11 +172,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **video_service_operation** | [**\OpenAPI\Client\Model\VideoServiceOperation**](../Model/VideoServiceOperation.md)|  | [optional]
+ **video_service_operation** | [**\YahooAdsDisplayApi\Client\Model\VideoServiceOperation**](../Model/VideoServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\VideoServiceMutateResponse**](../Model/VideoServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\VideoServiceMutateResponse**](../Model/VideoServiceMutateResponse.md)
 
 ### Authorization
 
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 ## `videoServiceSetPost()`
 
 ```php
-videoServiceSetPost($video_service_operation): \OpenAPI\Client\Model\VideoServiceMutateResponse
+videoServiceSetPost($video_service_operation): \YahooAdsDisplayApi\Client\Model\VideoServiceMutateResponse
 ```
 
 
@@ -209,16 +209,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\VideoServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\VideoServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$video_service_operation = new \OpenAPI\Client\Model\VideoServiceOperation(); // \OpenAPI\Client\Model\VideoServiceOperation
+$video_service_operation = new \YahooAdsDisplayApi\Client\Model\VideoServiceOperation(); // \YahooAdsDisplayApi\Client\Model\VideoServiceOperation
 
 try {
     $result = $apiInstance->videoServiceSetPost($video_service_operation);
@@ -232,11 +232,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **video_service_operation** | [**\OpenAPI\Client\Model\VideoServiceOperation**](../Model/VideoServiceOperation.md)|  | [optional]
+ **video_service_operation** | [**\YahooAdsDisplayApi\Client\Model\VideoServiceOperation**](../Model/VideoServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\VideoServiceMutateResponse**](../Model/VideoServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\VideoServiceMutateResponse**](../Model/VideoServiceMutateResponse.md)
 
 ### Authorization
 
@@ -254,7 +254,7 @@ Name | Type | Description  | Notes
 ## `videoServiceUploadPost()`
 
 ```php
-videoServiceUploadPost($account_id, $video_name, $video_title, $user_status, $file): \OpenAPI\Client\Model\VideoServiceUploadResponse
+videoServiceUploadPost($account_id, $video_name, $video_title, $user_status, $file): \YahooAdsDisplayApi\Client\Model\VideoServiceUploadResponse
 ```
 
 
@@ -269,10 +269,10 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\VideoServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\VideoServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -281,7 +281,7 @@ $apiInstance = new OpenAPI\Client\Api\VideoServiceApi(
 $account_id = 56; // int | <div lang=\"ja\">アカウントIDです。</div> <div lang=\"en\">Account ID.</div>
 $video_name = 'video_name_example'; // string | <div lang=\"ja\">動画のファイル名です。</div> <div lang=\"en\">Video file name.</div>
 $video_title = 'video_title_example'; // string | <div lang=\"ja\">動画名です。</div> <div lang=\"en\">Video name.</div>
-$user_status = new \OpenAPI\Client\Model\\OpenAPI\Client\Model\VideoServiceUserStatus(); // \OpenAPI\Client\Model\VideoServiceUserStatus | <div lang=\"ja\">ユーザーにより広告配信の有無を調整できる設定です。</div> <div lang=\"en\">Ad delivery status that can be set by an user is served.</div>
+$user_status = new \YahooAdsDisplayApi\Client\Model\\YahooAdsDisplayApi\Client\Model\VideoServiceUserStatus(); // \YahooAdsDisplayApi\Client\Model\VideoServiceUserStatus | <div lang=\"ja\">ユーザーにより広告配信の有無を調整できる設定です。</div> <div lang=\"en\">Ad delivery status that can be set by an user is served.</div>
 $file = "/path/to/file.txt"; // \SplFileObject
 
 try {
@@ -299,12 +299,12 @@ Name | Type | Description  | Notes
  **account_id** | **int**| &lt;div lang&#x3D;\&quot;ja\&quot;&gt;アカウントIDです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Account ID.&lt;/div&gt; |
  **video_name** | **string**| &lt;div lang&#x3D;\&quot;ja\&quot;&gt;動画のファイル名です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Video file name.&lt;/div&gt; |
  **video_title** | **string**| &lt;div lang&#x3D;\&quot;ja\&quot;&gt;動画名です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Video name.&lt;/div&gt; |
- **user_status** | [**\OpenAPI\Client\Model\VideoServiceUserStatus**](../Model/.md)| &lt;div lang&#x3D;\&quot;ja\&quot;&gt;ユーザーにより広告配信の有無を調整できる設定です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Ad delivery status that can be set by an user is served.&lt;/div&gt; |
+ **user_status** | [**\YahooAdsDisplayApi\Client\Model\VideoServiceUserStatus**](../Model/.md)| &lt;div lang&#x3D;\&quot;ja\&quot;&gt;ユーザーにより広告配信の有無を調整できる設定です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Ad delivery status that can be set by an user is served.&lt;/div&gt; |
  **file** | **\SplFileObject****\SplFileObject**|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\VideoServiceUploadResponse**](../Model/VideoServiceUploadResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\VideoServiceUploadResponse**](../Model/VideoServiceUploadResponse.md)
 
 ### Authorization
 

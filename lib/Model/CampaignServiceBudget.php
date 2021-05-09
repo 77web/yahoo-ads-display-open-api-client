@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * CampaignServiceBudget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; CampaignServiceBudgetオブジェクトは、キャンペーン予算に関する情報を表します。&lt;br&gt; このフィールドは、ADD時は必須、SET時は省略可能となり、REMOVE時は無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; The CampaignServiceBudget object serves campaign budgets.&lt;br&gt; This field is required in ADD operation, is optional in SET operation, and will be ignored in REMOVE operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class CampaignServiceBudget implements ModelInterface, ArrayAccess, \JsonSeriali
       */
     protected static $openAPITypes = [
         'amount' => 'int',
-        'budget_delivery_method' => '\OpenAPI\Client\Model\CampaignServiceBudgetDeliveryMethod'
+        'budget_delivery_method' => '\YahooAdsDisplayApi\Client\Model\CampaignServiceBudgetDeliveryMethod'
     ];
 
     /**
@@ -243,7 +243,7 @@ class CampaignServiceBudget implements ModelInterface, ArrayAccess, \JsonSeriali
     /**
      * Gets budget_delivery_method
      *
-     * @return \OpenAPI\Client\Model\CampaignServiceBudgetDeliveryMethod|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignServiceBudgetDeliveryMethod|null
      */
     public function getBudgetDeliveryMethod()
     {
@@ -253,7 +253,7 @@ class CampaignServiceBudget implements ModelInterface, ArrayAccess, \JsonSeriali
     /**
      * Sets budget_delivery_method
      *
-     * @param \OpenAPI\Client\Model\CampaignServiceBudgetDeliveryMethod|null $budget_delivery_method budget_delivery_method
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignServiceBudgetDeliveryMethod|null $budget_delivery_method budget_delivery_method
      *
      * @return self
      */

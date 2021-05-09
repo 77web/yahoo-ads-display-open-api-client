@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ConversionTrackerServiceWebConversionSnippet Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; ConversionTrackerServiceWebConversionSnippetオブジェクトは、ウェブコンバージョントラッカーのトラッキングスクリプト情報を表します。&lt;br&gt; このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; ConversionTrackerServiceWebConversionSnippet object displays the tracking script information of Web Conversion Tracker.&lt;br&gt; Although this field will be returned in the response, it will be ignored on input. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -63,7 +63,7 @@ class ConversionTrackerServiceWebConversionSnippet implements ModelInterface, Ar
     protected static $openAPITypes = [
         'tag' => 'string',
         'advanced_tag' => 'string',
-        'web_conversion_snippet_type' => '\OpenAPI\Client\Model\ConversionTrackerServiceWebConversionSnippetType'
+        'web_conversion_snippet_type' => '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceWebConversionSnippetType'
     ];
 
     /**
@@ -273,7 +273,7 @@ class ConversionTrackerServiceWebConversionSnippet implements ModelInterface, Ar
     /**
      * Gets web_conversion_snippet_type
      *
-     * @return \OpenAPI\Client\Model\ConversionTrackerServiceWebConversionSnippetType|null
+     * @return \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceWebConversionSnippetType|null
      */
     public function getWebConversionSnippetType()
     {
@@ -283,7 +283,7 @@ class ConversionTrackerServiceWebConversionSnippet implements ModelInterface, Ar
     /**
      * Sets web_conversion_snippet_type
      *
-     * @param \OpenAPI\Client\Model\ConversionTrackerServiceWebConversionSnippetType|null $web_conversion_snippet_type web_conversion_snippet_type
+     * @param \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceWebConversionSnippetType|null $web_conversion_snippet_type web_conversion_snippet_type
      *
      * @return self
      */

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RetargetingTagServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;RetargetingTagServiceValueオブジェクトは、サイトリターゲティングのタグ情報を格納するコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;RetargetingTagServiceValue object is a container for storing tag information for site retargeting.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,9 +61,9 @@ class RetargetingTagServiceValue implements ModelInterface, ArrayAccess, \JsonSe
       * @var string[]
       */
     protected static $openAPITypes = [
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool',
-        'retargeting_tag' => '\OpenAPI\Client\Model\RetargetingTag'
+        'retargeting_tag' => '\YahooAdsDisplayApi\Client\Model\RetargetingTag'
     ];
 
     /**
@@ -225,7 +225,7 @@ class RetargetingTagServiceValue implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -235,7 +235,7 @@ class RetargetingTagServiceValue implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */
@@ -273,7 +273,7 @@ class RetargetingTagServiceValue implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets retargeting_tag
      *
-     * @return \OpenAPI\Client\Model\RetargetingTag|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingTag|null
      */
     public function getRetargetingTag()
     {
@@ -283,7 +283,7 @@ class RetargetingTagServiceValue implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets retargeting_tag
      *
-     * @param \OpenAPI\Client\Model\RetargetingTag|null $retargeting_tag retargeting_tag
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingTag|null $retargeting_tag retargeting_tag
      *
      * @return self
      */

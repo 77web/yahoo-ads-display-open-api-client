@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupServiceBid Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; AdGroupServiceBidオブジェクトは、入札最適化方法を格納するコンテナです。&lt;br&gt; SET時、このフィールドは省略可能となります。&lt;br&gt; ADD時、このフィールドは指定できません。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; AdGroupServiceBid object is a container for storing bid optimization method.&lt;br&gt; This field is optional in SET operation.&lt;br&gt; In ADD operation, this field can not be set. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,9 +61,9 @@ class AdGroupServiceBid implements ModelInterface, ArrayAccess, \JsonSerializabl
       * @var string[]
       */
     protected static $openAPITypes = [
-        'manual_cpc_bid' => '\OpenAPI\Client\Model\AdGroupServiceManualCPCBid',
-        'manual_cpv_bid' => '\OpenAPI\Client\Model\AdGroupServiceManualCPVBid',
-        'type' => '\OpenAPI\Client\Model\AdGroupServiceBidType'
+        'manual_cpc_bid' => '\YahooAdsDisplayApi\Client\Model\AdGroupServiceManualCPCBid',
+        'manual_cpv_bid' => '\YahooAdsDisplayApi\Client\Model\AdGroupServiceManualCPVBid',
+        'type' => '\YahooAdsDisplayApi\Client\Model\AdGroupServiceBidType'
     ];
 
     /**
@@ -225,7 +225,7 @@ class AdGroupServiceBid implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets manual_cpc_bid
      *
-     * @return \OpenAPI\Client\Model\AdGroupServiceManualCPCBid|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupServiceManualCPCBid|null
      */
     public function getManualCpcBid()
     {
@@ -235,7 +235,7 @@ class AdGroupServiceBid implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets manual_cpc_bid
      *
-     * @param \OpenAPI\Client\Model\AdGroupServiceManualCPCBid|null $manual_cpc_bid manual_cpc_bid
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupServiceManualCPCBid|null $manual_cpc_bid manual_cpc_bid
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class AdGroupServiceBid implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets manual_cpv_bid
      *
-     * @return \OpenAPI\Client\Model\AdGroupServiceManualCPVBid|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupServiceManualCPVBid|null
      */
     public function getManualCpvBid()
     {
@@ -259,7 +259,7 @@ class AdGroupServiceBid implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets manual_cpv_bid
      *
-     * @param \OpenAPI\Client\Model\AdGroupServiceManualCPVBid|null $manual_cpv_bid manual_cpv_bid
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupServiceManualCPVBid|null $manual_cpv_bid manual_cpv_bid
      *
      * @return self
      */
@@ -273,7 +273,7 @@ class AdGroupServiceBid implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets type
      *
-     * @return \OpenAPI\Client\Model\AdGroupServiceBidType|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupServiceBidType|null
      */
     public function getType()
     {
@@ -283,7 +283,7 @@ class AdGroupServiceBid implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets type
      *
-     * @param \OpenAPI\Client\Model\AdGroupServiceBidType|null $type type
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupServiceBidType|null $type type
      *
      * @return self
      */

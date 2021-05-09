@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * FeedFtpServiceSchedule Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; FeedFtpServiceScheduleオブジェクトは、定期アップロードのスケジュールを表します。&lt;br&gt; このフィールドは、ADD時は必須となり、SET時は省略可能となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; FeedFtpServiceSchedule object displays Periodic Upload schedule.&lt;br&gt; This field is required in ADD operation, and will be optional in SET operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,10 +61,10 @@ class FeedFtpServiceSchedule implements ModelInterface, ArrayAccess, \JsonSerial
       * @var string[]
       */
     protected static $openAPITypes = [
-        'schedule_daily' => '\OpenAPI\Client\Model\FeedFtpServiceScheduleDaily',
-        'schedule_hourly' => '\OpenAPI\Client\Model\FeedFtpServiceScheduleHourly',
-        'schedule_type' => '\OpenAPI\Client\Model\FeedFtpServiceScheduleType',
-        'schedule_weekly' => '\OpenAPI\Client\Model\FeedFtpServiceScheduleWeekly'
+        'schedule_daily' => '\YahooAdsDisplayApi\Client\Model\FeedFtpServiceScheduleDaily',
+        'schedule_hourly' => '\YahooAdsDisplayApi\Client\Model\FeedFtpServiceScheduleHourly',
+        'schedule_type' => '\YahooAdsDisplayApi\Client\Model\FeedFtpServiceScheduleType',
+        'schedule_weekly' => '\YahooAdsDisplayApi\Client\Model\FeedFtpServiceScheduleWeekly'
     ];
 
     /**
@@ -231,7 +231,7 @@ class FeedFtpServiceSchedule implements ModelInterface, ArrayAccess, \JsonSerial
     /**
      * Gets schedule_daily
      *
-     * @return \OpenAPI\Client\Model\FeedFtpServiceScheduleDaily|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedFtpServiceScheduleDaily|null
      */
     public function getScheduleDaily()
     {
@@ -241,7 +241,7 @@ class FeedFtpServiceSchedule implements ModelInterface, ArrayAccess, \JsonSerial
     /**
      * Sets schedule_daily
      *
-     * @param \OpenAPI\Client\Model\FeedFtpServiceScheduleDaily|null $schedule_daily schedule_daily
+     * @param \YahooAdsDisplayApi\Client\Model\FeedFtpServiceScheduleDaily|null $schedule_daily schedule_daily
      *
      * @return self
      */
@@ -255,7 +255,7 @@ class FeedFtpServiceSchedule implements ModelInterface, ArrayAccess, \JsonSerial
     /**
      * Gets schedule_hourly
      *
-     * @return \OpenAPI\Client\Model\FeedFtpServiceScheduleHourly|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedFtpServiceScheduleHourly|null
      */
     public function getScheduleHourly()
     {
@@ -265,7 +265,7 @@ class FeedFtpServiceSchedule implements ModelInterface, ArrayAccess, \JsonSerial
     /**
      * Sets schedule_hourly
      *
-     * @param \OpenAPI\Client\Model\FeedFtpServiceScheduleHourly|null $schedule_hourly schedule_hourly
+     * @param \YahooAdsDisplayApi\Client\Model\FeedFtpServiceScheduleHourly|null $schedule_hourly schedule_hourly
      *
      * @return self
      */
@@ -279,7 +279,7 @@ class FeedFtpServiceSchedule implements ModelInterface, ArrayAccess, \JsonSerial
     /**
      * Gets schedule_type
      *
-     * @return \OpenAPI\Client\Model\FeedFtpServiceScheduleType|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedFtpServiceScheduleType|null
      */
     public function getScheduleType()
     {
@@ -289,7 +289,7 @@ class FeedFtpServiceSchedule implements ModelInterface, ArrayAccess, \JsonSerial
     /**
      * Sets schedule_type
      *
-     * @param \OpenAPI\Client\Model\FeedFtpServiceScheduleType|null $schedule_type schedule_type
+     * @param \YahooAdsDisplayApi\Client\Model\FeedFtpServiceScheduleType|null $schedule_type schedule_type
      *
      * @return self
      */
@@ -303,7 +303,7 @@ class FeedFtpServiceSchedule implements ModelInterface, ArrayAccess, \JsonSerial
     /**
      * Gets schedule_weekly
      *
-     * @return \OpenAPI\Client\Model\FeedFtpServiceScheduleWeekly|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedFtpServiceScheduleWeekly|null
      */
     public function getScheduleWeekly()
     {
@@ -313,7 +313,7 @@ class FeedFtpServiceSchedule implements ModelInterface, ArrayAccess, \JsonSerial
     /**
      * Sets schedule_weekly
      *
-     * @param \OpenAPI\Client\Model\FeedFtpServiceScheduleWeekly|null $schedule_weekly schedule_weekly
+     * @param \YahooAdsDisplayApi\Client\Model\FeedFtpServiceScheduleWeekly|null $schedule_weekly schedule_weekly
      *
      * @return self
      */

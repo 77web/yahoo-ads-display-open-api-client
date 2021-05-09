@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * DictionaryServiceCategorySelector Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;DictionaryServiceCategorySelectorオブジェクトは、取得するカテゴリー情報の言語を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;DictionaryServiceCategorySelector object displays the language of retrieved category information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class DictionaryServiceCategorySelector implements ModelInterface, ArrayAccess, 
       * @var string[]
       */
     protected static $openAPITypes = [
-        'lang' => '\OpenAPI\Client\Model\DictionaryServiceLang'
+        'lang' => '\YahooAdsDisplayApi\Client\Model\DictionaryServiceLang'
     ];
 
     /**
@@ -216,7 +216,7 @@ class DictionaryServiceCategorySelector implements ModelInterface, ArrayAccess, 
     /**
      * Gets lang
      *
-     * @return \OpenAPI\Client\Model\DictionaryServiceLang
+     * @return \YahooAdsDisplayApi\Client\Model\DictionaryServiceLang
      */
     public function getLang()
     {
@@ -226,7 +226,7 @@ class DictionaryServiceCategorySelector implements ModelInterface, ArrayAccess, 
     /**
      * Sets lang
      *
-     * @param \OpenAPI\Client\Model\DictionaryServiceLang $lang lang
+     * @param \YahooAdsDisplayApi\Client\Model\DictionaryServiceLang $lang lang
      *
      * @return self
      */

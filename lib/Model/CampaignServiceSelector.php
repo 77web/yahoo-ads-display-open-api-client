@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * CampaignServiceSelector Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;CampaignServiceSelectorオブジェクトは、getメソッドの検索条件（実行パラメータ）を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The CampaignServiceSelector object is a container for storing a set of criteria (parameters) for get method.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,16 +62,16 @@ class CampaignServiceSelector implements ModelInterface, ArrayAccess, \JsonSeria
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'campaign_goal_filter_type' => '\OpenAPI\Client\Model\CampaignServiceGoalFilterType',
+        'campaign_goal_filter_type' => '\YahooAdsDisplayApi\Client\Model\CampaignServiceGoalFilterType',
         'campaign_ids' => 'int[]',
-        'campaign_type' => '\OpenAPI\Client\Model\CampaignServiceType',
+        'campaign_type' => '\YahooAdsDisplayApi\Client\Model\CampaignServiceType',
         'contains_label_id_flg' => 'bool',
         'feed_ids' => 'int[]',
         'label_ids' => 'int[]',
         'number_results' => 'int',
         'start_index' => 'int',
-        'user_statuses' => '\OpenAPI\Client\Model\CampaignServiceUserStatus[]',
-        'created_date_range' => '\OpenAPI\Client\Model\CampaignServiceCreatedDateRange'
+        'user_statuses' => '\YahooAdsDisplayApi\Client\Model\CampaignServiceUserStatus[]',
+        'created_date_range' => '\YahooAdsDisplayApi\Client\Model\CampaignServiceCreatedDateRange'
     ];
 
     /**
@@ -328,7 +328,7 @@ class CampaignServiceSelector implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Gets campaign_goal_filter_type
      *
-     * @return \OpenAPI\Client\Model\CampaignServiceGoalFilterType|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignServiceGoalFilterType|null
      */
     public function getCampaignGoalFilterType()
     {
@@ -338,7 +338,7 @@ class CampaignServiceSelector implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Sets campaign_goal_filter_type
      *
-     * @param \OpenAPI\Client\Model\CampaignServiceGoalFilterType|null $campaign_goal_filter_type campaign_goal_filter_type
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignServiceGoalFilterType|null $campaign_goal_filter_type campaign_goal_filter_type
      *
      * @return self
      */
@@ -380,7 +380,7 @@ class CampaignServiceSelector implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Gets campaign_type
      *
-     * @return \OpenAPI\Client\Model\CampaignServiceType|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignServiceType|null
      */
     public function getCampaignType()
     {
@@ -390,7 +390,7 @@ class CampaignServiceSelector implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Sets campaign_type
      *
-     * @param \OpenAPI\Client\Model\CampaignServiceType|null $campaign_type campaign_type
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignServiceType|null $campaign_type campaign_type
      *
      * @return self
      */
@@ -545,7 +545,7 @@ class CampaignServiceSelector implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Gets user_statuses
      *
-     * @return \OpenAPI\Client\Model\CampaignServiceUserStatus[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignServiceUserStatus[]|null
      */
     public function getUserStatuses()
     {
@@ -555,7 +555,7 @@ class CampaignServiceSelector implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Sets user_statuses
      *
-     * @param \OpenAPI\Client\Model\CampaignServiceUserStatus[]|null $user_statuses <div lang=\"ja\">検索条件 : 取得範囲</div> <div lang=\"en\">Search Condition: Delivery status of user settings</div>
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignServiceUserStatus[]|null $user_statuses <div lang=\"ja\">検索条件 : 取得範囲</div> <div lang=\"en\">Search Condition: Delivery status of user settings</div>
      *
      * @return self
      */
@@ -573,7 +573,7 @@ class CampaignServiceSelector implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Gets created_date_range
      *
-     * @return \OpenAPI\Client\Model\CampaignServiceCreatedDateRange|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignServiceCreatedDateRange|null
      */
     public function getCreatedDateRange()
     {
@@ -583,7 +583,7 @@ class CampaignServiceSelector implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Sets created_date_range
      *
-     * @param \OpenAPI\Client\Model\CampaignServiceCreatedDateRange|null $created_date_range created_date_range
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignServiceCreatedDateRange|null $created_date_range created_date_range
      *
      * @return self
      */

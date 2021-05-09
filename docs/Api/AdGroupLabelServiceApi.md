@@ -1,4 +1,4 @@
-# OpenAPI\Client\AdGroupLabelServiceApi
+# YahooAdsDisplayApi\Client\AdGroupLabelServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 ## `adGroupLabelServiceAddPost()`
 
 ```php
-adGroupLabelServiceAddPost($ad_group_label_service_operation): \OpenAPI\Client\Model\AdGroupLabelServiceMutateResponse
+adGroupLabelServiceAddPost($ad_group_label_service_operation): \YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceMutateResponse
 ```
 
 
@@ -26,16 +26,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\AdGroupLabelServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\AdGroupLabelServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$ad_group_label_service_operation = new \OpenAPI\Client\Model\AdGroupLabelServiceOperation(); // \OpenAPI\Client\Model\AdGroupLabelServiceOperation
+$ad_group_label_service_operation = new \YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceOperation(); // \YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceOperation
 
 try {
     $result = $apiInstance->adGroupLabelServiceAddPost($ad_group_label_service_operation);
@@ -49,11 +49,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ad_group_label_service_operation** | [**\OpenAPI\Client\Model\AdGroupLabelServiceOperation**](../Model/AdGroupLabelServiceOperation.md)|  | [optional]
+ **ad_group_label_service_operation** | [**\YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceOperation**](../Model/AdGroupLabelServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\AdGroupLabelServiceMutateResponse**](../Model/AdGroupLabelServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceMutateResponse**](../Model/AdGroupLabelServiceMutateResponse.md)
 
 ### Authorization
 
@@ -71,7 +71,7 @@ Name | Type | Description  | Notes
 ## `adGroupLabelServiceRemovePost()`
 
 ```php
-adGroupLabelServiceRemovePost($ad_group_label_service_operation): \OpenAPI\Client\Model\AdGroupLabelServiceMutateResponse
+adGroupLabelServiceRemovePost($ad_group_label_service_operation): \YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceMutateResponse
 ```
 
 
@@ -86,16 +86,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\AdGroupLabelServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\AdGroupLabelServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$ad_group_label_service_operation = new \OpenAPI\Client\Model\AdGroupLabelServiceOperation(); // \OpenAPI\Client\Model\AdGroupLabelServiceOperation
+$ad_group_label_service_operation = new \YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceOperation(); // \YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceOperation
 
 try {
     $result = $apiInstance->adGroupLabelServiceRemovePost($ad_group_label_service_operation);
@@ -109,11 +109,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ad_group_label_service_operation** | [**\OpenAPI\Client\Model\AdGroupLabelServiceOperation**](../Model/AdGroupLabelServiceOperation.md)|  | [optional]
+ **ad_group_label_service_operation** | [**\YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceOperation**](../Model/AdGroupLabelServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\AdGroupLabelServiceMutateResponse**](../Model/AdGroupLabelServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceMutateResponse**](../Model/AdGroupLabelServiceMutateResponse.md)
 
 ### Authorization
 

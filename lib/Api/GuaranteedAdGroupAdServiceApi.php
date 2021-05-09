@@ -4,7 +4,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Api;
+namespace YahooAdsDisplayApi\Client\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use OpenAPI\Client\ApiException;
-use OpenAPI\Client\Configuration;
-use OpenAPI\Client\HeaderSelector;
-use OpenAPI\Client\ObjectSerializer;
+use YahooAdsDisplayApi\Client\ApiException;
+use YahooAdsDisplayApi\Client\Configuration;
+use YahooAdsDisplayApi\Client\HeaderSelector;
+use YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedAdGroupAdServiceApi Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -118,11 +118,11 @@ class GuaranteedAdGroupAdServiceApi
     /**
      * Operation guaranteedAdGroupAdServiceAddPost
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceOperation $guaranteed_ad_group_ad_service_operation guaranteed_ad_group_ad_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceOperation $guaranteed_ad_group_ad_service_operation guaranteed_ad_group_ad_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceMutateResponse
      */
     public function guaranteedAdGroupAdServiceAddPost($guaranteed_ad_group_ad_service_operation = null)
     {
@@ -133,11 +133,11 @@ class GuaranteedAdGroupAdServiceApi
     /**
      * Operation guaranteedAdGroupAdServiceAddPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceOperation $guaranteed_ad_group_ad_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceOperation $guaranteed_ad_group_ad_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function guaranteedAdGroupAdServiceAddPostWithHttpInfo($guaranteed_ad_group_ad_service_operation = null)
     {
@@ -174,20 +174,20 @@ class GuaranteedAdGroupAdServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -206,7 +206,7 @@ class GuaranteedAdGroupAdServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -221,7 +221,7 @@ class GuaranteedAdGroupAdServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceOperation $guaranteed_ad_group_ad_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceOperation $guaranteed_ad_group_ad_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -241,14 +241,14 @@ class GuaranteedAdGroupAdServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceOperation $guaranteed_ad_group_ad_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceOperation $guaranteed_ad_group_ad_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function guaranteedAdGroupAdServiceAddPostAsyncWithHttpInfo($guaranteed_ad_group_ad_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceMutateResponse';
         $request = $this->guaranteedAdGroupAdServiceAddPostRequest($guaranteed_ad_group_ad_service_operation);
 
         return $this->client
@@ -288,7 +288,7 @@ class GuaranteedAdGroupAdServiceApi
     /**
      * Create request for operation 'guaranteedAdGroupAdServiceAddPost'
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceOperation $guaranteed_ad_group_ad_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceOperation $guaranteed_ad_group_ad_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -377,11 +377,11 @@ class GuaranteedAdGroupAdServiceApi
     /**
      * Operation guaranteedAdGroupAdServiceGetPost
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceSelector $guaranteed_ad_group_ad_service_selector guaranteed_ad_group_ad_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceSelector $guaranteed_ad_group_ad_service_selector guaranteed_ad_group_ad_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceGetResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceGetResponse
      */
     public function guaranteedAdGroupAdServiceGetPost($guaranteed_ad_group_ad_service_selector = null)
     {
@@ -392,11 +392,11 @@ class GuaranteedAdGroupAdServiceApi
     /**
      * Operation guaranteedAdGroupAdServiceGetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceSelector $guaranteed_ad_group_ad_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceSelector $guaranteed_ad_group_ad_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function guaranteedAdGroupAdServiceGetPostWithHttpInfo($guaranteed_ad_group_ad_service_selector = null)
     {
@@ -433,20 +433,20 @@ class GuaranteedAdGroupAdServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceGetResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceGetResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceGetResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceGetResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceGetResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceGetResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -465,7 +465,7 @@ class GuaranteedAdGroupAdServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceGetResponse',
+                        '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceGetResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -480,7 +480,7 @@ class GuaranteedAdGroupAdServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceSelector $guaranteed_ad_group_ad_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceSelector $guaranteed_ad_group_ad_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -500,14 +500,14 @@ class GuaranteedAdGroupAdServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceSelector $guaranteed_ad_group_ad_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceSelector $guaranteed_ad_group_ad_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function guaranteedAdGroupAdServiceGetPostAsyncWithHttpInfo($guaranteed_ad_group_ad_service_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceGetResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceGetResponse';
         $request = $this->guaranteedAdGroupAdServiceGetPostRequest($guaranteed_ad_group_ad_service_selector);
 
         return $this->client
@@ -547,7 +547,7 @@ class GuaranteedAdGroupAdServiceApi
     /**
      * Create request for operation 'guaranteedAdGroupAdServiceGetPost'
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceSelector $guaranteed_ad_group_ad_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceSelector $guaranteed_ad_group_ad_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -636,11 +636,11 @@ class GuaranteedAdGroupAdServiceApi
     /**
      * Operation guaranteedAdGroupAdServiceSetPost
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceOperation $guaranteed_ad_group_ad_service_operation guaranteed_ad_group_ad_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceOperation $guaranteed_ad_group_ad_service_operation guaranteed_ad_group_ad_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceMutateResponse
      */
     public function guaranteedAdGroupAdServiceSetPost($guaranteed_ad_group_ad_service_operation = null)
     {
@@ -651,11 +651,11 @@ class GuaranteedAdGroupAdServiceApi
     /**
      * Operation guaranteedAdGroupAdServiceSetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceOperation $guaranteed_ad_group_ad_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceOperation $guaranteed_ad_group_ad_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function guaranteedAdGroupAdServiceSetPostWithHttpInfo($guaranteed_ad_group_ad_service_operation = null)
     {
@@ -692,20 +692,20 @@ class GuaranteedAdGroupAdServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -724,7 +724,7 @@ class GuaranteedAdGroupAdServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -739,7 +739,7 @@ class GuaranteedAdGroupAdServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceOperation $guaranteed_ad_group_ad_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceOperation $guaranteed_ad_group_ad_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -759,14 +759,14 @@ class GuaranteedAdGroupAdServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceOperation $guaranteed_ad_group_ad_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceOperation $guaranteed_ad_group_ad_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function guaranteedAdGroupAdServiceSetPostAsyncWithHttpInfo($guaranteed_ad_group_ad_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceMutateResponse';
         $request = $this->guaranteedAdGroupAdServiceSetPostRequest($guaranteed_ad_group_ad_service_operation);
 
         return $this->client
@@ -806,7 +806,7 @@ class GuaranteedAdGroupAdServiceApi
     /**
      * Create request for operation 'guaranteedAdGroupAdServiceSetPost'
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceOperation $guaranteed_ad_group_ad_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceOperation $guaranteed_ad_group_ad_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

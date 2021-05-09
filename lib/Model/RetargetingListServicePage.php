@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RetargetingListServicePage Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;RetargetingListServicePageオブジェクトは、取得されるサイトリターゲティングのターゲットリスト情報設定に関するエントリーを表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;RetargetingListServicePage object displays the settings of target list for site retargeting.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class RetargetingListServicePage implements ModelInterface, ArrayAccess, \JsonSe
       */
     protected static $openAPITypes = [
         'total_num_entries' => 'int',
-        'values' => '\OpenAPI\Client\Model\RetargetingListServiceValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceValue[]'
     ];
 
     /**
@@ -243,7 +243,7 @@ class RetargetingListServicePage implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceValue[]|null
      */
     public function getValues()
     {
@@ -253,7 +253,7 @@ class RetargetingListServicePage implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceValue[]|null $values values
      *
      * @return self
      */

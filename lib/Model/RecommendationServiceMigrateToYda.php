@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RecommendationServiceMigrateToYda Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;RecommendationServiceMigrateToYdaオブジェクトは、ディスプレイ広告（運用型）形式への変換が必要なキャンペーンに関する最適化提案の情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;RecommendationServiceMigrateToYda object describes the Recommendations information of campaigns that are required to convert to Display Ads (Auction).&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class RecommendationServiceMigrateToYda implements ModelInterface, ArrayAccess, 
       * @var string[]
       */
     protected static $openAPITypes = [
-        'migrate_to_yda_campaign_list' => '\OpenAPI\Client\Model\RecommendationServiceMigrateToYdaCampaign[]'
+        'migrate_to_yda_campaign_list' => '\YahooAdsDisplayApi\Client\Model\RecommendationServiceMigrateToYdaCampaign[]'
     ];
 
     /**
@@ -213,7 +213,7 @@ class RecommendationServiceMigrateToYda implements ModelInterface, ArrayAccess, 
     /**
      * Gets migrate_to_yda_campaign_list
      *
-     * @return \OpenAPI\Client\Model\RecommendationServiceMigrateToYdaCampaign[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\RecommendationServiceMigrateToYdaCampaign[]|null
      */
     public function getMigrateToYdaCampaignList()
     {
@@ -223,7 +223,7 @@ class RecommendationServiceMigrateToYda implements ModelInterface, ArrayAccess, 
     /**
      * Sets migrate_to_yda_campaign_list
      *
-     * @param \OpenAPI\Client\Model\RecommendationServiceMigrateToYdaCampaign[]|null $migrate_to_yda_campaign_list migrate_to_yda_campaign_list
+     * @param \YahooAdsDisplayApi\Client\Model\RecommendationServiceMigrateToYdaCampaign[]|null $migrate_to_yda_campaign_list migrate_to_yda_campaign_list
      *
      * @return self
      */

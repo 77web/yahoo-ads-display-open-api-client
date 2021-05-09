@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AuditLogServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;AuditLogServiceValueオブジェクトは、get/addメソッドの実行結果（1エンティティ）を保持するオブジェクトです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;AuditLogServiceValue object is container storing the result of get/add method (1 entity).&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class AuditLogServiceValue implements ModelInterface, ArrayAccess, \JsonSerializ
       * @var string[]
       */
     protected static $openAPITypes = [
-        'audit_log_job' => '\OpenAPI\Client\Model\AuditLogServiceJob',
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'audit_log_job' => '\YahooAdsDisplayApi\Client\Model\AuditLogServiceJob',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool'
     ];
 
@@ -225,7 +225,7 @@ class AuditLogServiceValue implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Gets audit_log_job
      *
-     * @return \OpenAPI\Client\Model\AuditLogServiceJob|null
+     * @return \YahooAdsDisplayApi\Client\Model\AuditLogServiceJob|null
      */
     public function getAuditLogJob()
     {
@@ -235,7 +235,7 @@ class AuditLogServiceValue implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Sets audit_log_job
      *
-     * @param \OpenAPI\Client\Model\AuditLogServiceJob|null $audit_log_job audit_log_job
+     * @param \YahooAdsDisplayApi\Client\Model\AuditLogServiceJob|null $audit_log_job audit_log_job
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class AuditLogServiceValue implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -259,7 +259,7 @@ class AuditLogServiceValue implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors <div lang=\"ja\">エラー内容です。</div> <div lang=\"en\">Error content.</div>
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors <div lang=\"ja\">エラー内容です。</div> <div lang=\"en\">Error content.</div>
      *
      * @return self
      */

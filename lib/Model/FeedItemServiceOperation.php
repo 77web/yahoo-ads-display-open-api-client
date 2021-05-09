@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * FeedItemServiceOperation Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;FeedItemServiceOperationオブジェクトは、商品の情報を格納するコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedItemServiceOperation object contains the information about items.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class FeedItemServiceOperation implements ModelInterface, ArrayAccess, \JsonSeri
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'operand' => '\OpenAPI\Client\Model\FeedItem[]'
+        'operand' => '\YahooAdsDisplayApi\Client\Model\FeedItem[]'
     ];
 
     /**
@@ -257,7 +257,7 @@ class FeedItemServiceOperation implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Gets operand
      *
-     * @return \OpenAPI\Client\Model\FeedItem[]
+     * @return \YahooAdsDisplayApi\Client\Model\FeedItem[]
      */
     public function getOperand()
     {
@@ -267,7 +267,7 @@ class FeedItemServiceOperation implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Sets operand
      *
-     * @param \OpenAPI\Client\Model\FeedItem[] $operand operand
+     * @param \YahooAdsDisplayApi\Client\Model\FeedItem[] $operand operand
      *
      * @return self
      */

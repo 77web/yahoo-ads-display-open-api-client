@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * SearchLiftServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;SearchLiftServiceValueオブジェクトは、操作結果を含むサーチリフトの情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The SearchLiftServiceValue object is a container for storing search lift information and operation results.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class SearchLiftServiceValue implements ModelInterface, ArrayAccess, \JsonSerial
       * @var string[]
       */
     protected static $openAPITypes = [
-        'search_lift' => '\OpenAPI\Client\Model\SearchLift',
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'search_lift' => '\YahooAdsDisplayApi\Client\Model\SearchLift',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool'
     ];
 
@@ -225,7 +225,7 @@ class SearchLiftServiceValue implements ModelInterface, ArrayAccess, \JsonSerial
     /**
      * Gets search_lift
      *
-     * @return \OpenAPI\Client\Model\SearchLift|null
+     * @return \YahooAdsDisplayApi\Client\Model\SearchLift|null
      */
     public function getSearchLift()
     {
@@ -235,7 +235,7 @@ class SearchLiftServiceValue implements ModelInterface, ArrayAccess, \JsonSerial
     /**
      * Sets search_lift
      *
-     * @param \OpenAPI\Client\Model\SearchLift|null $search_lift search_lift
+     * @param \YahooAdsDisplayApi\Client\Model\SearchLift|null $search_lift search_lift
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class SearchLiftServiceValue implements ModelInterface, ArrayAccess, \JsonSerial
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -259,7 +259,7 @@ class SearchLiftServiceValue implements ModelInterface, ArrayAccess, \JsonSerial
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors <div lang=\"ja\">エラー内容です。</div> <div lang=\"en\">Error content.</div>
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors <div lang=\"ja\">エラー内容です。</div> <div lang=\"en\">Error content.</div>
      *
      * @return self
      */

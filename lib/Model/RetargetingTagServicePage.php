@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RetargetingTagServicePage Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;RetargetingTagServicePageオブジェクトは、取得するサイトリターゲティングのタグ情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;RetargetingTagServicePage object displays retrieved tag information for site retargeting.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class RetargetingTagServicePage implements ModelInterface, ArrayAccess, \JsonSer
       */
     protected static $openAPITypes = [
         'total_num_entries' => 'int',
-        'values' => '\OpenAPI\Client\Model\RetargetingTagServiceValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\RetargetingTagServiceValue[]'
     ];
 
     /**
@@ -243,7 +243,7 @@ class RetargetingTagServicePage implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\RetargetingTagServiceValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingTagServiceValue[]|null
      */
     public function getValues()
     {
@@ -253,7 +253,7 @@ class RetargetingTagServicePage implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\RetargetingTagServiceValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingTagServiceValue[]|null $values values
      *
      * @return self
      */

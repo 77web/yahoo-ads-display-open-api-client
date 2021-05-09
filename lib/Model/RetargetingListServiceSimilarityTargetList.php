@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RetargetingListServiceSimilarityTargetList Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; 類似ユーザーターゲットの情報を保持するオブジェクトです。&lt;br&gt; このフィールドは、ADDおよびSET時に省略可能となります。&lt;br&gt; ※targetListTypeがSIMILARITYの場合は、ADDおよびSET時に必須となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; RetargetingListServiceSimilarityTargetList object is a container for storing the information of Targeting information of users (similar).&lt;br&gt; This field is optional in ADD and SET operation. &lt;br&gt; *If targetListType is SIMILARITY, this field is required in ADD and SET operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,8 +62,8 @@ class RetargetingListServiceSimilarityTargetList implements ModelInterface, Arra
       */
     protected static $openAPITypes = [
         'target_list_id' => 'int',
-        'target_list_size' => '\OpenAPI\Client\Model\RetargetingListServiceTargetListSize',
-        'target_list_size_reaches' => '\OpenAPI\Client\Model\RetargetingListServiceTargetListSizeReaches[]'
+        'target_list_size' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceTargetListSize',
+        'target_list_size_reaches' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceTargetListSizeReaches[]'
     ];
 
     /**
@@ -253,7 +253,7 @@ class RetargetingListServiceSimilarityTargetList implements ModelInterface, Arra
     /**
      * Gets target_list_size
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceTargetListSize|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceTargetListSize|null
      */
     public function getTargetListSize()
     {
@@ -263,7 +263,7 @@ class RetargetingListServiceSimilarityTargetList implements ModelInterface, Arra
     /**
      * Sets target_list_size
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceTargetListSize|null $target_list_size target_list_size
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceTargetListSize|null $target_list_size target_list_size
      *
      * @return self
      */
@@ -277,7 +277,7 @@ class RetargetingListServiceSimilarityTargetList implements ModelInterface, Arra
     /**
      * Gets target_list_size_reaches
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceTargetListSizeReaches[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceTargetListSizeReaches[]|null
      */
     public function getTargetListSizeReaches()
     {
@@ -287,7 +287,7 @@ class RetargetingListServiceSimilarityTargetList implements ModelInterface, Arra
     /**
      * Sets target_list_size_reaches
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceTargetListSizeReaches[]|null $target_list_size_reaches target_list_size_reaches
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceTargetListSizeReaches[]|null $target_list_size_reaches target_list_size_reaches
      *
      * @return self
      */

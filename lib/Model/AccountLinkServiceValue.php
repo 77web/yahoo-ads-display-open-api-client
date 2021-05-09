@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AccountLinkServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;AccountLinkServiceValueオブジェクトは、アカウントリンク情報を格納するコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The AccountLinkServiceValue object is a container for storing account link information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class AccountLinkServiceValue implements ModelInterface, ArrayAccess, \JsonSeria
       * @var string[]
       */
     protected static $openAPITypes = [
-        'account_link' => '\OpenAPI\Client\Model\AccountLink',
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'account_link' => '\YahooAdsDisplayApi\Client\Model\AccountLink',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool'
     ];
 
@@ -225,7 +225,7 @@ class AccountLinkServiceValue implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Gets account_link
      *
-     * @return \OpenAPI\Client\Model\AccountLink|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountLink|null
      */
     public function getAccountLink()
     {
@@ -235,7 +235,7 @@ class AccountLinkServiceValue implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Sets account_link
      *
-     * @param \OpenAPI\Client\Model\AccountLink|null $account_link account_link
+     * @param \YahooAdsDisplayApi\Client\Model\AccountLink|null $account_link account_link
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class AccountLinkServiceValue implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -259,7 +259,7 @@ class AccountLinkServiceValue implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */

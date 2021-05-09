@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; AdGroupTargetオブジェクトは、広告グループに設定されているターゲティング情報を格納します。&lt;br&gt; このオブジェクトは、GuaranteedAdGroupServiceで広告グループを追加する場合は必須です。&lt;br&gt; *GuaranteedAdGroupServiceでGETする際、このフィールドは返却されません。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; AdGroupTarget object contains targeting information specified in ad group.&lt;br&gt; This object is required if you are adding ad group via GuaranteedAdGroupService.&lt;br&gt; *This field will not be returned in GET operation via GuaranteedAdGroupService. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -65,7 +65,7 @@ class AdGroupTarget implements ModelInterface, ArrayAccess, \JsonSerializable
         'ad_group_id' => 'int',
         'bid_multiplier' => 'double',
         'campaign_id' => 'int',
-        'target' => '\OpenAPI\Client\Model\AdGroupTargetServiceTarget'
+        'target' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceTarget'
     ];
 
     /**
@@ -333,7 +333,7 @@ class AdGroupTarget implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets target
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServiceTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceTarget|null
      */
     public function getTarget()
     {
@@ -343,7 +343,7 @@ class AdGroupTarget implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets target
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServiceTarget|null $target target
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceTarget|null $target target
      *
      * @return self
      */

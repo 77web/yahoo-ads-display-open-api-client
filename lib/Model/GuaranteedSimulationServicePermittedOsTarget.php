@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServicePermittedOsTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedSimulationServicePermittedOsTargetオブジェクトは、OSターゲットの設定情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;GuaranteedSimulationServicePermittedOsTarget object holds configuration information of OS targeting.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class GuaranteedSimulationServicePermittedOsTarget implements ModelInterface, Ar
       */
     protected static $openAPITypes = [
         'target_id' => 'string',
-        'os_type' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceDeviceOsType'
+        'os_type' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceDeviceOsType'
     ];
 
     /**
@@ -243,7 +243,7 @@ class GuaranteedSimulationServicePermittedOsTarget implements ModelInterface, Ar
     /**
      * Gets os_type
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceDeviceOsType|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceDeviceOsType|null
      */
     public function getOsType()
     {
@@ -253,7 +253,7 @@ class GuaranteedSimulationServicePermittedOsTarget implements ModelInterface, Ar
     /**
      * Sets os_type
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceDeviceOsType|null $os_type os_type
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceDeviceOsType|null $os_type os_type
      *
      * @return self
      */

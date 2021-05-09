@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupTargetServiceTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; AdGroupTargetServiceTargetオブジェクトは、ターゲティング設定情報を保持します。&lt;br&gt; このフィールドは、リクエストの場合は必須です。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; AdGroupTargetServiceTarget object is a container for storing targeting settings.&lt;br&gt; This field is required in requests. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,26 +61,26 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
       * @var string[]
       */
     protected static $openAPITypes = [
-        'ad_schedule_target' => '\OpenAPI\Client\Model\AdGroupTargetServiceAdScheduleTarget',
-        'age_target' => '\OpenAPI\Client\Model\AdGroupTargetServiceAgeTarget',
-        'app_target' => '\OpenAPI\Client\Model\AdGroupTargetServiceAppTarget',
-        'audience_category_target' => '\OpenAPI\Client\Model\AdGroupTargetServiceAudienceCategoryTarget',
-        'carrier_target' => '\OpenAPI\Client\Model\AdGroupTargetServiceCarrierTarget',
-        'device_target' => '\OpenAPI\Client\Model\AdGroupTargetServiceDeviceTarget',
-        'gender_target' => '\OpenAPI\Client\Model\AdGroupTargetServiceGenderTarget',
-        'geo_target' => '\OpenAPI\Client\Model\AdGroupTargetServiceGeoTarget',
-        'interest_category_target' => '\OpenAPI\Client\Model\AdGroupTargetServiceInterestCategoryTarget',
+        'ad_schedule_target' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceAdScheduleTarget',
+        'age_target' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceAgeTarget',
+        'app_target' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceAppTarget',
+        'audience_category_target' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceAudienceCategoryTarget',
+        'carrier_target' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceCarrierTarget',
+        'device_target' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceDeviceTarget',
+        'gender_target' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceGenderTarget',
+        'geo_target' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceGeoTarget',
+        'interest_category_target' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceInterestCategoryTarget',
         'is_remove' => 'bool',
-        'os_target' => '\OpenAPI\Client\Model\AdGroupTargetServiceOsTarget',
-        'os_version_target' => '\OpenAPI\Client\Model\AdGroupTargetServiceOsVersionTarget',
-        'placement_target' => '\OpenAPI\Client\Model\AdGroupTargetServicePlacementTarget',
-        'search_target' => '\OpenAPI\Client\Model\AdGroupTargetServiceSearchTarget',
-        'site_category_target' => '\OpenAPI\Client\Model\AdGroupTargetServiceSiteCategoryTarget',
-        'site_retargeting_target' => '\OpenAPI\Client\Model\AdGroupTargetServiceSiteRetargetingTarget',
-        'position_target' => '\OpenAPI\Client\Model\AdGroupTargetServicePositionTarget',
-        'placement_category_target' => '\OpenAPI\Client\Model\AdGroupTargetServicePlacementCategoryTarget',
+        'os_target' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceOsTarget',
+        'os_version_target' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceOsVersionTarget',
+        'placement_target' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServicePlacementTarget',
+        'search_target' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceSearchTarget',
+        'site_category_target' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceSiteCategoryTarget',
+        'site_retargeting_target' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceSiteRetargetingTarget',
+        'position_target' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServicePositionTarget',
+        'placement_category_target' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServicePlacementCategoryTarget',
         'target_id' => 'string',
-        'target_type' => '\OpenAPI\Client\Model\AdGroupTargetServiceTargetType'
+        'target_type' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceTargetType'
     ];
 
     /**
@@ -327,7 +327,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets ad_schedule_target
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServiceAdScheduleTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceAdScheduleTarget|null
      */
     public function getAdScheduleTarget()
     {
@@ -337,7 +337,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets ad_schedule_target
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServiceAdScheduleTarget|null $ad_schedule_target ad_schedule_target
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceAdScheduleTarget|null $ad_schedule_target ad_schedule_target
      *
      * @return self
      */
@@ -351,7 +351,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets age_target
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServiceAgeTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceAgeTarget|null
      */
     public function getAgeTarget()
     {
@@ -361,7 +361,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets age_target
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServiceAgeTarget|null $age_target age_target
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceAgeTarget|null $age_target age_target
      *
      * @return self
      */
@@ -375,7 +375,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets app_target
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServiceAppTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceAppTarget|null
      */
     public function getAppTarget()
     {
@@ -385,7 +385,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets app_target
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServiceAppTarget|null $app_target app_target
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceAppTarget|null $app_target app_target
      *
      * @return self
      */
@@ -399,7 +399,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets audience_category_target
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServiceAudienceCategoryTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceAudienceCategoryTarget|null
      */
     public function getAudienceCategoryTarget()
     {
@@ -409,7 +409,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets audience_category_target
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServiceAudienceCategoryTarget|null $audience_category_target audience_category_target
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceAudienceCategoryTarget|null $audience_category_target audience_category_target
      *
      * @return self
      */
@@ -423,7 +423,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets carrier_target
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServiceCarrierTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceCarrierTarget|null
      */
     public function getCarrierTarget()
     {
@@ -433,7 +433,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets carrier_target
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServiceCarrierTarget|null $carrier_target carrier_target
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceCarrierTarget|null $carrier_target carrier_target
      *
      * @return self
      */
@@ -447,7 +447,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets device_target
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServiceDeviceTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceDeviceTarget|null
      */
     public function getDeviceTarget()
     {
@@ -457,7 +457,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets device_target
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServiceDeviceTarget|null $device_target device_target
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceDeviceTarget|null $device_target device_target
      *
      * @return self
      */
@@ -471,7 +471,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets gender_target
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServiceGenderTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceGenderTarget|null
      */
     public function getGenderTarget()
     {
@@ -481,7 +481,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets gender_target
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServiceGenderTarget|null $gender_target gender_target
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceGenderTarget|null $gender_target gender_target
      *
      * @return self
      */
@@ -495,7 +495,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets geo_target
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServiceGeoTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceGeoTarget|null
      */
     public function getGeoTarget()
     {
@@ -505,7 +505,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets geo_target
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServiceGeoTarget|null $geo_target geo_target
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceGeoTarget|null $geo_target geo_target
      *
      * @return self
      */
@@ -519,7 +519,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets interest_category_target
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServiceInterestCategoryTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceInterestCategoryTarget|null
      */
     public function getInterestCategoryTarget()
     {
@@ -529,7 +529,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets interest_category_target
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServiceInterestCategoryTarget|null $interest_category_target interest_category_target
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceInterestCategoryTarget|null $interest_category_target interest_category_target
      *
      * @return self
      */
@@ -567,7 +567,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets os_target
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServiceOsTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceOsTarget|null
      */
     public function getOsTarget()
     {
@@ -577,7 +577,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets os_target
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServiceOsTarget|null $os_target os_target
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceOsTarget|null $os_target os_target
      *
      * @return self
      */
@@ -591,7 +591,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets os_version_target
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServiceOsVersionTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceOsVersionTarget|null
      */
     public function getOsVersionTarget()
     {
@@ -601,7 +601,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets os_version_target
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServiceOsVersionTarget|null $os_version_target os_version_target
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceOsVersionTarget|null $os_version_target os_version_target
      *
      * @return self
      */
@@ -615,7 +615,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets placement_target
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServicePlacementTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServicePlacementTarget|null
      */
     public function getPlacementTarget()
     {
@@ -625,7 +625,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets placement_target
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServicePlacementTarget|null $placement_target placement_target
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServicePlacementTarget|null $placement_target placement_target
      *
      * @return self
      */
@@ -639,7 +639,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets search_target
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServiceSearchTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceSearchTarget|null
      */
     public function getSearchTarget()
     {
@@ -649,7 +649,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets search_target
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServiceSearchTarget|null $search_target search_target
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceSearchTarget|null $search_target search_target
      *
      * @return self
      */
@@ -663,7 +663,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets site_category_target
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServiceSiteCategoryTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceSiteCategoryTarget|null
      */
     public function getSiteCategoryTarget()
     {
@@ -673,7 +673,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets site_category_target
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServiceSiteCategoryTarget|null $site_category_target site_category_target
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceSiteCategoryTarget|null $site_category_target site_category_target
      *
      * @return self
      */
@@ -687,7 +687,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets site_retargeting_target
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServiceSiteRetargetingTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceSiteRetargetingTarget|null
      */
     public function getSiteRetargetingTarget()
     {
@@ -697,7 +697,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets site_retargeting_target
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServiceSiteRetargetingTarget|null $site_retargeting_target site_retargeting_target
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceSiteRetargetingTarget|null $site_retargeting_target site_retargeting_target
      *
      * @return self
      */
@@ -711,7 +711,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets position_target
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServicePositionTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServicePositionTarget|null
      */
     public function getPositionTarget()
     {
@@ -721,7 +721,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets position_target
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServicePositionTarget|null $position_target position_target
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServicePositionTarget|null $position_target position_target
      *
      * @return self
      */
@@ -735,7 +735,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets placement_category_target
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServicePlacementCategoryTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServicePlacementCategoryTarget|null
      */
     public function getPlacementCategoryTarget()
     {
@@ -745,7 +745,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets placement_category_target
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServicePlacementCategoryTarget|null $placement_category_target placement_category_target
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServicePlacementCategoryTarget|null $placement_category_target placement_category_target
      *
      * @return self
      */
@@ -783,7 +783,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets target_type
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServiceTargetType|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceTargetType|null
      */
     public function getTargetType()
     {
@@ -793,7 +793,7 @@ class AdGroupTargetServiceTarget implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets target_type
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServiceTargetType|null $target_type target_type
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceTargetType|null $target_type target_type
      *
      * @return self
      */

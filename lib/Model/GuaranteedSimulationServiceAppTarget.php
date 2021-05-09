@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServiceAppTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; GuaranteedSimulationServiceAppTargetオブジェクトは、アプリターゲティングの設定情報を保持します。&lt;br&gt; ADD時、このフィールドは省略可能となります。&lt;br&gt; ※targetTypeがAPP_TARGETの場合は必須です。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; GuaranteedSimulationServiceAppTarget object is a container for storing app targeting settings.&lt;br&gt; This field is optional in ADD operation.&lt;br&gt; ∗If targetType is APP_TARGET, this field is required. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class GuaranteedSimulationServiceAppTarget implements ModelInterface, ArrayAcces
       * @var string[]
       */
     protected static $openAPITypes = [
-        'device_app_type' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceDeviceAppType'
+        'device_app_type' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceDeviceAppType'
     ];
 
     /**
@@ -213,7 +213,7 @@ class GuaranteedSimulationServiceAppTarget implements ModelInterface, ArrayAcces
     /**
      * Gets device_app_type
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceDeviceAppType|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceDeviceAppType|null
      */
     public function getDeviceAppType()
     {
@@ -223,7 +223,7 @@ class GuaranteedSimulationServiceAppTarget implements ModelInterface, ArrayAcces
     /**
      * Sets device_app_type
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceDeviceAppType|null $device_app_type device_app_type
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceDeviceAppType|null $device_app_type device_app_type
      *
      * @return self
      */

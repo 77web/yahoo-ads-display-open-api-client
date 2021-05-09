@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * LabelServiceOperation Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;LabelServiceOperationオブジェクトは、操作の対象となるラベルの情報と処理の内容を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;LabelServiceOperation object displays the information on label to be operated and processing content.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class LabelServiceOperation implements ModelInterface, ArrayAccess, \JsonSeriali
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'operand' => '\OpenAPI\Client\Model\Label[]'
+        'operand' => '\YahooAdsDisplayApi\Client\Model\Label[]'
     ];
 
     /**
@@ -257,7 +257,7 @@ class LabelServiceOperation implements ModelInterface, ArrayAccess, \JsonSeriali
     /**
      * Gets operand
      *
-     * @return \OpenAPI\Client\Model\Label[]
+     * @return \YahooAdsDisplayApi\Client\Model\Label[]
      */
     public function getOperand()
     {
@@ -267,7 +267,7 @@ class LabelServiceOperation implements ModelInterface, ArrayAccess, \JsonSeriali
     /**
      * Sets operand
      *
-     * @param \OpenAPI\Client\Model\Label[] $operand operand
+     * @param \YahooAdsDisplayApi\Client\Model\Label[] $operand operand
      *
      * @return self
      */

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ReportDefinitionServiceCrossCampaignReachesReportCondition Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;   ReportDefinitionServiceCrossCampaignReachesReportConditionオブジェクトは、横断リーチレポートの作成条件を表します。&lt;br&gt;   このフィールドは、ADD時に省略可能となり、REMOVE時に無視されます。&lt;br&gt;   ※ADD時、reportTypeが&lt;code&gt;CROSS_CAMPAIGN_REACHES&lt;/code&gt;の場合は必須です。   ※crossCampaignIds、crossCampaignGoals、crossCampaignBuyingTypesには少なくとも2件の要素が必要です。   ※crossCampaignIds、crossCampaignGoals、crossCampaignBuyingTypesには最大で3件の要素を指定できます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;   ReportDefinitionServiceCrossCampaignReachesReportCondition describes the condition to create Cross-campaign Reach Report. &lt;br&gt;   This field is optional in ADD operation, and will be ignored in REMOVE operation. &lt;br&gt;   *If reportType is &lt;code&gt;CROSS_CAMPAIGN_REACHES&lt;/code&gt;, this field is required in ADD operation.   * At least two elements are required for crossCampaignIds, crossCampaignGoals, and crossCampaignBuyingTypes.   * Up to 3 elements can be specified for crossCampaignIds, crossCampaignGoals, and crossCampaignBuyingTypes. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,10 +61,10 @@ class ReportDefinitionServiceCrossCampaignReachesReportCondition implements Mode
       * @var string[]
       */
     protected static $openAPITypes = [
-        'cross_campaign_type' => '\OpenAPI\Client\Model\ReportDefinitionServiceCrossCampaignType',
-        'cross_campaign_ids' => '\OpenAPI\Client\Model\ReportDefinitionServiceCrossCampaignId[]',
-        'cross_campaign_goals' => '\OpenAPI\Client\Model\ReportDefinitionServiceCrossCampaignGoal[]',
-        'cross_campaign_buying_types' => '\OpenAPI\Client\Model\ReportDefinitionServiceCrossCampaignBuying[]'
+        'cross_campaign_type' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceCrossCampaignType',
+        'cross_campaign_ids' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceCrossCampaignId[]',
+        'cross_campaign_goals' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceCrossCampaignGoal[]',
+        'cross_campaign_buying_types' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceCrossCampaignBuying[]'
     ];
 
     /**
@@ -231,7 +231,7 @@ class ReportDefinitionServiceCrossCampaignReachesReportCondition implements Mode
     /**
      * Gets cross_campaign_type
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceCrossCampaignType|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceCrossCampaignType|null
      */
     public function getCrossCampaignType()
     {
@@ -241,7 +241,7 @@ class ReportDefinitionServiceCrossCampaignReachesReportCondition implements Mode
     /**
      * Sets cross_campaign_type
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceCrossCampaignType|null $cross_campaign_type cross_campaign_type
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceCrossCampaignType|null $cross_campaign_type cross_campaign_type
      *
      * @return self
      */
@@ -255,7 +255,7 @@ class ReportDefinitionServiceCrossCampaignReachesReportCondition implements Mode
     /**
      * Gets cross_campaign_ids
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceCrossCampaignId[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceCrossCampaignId[]|null
      */
     public function getCrossCampaignIds()
     {
@@ -265,7 +265,7 @@ class ReportDefinitionServiceCrossCampaignReachesReportCondition implements Mode
     /**
      * Sets cross_campaign_ids
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceCrossCampaignId[]|null $cross_campaign_ids cross_campaign_ids
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceCrossCampaignId[]|null $cross_campaign_ids cross_campaign_ids
      *
      * @return self
      */
@@ -279,7 +279,7 @@ class ReportDefinitionServiceCrossCampaignReachesReportCondition implements Mode
     /**
      * Gets cross_campaign_goals
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceCrossCampaignGoal[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceCrossCampaignGoal[]|null
      */
     public function getCrossCampaignGoals()
     {
@@ -289,7 +289,7 @@ class ReportDefinitionServiceCrossCampaignReachesReportCondition implements Mode
     /**
      * Sets cross_campaign_goals
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceCrossCampaignGoal[]|null $cross_campaign_goals cross_campaign_goals
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceCrossCampaignGoal[]|null $cross_campaign_goals cross_campaign_goals
      *
      * @return self
      */
@@ -303,7 +303,7 @@ class ReportDefinitionServiceCrossCampaignReachesReportCondition implements Mode
     /**
      * Gets cross_campaign_buying_types
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceCrossCampaignBuying[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceCrossCampaignBuying[]|null
      */
     public function getCrossCampaignBuyingTypes()
     {
@@ -313,7 +313,7 @@ class ReportDefinitionServiceCrossCampaignReachesReportCondition implements Mode
     /**
      * Sets cross_campaign_buying_types
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceCrossCampaignBuying[]|null $cross_campaign_buying_types cross_campaign_buying_types
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceCrossCampaignBuying[]|null $cross_campaign_buying_types cross_campaign_buying_types
      *
      * @return self
      */

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * CampaignServiceOperation Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;CampaignServiceOperationオブジェクトは、操作の対象となるキャンペーンの情報と処理の内容を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The CampaignServiceOperation object is a container for storing campaign information and operation results.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class CampaignServiceOperation implements ModelInterface, ArrayAccess, \JsonSeri
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'operand' => '\OpenAPI\Client\Model\Campaign[]'
+        'operand' => '\YahooAdsDisplayApi\Client\Model\Campaign[]'
     ];
 
     /**
@@ -257,7 +257,7 @@ class CampaignServiceOperation implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Gets operand
      *
-     * @return \OpenAPI\Client\Model\Campaign[]
+     * @return \YahooAdsDisplayApi\Client\Model\Campaign[]
      */
     public function getOperand()
     {
@@ -267,7 +267,7 @@ class CampaignServiceOperation implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Sets operand
      *
-     * @param \OpenAPI\Client\Model\Campaign[] $operand operand
+     * @param \YahooAdsDisplayApi\Client\Model\Campaign[] $operand operand
      *
      * @return self
      */

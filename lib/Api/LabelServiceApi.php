@@ -4,7 +4,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Api;
+namespace YahooAdsDisplayApi\Client\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use OpenAPI\Client\ApiException;
-use OpenAPI\Client\Configuration;
-use OpenAPI\Client\HeaderSelector;
-use OpenAPI\Client\ObjectSerializer;
+use YahooAdsDisplayApi\Client\ApiException;
+use YahooAdsDisplayApi\Client\Configuration;
+use YahooAdsDisplayApi\Client\HeaderSelector;
+use YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * LabelServiceApi Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -118,11 +118,11 @@ class LabelServiceApi
     /**
      * Operation labelServiceAddPost
      *
-     * @param  \OpenAPI\Client\Model\LabelServiceOperation $label_service_operation label_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\LabelServiceOperation $label_service_operation label_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\LabelServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\LabelServiceMutateResponse
      */
     public function labelServiceAddPost($label_service_operation = null)
     {
@@ -133,11 +133,11 @@ class LabelServiceApi
     /**
      * Operation labelServiceAddPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\LabelServiceOperation $label_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\LabelServiceOperation $label_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\LabelServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\LabelServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function labelServiceAddPostWithHttpInfo($label_service_operation = null)
     {
@@ -174,20 +174,20 @@ class LabelServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\LabelServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\LabelServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\LabelServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\LabelServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\LabelServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\LabelServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -206,7 +206,7 @@ class LabelServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\LabelServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\LabelServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -221,7 +221,7 @@ class LabelServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\LabelServiceOperation $label_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\LabelServiceOperation $label_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -241,14 +241,14 @@ class LabelServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\LabelServiceOperation $label_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\LabelServiceOperation $label_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function labelServiceAddPostAsyncWithHttpInfo($label_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\LabelServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\LabelServiceMutateResponse';
         $request = $this->labelServiceAddPostRequest($label_service_operation);
 
         return $this->client
@@ -288,7 +288,7 @@ class LabelServiceApi
     /**
      * Create request for operation 'labelServiceAddPost'
      *
-     * @param  \OpenAPI\Client\Model\LabelServiceOperation $label_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\LabelServiceOperation $label_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -377,11 +377,11 @@ class LabelServiceApi
     /**
      * Operation labelServiceGetPost
      *
-     * @param  \OpenAPI\Client\Model\LabelServiceSelector $label_service_selector label_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\LabelServiceSelector $label_service_selector label_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\LabelServiceGetResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\LabelServiceGetResponse
      */
     public function labelServiceGetPost($label_service_selector = null)
     {
@@ -392,11 +392,11 @@ class LabelServiceApi
     /**
      * Operation labelServiceGetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\LabelServiceSelector $label_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\LabelServiceSelector $label_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\LabelServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\LabelServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function labelServiceGetPostWithHttpInfo($label_service_selector = null)
     {
@@ -433,20 +433,20 @@ class LabelServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\LabelServiceGetResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\LabelServiceGetResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\LabelServiceGetResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\LabelServiceGetResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\LabelServiceGetResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\LabelServiceGetResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -465,7 +465,7 @@ class LabelServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\LabelServiceGetResponse',
+                        '\YahooAdsDisplayApi\Client\Model\LabelServiceGetResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -480,7 +480,7 @@ class LabelServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\LabelServiceSelector $label_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\LabelServiceSelector $label_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -500,14 +500,14 @@ class LabelServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\LabelServiceSelector $label_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\LabelServiceSelector $label_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function labelServiceGetPostAsyncWithHttpInfo($label_service_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\LabelServiceGetResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\LabelServiceGetResponse';
         $request = $this->labelServiceGetPostRequest($label_service_selector);
 
         return $this->client
@@ -547,7 +547,7 @@ class LabelServiceApi
     /**
      * Create request for operation 'labelServiceGetPost'
      *
-     * @param  \OpenAPI\Client\Model\LabelServiceSelector $label_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\LabelServiceSelector $label_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -636,11 +636,11 @@ class LabelServiceApi
     /**
      * Operation labelServiceRemovePost
      *
-     * @param  \OpenAPI\Client\Model\LabelServiceOperation $label_service_operation label_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\LabelServiceOperation $label_service_operation label_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\LabelServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\LabelServiceMutateResponse
      */
     public function labelServiceRemovePost($label_service_operation = null)
     {
@@ -651,11 +651,11 @@ class LabelServiceApi
     /**
      * Operation labelServiceRemovePostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\LabelServiceOperation $label_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\LabelServiceOperation $label_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\LabelServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\LabelServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function labelServiceRemovePostWithHttpInfo($label_service_operation = null)
     {
@@ -692,20 +692,20 @@ class LabelServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\LabelServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\LabelServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\LabelServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\LabelServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\LabelServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\LabelServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -724,7 +724,7 @@ class LabelServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\LabelServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\LabelServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -739,7 +739,7 @@ class LabelServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\LabelServiceOperation $label_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\LabelServiceOperation $label_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -759,14 +759,14 @@ class LabelServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\LabelServiceOperation $label_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\LabelServiceOperation $label_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function labelServiceRemovePostAsyncWithHttpInfo($label_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\LabelServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\LabelServiceMutateResponse';
         $request = $this->labelServiceRemovePostRequest($label_service_operation);
 
         return $this->client
@@ -806,7 +806,7 @@ class LabelServiceApi
     /**
      * Create request for operation 'labelServiceRemovePost'
      *
-     * @param  \OpenAPI\Client\Model\LabelServiceOperation $label_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\LabelServiceOperation $label_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -895,11 +895,11 @@ class LabelServiceApi
     /**
      * Operation labelServiceSetPost
      *
-     * @param  \OpenAPI\Client\Model\LabelServiceOperation $label_service_operation label_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\LabelServiceOperation $label_service_operation label_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\LabelServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\LabelServiceMutateResponse
      */
     public function labelServiceSetPost($label_service_operation = null)
     {
@@ -910,11 +910,11 @@ class LabelServiceApi
     /**
      * Operation labelServiceSetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\LabelServiceOperation $label_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\LabelServiceOperation $label_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\LabelServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\LabelServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function labelServiceSetPostWithHttpInfo($label_service_operation = null)
     {
@@ -951,20 +951,20 @@ class LabelServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\LabelServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\LabelServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\LabelServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\LabelServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\LabelServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\LabelServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -983,7 +983,7 @@ class LabelServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\LabelServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\LabelServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -998,7 +998,7 @@ class LabelServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\LabelServiceOperation $label_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\LabelServiceOperation $label_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1018,14 +1018,14 @@ class LabelServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\LabelServiceOperation $label_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\LabelServiceOperation $label_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function labelServiceSetPostAsyncWithHttpInfo($label_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\LabelServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\LabelServiceMutateResponse';
         $request = $this->labelServiceSetPostRequest($label_service_operation);
 
         return $this->client
@@ -1065,7 +1065,7 @@ class LabelServiceApi
     /**
      * Create request for operation 'labelServiceSetPost'
      *
-     * @param  \OpenAPI\Client\Model\LabelServiceOperation $label_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\LabelServiceOperation $label_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

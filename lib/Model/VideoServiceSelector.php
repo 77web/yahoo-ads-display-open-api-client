@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * VideoServiceSelector Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;VideoServiceSelectorオブジェクトは、入稿済みの動画の情報を取得します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The VideoServiceSelector object is a container for storing added video information and filtering condition.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,13 +62,13 @@ class VideoServiceSelector implements ModelInterface, ArrayAccess, \JsonSerializ
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'approval_statuses' => '\OpenAPI\Client\Model\VideoServiceApprovalStatus[]',
+        'approval_statuses' => '\YahooAdsDisplayApi\Client\Model\VideoServiceApprovalStatus[]',
         'media_ids' => 'int[]',
         'number_results' => 'int',
-        'process_statuses' => '\OpenAPI\Client\Model\VideoServiceProcessStatus[]',
+        'process_statuses' => '\YahooAdsDisplayApi\Client\Model\VideoServiceProcessStatus[]',
         'start_index' => 'int',
-        'user_statuses' => '\OpenAPI\Client\Model\VideoServiceUserStatus[]',
-        'created_date_range' => '\OpenAPI\Client\Model\VideoServiceCreatedDateRange'
+        'user_statuses' => '\YahooAdsDisplayApi\Client\Model\VideoServiceUserStatus[]',
+        'created_date_range' => '\YahooAdsDisplayApi\Client\Model\VideoServiceCreatedDateRange'
     ];
 
     /**
@@ -310,7 +310,7 @@ class VideoServiceSelector implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Gets approval_statuses
      *
-     * @return \OpenAPI\Client\Model\VideoServiceApprovalStatus[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\VideoServiceApprovalStatus[]|null
      */
     public function getApprovalStatuses()
     {
@@ -320,7 +320,7 @@ class VideoServiceSelector implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Sets approval_statuses
      *
-     * @param \OpenAPI\Client\Model\VideoServiceApprovalStatus[]|null $approval_statuses approval_statuses
+     * @param \YahooAdsDisplayApi\Client\Model\VideoServiceApprovalStatus[]|null $approval_statuses approval_statuses
      *
      * @return self
      */
@@ -398,7 +398,7 @@ class VideoServiceSelector implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Gets process_statuses
      *
-     * @return \OpenAPI\Client\Model\VideoServiceProcessStatus[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\VideoServiceProcessStatus[]|null
      */
     public function getProcessStatuses()
     {
@@ -408,7 +408,7 @@ class VideoServiceSelector implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Sets process_statuses
      *
-     * @param \OpenAPI\Client\Model\VideoServiceProcessStatus[]|null $process_statuses process_statuses
+     * @param \YahooAdsDisplayApi\Client\Model\VideoServiceProcessStatus[]|null $process_statuses process_statuses
      *
      * @return self
      */
@@ -455,7 +455,7 @@ class VideoServiceSelector implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Gets user_statuses
      *
-     * @return \OpenAPI\Client\Model\VideoServiceUserStatus[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\VideoServiceUserStatus[]|null
      */
     public function getUserStatuses()
     {
@@ -465,7 +465,7 @@ class VideoServiceSelector implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Sets user_statuses
      *
-     * @param \OpenAPI\Client\Model\VideoServiceUserStatus[]|null $user_statuses user_statuses
+     * @param \YahooAdsDisplayApi\Client\Model\VideoServiceUserStatus[]|null $user_statuses user_statuses
      *
      * @return self
      */
@@ -483,7 +483,7 @@ class VideoServiceSelector implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Gets created_date_range
      *
-     * @return \OpenAPI\Client\Model\VideoServiceCreatedDateRange|null
+     * @return \YahooAdsDisplayApi\Client\Model\VideoServiceCreatedDateRange|null
      */
     public function getCreatedDateRange()
     {
@@ -493,7 +493,7 @@ class VideoServiceSelector implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Sets created_date_range
      *
-     * @param \OpenAPI\Client\Model\VideoServiceCreatedDateRange|null $created_date_range created_date_range
+     * @param \YahooAdsDisplayApi\Client\Model\VideoServiceCreatedDateRange|null $created_date_range created_date_range
      *
      * @return self
      */

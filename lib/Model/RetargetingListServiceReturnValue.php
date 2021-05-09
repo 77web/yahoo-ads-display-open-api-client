@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RetargetingListServiceReturnValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;RetargetingListServiceReturnValueオブジェクトは、サイトリターゲティングのターゲットリスト情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;RetargetingListServiceReturnValue object displays the return value of target list for site retargeting.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class RetargetingListServiceReturnValue implements ModelInterface, ArrayAccess, 
       * @var string[]
       */
     protected static $openAPITypes = [
-        'values' => '\OpenAPI\Client\Model\RetargetingListServiceValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceValue[]'
     ];
 
     /**
@@ -213,7 +213,7 @@ class RetargetingListServiceReturnValue implements ModelInterface, ArrayAccess, 
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceValue[]|null
      */
     public function getValues()
     {
@@ -223,7 +223,7 @@ class RetargetingListServiceReturnValue implements ModelInterface, ArrayAccess, 
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceValue[]|null $values values
      *
      * @return self
      */

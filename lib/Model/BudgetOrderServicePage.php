@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * BudgetOrderServicePage Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;BudgetOrderServicePageオブジェクトは、取得されるアカウント予算情報に関するエントリーを表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The BudgetOrderServicePage object is a container for storing account budget entry.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class BudgetOrderServicePage implements ModelInterface, ArrayAccess, \JsonSerial
       */
     protected static $openAPITypes = [
         'total_num_entries' => 'int',
-        'values' => '\OpenAPI\Client\Model\BudgetOrderServiceValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\BudgetOrderServiceValue[]'
     ];
 
     /**
@@ -243,7 +243,7 @@ class BudgetOrderServicePage implements ModelInterface, ArrayAccess, \JsonSerial
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\BudgetOrderServiceValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\BudgetOrderServiceValue[]|null
      */
     public function getValues()
     {
@@ -253,7 +253,7 @@ class BudgetOrderServicePage implements ModelInterface, ArrayAccess, \JsonSerial
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\BudgetOrderServiceValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\BudgetOrderServiceValue[]|null $values values
      *
      * @return self
      */

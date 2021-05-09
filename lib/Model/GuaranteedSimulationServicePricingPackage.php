@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServicePricingPackage Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;   GuaranteedSimulationServicePricingPackageは、商品の購入タイプ設定の情報を保持します。&lt;br&gt;   このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;   GuaranteedSimulationServicePricingPackage holds information about purchase type setting of package.&lt;br&gt;   Although this field will be returned in the response, it will be ignored on input. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,11 +61,11 @@ class GuaranteedSimulationServicePricingPackage implements ModelInterface, Array
       * @var string[]
       */
     protected static $openAPITypes = [
-        'price_type' => '\OpenAPI\Client\Model\GuaranteedSimulationServicePriceType',
-        'vimps_custom_pricing_package' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceVimpsCustomPricingPackage',
-        'vimps_sov_pricing_package' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceVimpsSOVPricingPackage',
-        'vimps_reach_pricing_package' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceVimpsReachPricingPackage',
-        'slots_pricing_package' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceSlotsPricingPackage'
+        'price_type' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePriceType',
+        'vimps_custom_pricing_package' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceVimpsCustomPricingPackage',
+        'vimps_sov_pricing_package' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceVimpsSOVPricingPackage',
+        'vimps_reach_pricing_package' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceVimpsReachPricingPackage',
+        'slots_pricing_package' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceSlotsPricingPackage'
     ];
 
     /**
@@ -237,7 +237,7 @@ class GuaranteedSimulationServicePricingPackage implements ModelInterface, Array
     /**
      * Gets price_type
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServicePriceType|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePriceType|null
      */
     public function getPriceType()
     {
@@ -247,7 +247,7 @@ class GuaranteedSimulationServicePricingPackage implements ModelInterface, Array
     /**
      * Sets price_type
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServicePriceType|null $price_type price_type
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePriceType|null $price_type price_type
      *
      * @return self
      */
@@ -261,7 +261,7 @@ class GuaranteedSimulationServicePricingPackage implements ModelInterface, Array
     /**
      * Gets vimps_custom_pricing_package
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceVimpsCustomPricingPackage|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceVimpsCustomPricingPackage|null
      */
     public function getVimpsCustomPricingPackage()
     {
@@ -271,7 +271,7 @@ class GuaranteedSimulationServicePricingPackage implements ModelInterface, Array
     /**
      * Sets vimps_custom_pricing_package
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceVimpsCustomPricingPackage|null $vimps_custom_pricing_package vimps_custom_pricing_package
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceVimpsCustomPricingPackage|null $vimps_custom_pricing_package vimps_custom_pricing_package
      *
      * @return self
      */
@@ -285,7 +285,7 @@ class GuaranteedSimulationServicePricingPackage implements ModelInterface, Array
     /**
      * Gets vimps_sov_pricing_package
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceVimpsSOVPricingPackage|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceVimpsSOVPricingPackage|null
      */
     public function getVimpsSovPricingPackage()
     {
@@ -295,7 +295,7 @@ class GuaranteedSimulationServicePricingPackage implements ModelInterface, Array
     /**
      * Sets vimps_sov_pricing_package
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceVimpsSOVPricingPackage|null $vimps_sov_pricing_package vimps_sov_pricing_package
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceVimpsSOVPricingPackage|null $vimps_sov_pricing_package vimps_sov_pricing_package
      *
      * @return self
      */
@@ -309,7 +309,7 @@ class GuaranteedSimulationServicePricingPackage implements ModelInterface, Array
     /**
      * Gets vimps_reach_pricing_package
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceVimpsReachPricingPackage|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceVimpsReachPricingPackage|null
      */
     public function getVimpsReachPricingPackage()
     {
@@ -319,7 +319,7 @@ class GuaranteedSimulationServicePricingPackage implements ModelInterface, Array
     /**
      * Sets vimps_reach_pricing_package
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceVimpsReachPricingPackage|null $vimps_reach_pricing_package vimps_reach_pricing_package
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceVimpsReachPricingPackage|null $vimps_reach_pricing_package vimps_reach_pricing_package
      *
      * @return self
      */
@@ -333,7 +333,7 @@ class GuaranteedSimulationServicePricingPackage implements ModelInterface, Array
     /**
      * Gets slots_pricing_package
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceSlotsPricingPackage|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceSlotsPricingPackage|null
      */
     public function getSlotsPricingPackage()
     {
@@ -343,7 +343,7 @@ class GuaranteedSimulationServicePricingPackage implements ModelInterface, Array
     /**
      * Sets slots_pricing_package
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceSlotsPricingPackage|null $slots_pricing_package slots_pricing_package
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceSlotsPricingPackage|null $slots_pricing_package slots_pricing_package
      *
      * @return self
      */

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ConversionTrackerServiceOperation Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;ConversionTrackerServiceOperationオブジェクトは、メソッドで操作対象となるコンバージョントラッカー情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;ConversionTrackerServiceOperation object contains the information of conversion tracking which is operation target by method.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class ConversionTrackerServiceOperation implements ModelInterface, ArrayAccess, 
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'operand' => '\OpenAPI\Client\Model\ConversionTracker[]'
+        'operand' => '\YahooAdsDisplayApi\Client\Model\ConversionTracker[]'
     ];
 
     /**
@@ -257,7 +257,7 @@ class ConversionTrackerServiceOperation implements ModelInterface, ArrayAccess, 
     /**
      * Gets operand
      *
-     * @return \OpenAPI\Client\Model\ConversionTracker[]
+     * @return \YahooAdsDisplayApi\Client\Model\ConversionTracker[]
      */
     public function getOperand()
     {
@@ -267,7 +267,7 @@ class ConversionTrackerServiceOperation implements ModelInterface, ArrayAccess, 
     /**
      * Sets operand
      *
-     * @param \OpenAPI\Client\Model\ConversionTracker[] $operand operand
+     * @param \YahooAdsDisplayApi\Client\Model\ConversionTracker[] $operand operand
      *
      * @return self
      */

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServicePermittedGenderTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedSimulationServicePermittedGenderTargetオブジェクトは、性別ターゲットの設定情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;GuaranteedSimulationServicePermittedGenderTarget object holds configuration information of gender targeting.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class GuaranteedSimulationServicePermittedGenderTarget implements ModelInterface
       */
     protected static $openAPITypes = [
         'target_id' => 'string',
-        'gender' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceGender'
+        'gender' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGender'
     ];
 
     /**
@@ -243,7 +243,7 @@ class GuaranteedSimulationServicePermittedGenderTarget implements ModelInterface
     /**
      * Gets gender
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceGender|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGender|null
      */
     public function getGender()
     {
@@ -253,7 +253,7 @@ class GuaranteedSimulationServicePermittedGenderTarget implements ModelInterface
     /**
      * Sets gender
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceGender|null $gender gender
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGender|null $gender gender
      *
      * @return self
      */

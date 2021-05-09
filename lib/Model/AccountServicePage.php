@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AccountServicePage Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;AccountServicePageオブジェクトは、取得されるアカウント情報に関するエントリーを表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The AccountServicePage object is a container for storing account information entry.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -63,7 +63,7 @@ class AccountServicePage implements ModelInterface, ArrayAccess, \JsonSerializab
     protected static $openAPITypes = [
         'authorization_business_id' => 'string',
         'total_num_entries' => 'int',
-        'values' => '\OpenAPI\Client\Model\AccountServiceValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\AccountServiceValue[]'
     ];
 
     /**
@@ -273,7 +273,7 @@ class AccountServicePage implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\AccountServiceValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountServiceValue[]|null
      */
     public function getValues()
     {
@@ -283,7 +283,7 @@ class AccountServicePage implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\AccountServiceValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\AccountServiceValue[]|null $values values
      *
      * @return self
      */

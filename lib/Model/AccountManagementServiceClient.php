@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AccountManagementServiceClient Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; AccountManagementServiceClientオブジェクトは、広告主情報を表します。&lt;br&gt; このフィールドは、ADD時に必須となり、SET時に無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; AccountManagementServiceClient object describes the client information.&lt;br&gt; This field is required in ADD operation, and will be ignored in SET operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -66,14 +66,14 @@ class AccountManagementServiceClient implements ModelInterface, ArrayAccess, \Js
         'client_person_name' => 'string',
         'company_name' => 'string',
         'company_name_kana' => 'string',
-        'enterprise_type' => '\OpenAPI\Client\Model\AccountManagementServiceEnterpriseType',
-        'enterprise_type_position' => '\OpenAPI\Client\Model\AccountManagementServiceEnterpriseTypePosition',
+        'enterprise_type' => '\YahooAdsDisplayApi\Client\Model\AccountManagementServiceEnterpriseType',
+        'enterprise_type_position' => '\YahooAdsDisplayApi\Client\Model\AccountManagementServiceEnterpriseTypePosition',
         'phone_number' => 'string',
-        'prefecture_code' => '\OpenAPI\Client\Model\AccountManagementServicePrefectureCode',
+        'prefecture_code' => '\YahooAdsDisplayApi\Client\Model\AccountManagementServicePrefectureCode',
         'street1' => 'string',
         'street2' => 'string',
         'url' => 'string',
-        'url_type' => '\OpenAPI\Client\Model\AccountManagementServiceUrlType',
+        'url_type' => '\YahooAdsDisplayApi\Client\Model\AccountManagementServiceUrlType',
         'zip' => 'string'
     ];
 
@@ -419,7 +419,7 @@ class AccountManagementServiceClient implements ModelInterface, ArrayAccess, \Js
     /**
      * Gets enterprise_type
      *
-     * @return \OpenAPI\Client\Model\AccountManagementServiceEnterpriseType|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountManagementServiceEnterpriseType|null
      */
     public function getEnterpriseType()
     {
@@ -429,7 +429,7 @@ class AccountManagementServiceClient implements ModelInterface, ArrayAccess, \Js
     /**
      * Sets enterprise_type
      *
-     * @param \OpenAPI\Client\Model\AccountManagementServiceEnterpriseType|null $enterprise_type enterprise_type
+     * @param \YahooAdsDisplayApi\Client\Model\AccountManagementServiceEnterpriseType|null $enterprise_type enterprise_type
      *
      * @return self
      */
@@ -443,7 +443,7 @@ class AccountManagementServiceClient implements ModelInterface, ArrayAccess, \Js
     /**
      * Gets enterprise_type_position
      *
-     * @return \OpenAPI\Client\Model\AccountManagementServiceEnterpriseTypePosition|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountManagementServiceEnterpriseTypePosition|null
      */
     public function getEnterpriseTypePosition()
     {
@@ -453,7 +453,7 @@ class AccountManagementServiceClient implements ModelInterface, ArrayAccess, \Js
     /**
      * Sets enterprise_type_position
      *
-     * @param \OpenAPI\Client\Model\AccountManagementServiceEnterpriseTypePosition|null $enterprise_type_position enterprise_type_position
+     * @param \YahooAdsDisplayApi\Client\Model\AccountManagementServiceEnterpriseTypePosition|null $enterprise_type_position enterprise_type_position
      *
      * @return self
      */
@@ -496,7 +496,7 @@ class AccountManagementServiceClient implements ModelInterface, ArrayAccess, \Js
     /**
      * Gets prefecture_code
      *
-     * @return \OpenAPI\Client\Model\AccountManagementServicePrefectureCode|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountManagementServicePrefectureCode|null
      */
     public function getPrefectureCode()
     {
@@ -506,7 +506,7 @@ class AccountManagementServiceClient implements ModelInterface, ArrayAccess, \Js
     /**
      * Sets prefecture_code
      *
-     * @param \OpenAPI\Client\Model\AccountManagementServicePrefectureCode|null $prefecture_code prefecture_code
+     * @param \YahooAdsDisplayApi\Client\Model\AccountManagementServicePrefectureCode|null $prefecture_code prefecture_code
      *
      * @return self
      */
@@ -592,7 +592,7 @@ class AccountManagementServiceClient implements ModelInterface, ArrayAccess, \Js
     /**
      * Gets url_type
      *
-     * @return \OpenAPI\Client\Model\AccountManagementServiceUrlType|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountManagementServiceUrlType|null
      */
     public function getUrlType()
     {
@@ -602,7 +602,7 @@ class AccountManagementServiceClient implements ModelInterface, ArrayAccess, \Js
     /**
      * Sets url_type
      *
-     * @param \OpenAPI\Client\Model\AccountManagementServiceUrlType|null $url_type url_type
+     * @param \YahooAdsDisplayApi\Client\Model\AccountManagementServiceUrlType|null $url_type url_type
      *
      * @return self
      */

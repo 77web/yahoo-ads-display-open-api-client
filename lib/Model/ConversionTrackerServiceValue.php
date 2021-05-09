@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ConversionTrackerServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;ConversionTrackerServiceValueオブジェクトは、操作結果を含むコンバージョントラッカー情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;ConversionTrackerServiceValue object displays the entity of Conversion Tracker information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,10 +61,10 @@ class ConversionTrackerServiceValue implements ModelInterface, ArrayAccess, \Jso
       * @var string[]
       */
     protected static $openAPITypes = [
-        'conversion_tracker' => '\OpenAPI\Client\Model\ConversionTracker',
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'conversion_tracker' => '\YahooAdsDisplayApi\Client\Model\ConversionTracker',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool',
-        'stats_period_custom_date' => '\OpenAPI\Client\Model\ConversionTrackerServiceStatsPeriodCustomDate'
+        'stats_period_custom_date' => '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceStatsPeriodCustomDate'
     ];
 
     /**
@@ -231,7 +231,7 @@ class ConversionTrackerServiceValue implements ModelInterface, ArrayAccess, \Jso
     /**
      * Gets conversion_tracker
      *
-     * @return \OpenAPI\Client\Model\ConversionTracker|null
+     * @return \YahooAdsDisplayApi\Client\Model\ConversionTracker|null
      */
     public function getConversionTracker()
     {
@@ -241,7 +241,7 @@ class ConversionTrackerServiceValue implements ModelInterface, ArrayAccess, \Jso
     /**
      * Sets conversion_tracker
      *
-     * @param \OpenAPI\Client\Model\ConversionTracker|null $conversion_tracker conversion_tracker
+     * @param \YahooAdsDisplayApi\Client\Model\ConversionTracker|null $conversion_tracker conversion_tracker
      *
      * @return self
      */
@@ -255,7 +255,7 @@ class ConversionTrackerServiceValue implements ModelInterface, ArrayAccess, \Jso
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -265,7 +265,7 @@ class ConversionTrackerServiceValue implements ModelInterface, ArrayAccess, \Jso
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */
@@ -303,7 +303,7 @@ class ConversionTrackerServiceValue implements ModelInterface, ArrayAccess, \Jso
     /**
      * Gets stats_period_custom_date
      *
-     * @return \OpenAPI\Client\Model\ConversionTrackerServiceStatsPeriodCustomDate|null
+     * @return \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceStatsPeriodCustomDate|null
      */
     public function getStatsPeriodCustomDate()
     {
@@ -313,7 +313,7 @@ class ConversionTrackerServiceValue implements ModelInterface, ArrayAccess, \Jso
     /**
      * Sets stats_period_custom_date
      *
-     * @param \OpenAPI\Client\Model\ConversionTrackerServiceStatsPeriodCustomDate|null $stats_period_custom_date stats_period_custom_date
+     * @param \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceStatsPeriodCustomDate|null $stats_period_custom_date stats_period_custom_date
      *
      * @return self
      */

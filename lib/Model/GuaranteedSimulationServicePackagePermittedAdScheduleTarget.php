@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServicePackagePermittedAdScheduleTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedSimulationServicePackagePermittedAdScheduleTargetオブジェクトは、時間帯ターゲット設定の制限情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;GuaranteedSimulationServicePackagePermittedAdScheduleTarget object holds the restriction information about the day of week/hours target setting.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class GuaranteedSimulationServicePackagePermittedAdScheduleTarget implements Mod
       * @var string[]
       */
     protected static $openAPITypes = [
-        'target_permission' => '\OpenAPI\Client\Model\GuaranteedSimulationServicePackagePermissionType',
-        'permitted_targets' => '\OpenAPI\Client\Model\GuaranteedSimulationServicePermittedAdScheduleTarget[]'
+        'target_permission' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackagePermissionType',
+        'permitted_targets' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePermittedAdScheduleTarget[]'
     ];
 
     /**
@@ -219,7 +219,7 @@ class GuaranteedSimulationServicePackagePermittedAdScheduleTarget implements Mod
     /**
      * Gets target_permission
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServicePackagePermissionType|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackagePermissionType|null
      */
     public function getTargetPermission()
     {
@@ -229,7 +229,7 @@ class GuaranteedSimulationServicePackagePermittedAdScheduleTarget implements Mod
     /**
      * Sets target_permission
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServicePackagePermissionType|null $target_permission target_permission
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackagePermissionType|null $target_permission target_permission
      *
      * @return self
      */
@@ -243,7 +243,7 @@ class GuaranteedSimulationServicePackagePermittedAdScheduleTarget implements Mod
     /**
      * Gets permitted_targets
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServicePermittedAdScheduleTarget[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePermittedAdScheduleTarget[]|null
      */
     public function getPermittedTargets()
     {
@@ -253,7 +253,7 @@ class GuaranteedSimulationServicePackagePermittedAdScheduleTarget implements Mod
     /**
      * Sets permitted_targets
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServicePermittedAdScheduleTarget[]|null $permitted_targets permitted_targets
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePermittedAdScheduleTarget[]|null $permitted_targets permitted_targets
      *
      * @return self
      */

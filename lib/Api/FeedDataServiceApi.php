@@ -4,7 +4,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Api;
+namespace YahooAdsDisplayApi\Client\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use OpenAPI\Client\ApiException;
-use OpenAPI\Client\Configuration;
-use OpenAPI\Client\HeaderSelector;
-use OpenAPI\Client\ObjectSerializer;
+use YahooAdsDisplayApi\Client\ApiException;
+use YahooAdsDisplayApi\Client\Configuration;
+use YahooAdsDisplayApi\Client\HeaderSelector;
+use YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * FeedDataServiceApi Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -118,9 +118,9 @@ class FeedDataServiceApi
     /**
      * Operation feedDataServiceDownloadErrorFilePost
      *
-     * @param  \OpenAPI\Client\Model\FeedDataServiceDownloadErrorFileSelector $feed_data_service_download_error_file_selector feed_data_service_download_error_file_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedDataServiceDownloadErrorFileSelector $feed_data_service_download_error_file_selector feed_data_service_download_error_file_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return |\SplFileObject
      */
@@ -133,9 +133,9 @@ class FeedDataServiceApi
     /**
      * Operation feedDataServiceDownloadErrorFilePostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\FeedDataServiceDownloadErrorFileSelector $feed_data_service_download_error_file_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedDataServiceDownloadErrorFileSelector $feed_data_service_download_error_file_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of |\SplFileObject, HTTP status code, HTTP response headers (array of strings)
      */
@@ -221,7 +221,7 @@ class FeedDataServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\FeedDataServiceDownloadErrorFileSelector $feed_data_service_download_error_file_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedDataServiceDownloadErrorFileSelector $feed_data_service_download_error_file_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -241,7 +241,7 @@ class FeedDataServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\FeedDataServiceDownloadErrorFileSelector $feed_data_service_download_error_file_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedDataServiceDownloadErrorFileSelector $feed_data_service_download_error_file_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -288,7 +288,7 @@ class FeedDataServiceApi
     /**
      * Create request for operation 'feedDataServiceDownloadErrorFilePost'
      *
-     * @param  \OpenAPI\Client\Model\FeedDataServiceDownloadErrorFileSelector $feed_data_service_download_error_file_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedDataServiceDownloadErrorFileSelector $feed_data_service_download_error_file_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -377,11 +377,11 @@ class FeedDataServiceApi
     /**
      * Operation feedDataServiceGetPost
      *
-     * @param  \OpenAPI\Client\Model\FeedDataServiceSelector $feed_data_service_selector feed_data_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedDataServiceSelector $feed_data_service_selector feed_data_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\FeedDataServiceGetResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\FeedDataServiceGetResponse
      */
     public function feedDataServiceGetPost($feed_data_service_selector = null)
     {
@@ -392,11 +392,11 @@ class FeedDataServiceApi
     /**
      * Operation feedDataServiceGetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\FeedDataServiceSelector $feed_data_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedDataServiceSelector $feed_data_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\FeedDataServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\FeedDataServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function feedDataServiceGetPostWithHttpInfo($feed_data_service_selector = null)
     {
@@ -433,20 +433,20 @@ class FeedDataServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\FeedDataServiceGetResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\FeedDataServiceGetResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\FeedDataServiceGetResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\FeedDataServiceGetResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\FeedDataServiceGetResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\FeedDataServiceGetResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -465,7 +465,7 @@ class FeedDataServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\FeedDataServiceGetResponse',
+                        '\YahooAdsDisplayApi\Client\Model\FeedDataServiceGetResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -480,7 +480,7 @@ class FeedDataServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\FeedDataServiceSelector $feed_data_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedDataServiceSelector $feed_data_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -500,14 +500,14 @@ class FeedDataServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\FeedDataServiceSelector $feed_data_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedDataServiceSelector $feed_data_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function feedDataServiceGetPostAsyncWithHttpInfo($feed_data_service_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\FeedDataServiceGetResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\FeedDataServiceGetResponse';
         $request = $this->feedDataServiceGetPostRequest($feed_data_service_selector);
 
         return $this->client
@@ -547,7 +547,7 @@ class FeedDataServiceApi
     /**
      * Create request for operation 'feedDataServiceGetPost'
      *
-     * @param  \OpenAPI\Client\Model\FeedDataServiceSelector $feed_data_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedDataServiceSelector $feed_data_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -638,13 +638,13 @@ class FeedDataServiceApi
      *
      * @param  int $account_id &lt;div lang&#x3D;\&quot;ja\&quot;&gt;アカウントIDです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Account ID.&lt;/div&gt; (required)
      * @param  int $feed_id &lt;div lang&#x3D;\&quot;ja\&quot;&gt;フィードIDです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Feed ID.&lt;/div&gt; (required)
-     * @param  \OpenAPI\Client\Model\FeedDataServiceItemListUploadType $upload_type &lt;div lang&#x3D;\&quot;ja\&quot;&gt;商品リストファイルアップロード時の取り込み種別です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedDataServiceItemListUploadType object displays upload type of item list.&lt;/div&gt; (required)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedDataServiceItemListUploadType $upload_type &lt;div lang&#x3D;\&quot;ja\&quot;&gt;商品リストファイルアップロード時の取り込み種別です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedDataServiceItemListUploadType object displays upload type of item list.&lt;/div&gt; (required)
      * @param  bool $is_debug &lt;div lang&#x3D;\&quot;ja\&quot;&gt;trueはデバッグモードでの実行を意味します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;true means to run in debug mode.&lt;/div&gt; (required)
      * @param  \SplFileObject $file file (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\FeedDataServiceUploadResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\FeedDataServiceUploadResponse
      */
     public function feedDataServiceUploadPost($account_id, $feed_id, $upload_type, $is_debug, $file = null)
     {
@@ -657,13 +657,13 @@ class FeedDataServiceApi
      *
      * @param  int $account_id &lt;div lang&#x3D;\&quot;ja\&quot;&gt;アカウントIDです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Account ID.&lt;/div&gt; (required)
      * @param  int $feed_id &lt;div lang&#x3D;\&quot;ja\&quot;&gt;フィードIDです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Feed ID.&lt;/div&gt; (required)
-     * @param  \OpenAPI\Client\Model\FeedDataServiceItemListUploadType $upload_type &lt;div lang&#x3D;\&quot;ja\&quot;&gt;商品リストファイルアップロード時の取り込み種別です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedDataServiceItemListUploadType object displays upload type of item list.&lt;/div&gt; (required)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedDataServiceItemListUploadType $upload_type &lt;div lang&#x3D;\&quot;ja\&quot;&gt;商品リストファイルアップロード時の取り込み種別です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedDataServiceItemListUploadType object displays upload type of item list.&lt;/div&gt; (required)
      * @param  bool $is_debug &lt;div lang&#x3D;\&quot;ja\&quot;&gt;trueはデバッグモードでの実行を意味します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;true means to run in debug mode.&lt;/div&gt; (required)
      * @param  \SplFileObject $file (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\FeedDataServiceUploadResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\FeedDataServiceUploadResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function feedDataServiceUploadPostWithHttpInfo($account_id, $feed_id, $upload_type, $is_debug, $file = null)
     {
@@ -700,20 +700,20 @@ class FeedDataServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\FeedDataServiceUploadResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\FeedDataServiceUploadResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\FeedDataServiceUploadResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\FeedDataServiceUploadResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\FeedDataServiceUploadResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\FeedDataServiceUploadResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -732,7 +732,7 @@ class FeedDataServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\FeedDataServiceUploadResponse',
+                        '\YahooAdsDisplayApi\Client\Model\FeedDataServiceUploadResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -749,7 +749,7 @@ class FeedDataServiceApi
      *
      * @param  int $account_id &lt;div lang&#x3D;\&quot;ja\&quot;&gt;アカウントIDです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Account ID.&lt;/div&gt; (required)
      * @param  int $feed_id &lt;div lang&#x3D;\&quot;ja\&quot;&gt;フィードIDです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Feed ID.&lt;/div&gt; (required)
-     * @param  \OpenAPI\Client\Model\FeedDataServiceItemListUploadType $upload_type &lt;div lang&#x3D;\&quot;ja\&quot;&gt;商品リストファイルアップロード時の取り込み種別です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedDataServiceItemListUploadType object displays upload type of item list.&lt;/div&gt; (required)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedDataServiceItemListUploadType $upload_type &lt;div lang&#x3D;\&quot;ja\&quot;&gt;商品リストファイルアップロード時の取り込み種別です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedDataServiceItemListUploadType object displays upload type of item list.&lt;/div&gt; (required)
      * @param  bool $is_debug &lt;div lang&#x3D;\&quot;ja\&quot;&gt;trueはデバッグモードでの実行を意味します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;true means to run in debug mode.&lt;/div&gt; (required)
      * @param  \SplFileObject $file (optional)
      *
@@ -773,7 +773,7 @@ class FeedDataServiceApi
      *
      * @param  int $account_id &lt;div lang&#x3D;\&quot;ja\&quot;&gt;アカウントIDです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Account ID.&lt;/div&gt; (required)
      * @param  int $feed_id &lt;div lang&#x3D;\&quot;ja\&quot;&gt;フィードIDです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Feed ID.&lt;/div&gt; (required)
-     * @param  \OpenAPI\Client\Model\FeedDataServiceItemListUploadType $upload_type &lt;div lang&#x3D;\&quot;ja\&quot;&gt;商品リストファイルアップロード時の取り込み種別です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedDataServiceItemListUploadType object displays upload type of item list.&lt;/div&gt; (required)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedDataServiceItemListUploadType $upload_type &lt;div lang&#x3D;\&quot;ja\&quot;&gt;商品リストファイルアップロード時の取り込み種別です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedDataServiceItemListUploadType object displays upload type of item list.&lt;/div&gt; (required)
      * @param  bool $is_debug &lt;div lang&#x3D;\&quot;ja\&quot;&gt;trueはデバッグモードでの実行を意味します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;true means to run in debug mode.&lt;/div&gt; (required)
      * @param  \SplFileObject $file (optional)
      *
@@ -782,7 +782,7 @@ class FeedDataServiceApi
      */
     public function feedDataServiceUploadPostAsyncWithHttpInfo($account_id, $feed_id, $upload_type, $is_debug, $file = null)
     {
-        $returnType = '\OpenAPI\Client\Model\FeedDataServiceUploadResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\FeedDataServiceUploadResponse';
         $request = $this->feedDataServiceUploadPostRequest($account_id, $feed_id, $upload_type, $is_debug, $file);
 
         return $this->client
@@ -824,7 +824,7 @@ class FeedDataServiceApi
      *
      * @param  int $account_id &lt;div lang&#x3D;\&quot;ja\&quot;&gt;アカウントIDです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Account ID.&lt;/div&gt; (required)
      * @param  int $feed_id &lt;div lang&#x3D;\&quot;ja\&quot;&gt;フィードIDです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Feed ID.&lt;/div&gt; (required)
-     * @param  \OpenAPI\Client\Model\FeedDataServiceItemListUploadType $upload_type &lt;div lang&#x3D;\&quot;ja\&quot;&gt;商品リストファイルアップロード時の取り込み種別です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedDataServiceItemListUploadType object displays upload type of item list.&lt;/div&gt; (required)
+     * @param  \YahooAdsDisplayApi\Client\Model\FeedDataServiceItemListUploadType $upload_type &lt;div lang&#x3D;\&quot;ja\&quot;&gt;商品リストファイルアップロード時の取り込み種別です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedDataServiceItemListUploadType object displays upload type of item list.&lt;/div&gt; (required)
      * @param  bool $is_debug &lt;div lang&#x3D;\&quot;ja\&quot;&gt;trueはデバッグモードでの実行を意味します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;true means to run in debug mode.&lt;/div&gt; (required)
      * @param  \SplFileObject $file (optional)
      *

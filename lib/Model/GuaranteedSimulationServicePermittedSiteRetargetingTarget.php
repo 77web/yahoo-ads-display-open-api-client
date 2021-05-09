@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServicePermittedSiteRetargetingTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedSimulationServicePermittedSiteRetargetingTargetオブジェクトは、サイトリターゲティングの設定情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;GuaranteedSimulationServicePermittedSiteRetargetingTarget object is a container for site retargeting settings.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class GuaranteedSimulationServicePermittedSiteRetargetingTarget implements Model
       */
     protected static $openAPITypes = [
         'target_id' => 'string',
-        'target_list_deliver_type' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceTargetListDeliverType',
+        'target_list_deliver_type' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceTargetListDeliverType',
         'target_list_name' => 'string'
     ];
 
@@ -249,7 +249,7 @@ class GuaranteedSimulationServicePermittedSiteRetargetingTarget implements Model
     /**
      * Gets target_list_deliver_type
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceTargetListDeliverType|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceTargetListDeliverType|null
      */
     public function getTargetListDeliverType()
     {
@@ -259,7 +259,7 @@ class GuaranteedSimulationServicePermittedSiteRetargetingTarget implements Model
     /**
      * Sets target_list_deliver_type
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceTargetListDeliverType|null $target_list_deliver_type target_list_deliver_type
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceTargetListDeliverType|null $target_list_deliver_type target_list_deliver_type
      *
      * @return self
      */

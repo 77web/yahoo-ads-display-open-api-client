@@ -1,4 +1,4 @@
-# OpenAPI\Client\RetargetingTagServiceApi
+# YahooAdsDisplayApi\Client\RetargetingTagServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 ## `retargetingTagServiceAddPost()`
 
 ```php
-retargetingTagServiceAddPost($retargeting_tag_service_operation): \OpenAPI\Client\Model\RetargetingTagServiceMutateResponse
+retargetingTagServiceAddPost($retargeting_tag_service_operation): \YahooAdsDisplayApi\Client\Model\RetargetingTagServiceMutateResponse
 ```
 
 
@@ -26,16 +26,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\RetargetingTagServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\RetargetingTagServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$retargeting_tag_service_operation = new \OpenAPI\Client\Model\RetargetingTagServiceOperation(); // \OpenAPI\Client\Model\RetargetingTagServiceOperation
+$retargeting_tag_service_operation = new \YahooAdsDisplayApi\Client\Model\RetargetingTagServiceOperation(); // \YahooAdsDisplayApi\Client\Model\RetargetingTagServiceOperation
 
 try {
     $result = $apiInstance->retargetingTagServiceAddPost($retargeting_tag_service_operation);
@@ -49,11 +49,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **retargeting_tag_service_operation** | [**\OpenAPI\Client\Model\RetargetingTagServiceOperation**](../Model/RetargetingTagServiceOperation.md)|  | [optional]
+ **retargeting_tag_service_operation** | [**\YahooAdsDisplayApi\Client\Model\RetargetingTagServiceOperation**](../Model/RetargetingTagServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\RetargetingTagServiceMutateResponse**](../Model/RetargetingTagServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\RetargetingTagServiceMutateResponse**](../Model/RetargetingTagServiceMutateResponse.md)
 
 ### Authorization
 
@@ -71,7 +71,7 @@ Name | Type | Description  | Notes
 ## `retargetingTagServiceGetPost()`
 
 ```php
-retargetingTagServiceGetPost($retargeting_tag_service_selector): \OpenAPI\Client\Model\RetargetingTagServiceGetResponse
+retargetingTagServiceGetPost($retargeting_tag_service_selector): \YahooAdsDisplayApi\Client\Model\RetargetingTagServiceGetResponse
 ```
 
 
@@ -86,16 +86,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\RetargetingTagServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\RetargetingTagServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$retargeting_tag_service_selector = new \OpenAPI\Client\Model\RetargetingTagServiceSelector(); // \OpenAPI\Client\Model\RetargetingTagServiceSelector
+$retargeting_tag_service_selector = new \YahooAdsDisplayApi\Client\Model\RetargetingTagServiceSelector(); // \YahooAdsDisplayApi\Client\Model\RetargetingTagServiceSelector
 
 try {
     $result = $apiInstance->retargetingTagServiceGetPost($retargeting_tag_service_selector);
@@ -109,11 +109,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **retargeting_tag_service_selector** | [**\OpenAPI\Client\Model\RetargetingTagServiceSelector**](../Model/RetargetingTagServiceSelector.md)|  | [optional]
+ **retargeting_tag_service_selector** | [**\YahooAdsDisplayApi\Client\Model\RetargetingTagServiceSelector**](../Model/RetargetingTagServiceSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\RetargetingTagServiceGetResponse**](../Model/RetargetingTagServiceGetResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\RetargetingTagServiceGetResponse**](../Model/RetargetingTagServiceGetResponse.md)
 
 ### Authorization
 

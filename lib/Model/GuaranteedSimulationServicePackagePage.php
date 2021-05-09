@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServicePackagePage Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedSimulationServicePackagePageオブジェクトは、商品情報を格納するコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;GuaranteedSimulationServicePackagePage object contains package information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class GuaranteedSimulationServicePackagePage implements ModelInterface, ArrayAcc
       */
     protected static $openAPITypes = [
         'total_num_entries' => 'int',
-        'values' => '\OpenAPI\Client\Model\GuaranteedSimulationServicePackageValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackageValue[]'
     ];
 
     /**
@@ -243,7 +243,7 @@ class GuaranteedSimulationServicePackagePage implements ModelInterface, ArrayAcc
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServicePackageValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackageValue[]|null
      */
     public function getValues()
     {
@@ -253,7 +253,7 @@ class GuaranteedSimulationServicePackagePage implements ModelInterface, ArrayAcc
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServicePackageValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackageValue[]|null $values values
      *
      * @return self
      */

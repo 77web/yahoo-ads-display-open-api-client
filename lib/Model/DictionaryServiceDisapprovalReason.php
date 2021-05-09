@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * DictionaryServiceDisapprovalReason Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;DictionaryServiceDisapprovalReasonオブジェクトは、 EditorialReason一覧を格納するコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;DictionaryServiceDisapprovalReason object is a container of EditorialReason list.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -63,7 +63,7 @@ class DictionaryServiceDisapprovalReason implements ModelInterface, ArrayAccess,
     protected static $openAPITypes = [
         'description' => 'string',
         'disapproval_reason_code' => 'string',
-        'lang' => '\OpenAPI\Client\Model\DictionaryServiceLang',
+        'lang' => '\YahooAdsDisplayApi\Client\Model\DictionaryServiceLang',
         'recommendation' => 'string',
         'title' => 'string'
     ];
@@ -285,7 +285,7 @@ class DictionaryServiceDisapprovalReason implements ModelInterface, ArrayAccess,
     /**
      * Gets lang
      *
-     * @return \OpenAPI\Client\Model\DictionaryServiceLang|null
+     * @return \YahooAdsDisplayApi\Client\Model\DictionaryServiceLang|null
      */
     public function getLang()
     {
@@ -295,7 +295,7 @@ class DictionaryServiceDisapprovalReason implements ModelInterface, ArrayAccess,
     /**
      * Sets lang
      *
-     * @param \OpenAPI\Client\Model\DictionaryServiceLang|null $lang lang
+     * @param \YahooAdsDisplayApi\Client\Model\DictionaryServiceLang|null $lang lang
      *
      * @return self
      */

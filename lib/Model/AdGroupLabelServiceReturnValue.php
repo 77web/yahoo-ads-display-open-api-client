@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupLabelServiceReturnValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;AdGroupLabelServiceReturnValueオブジェクトは、広告グループのラベル情報を含む操作結果として戻される値を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;AdGroupLabelServiceReturnValue object describes value returned as operation result including ad group label information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class AdGroupLabelServiceReturnValue implements ModelInterface, ArrayAccess, \Js
       * @var string[]
       */
     protected static $openAPITypes = [
-        'values' => '\OpenAPI\Client\Model\AdGroupLabelServiceValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceValue[]'
     ];
 
     /**
@@ -213,7 +213,7 @@ class AdGroupLabelServiceReturnValue implements ModelInterface, ArrayAccess, \Js
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\AdGroupLabelServiceValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceValue[]|null
      */
     public function getValues()
     {
@@ -223,7 +223,7 @@ class AdGroupLabelServiceReturnValue implements ModelInterface, ArrayAccess, \Js
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\AdGroupLabelServiceValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupLabelServiceValue[]|null $values values
      *
      * @return self
      */

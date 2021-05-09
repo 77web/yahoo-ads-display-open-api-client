@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * DictionaryServiceGeographicLocation Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;DictionaryServiceGeographicLocationオブジェクトは、地域情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;DictionaryServiceGeographicLocation object displays the geographic location.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class DictionaryServiceGeographicLocation implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $openAPITypes = [
-        'child' => '\OpenAPI\Client\Model\DictionaryServiceGeographicLocation[]',
+        'child' => '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGeographicLocation[]',
         'code' => 'string',
         'full_name' => 'string',
         'name' => 'string',
@@ -243,7 +243,7 @@ class DictionaryServiceGeographicLocation implements ModelInterface, ArrayAccess
     /**
      * Gets child
      *
-     * @return \OpenAPI\Client\Model\DictionaryServiceGeographicLocation[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\DictionaryServiceGeographicLocation[]|null
      */
     public function getChild()
     {
@@ -253,7 +253,7 @@ class DictionaryServiceGeographicLocation implements ModelInterface, ArrayAccess
     /**
      * Sets child
      *
-     * @param \OpenAPI\Client\Model\DictionaryServiceGeographicLocation[]|null $child <div lang=\"ja\">子要素としてDictionaryServiceGeographicLocationオブジェクトを使用します。</div> <div lang=\"en\">DictionaryServiceGeographicLocation object is used.</div>
+     * @param \YahooAdsDisplayApi\Client\Model\DictionaryServiceGeographicLocation[]|null $child <div lang=\"ja\">子要素としてDictionaryServiceGeographicLocationオブジェクトを使用します。</div> <div lang=\"en\">DictionaryServiceGeographicLocation object is used.</div>
      *
      * @return self
      */

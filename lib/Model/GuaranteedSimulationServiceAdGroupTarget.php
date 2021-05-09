@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServiceAdGroupTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; GuaranteedSimulationServiceAdGroupTargetオブジェクトは、予約型キャンペーンの配信シミュレーションのターゲティング情報を保持します。&lt;br&gt; ADD時、このフィールドは省略可能となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; GuaranteedSimulationServiceAdGroupTarget object holds the targeting information about the delivery simulation of the guaranteed campaign.&lt;br&gt; This field is optional in ADD operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class GuaranteedSimulationServiceAdGroupTarget implements ModelInterface, ArrayA
       * @var string[]
       */
     protected static $openAPITypes = [
-        'target' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceTarget'
+        'target' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceTarget'
     ];
 
     /**
@@ -213,7 +213,7 @@ class GuaranteedSimulationServiceAdGroupTarget implements ModelInterface, ArrayA
     /**
      * Gets target
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceTarget|null
      */
     public function getTarget()
     {
@@ -223,7 +223,7 @@ class GuaranteedSimulationServiceAdGroupTarget implements ModelInterface, ArrayA
     /**
      * Sets target
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceTarget|null $target target
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceTarget|null $target target
      *
      * @return self
      */

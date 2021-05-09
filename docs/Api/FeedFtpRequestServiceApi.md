@@ -1,4 +1,4 @@
-# OpenAPI\Client\FeedFtpRequestServiceApi
+# YahooAdsDisplayApi\Client\FeedFtpRequestServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -10,7 +10,7 @@ Method | HTTP request | Description
 ## `feedFtpRequestServiceAddPost()`
 
 ```php
-feedFtpRequestServiceAddPost($feed_ftp_request_service_operation): \OpenAPI\Client\Model\FeedFtpRequestServiceMutateResponse
+feedFtpRequestServiceAddPost($feed_ftp_request_service_operation): \YahooAdsDisplayApi\Client\Model\FeedFtpRequestServiceMutateResponse
 ```
 
 
@@ -23,16 +23,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\FeedFtpRequestServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\FeedFtpRequestServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$feed_ftp_request_service_operation = new \OpenAPI\Client\Model\FeedFtpRequestServiceOperation(); // \OpenAPI\Client\Model\FeedFtpRequestServiceOperation
+$feed_ftp_request_service_operation = new \YahooAdsDisplayApi\Client\Model\FeedFtpRequestServiceOperation(); // \YahooAdsDisplayApi\Client\Model\FeedFtpRequestServiceOperation
 
 try {
     $result = $apiInstance->feedFtpRequestServiceAddPost($feed_ftp_request_service_operation);
@@ -46,11 +46,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **feed_ftp_request_service_operation** | [**\OpenAPI\Client\Model\FeedFtpRequestServiceOperation**](../Model/FeedFtpRequestServiceOperation.md)|  | [optional]
+ **feed_ftp_request_service_operation** | [**\YahooAdsDisplayApi\Client\Model\FeedFtpRequestServiceOperation**](../Model/FeedFtpRequestServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\FeedFtpRequestServiceMutateResponse**](../Model/FeedFtpRequestServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\FeedFtpRequestServiceMutateResponse**](../Model/FeedFtpRequestServiceMutateResponse.md)
 
 ### Authorization
 

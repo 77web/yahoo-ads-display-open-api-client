@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * VideoServiceSetting Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;VideoServiceSettingオブジェクトは、動画の設定内容を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;VideoServiceSetting object stores the setting information of videos.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class VideoServiceSetting implements ModelInterface, ArrayAccess, \JsonSerializa
       */
     protected static $openAPITypes = [
         'file_size' => 'int',
-        'file_type' => '\OpenAPI\Client\Model\VideoServiceFileType',
+        'file_type' => '\YahooAdsDisplayApi\Client\Model\VideoServiceFileType',
         'height' => 'int',
         'playback_time' => 'int',
         'video_ad_format' => 'string',
@@ -273,7 +273,7 @@ class VideoServiceSetting implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Gets file_type
      *
-     * @return \OpenAPI\Client\Model\VideoServiceFileType|null
+     * @return \YahooAdsDisplayApi\Client\Model\VideoServiceFileType|null
      */
     public function getFileType()
     {
@@ -283,7 +283,7 @@ class VideoServiceSetting implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Sets file_type
      *
-     * @param \OpenAPI\Client\Model\VideoServiceFileType|null $file_type file_type
+     * @param \YahooAdsDisplayApi\Client\Model\VideoServiceFileType|null $file_type file_type
      *
      * @return self
      */

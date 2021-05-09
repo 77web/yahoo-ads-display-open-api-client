@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * VideoServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;VideoServiceValueオブジェクトは、メソッドの実行結果（1Entity）を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;VideoServiceValue objects stores the execution result (1 Entity) of method.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,9 +61,9 @@ class VideoServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
       * @var string[]
       */
     protected static $openAPITypes = [
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool',
-        'video' => '\OpenAPI\Client\Model\Video'
+        'video' => '\YahooAdsDisplayApi\Client\Model\Video'
     ];
 
     /**
@@ -225,7 +225,7 @@ class VideoServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -235,7 +235,7 @@ class VideoServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */
@@ -273,7 +273,7 @@ class VideoServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Gets video
      *
-     * @return \OpenAPI\Client\Model\Video|null
+     * @return \YahooAdsDisplayApi\Client\Model\Video|null
      */
     public function getVideo()
     {
@@ -283,7 +283,7 @@ class VideoServiceValue implements ModelInterface, ArrayAccess, \JsonSerializabl
     /**
      * Sets video
      *
-     * @param \OpenAPI\Client\Model\Video|null $video video
+     * @param \YahooAdsDisplayApi\Client\Model\Video|null $video video
      *
      * @return self
      */

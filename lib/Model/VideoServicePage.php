@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * VideoServicePage Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;VideoServicePageオブジェクトは、getメソッドの実行結果（全Entityのリスト）を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;VideoServicePage object is a container that includes the execution result (list of all entities) of get methods.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class VideoServicePage implements ModelInterface, ArrayAccess, \JsonSerializable
       */
     protected static $openAPITypes = [
         'total_num_entries' => 'int',
-        'values' => '\OpenAPI\Client\Model\VideoServiceValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\VideoServiceValue[]'
     ];
 
     /**
@@ -243,7 +243,7 @@ class VideoServicePage implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\VideoServiceValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\VideoServiceValue[]|null
      */
     public function getValues()
     {
@@ -253,7 +253,7 @@ class VideoServicePage implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\VideoServiceValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\VideoServiceValue[]|null $values values
      *
      * @return self
      */

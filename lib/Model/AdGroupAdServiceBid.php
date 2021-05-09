@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupAdServiceBid Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; AdGroupAdServiceBidオブジェクトは、入札最適化方法を格納するコンテナです。&lt;br&gt; SET時、このフィールドは省略可能となります。&lt;br&gt; ADD時、このフィールドは指定できません。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; AdGroupAdServiceBid object is a container for storing bid optimization method.&lt;br&gt; This field is optional in SET operation.&lt;br&gt; In ADD operation, this field can not be set. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,9 +61,9 @@ class AdGroupAdServiceBid implements ModelInterface, ArrayAccess, \JsonSerializa
       * @var string[]
       */
     protected static $openAPITypes = [
-        'bidding_strategy_type' => '\OpenAPI\Client\Model\AdGroupAdServiceBiddingStrategyType',
-        'manual_cpcad_group_ad_bid' => '\OpenAPI\Client\Model\AdGroupAdServiceManualCPCAdGroupAdBid',
-        'manual_cpvad_group_ad_bid' => '\OpenAPI\Client\Model\AdGroupAdServiceManualCPVAdGroupAdBid'
+        'bidding_strategy_type' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceBiddingStrategyType',
+        'manual_cpcad_group_ad_bid' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceManualCPCAdGroupAdBid',
+        'manual_cpvad_group_ad_bid' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceManualCPVAdGroupAdBid'
     ];
 
     /**
@@ -225,7 +225,7 @@ class AdGroupAdServiceBid implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Gets bidding_strategy_type
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceBiddingStrategyType|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceBiddingStrategyType|null
      */
     public function getBiddingStrategyType()
     {
@@ -235,7 +235,7 @@ class AdGroupAdServiceBid implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Sets bidding_strategy_type
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceBiddingStrategyType|null $bidding_strategy_type bidding_strategy_type
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceBiddingStrategyType|null $bidding_strategy_type bidding_strategy_type
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class AdGroupAdServiceBid implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Gets manual_cpcad_group_ad_bid
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceManualCPCAdGroupAdBid|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceManualCPCAdGroupAdBid|null
      */
     public function getManualCpcadGroupAdBid()
     {
@@ -259,7 +259,7 @@ class AdGroupAdServiceBid implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Sets manual_cpcad_group_ad_bid
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceManualCPCAdGroupAdBid|null $manual_cpcad_group_ad_bid manual_cpcad_group_ad_bid
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceManualCPCAdGroupAdBid|null $manual_cpcad_group_ad_bid manual_cpcad_group_ad_bid
      *
      * @return self
      */
@@ -273,7 +273,7 @@ class AdGroupAdServiceBid implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Gets manual_cpvad_group_ad_bid
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceManualCPVAdGroupAdBid|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceManualCPVAdGroupAdBid|null
      */
     public function getManualCpvadGroupAdBid()
     {
@@ -283,7 +283,7 @@ class AdGroupAdServiceBid implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Sets manual_cpvad_group_ad_bid
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceManualCPVAdGroupAdBid|null $manual_cpvad_group_ad_bid manual_cpvad_group_ad_bid
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceManualCPVAdGroupAdBid|null $manual_cpvad_group_ad_bid manual_cpvad_group_ad_bid
      *
      * @return self
      */

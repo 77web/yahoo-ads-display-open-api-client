@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ReportDefinitionServiceGetReportFields Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -60,7 +60,7 @@ class ReportDefinitionServiceGetReportFields implements ModelInterface, ArrayAcc
       * @var string[]
       */
     protected static $openAPITypes = [
-        'type' => '\OpenAPI\Client\Model\ReportDefinitionServiceType'
+        'type' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceType'
     ];
 
     /**
@@ -215,7 +215,7 @@ class ReportDefinitionServiceGetReportFields implements ModelInterface, ArrayAcc
     /**
      * Gets type
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceType
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceType
      */
     public function getType()
     {
@@ -225,7 +225,7 @@ class ReportDefinitionServiceGetReportFields implements ModelInterface, ArrayAcc
     /**
      * Sets type
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceType $type type
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceType $type type
      *
      * @return self
      */

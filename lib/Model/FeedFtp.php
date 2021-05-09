@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * FeedFtp Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;FeedFtpオブジェクトは、定期アップロード設定情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedFtp object retains Periodic Upload setting information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,11 +62,11 @@ class FeedFtp implements ModelInterface, ArrayAccess, \JsonSerializable
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'active_status' => '\OpenAPI\Client\Model\FeedFtpServiceActiveStatus',
+        'active_status' => '\YahooAdsDisplayApi\Client\Model\FeedFtpServiceActiveStatus',
         'feed_id' => 'int',
         'feed_url' => 'string',
-        'item_list_upload_type' => '\OpenAPI\Client\Model\FeedFtpServiceItemListUploadType',
-        'schedule' => '\OpenAPI\Client\Model\FeedFtpServiceSchedule',
+        'item_list_upload_type' => '\YahooAdsDisplayApi\Client\Model\FeedFtpServiceItemListUploadType',
+        'schedule' => '\YahooAdsDisplayApi\Client\Model\FeedFtpServiceSchedule',
         'user_name' => 'string',
         'user_password' => 'string'
     ];
@@ -279,7 +279,7 @@ class FeedFtp implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets active_status
      *
-     * @return \OpenAPI\Client\Model\FeedFtpServiceActiveStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedFtpServiceActiveStatus|null
      */
     public function getActiveStatus()
     {
@@ -289,7 +289,7 @@ class FeedFtp implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets active_status
      *
-     * @param \OpenAPI\Client\Model\FeedFtpServiceActiveStatus|null $active_status active_status
+     * @param \YahooAdsDisplayApi\Client\Model\FeedFtpServiceActiveStatus|null $active_status active_status
      *
      * @return self
      */
@@ -351,7 +351,7 @@ class FeedFtp implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets item_list_upload_type
      *
-     * @return \OpenAPI\Client\Model\FeedFtpServiceItemListUploadType|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedFtpServiceItemListUploadType|null
      */
     public function getItemListUploadType()
     {
@@ -361,7 +361,7 @@ class FeedFtp implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets item_list_upload_type
      *
-     * @param \OpenAPI\Client\Model\FeedFtpServiceItemListUploadType|null $item_list_upload_type item_list_upload_type
+     * @param \YahooAdsDisplayApi\Client\Model\FeedFtpServiceItemListUploadType|null $item_list_upload_type item_list_upload_type
      *
      * @return self
      */
@@ -375,7 +375,7 @@ class FeedFtp implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets schedule
      *
-     * @return \OpenAPI\Client\Model\FeedFtpServiceSchedule|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedFtpServiceSchedule|null
      */
     public function getSchedule()
     {
@@ -385,7 +385,7 @@ class FeedFtp implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets schedule
      *
-     * @param \OpenAPI\Client\Model\FeedFtpServiceSchedule|null $schedule schedule
+     * @param \YahooAdsDisplayApi\Client\Model\FeedFtpServiceSchedule|null $schedule schedule
      *
      * @return self
      */

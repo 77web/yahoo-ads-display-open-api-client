@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupAdServiceResponsiveImageAd Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; AdGroupAdServiceResponsiveImageAdオブジェクトは、レスポンシブ広告の情報を表します。&lt;br&gt; このフィールドは、省略可能となります。&lt;br&gt; ※ADD時、adTypeがRESPONSIVE_IMAGE_ADの場合は必須です。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; AdGroupAdServiceResponsiveImageAd object describes the Responsive Ad information.&lt;br&gt; This field is optional.&lt;br&gt; *If adType is RESPONSIVE_IMAGE_AD, this field is required in ADD operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,11 +61,11 @@ class AdGroupAdServiceResponsiveImageAd implements ModelInterface, ArrayAccess, 
       * @var string[]
       */
     protected static $openAPITypes = [
-        'button_text' => '\OpenAPI\Client\Model\AdGroupAdServiceButtonText',
+        'button_text' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceButtonText',
         'description' => 'string',
         'display_url' => 'string',
         'headline' => 'string',
-        'is_remove_logo_media_id' => '\OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg',
+        'is_remove_logo_media_id' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg',
         'logo_media_id' => 'int',
         'principal' => 'string',
         'url' => 'string'
@@ -255,7 +255,7 @@ class AdGroupAdServiceResponsiveImageAd implements ModelInterface, ArrayAccess, 
     /**
      * Gets button_text
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceButtonText|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceButtonText|null
      */
     public function getButtonText()
     {
@@ -265,7 +265,7 @@ class AdGroupAdServiceResponsiveImageAd implements ModelInterface, ArrayAccess, 
     /**
      * Sets button_text
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceButtonText|null $button_text button_text
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceButtonText|null $button_text button_text
      *
      * @return self
      */
@@ -351,7 +351,7 @@ class AdGroupAdServiceResponsiveImageAd implements ModelInterface, ArrayAccess, 
     /**
      * Gets is_remove_logo_media_id
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null
      */
     public function getIsRemoveLogoMediaId()
     {
@@ -361,7 +361,7 @@ class AdGroupAdServiceResponsiveImageAd implements ModelInterface, ArrayAccess, 
     /**
      * Sets is_remove_logo_media_id
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_logo_media_id is_remove_logo_media_id
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_logo_media_id is_remove_logo_media_id
      *
      * @return self
      */

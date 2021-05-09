@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AuditLogServicePage Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;AuditLogServicePage、getメソッドの実行結果（全Entityのリスト）を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The AuditLogServicePage object contains the results (a list of all entities) for get method.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class AuditLogServicePage implements ModelInterface, ArrayAccess, \JsonSerializa
       */
     protected static $openAPITypes = [
         'total_num_entries' => 'int',
-        'values' => '\OpenAPI\Client\Model\AuditLogServiceValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\AuditLogServiceValue[]'
     ];
 
     /**
@@ -243,7 +243,7 @@ class AuditLogServicePage implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\AuditLogServiceValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\AuditLogServiceValue[]|null
      */
     public function getValues()
     {
@@ -253,7 +253,7 @@ class AuditLogServicePage implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\AuditLogServiceValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\AuditLogServiceValue[]|null $values values
      *
      * @return self
      */

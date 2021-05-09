@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * StatsServicePage Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;StatsServicePageオブジェクトは、getメソッドの実行結果（全Entityのリスト）を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;StatsServicePage object is a container that includes the execution result of get methods (list of all entities).&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,9 +61,9 @@ class StatsServicePage implements ModelInterface, ArrayAccess, \JsonSerializable
       * @var string[]
       */
     protected static $openAPITypes = [
-        'period' => '\OpenAPI\Client\Model\StatsServicePeriod',
+        'period' => '\YahooAdsDisplayApi\Client\Model\StatsServicePeriod',
         'total_num_entries' => 'int',
-        'values' => '\OpenAPI\Client\Model\StatsServiceValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\StatsServiceValue[]'
     ];
 
     /**
@@ -225,7 +225,7 @@ class StatsServicePage implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets period
      *
-     * @return \OpenAPI\Client\Model\StatsServicePeriod|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServicePeriod|null
      */
     public function getPeriod()
     {
@@ -235,7 +235,7 @@ class StatsServicePage implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets period
      *
-     * @param \OpenAPI\Client\Model\StatsServicePeriod|null $period period
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServicePeriod|null $period period
      *
      * @return self
      */
@@ -273,7 +273,7 @@ class StatsServicePage implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\StatsServiceValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceValue[]|null
      */
     public function getValues()
     {
@@ -283,7 +283,7 @@ class StatsServicePage implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\StatsServiceValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceValue[]|null $values values
      *
      * @return self
      */

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * Video Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;Videoオブジェクトは、動画情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Video object is a container for the information of videos.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,14 +62,14 @@ class Video implements ModelInterface, ArrayAccess, \JsonSerializable
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'approval_status' => '\OpenAPI\Client\Model\VideoServiceApprovalStatus',
+        'approval_status' => '\YahooAdsDisplayApi\Client\Model\VideoServiceApprovalStatus',
         'creation_time' => 'string',
         'disapproval_reason_codes' => 'string[]',
         'media_id' => 'int',
-        'process_status' => '\OpenAPI\Client\Model\VideoServiceProcessStatus',
-        'user_status' => '\OpenAPI\Client\Model\VideoServiceUserStatus',
+        'process_status' => '\YahooAdsDisplayApi\Client\Model\VideoServiceProcessStatus',
+        'user_status' => '\YahooAdsDisplayApi\Client\Model\VideoServiceUserStatus',
         'video_name' => 'string',
-        'video_setting' => '\OpenAPI\Client\Model\VideoServiceSetting',
+        'video_setting' => '\YahooAdsDisplayApi\Client\Model\VideoServiceSetting',
         'video_title' => 'string',
         'created_date' => 'string'
     ];
@@ -297,7 +297,7 @@ class Video implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets approval_status
      *
-     * @return \OpenAPI\Client\Model\VideoServiceApprovalStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\VideoServiceApprovalStatus|null
      */
     public function getApprovalStatus()
     {
@@ -307,7 +307,7 @@ class Video implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets approval_status
      *
-     * @param \OpenAPI\Client\Model\VideoServiceApprovalStatus|null $approval_status approval_status
+     * @param \YahooAdsDisplayApi\Client\Model\VideoServiceApprovalStatus|null $approval_status approval_status
      *
      * @return self
      */
@@ -393,7 +393,7 @@ class Video implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets process_status
      *
-     * @return \OpenAPI\Client\Model\VideoServiceProcessStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\VideoServiceProcessStatus|null
      */
     public function getProcessStatus()
     {
@@ -403,7 +403,7 @@ class Video implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets process_status
      *
-     * @param \OpenAPI\Client\Model\VideoServiceProcessStatus|null $process_status process_status
+     * @param \YahooAdsDisplayApi\Client\Model\VideoServiceProcessStatus|null $process_status process_status
      *
      * @return self
      */
@@ -417,7 +417,7 @@ class Video implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets user_status
      *
-     * @return \OpenAPI\Client\Model\VideoServiceUserStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\VideoServiceUserStatus|null
      */
     public function getUserStatus()
     {
@@ -427,7 +427,7 @@ class Video implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets user_status
      *
-     * @param \OpenAPI\Client\Model\VideoServiceUserStatus|null $user_status user_status
+     * @param \YahooAdsDisplayApi\Client\Model\VideoServiceUserStatus|null $user_status user_status
      *
      * @return self
      */
@@ -465,7 +465,7 @@ class Video implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets video_setting
      *
-     * @return \OpenAPI\Client\Model\VideoServiceSetting|null
+     * @return \YahooAdsDisplayApi\Client\Model\VideoServiceSetting|null
      */
     public function getVideoSetting()
     {
@@ -475,7 +475,7 @@ class Video implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets video_setting
      *
-     * @param \OpenAPI\Client\Model\VideoServiceSetting|null $video_setting video_setting
+     * @param \YahooAdsDisplayApi\Client\Model\VideoServiceSetting|null $video_setting video_setting
      *
      * @return self
      */

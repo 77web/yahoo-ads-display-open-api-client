@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ConversionTrackerServiceSelector Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;ConversionTrackerServiceSelectorオブジェクトは、getメソッドの検索条件（実行パラメータ）を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;ConversionTrackerServiceSelector object contains a set of criteria (parameters) for get method.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,18 +62,18 @@ class ConversionTrackerServiceSelector implements ModelInterface, ArrayAccess, \
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'app_conversion_platform' => '\OpenAPI\Client\Model\ConversionTrackerServiceAppConversionPlatform',
+        'app_conversion_platform' => '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceAppConversionPlatform',
         'app_ids' => 'string[]',
-        'categories' => '\OpenAPI\Client\Model\ConversionTrackerServiceCategory[]',
+        'categories' => '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceCategory[]',
         'conversion_tracker_ids' => 'int[]',
-        'conversion_tracker_types' => '\OpenAPI\Client\Model\ConversionTrackerServiceType[]',
-        'counting_type' => '\OpenAPI\Client\Model\ConversionTrackerServiceCountingType',
-        'exclude_from_bidding' => '\OpenAPI\Client\Model\ConversionTrackerServiceExcludeFromBidding',
+        'conversion_tracker_types' => '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceType[]',
+        'counting_type' => '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceCountingType',
+        'exclude_from_bidding' => '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceExcludeFromBidding',
         'number_results' => 'int',
         'start_index' => 'int',
-        'stats_period' => '\OpenAPI\Client\Model\ConversionTrackerServiceStatsPeriod',
-        'stats_period_custom_date' => '\OpenAPI\Client\Model\ConversionTrackerServiceStatsPeriodCustomDate',
-        'statuses' => '\OpenAPI\Client\Model\ConversionTrackerServiceStatus[]'
+        'stats_period' => '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceStatsPeriod',
+        'stats_period_custom_date' => '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceStatsPeriodCustomDate',
+        'statuses' => '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceStatus[]'
     ];
 
     /**
@@ -344,7 +344,7 @@ class ConversionTrackerServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Gets app_conversion_platform
      *
-     * @return \OpenAPI\Client\Model\ConversionTrackerServiceAppConversionPlatform|null
+     * @return \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceAppConversionPlatform|null
      */
     public function getAppConversionPlatform()
     {
@@ -354,7 +354,7 @@ class ConversionTrackerServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Sets app_conversion_platform
      *
-     * @param \OpenAPI\Client\Model\ConversionTrackerServiceAppConversionPlatform|null $app_conversion_platform app_conversion_platform
+     * @param \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceAppConversionPlatform|null $app_conversion_platform app_conversion_platform
      *
      * @return self
      */
@@ -396,7 +396,7 @@ class ConversionTrackerServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Gets categories
      *
-     * @return \OpenAPI\Client\Model\ConversionTrackerServiceCategory[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceCategory[]|null
      */
     public function getCategories()
     {
@@ -406,7 +406,7 @@ class ConversionTrackerServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Sets categories
      *
-     * @param \OpenAPI\Client\Model\ConversionTrackerServiceCategory[]|null $categories categories
+     * @param \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceCategory[]|null $categories categories
      *
      * @return self
      */
@@ -452,7 +452,7 @@ class ConversionTrackerServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Gets conversion_tracker_types
      *
-     * @return \OpenAPI\Client\Model\ConversionTrackerServiceType[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceType[]|null
      */
     public function getConversionTrackerTypes()
     {
@@ -462,7 +462,7 @@ class ConversionTrackerServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Sets conversion_tracker_types
      *
-     * @param \OpenAPI\Client\Model\ConversionTrackerServiceType[]|null $conversion_tracker_types conversion_tracker_types
+     * @param \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceType[]|null $conversion_tracker_types conversion_tracker_types
      *
      * @return self
      */
@@ -480,7 +480,7 @@ class ConversionTrackerServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Gets counting_type
      *
-     * @return \OpenAPI\Client\Model\ConversionTrackerServiceCountingType|null
+     * @return \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceCountingType|null
      */
     public function getCountingType()
     {
@@ -490,7 +490,7 @@ class ConversionTrackerServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Sets counting_type
      *
-     * @param \OpenAPI\Client\Model\ConversionTrackerServiceCountingType|null $counting_type counting_type
+     * @param \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceCountingType|null $counting_type counting_type
      *
      * @return self
      */
@@ -504,7 +504,7 @@ class ConversionTrackerServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Gets exclude_from_bidding
      *
-     * @return \OpenAPI\Client\Model\ConversionTrackerServiceExcludeFromBidding|null
+     * @return \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceExcludeFromBidding|null
      */
     public function getExcludeFromBidding()
     {
@@ -514,7 +514,7 @@ class ConversionTrackerServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Sets exclude_from_bidding
      *
-     * @param \OpenAPI\Client\Model\ConversionTrackerServiceExcludeFromBidding|null $exclude_from_bidding exclude_from_bidding
+     * @param \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceExcludeFromBidding|null $exclude_from_bidding exclude_from_bidding
      *
      * @return self
      */
@@ -589,7 +589,7 @@ class ConversionTrackerServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Gets stats_period
      *
-     * @return \OpenAPI\Client\Model\ConversionTrackerServiceStatsPeriod|null
+     * @return \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceStatsPeriod|null
      */
     public function getStatsPeriod()
     {
@@ -599,7 +599,7 @@ class ConversionTrackerServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Sets stats_period
      *
-     * @param \OpenAPI\Client\Model\ConversionTrackerServiceStatsPeriod|null $stats_period stats_period
+     * @param \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceStatsPeriod|null $stats_period stats_period
      *
      * @return self
      */
@@ -613,7 +613,7 @@ class ConversionTrackerServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Gets stats_period_custom_date
      *
-     * @return \OpenAPI\Client\Model\ConversionTrackerServiceStatsPeriodCustomDate|null
+     * @return \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceStatsPeriodCustomDate|null
      */
     public function getStatsPeriodCustomDate()
     {
@@ -623,7 +623,7 @@ class ConversionTrackerServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Sets stats_period_custom_date
      *
-     * @param \OpenAPI\Client\Model\ConversionTrackerServiceStatsPeriodCustomDate|null $stats_period_custom_date stats_period_custom_date
+     * @param \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceStatsPeriodCustomDate|null $stats_period_custom_date stats_period_custom_date
      *
      * @return self
      */
@@ -637,7 +637,7 @@ class ConversionTrackerServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Gets statuses
      *
-     * @return \OpenAPI\Client\Model\ConversionTrackerServiceStatus[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceStatus[]|null
      */
     public function getStatuses()
     {
@@ -647,7 +647,7 @@ class ConversionTrackerServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Sets statuses
      *
-     * @param \OpenAPI\Client\Model\ConversionTrackerServiceStatus[]|null $statuses statuses
+     * @param \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceStatus[]|null $statuses statuses
      *
      * @return self
      */

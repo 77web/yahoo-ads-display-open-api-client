@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * PlacementUrlIdeaServiceSelector Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;PlacementUrlIdeaServiceSelectorオブジェクトは、getメソッドの検索条件（実行パラメータ）を保持するオブジェクトです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The objects to keep get method search conditions (execution parameter).&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -63,7 +63,7 @@ class PlacementUrlIdeaServiceSelector implements ModelInterface, ArrayAccess, \J
     protected static $openAPITypes = [
         'keyword' => 'string',
         'site_categories' => 'string[]',
-        'ad_formats' => '\OpenAPI\Client\Model\PlacementUrlIdeaServiceAdFormatConditions[]',
+        'ad_formats' => '\YahooAdsDisplayApi\Client\Model\PlacementUrlIdeaServiceAdFormatConditions[]',
         'start_index' => 'int',
         'number_results' => 'int'
     ];
@@ -309,7 +309,7 @@ class PlacementUrlIdeaServiceSelector implements ModelInterface, ArrayAccess, \J
     /**
      * Gets ad_formats
      *
-     * @return \OpenAPI\Client\Model\PlacementUrlIdeaServiceAdFormatConditions[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\PlacementUrlIdeaServiceAdFormatConditions[]|null
      */
     public function getAdFormats()
     {
@@ -319,7 +319,7 @@ class PlacementUrlIdeaServiceSelector implements ModelInterface, ArrayAccess, \J
     /**
      * Sets ad_formats
      *
-     * @param \OpenAPI\Client\Model\PlacementUrlIdeaServiceAdFormatConditions[]|null $ad_formats ad_formats
+     * @param \YahooAdsDisplayApi\Client\Model\PlacementUrlIdeaServiceAdFormatConditions[]|null $ad_formats ad_formats
      *
      * @return self
      */

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ConversionTrackerServicePage Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;ConversionTrackerServicePageオブジェクトは、getメソッドの実行結果（全Entityのリスト）を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;ConversionTrackerServicePage object contains the results (a list of all entities) for get method.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class ConversionTrackerServicePage implements ModelInterface, ArrayAccess, \Json
       * @var string[]
       */
     protected static $openAPITypes = [
-        'period' => '\OpenAPI\Client\Model\ConversionTrackerServicePeriod',
+        'period' => '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServicePeriod',
         'total_all_conversion_value' => 'string',
         'total_all_conversions' => 'int',
         'total_conversion_value' => 'string',
@@ -70,7 +70,7 @@ class ConversionTrackerServicePage implements ModelInterface, ArrayAccess, \Json
         'total_conversions_via_ad_click' => 'int',
         'total_cross_device_conversions' => 'int',
         'total_num_entries' => 'int',
-        'values' => '\OpenAPI\Client\Model\ConversionTrackerServiceValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceValue[]'
     ];
 
     /**
@@ -267,7 +267,7 @@ class ConversionTrackerServicePage implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets period
      *
-     * @return \OpenAPI\Client\Model\ConversionTrackerServicePeriod|null
+     * @return \YahooAdsDisplayApi\Client\Model\ConversionTrackerServicePeriod|null
      */
     public function getPeriod()
     {
@@ -277,7 +277,7 @@ class ConversionTrackerServicePage implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets period
      *
-     * @param \OpenAPI\Client\Model\ConversionTrackerServicePeriod|null $period period
+     * @param \YahooAdsDisplayApi\Client\Model\ConversionTrackerServicePeriod|null $period period
      *
      * @return self
      */
@@ -483,7 +483,7 @@ class ConversionTrackerServicePage implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\ConversionTrackerServiceValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceValue[]|null
      */
     public function getValues()
     {
@@ -493,7 +493,7 @@ class ConversionTrackerServicePage implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\ConversionTrackerServiceValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceValue[]|null $values values
      *
      * @return self
      */

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupAdServiceAd Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; AdGroupAdServiceAdオブジェクトは、広告を格納するコンテナです。&lt;br&gt; このフィールドは、ADD時は必須となり、SET時は省略可能となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; AdGroupAdServiceAd object is a container for storing ads.&lt;br&gt; This field is required in ADD operation, and will be optional in SET operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,16 +61,16 @@ class AdGroupAdServiceAd implements ModelInterface, ArrayAccess, \JsonSerializab
       * @var string[]
       */
     protected static $openAPITypes = [
-        'ad_type' => '\OpenAPI\Client\Model\AdGroupAdServiceAdType',
-        'banner_image_ad' => '\OpenAPI\Client\Model\AdGroupAdServiceBannerImageAd',
-        'banner_video_ad' => '\OpenAPI\Client\Model\AdGroupAdServiceBannerVideoAd',
-        'dynamic_ad' => '\OpenAPI\Client\Model\AdGroupAdServiceDynamicAd',
-        'mobile_ad' => '\OpenAPI\Client\Model\AdGroupAdServiceMobileAd',
-        'pos_ad' => '\OpenAPI\Client\Model\AdGroupAdServicePosAd',
-        'responsive_image_ad' => '\OpenAPI\Client\Model\AdGroupAdServiceResponsiveImageAd',
-        'responsive_video_ad' => '\OpenAPI\Client\Model\AdGroupAdServiceResponsiveVideoAd',
-        'static_frame_ad' => '\OpenAPI\Client\Model\AdGroupAdServiceStaticFrameAd',
-        'text_ad' => '\OpenAPI\Client\Model\AdGroupAdServiceTextAd'
+        'ad_type' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceAdType',
+        'banner_image_ad' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceBannerImageAd',
+        'banner_video_ad' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceBannerVideoAd',
+        'dynamic_ad' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceDynamicAd',
+        'mobile_ad' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceMobileAd',
+        'pos_ad' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServicePosAd',
+        'responsive_image_ad' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceResponsiveImageAd',
+        'responsive_video_ad' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceResponsiveVideoAd',
+        'static_frame_ad' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceStaticFrameAd',
+        'text_ad' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceTextAd'
     ];
 
     /**
@@ -267,7 +267,7 @@ class AdGroupAdServiceAd implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets ad_type
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceAdType|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceAdType|null
      */
     public function getAdType()
     {
@@ -277,7 +277,7 @@ class AdGroupAdServiceAd implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets ad_type
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceAdType|null $ad_type ad_type
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceAdType|null $ad_type ad_type
      *
      * @return self
      */
@@ -291,7 +291,7 @@ class AdGroupAdServiceAd implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets banner_image_ad
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceBannerImageAd|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceBannerImageAd|null
      */
     public function getBannerImageAd()
     {
@@ -301,7 +301,7 @@ class AdGroupAdServiceAd implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets banner_image_ad
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceBannerImageAd|null $banner_image_ad banner_image_ad
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceBannerImageAd|null $banner_image_ad banner_image_ad
      *
      * @return self
      */
@@ -315,7 +315,7 @@ class AdGroupAdServiceAd implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets banner_video_ad
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceBannerVideoAd|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceBannerVideoAd|null
      */
     public function getBannerVideoAd()
     {
@@ -325,7 +325,7 @@ class AdGroupAdServiceAd implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets banner_video_ad
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceBannerVideoAd|null $banner_video_ad banner_video_ad
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceBannerVideoAd|null $banner_video_ad banner_video_ad
      *
      * @return self
      */
@@ -339,7 +339,7 @@ class AdGroupAdServiceAd implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets dynamic_ad
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceDynamicAd|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceDynamicAd|null
      */
     public function getDynamicAd()
     {
@@ -349,7 +349,7 @@ class AdGroupAdServiceAd implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets dynamic_ad
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceDynamicAd|null $dynamic_ad dynamic_ad
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceDynamicAd|null $dynamic_ad dynamic_ad
      *
      * @return self
      */
@@ -363,7 +363,7 @@ class AdGroupAdServiceAd implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets mobile_ad
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceMobileAd|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceMobileAd|null
      */
     public function getMobileAd()
     {
@@ -373,7 +373,7 @@ class AdGroupAdServiceAd implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets mobile_ad
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceMobileAd|null $mobile_ad mobile_ad
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceMobileAd|null $mobile_ad mobile_ad
      *
      * @return self
      */
@@ -387,7 +387,7 @@ class AdGroupAdServiceAd implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets pos_ad
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServicePosAd|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServicePosAd|null
      */
     public function getPosAd()
     {
@@ -397,7 +397,7 @@ class AdGroupAdServiceAd implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets pos_ad
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServicePosAd|null $pos_ad pos_ad
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServicePosAd|null $pos_ad pos_ad
      *
      * @return self
      */
@@ -411,7 +411,7 @@ class AdGroupAdServiceAd implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets responsive_image_ad
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceResponsiveImageAd|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceResponsiveImageAd|null
      */
     public function getResponsiveImageAd()
     {
@@ -421,7 +421,7 @@ class AdGroupAdServiceAd implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets responsive_image_ad
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceResponsiveImageAd|null $responsive_image_ad responsive_image_ad
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceResponsiveImageAd|null $responsive_image_ad responsive_image_ad
      *
      * @return self
      */
@@ -435,7 +435,7 @@ class AdGroupAdServiceAd implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets responsive_video_ad
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceResponsiveVideoAd|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceResponsiveVideoAd|null
      */
     public function getResponsiveVideoAd()
     {
@@ -445,7 +445,7 @@ class AdGroupAdServiceAd implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets responsive_video_ad
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceResponsiveVideoAd|null $responsive_video_ad responsive_video_ad
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceResponsiveVideoAd|null $responsive_video_ad responsive_video_ad
      *
      * @return self
      */
@@ -459,7 +459,7 @@ class AdGroupAdServiceAd implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets static_frame_ad
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceStaticFrameAd|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceStaticFrameAd|null
      */
     public function getStaticFrameAd()
     {
@@ -469,7 +469,7 @@ class AdGroupAdServiceAd implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets static_frame_ad
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceStaticFrameAd|null $static_frame_ad static_frame_ad
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceStaticFrameAd|null $static_frame_ad static_frame_ad
      *
      * @return self
      */
@@ -483,7 +483,7 @@ class AdGroupAdServiceAd implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets text_ad
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceTextAd|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceTextAd|null
      */
     public function getTextAd()
     {
@@ -493,7 +493,7 @@ class AdGroupAdServiceAd implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets text_ad
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceTextAd|null $text_ad text_ad
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceTextAd|null $text_ad text_ad
      *
      * @return self
      */

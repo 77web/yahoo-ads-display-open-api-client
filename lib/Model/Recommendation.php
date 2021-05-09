@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * Recommendation Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;Recommendationオブジェクトは、最適化提案を格納するコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Recommendation object is a container for storing a recommendation.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,12 +61,12 @@ class Recommendation implements ModelInterface, ArrayAccess, \JsonSerializable
       * @var string[]
       */
     protected static $openAPITypes = [
-        'type' => '\OpenAPI\Client\Model\RecommendationServiceType',
-        'campaign_bidding_strategy_to_target_cpa' => '\OpenAPI\Client\Model\RecommendationServiceCampaignBiddingStrategyToTargetCpa',
-        'daily_budget_over' => '\OpenAPI\Client\Model\RecommendationServiceDailyBudgetOver',
-        'imps_share_budget_loss_over' => '\OpenAPI\Client\Model\RecommendationServiceImpsShareBudgetLossOver',
-        'migrate_to_yda' => '\OpenAPI\Client\Model\RecommendationServiceMigrateToYda',
-        'search_keyword_idea' => '\OpenAPI\Client\Model\RecommendationServiceSearchKeywordIdea'
+        'type' => '\YahooAdsDisplayApi\Client\Model\RecommendationServiceType',
+        'campaign_bidding_strategy_to_target_cpa' => '\YahooAdsDisplayApi\Client\Model\RecommendationServiceCampaignBiddingStrategyToTargetCpa',
+        'daily_budget_over' => '\YahooAdsDisplayApi\Client\Model\RecommendationServiceDailyBudgetOver',
+        'imps_share_budget_loss_over' => '\YahooAdsDisplayApi\Client\Model\RecommendationServiceImpsShareBudgetLossOver',
+        'migrate_to_yda' => '\YahooAdsDisplayApi\Client\Model\RecommendationServiceMigrateToYda',
+        'search_keyword_idea' => '\YahooAdsDisplayApi\Client\Model\RecommendationServiceSearchKeywordIdea'
     ];
 
     /**
@@ -243,7 +243,7 @@ class Recommendation implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets type
      *
-     * @return \OpenAPI\Client\Model\RecommendationServiceType|null
+     * @return \YahooAdsDisplayApi\Client\Model\RecommendationServiceType|null
      */
     public function getType()
     {
@@ -253,7 +253,7 @@ class Recommendation implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets type
      *
-     * @param \OpenAPI\Client\Model\RecommendationServiceType|null $type type
+     * @param \YahooAdsDisplayApi\Client\Model\RecommendationServiceType|null $type type
      *
      * @return self
      */
@@ -267,7 +267,7 @@ class Recommendation implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets campaign_bidding_strategy_to_target_cpa
      *
-     * @return \OpenAPI\Client\Model\RecommendationServiceCampaignBiddingStrategyToTargetCpa|null
+     * @return \YahooAdsDisplayApi\Client\Model\RecommendationServiceCampaignBiddingStrategyToTargetCpa|null
      */
     public function getCampaignBiddingStrategyToTargetCpa()
     {
@@ -277,7 +277,7 @@ class Recommendation implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets campaign_bidding_strategy_to_target_cpa
      *
-     * @param \OpenAPI\Client\Model\RecommendationServiceCampaignBiddingStrategyToTargetCpa|null $campaign_bidding_strategy_to_target_cpa campaign_bidding_strategy_to_target_cpa
+     * @param \YahooAdsDisplayApi\Client\Model\RecommendationServiceCampaignBiddingStrategyToTargetCpa|null $campaign_bidding_strategy_to_target_cpa campaign_bidding_strategy_to_target_cpa
      *
      * @return self
      */
@@ -291,7 +291,7 @@ class Recommendation implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets daily_budget_over
      *
-     * @return \OpenAPI\Client\Model\RecommendationServiceDailyBudgetOver|null
+     * @return \YahooAdsDisplayApi\Client\Model\RecommendationServiceDailyBudgetOver|null
      */
     public function getDailyBudgetOver()
     {
@@ -301,7 +301,7 @@ class Recommendation implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets daily_budget_over
      *
-     * @param \OpenAPI\Client\Model\RecommendationServiceDailyBudgetOver|null $daily_budget_over daily_budget_over
+     * @param \YahooAdsDisplayApi\Client\Model\RecommendationServiceDailyBudgetOver|null $daily_budget_over daily_budget_over
      *
      * @return self
      */
@@ -315,7 +315,7 @@ class Recommendation implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets imps_share_budget_loss_over
      *
-     * @return \OpenAPI\Client\Model\RecommendationServiceImpsShareBudgetLossOver|null
+     * @return \YahooAdsDisplayApi\Client\Model\RecommendationServiceImpsShareBudgetLossOver|null
      */
     public function getImpsShareBudgetLossOver()
     {
@@ -325,7 +325,7 @@ class Recommendation implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets imps_share_budget_loss_over
      *
-     * @param \OpenAPI\Client\Model\RecommendationServiceImpsShareBudgetLossOver|null $imps_share_budget_loss_over imps_share_budget_loss_over
+     * @param \YahooAdsDisplayApi\Client\Model\RecommendationServiceImpsShareBudgetLossOver|null $imps_share_budget_loss_over imps_share_budget_loss_over
      *
      * @return self
      */
@@ -339,7 +339,7 @@ class Recommendation implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets migrate_to_yda
      *
-     * @return \OpenAPI\Client\Model\RecommendationServiceMigrateToYda|null
+     * @return \YahooAdsDisplayApi\Client\Model\RecommendationServiceMigrateToYda|null
      */
     public function getMigrateToYda()
     {
@@ -349,7 +349,7 @@ class Recommendation implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets migrate_to_yda
      *
-     * @param \OpenAPI\Client\Model\RecommendationServiceMigrateToYda|null $migrate_to_yda migrate_to_yda
+     * @param \YahooAdsDisplayApi\Client\Model\RecommendationServiceMigrateToYda|null $migrate_to_yda migrate_to_yda
      *
      * @return self
      */
@@ -363,7 +363,7 @@ class Recommendation implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets search_keyword_idea
      *
-     * @return \OpenAPI\Client\Model\RecommendationServiceSearchKeywordIdea|null
+     * @return \YahooAdsDisplayApi\Client\Model\RecommendationServiceSearchKeywordIdea|null
      */
     public function getSearchKeywordIdea()
     {
@@ -373,7 +373,7 @@ class Recommendation implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets search_keyword_idea
      *
-     * @param \OpenAPI\Client\Model\RecommendationServiceSearchKeywordIdea|null $search_keyword_idea search_keyword_idea
+     * @param \YahooAdsDisplayApi\Client\Model\RecommendationServiceSearchKeywordIdea|null $search_keyword_idea search_keyword_idea
      *
      * @return self
      */

@@ -4,7 +4,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Api;
+namespace YahooAdsDisplayApi\Client\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use OpenAPI\Client\ApiException;
-use OpenAPI\Client\Configuration;
-use OpenAPI\Client\HeaderSelector;
-use OpenAPI\Client\ObjectSerializer;
+use YahooAdsDisplayApi\Client\ApiException;
+use YahooAdsDisplayApi\Client\Configuration;
+use YahooAdsDisplayApi\Client\HeaderSelector;
+use YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedPreviewServiceApi Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -118,11 +118,11 @@ class GuaranteedPreviewServiceApi
     /**
      * Operation guaranteedPreviewServiceGetPost
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedPreviewServiceSelector $guaranteed_preview_service_selector guaranteed_preview_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceSelector $guaranteed_preview_service_selector guaranteed_preview_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\GuaranteedPreviewServiceGetResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceGetResponse
      */
     public function guaranteedPreviewServiceGetPost($guaranteed_preview_service_selector = null)
     {
@@ -133,11 +133,11 @@ class GuaranteedPreviewServiceApi
     /**
      * Operation guaranteedPreviewServiceGetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedPreviewServiceSelector $guaranteed_preview_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceSelector $guaranteed_preview_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\GuaranteedPreviewServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function guaranteedPreviewServiceGetPostWithHttpInfo($guaranteed_preview_service_selector = null)
     {
@@ -174,20 +174,20 @@ class GuaranteedPreviewServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\GuaranteedPreviewServiceGetResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceGetResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\GuaranteedPreviewServiceGetResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceGetResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\GuaranteedPreviewServiceGetResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceGetResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -206,7 +206,7 @@ class GuaranteedPreviewServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\GuaranteedPreviewServiceGetResponse',
+                        '\YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceGetResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -221,7 +221,7 @@ class GuaranteedPreviewServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedPreviewServiceSelector $guaranteed_preview_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceSelector $guaranteed_preview_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -241,14 +241,14 @@ class GuaranteedPreviewServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedPreviewServiceSelector $guaranteed_preview_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceSelector $guaranteed_preview_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function guaranteedPreviewServiceGetPostAsyncWithHttpInfo($guaranteed_preview_service_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\GuaranteedPreviewServiceGetResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceGetResponse';
         $request = $this->guaranteedPreviewServiceGetPostRequest($guaranteed_preview_service_selector);
 
         return $this->client
@@ -288,7 +288,7 @@ class GuaranteedPreviewServiceApi
     /**
      * Create request for operation 'guaranteedPreviewServiceGetPost'
      *
-     * @param  \OpenAPI\Client\Model\GuaranteedPreviewServiceSelector $guaranteed_preview_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\GuaranteedPreviewServiceSelector $guaranteed_preview_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

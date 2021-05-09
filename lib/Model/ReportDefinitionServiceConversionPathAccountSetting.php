@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ReportDefinitionServiceConversionPathAccountSetting Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; ReportDefinitionServiceConversionPathAccountSettingオブジェクトは、コンバージョン経路の対象アカウント設定を表します。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; ReportDefinitionServiceConversionPathAccountSetting object describes account setting that is subject to the conversion path. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class ReportDefinitionServiceConversionPathAccountSetting implements ModelInterf
       * @var string[]
       */
     protected static $openAPITypes = [
-        'base_account' => '\OpenAPI\Client\Model\ReportDefinitionServiceAccount',
-        'sub_accounts' => '\OpenAPI\Client\Model\ReportDefinitionServiceAccount[]'
+        'base_account' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceAccount',
+        'sub_accounts' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceAccount[]'
     ];
 
     /**
@@ -219,7 +219,7 @@ class ReportDefinitionServiceConversionPathAccountSetting implements ModelInterf
     /**
      * Gets base_account
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceAccount|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceAccount|null
      */
     public function getBaseAccount()
     {
@@ -229,7 +229,7 @@ class ReportDefinitionServiceConversionPathAccountSetting implements ModelInterf
     /**
      * Sets base_account
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceAccount|null $base_account base_account
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceAccount|null $base_account base_account
      *
      * @return self
      */
@@ -243,7 +243,7 @@ class ReportDefinitionServiceConversionPathAccountSetting implements ModelInterf
     /**
      * Gets sub_accounts
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceAccount[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceAccount[]|null
      */
     public function getSubAccounts()
     {
@@ -253,7 +253,7 @@ class ReportDefinitionServiceConversionPathAccountSetting implements ModelInterf
     /**
      * Sets sub_accounts
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceAccount[]|null $sub_accounts sub_accounts
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceAccount[]|null $sub_accounts sub_accounts
      *
      * @return self
      */

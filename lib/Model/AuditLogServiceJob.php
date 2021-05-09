@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AuditLogServiceJob Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;AuditLogServiceJobは操作履歴のダウンロードジョブの情報を保持するオブジェクトです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;AuditLogServiceJob object is a container for storing the download operation history job information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -68,11 +68,11 @@ class AuditLogServiceJob implements ModelInterface, ArrayAccess, \JsonSerializab
         'audit_log_job_start_date' => 'string',
         'audit_log_job_user_name' => 'string',
         'campaign_ids' => 'int[]',
-        'date_range' => '\OpenAPI\Client\Model\AuditLogServiceDateRange',
-        'job_status' => '\OpenAPI\Client\Model\AuditLogServiceJobStatus',
-        'lang' => '\OpenAPI\Client\Model\AuditLogServiceLang',
+        'date_range' => '\YahooAdsDisplayApi\Client\Model\AuditLogServiceDateRange',
+        'job_status' => '\YahooAdsDisplayApi\Client\Model\AuditLogServiceJobStatus',
+        'lang' => '\YahooAdsDisplayApi\Client\Model\AuditLogServiceLang',
         'progress' => 'int',
-        'update_source' => '\OpenAPI\Client\Model\AuditLogServiceUpdateSource'
+        'update_source' => '\YahooAdsDisplayApi\Client\Model\AuditLogServiceUpdateSource'
     ];
 
     /**
@@ -455,7 +455,7 @@ class AuditLogServiceJob implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets date_range
      *
-     * @return \OpenAPI\Client\Model\AuditLogServiceDateRange|null
+     * @return \YahooAdsDisplayApi\Client\Model\AuditLogServiceDateRange|null
      */
     public function getDateRange()
     {
@@ -465,7 +465,7 @@ class AuditLogServiceJob implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets date_range
      *
-     * @param \OpenAPI\Client\Model\AuditLogServiceDateRange|null $date_range date_range
+     * @param \YahooAdsDisplayApi\Client\Model\AuditLogServiceDateRange|null $date_range date_range
      *
      * @return self
      */
@@ -479,7 +479,7 @@ class AuditLogServiceJob implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets job_status
      *
-     * @return \OpenAPI\Client\Model\AuditLogServiceJobStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\AuditLogServiceJobStatus|null
      */
     public function getJobStatus()
     {
@@ -489,7 +489,7 @@ class AuditLogServiceJob implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets job_status
      *
-     * @param \OpenAPI\Client\Model\AuditLogServiceJobStatus|null $job_status job_status
+     * @param \YahooAdsDisplayApi\Client\Model\AuditLogServiceJobStatus|null $job_status job_status
      *
      * @return self
      */
@@ -503,7 +503,7 @@ class AuditLogServiceJob implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets lang
      *
-     * @return \OpenAPI\Client\Model\AuditLogServiceLang|null
+     * @return \YahooAdsDisplayApi\Client\Model\AuditLogServiceLang|null
      */
     public function getLang()
     {
@@ -513,7 +513,7 @@ class AuditLogServiceJob implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets lang
      *
-     * @param \OpenAPI\Client\Model\AuditLogServiceLang|null $lang lang
+     * @param \YahooAdsDisplayApi\Client\Model\AuditLogServiceLang|null $lang lang
      *
      * @return self
      */
@@ -551,7 +551,7 @@ class AuditLogServiceJob implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets update_source
      *
-     * @return \OpenAPI\Client\Model\AuditLogServiceUpdateSource|null
+     * @return \YahooAdsDisplayApi\Client\Model\AuditLogServiceUpdateSource|null
      */
     public function getUpdateSource()
     {
@@ -561,7 +561,7 @@ class AuditLogServiceJob implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets update_source
      *
-     * @param \OpenAPI\Client\Model\AuditLogServiceUpdateSource|null $update_source update_source
+     * @param \YahooAdsDisplayApi\Client\Model\AuditLogServiceUpdateSource|null $update_source update_source
      *
      * @return self
      */

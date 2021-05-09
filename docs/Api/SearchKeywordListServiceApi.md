@@ -1,4 +1,4 @@
-# OpenAPI\Client\SearchKeywordListServiceApi
+# YahooAdsDisplayApi\Client\SearchKeywordListServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -13,7 +13,7 @@ Method | HTTP request | Description
 ## `searchKeywordListServiceAddPost()`
 
 ```php
-searchKeywordListServiceAddPost($search_keyword_list_service_operation): \OpenAPI\Client\Model\SearchKeywordListServiceMutateResponse
+searchKeywordListServiceAddPost($search_keyword_list_service_operation): \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceMutateResponse
 ```
 
 
@@ -28,16 +28,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\SearchKeywordListServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\SearchKeywordListServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$search_keyword_list_service_operation = new \OpenAPI\Client\Model\SearchKeywordListServiceOperation(); // \OpenAPI\Client\Model\SearchKeywordListServiceOperation
+$search_keyword_list_service_operation = new \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceOperation(); // \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceOperation
 
 try {
     $result = $apiInstance->searchKeywordListServiceAddPost($search_keyword_list_service_operation);
@@ -51,11 +51,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **search_keyword_list_service_operation** | [**\OpenAPI\Client\Model\SearchKeywordListServiceOperation**](../Model/SearchKeywordListServiceOperation.md)|  | [optional]
+ **search_keyword_list_service_operation** | [**\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceOperation**](../Model/SearchKeywordListServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\SearchKeywordListServiceMutateResponse**](../Model/SearchKeywordListServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceMutateResponse**](../Model/SearchKeywordListServiceMutateResponse.md)
 
 ### Authorization
 
@@ -73,7 +73,7 @@ Name | Type | Description  | Notes
 ## `searchKeywordListServiceGetPost()`
 
 ```php
-searchKeywordListServiceGetPost($search_keyword_list_service_selector): \OpenAPI\Client\Model\SearchKeywordListServiceGetResponse
+searchKeywordListServiceGetPost($search_keyword_list_service_selector): \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceGetResponse
 ```
 
 
@@ -88,16 +88,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\SearchKeywordListServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\SearchKeywordListServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$search_keyword_list_service_selector = new \OpenAPI\Client\Model\SearchKeywordListServiceSelector(); // \OpenAPI\Client\Model\SearchKeywordListServiceSelector
+$search_keyword_list_service_selector = new \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceSelector(); // \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceSelector
 
 try {
     $result = $apiInstance->searchKeywordListServiceGetPost($search_keyword_list_service_selector);
@@ -111,11 +111,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **search_keyword_list_service_selector** | [**\OpenAPI\Client\Model\SearchKeywordListServiceSelector**](../Model/SearchKeywordListServiceSelector.md)|  | [optional]
+ **search_keyword_list_service_selector** | [**\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceSelector**](../Model/SearchKeywordListServiceSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\SearchKeywordListServiceGetResponse**](../Model/SearchKeywordListServiceGetResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceGetResponse**](../Model/SearchKeywordListServiceGetResponse.md)
 
 ### Authorization
 
@@ -133,7 +133,7 @@ Name | Type | Description  | Notes
 ## `searchKeywordListServiceRemovePost()`
 
 ```php
-searchKeywordListServiceRemovePost($search_keyword_list_service_operation): \OpenAPI\Client\Model\SearchKeywordListServiceMutateResponse
+searchKeywordListServiceRemovePost($search_keyword_list_service_operation): \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceMutateResponse
 ```
 
 
@@ -148,16 +148,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\SearchKeywordListServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\SearchKeywordListServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$search_keyword_list_service_operation = new \OpenAPI\Client\Model\SearchKeywordListServiceOperation(); // \OpenAPI\Client\Model\SearchKeywordListServiceOperation
+$search_keyword_list_service_operation = new \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceOperation(); // \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceOperation
 
 try {
     $result = $apiInstance->searchKeywordListServiceRemovePost($search_keyword_list_service_operation);
@@ -171,11 +171,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **search_keyword_list_service_operation** | [**\OpenAPI\Client\Model\SearchKeywordListServiceOperation**](../Model/SearchKeywordListServiceOperation.md)|  | [optional]
+ **search_keyword_list_service_operation** | [**\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceOperation**](../Model/SearchKeywordListServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\SearchKeywordListServiceMutateResponse**](../Model/SearchKeywordListServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceMutateResponse**](../Model/SearchKeywordListServiceMutateResponse.md)
 
 ### Authorization
 
@@ -193,7 +193,7 @@ Name | Type | Description  | Notes
 ## `searchKeywordListServiceSetPost()`
 
 ```php
-searchKeywordListServiceSetPost($search_keyword_list_service_operation): \OpenAPI\Client\Model\SearchKeywordListServiceMutateResponse
+searchKeywordListServiceSetPost($search_keyword_list_service_operation): \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceMutateResponse
 ```
 
 
@@ -208,16 +208,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\SearchKeywordListServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\SearchKeywordListServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$search_keyword_list_service_operation = new \OpenAPI\Client\Model\SearchKeywordListServiceOperation(); // \OpenAPI\Client\Model\SearchKeywordListServiceOperation
+$search_keyword_list_service_operation = new \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceOperation(); // \YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceOperation
 
 try {
     $result = $apiInstance->searchKeywordListServiceSetPost($search_keyword_list_service_operation);
@@ -231,11 +231,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **search_keyword_list_service_operation** | [**\OpenAPI\Client\Model\SearchKeywordListServiceOperation**](../Model/SearchKeywordListServiceOperation.md)|  | [optional]
+ **search_keyword_list_service_operation** | [**\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceOperation**](../Model/SearchKeywordListServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\SearchKeywordListServiceMutateResponse**](../Model/SearchKeywordListServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\SearchKeywordListServiceMutateResponse**](../Model/SearchKeywordListServiceMutateResponse.md)
 
 ### Authorization
 

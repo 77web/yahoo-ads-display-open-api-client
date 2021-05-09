@@ -1,4 +1,4 @@
-# OpenAPI\Client\SearchLiftServiceApi
+# YahooAdsDisplayApi\Client\SearchLiftServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -10,7 +10,7 @@ Method | HTTP request | Description
 ## `searchLiftServiceGetPost()`
 
 ```php
-searchLiftServiceGetPost($search_lift_service_selector): \OpenAPI\Client\Model\SearchLiftServiceGetResponse
+searchLiftServiceGetPost($search_lift_service_selector): \YahooAdsDisplayApi\Client\Model\SearchLiftServiceGetResponse
 ```
 
 
@@ -25,16 +25,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\SearchLiftServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\SearchLiftServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$search_lift_service_selector = new \OpenAPI\Client\Model\SearchLiftServiceSelector(); // \OpenAPI\Client\Model\SearchLiftServiceSelector
+$search_lift_service_selector = new \YahooAdsDisplayApi\Client\Model\SearchLiftServiceSelector(); // \YahooAdsDisplayApi\Client\Model\SearchLiftServiceSelector
 
 try {
     $result = $apiInstance->searchLiftServiceGetPost($search_lift_service_selector);
@@ -48,11 +48,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **search_lift_service_selector** | [**\OpenAPI\Client\Model\SearchLiftServiceSelector**](../Model/SearchLiftServiceSelector.md)|  | [optional]
+ **search_lift_service_selector** | [**\YahooAdsDisplayApi\Client\Model\SearchLiftServiceSelector**](../Model/SearchLiftServiceSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\SearchLiftServiceGetResponse**](../Model/SearchLiftServiceGetResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\SearchLiftServiceGetResponse**](../Model/SearchLiftServiceGetResponse.md)
 
 ### Authorization
 

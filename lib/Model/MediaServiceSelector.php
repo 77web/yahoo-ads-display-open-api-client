@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * MediaServiceSelector Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;MediaServiceSelectorオブジェクトは、操作の対象とする画像およびフィルタ条件を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The MediaServiceSelector object serves operation target media and filtering condition.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,12 +62,12 @@ class MediaServiceSelector implements ModelInterface, ArrayAccess, \JsonSerializ
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'approval_statuses' => '\OpenAPI\Client\Model\MediaServiceApprovalStatus[]',
+        'approval_statuses' => '\YahooAdsDisplayApi\Client\Model\MediaServiceApprovalStatus[]',
         'media_ids' => 'int[]',
         'number_results' => 'int',
         'start_index' => 'int',
-        'user_statuses' => '\OpenAPI\Client\Model\MediaServiceUserStatus[]',
-        'created_date_range' => '\OpenAPI\Client\Model\MediaServiceCreatedDateRange'
+        'user_statuses' => '\YahooAdsDisplayApi\Client\Model\MediaServiceUserStatus[]',
+        'created_date_range' => '\YahooAdsDisplayApi\Client\Model\MediaServiceCreatedDateRange'
     ];
 
     /**
@@ -300,7 +300,7 @@ class MediaServiceSelector implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Gets approval_statuses
      *
-     * @return \OpenAPI\Client\Model\MediaServiceApprovalStatus[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\MediaServiceApprovalStatus[]|null
      */
     public function getApprovalStatuses()
     {
@@ -310,7 +310,7 @@ class MediaServiceSelector implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Sets approval_statuses
      *
-     * @param \OpenAPI\Client\Model\MediaServiceApprovalStatus[]|null $approval_statuses approval_statuses
+     * @param \YahooAdsDisplayApi\Client\Model\MediaServiceApprovalStatus[]|null $approval_statuses approval_statuses
      *
      * @return self
      */
@@ -417,7 +417,7 @@ class MediaServiceSelector implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Gets user_statuses
      *
-     * @return \OpenAPI\Client\Model\MediaServiceUserStatus[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\MediaServiceUserStatus[]|null
      */
     public function getUserStatuses()
     {
@@ -427,7 +427,7 @@ class MediaServiceSelector implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Sets user_statuses
      *
-     * @param \OpenAPI\Client\Model\MediaServiceUserStatus[]|null $user_statuses user_statuses
+     * @param \YahooAdsDisplayApi\Client\Model\MediaServiceUserStatus[]|null $user_statuses user_statuses
      *
      * @return self
      */
@@ -445,7 +445,7 @@ class MediaServiceSelector implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Gets created_date_range
      *
-     * @return \OpenAPI\Client\Model\MediaServiceCreatedDateRange|null
+     * @return \YahooAdsDisplayApi\Client\Model\MediaServiceCreatedDateRange|null
      */
     public function getCreatedDateRange()
     {
@@ -455,7 +455,7 @@ class MediaServiceSelector implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Sets created_date_range
      *
-     * @param \OpenAPI\Client\Model\MediaServiceCreatedDateRange|null $created_date_range created_date_range
+     * @param \YahooAdsDisplayApi\Client\Model\MediaServiceCreatedDateRange|null $created_date_range created_date_range
      *
      * @return self
      */

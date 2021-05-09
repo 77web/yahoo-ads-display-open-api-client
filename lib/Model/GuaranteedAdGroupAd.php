@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedAdGroupAd Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedAdGroupAdオブジェクトは、予約型の広告の情報を格納するコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The GuaranteedAdGroupAd object is a container for storing ad information of guaranteed campaign.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,27 +62,27 @@ class GuaranteedAdGroupAd implements ModelInterface, ArrayAccess, \JsonSerializa
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'ad' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceAd',
+        'ad' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceAd',
         'ad_group_id' => 'int',
         'ad_group_name' => 'string',
         'ad_id' => 'int',
         'ad_name' => 'string',
-        'ad_style' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceAdStyle',
-        'approval_status' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceApprovalStatus',
+        'ad_style' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceAdStyle',
+        'approval_status' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceApprovalStatus',
         'campaign_id' => 'int',
         'campaign_name' => 'string',
         'disapproval_reason_codes' => 'string[]',
         'disapproval_reason_description' => 'string',
         'impression_beacon_urls' => 'string[]',
-        'is_remove_impression_beacon_urls' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg',
-        'labels' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceLabel[]',
+        'is_remove_impression_beacon_urls' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg',
+        'labels' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceLabel[]',
         'media_id' => 'int',
         'third_party_tracking_script_url' => 'string',
-        'is_remove_beacon_urls' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg',
-        'is_remove_third_party_tracking_script_url' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg',
+        'is_remove_beacon_urls' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg',
+        'is_remove_third_party_tracking_script_url' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg',
         'third_party_tracking_vendor' => 'string',
-        'user_status' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdServiceUserStatus',
-        'landing_page_status' => '\OpenAPI\Client\Model\GuaranteedAdGroupAdLandingPageStatus',
+        'user_status' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceUserStatus',
+        'landing_page_status' => '\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdLandingPageStatus',
         'pre_approval_id' => 'string',
         'landing_page_update_scheduled_time' => 'string'
     ];
@@ -375,7 +375,7 @@ class GuaranteedAdGroupAd implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Gets ad
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceAd|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceAd|null
      */
     public function getAd()
     {
@@ -385,7 +385,7 @@ class GuaranteedAdGroupAd implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Sets ad
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceAd|null $ad ad
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceAd|null $ad ad
      *
      * @return self
      */
@@ -495,7 +495,7 @@ class GuaranteedAdGroupAd implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Gets ad_style
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceAdStyle|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceAdStyle|null
      */
     public function getAdStyle()
     {
@@ -505,7 +505,7 @@ class GuaranteedAdGroupAd implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Sets ad_style
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceAdStyle|null $ad_style ad_style
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceAdStyle|null $ad_style ad_style
      *
      * @return self
      */
@@ -519,7 +519,7 @@ class GuaranteedAdGroupAd implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Gets approval_status
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceApprovalStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceApprovalStatus|null
      */
     public function getApprovalStatus()
     {
@@ -529,7 +529,7 @@ class GuaranteedAdGroupAd implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Sets approval_status
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceApprovalStatus|null $approval_status approval_status
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceApprovalStatus|null $approval_status approval_status
      *
      * @return self
      */
@@ -663,7 +663,7 @@ class GuaranteedAdGroupAd implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Gets is_remove_impression_beacon_urls
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null
      */
     public function getIsRemoveImpressionBeaconUrls()
     {
@@ -673,7 +673,7 @@ class GuaranteedAdGroupAd implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Sets is_remove_impression_beacon_urls
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null $is_remove_impression_beacon_urls is_remove_impression_beacon_urls
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null $is_remove_impression_beacon_urls is_remove_impression_beacon_urls
      *
      * @return self
      */
@@ -687,7 +687,7 @@ class GuaranteedAdGroupAd implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Gets labels
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceLabel[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceLabel[]|null
      */
     public function getLabels()
     {
@@ -697,7 +697,7 @@ class GuaranteedAdGroupAd implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Sets labels
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceLabel[]|null $labels labels
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceLabel[]|null $labels labels
      *
      * @return self
      */
@@ -759,7 +759,7 @@ class GuaranteedAdGroupAd implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Gets is_remove_beacon_urls
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null
      */
     public function getIsRemoveBeaconUrls()
     {
@@ -769,7 +769,7 @@ class GuaranteedAdGroupAd implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Sets is_remove_beacon_urls
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null $is_remove_beacon_urls is_remove_beacon_urls
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null $is_remove_beacon_urls is_remove_beacon_urls
      *
      * @return self
      */
@@ -783,7 +783,7 @@ class GuaranteedAdGroupAd implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Gets is_remove_third_party_tracking_script_url
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null
      */
     public function getIsRemoveThirdPartyTrackingScriptUrl()
     {
@@ -793,7 +793,7 @@ class GuaranteedAdGroupAd implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Sets is_remove_third_party_tracking_script_url
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null $is_remove_third_party_tracking_script_url is_remove_third_party_tracking_script_url
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceIsRemoveFlg|null $is_remove_third_party_tracking_script_url is_remove_third_party_tracking_script_url
      *
      * @return self
      */
@@ -831,7 +831,7 @@ class GuaranteedAdGroupAd implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Gets user_status
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceUserStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceUserStatus|null
      */
     public function getUserStatus()
     {
@@ -841,7 +841,7 @@ class GuaranteedAdGroupAd implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Sets user_status
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdServiceUserStatus|null $user_status user_status
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdServiceUserStatus|null $user_status user_status
      *
      * @return self
      */
@@ -855,7 +855,7 @@ class GuaranteedAdGroupAd implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Gets landing_page_status
      *
-     * @return \OpenAPI\Client\Model\GuaranteedAdGroupAdLandingPageStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdLandingPageStatus|null
      */
     public function getLandingPageStatus()
     {
@@ -865,7 +865,7 @@ class GuaranteedAdGroupAd implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Sets landing_page_status
      *
-     * @param \OpenAPI\Client\Model\GuaranteedAdGroupAdLandingPageStatus|null $landing_page_status landing_page_status
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupAdLandingPageStatus|null $landing_page_status landing_page_status
      *
      * @return self
      */

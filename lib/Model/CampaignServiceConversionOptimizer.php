@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * CampaignServiceConversionOptimizer Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; CampaignServiceConversionOptimizerは、コンバージョン最適化制御を保持するオブジェクトです。&lt;br&gt; このフィールドは、SET時に省略可能となり、ADDおよびREMOVE時に無視されます。&lt;br&gt; ※SET時、目的ありの場合は設定不可となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; CampaignServiceConversionOptimizer retains conversion optimization control.&lt;br&gt; This field is optional in SET operation, and will be ignored in ADD and REMOVE operation. &lt;br&gt; *For campaign with campaign goal, this field cannot be set in SET operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,9 +61,9 @@ class CampaignServiceConversionOptimizer implements ModelInterface, ArrayAccess,
       * @var string[]
       */
     protected static $openAPITypes = [
-        'auto_campaign_conversion_optimizer' => '\OpenAPI\Client\Model\CampaignServiceAutoCampaignConversionOptimizer',
-        'conversion_optimizer_type' => '\OpenAPI\Client\Model\CampaignServiceConversionOptimizerType',
-        'manual_campaign_conversion_optimizer' => '\OpenAPI\Client\Model\CampaignServiceManualCampaignConversionOptimizer'
+        'auto_campaign_conversion_optimizer' => '\YahooAdsDisplayApi\Client\Model\CampaignServiceAutoCampaignConversionOptimizer',
+        'conversion_optimizer_type' => '\YahooAdsDisplayApi\Client\Model\CampaignServiceConversionOptimizerType',
+        'manual_campaign_conversion_optimizer' => '\YahooAdsDisplayApi\Client\Model\CampaignServiceManualCampaignConversionOptimizer'
     ];
 
     /**
@@ -225,7 +225,7 @@ class CampaignServiceConversionOptimizer implements ModelInterface, ArrayAccess,
     /**
      * Gets auto_campaign_conversion_optimizer
      *
-     * @return \OpenAPI\Client\Model\CampaignServiceAutoCampaignConversionOptimizer|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignServiceAutoCampaignConversionOptimizer|null
      */
     public function getAutoCampaignConversionOptimizer()
     {
@@ -235,7 +235,7 @@ class CampaignServiceConversionOptimizer implements ModelInterface, ArrayAccess,
     /**
      * Sets auto_campaign_conversion_optimizer
      *
-     * @param \OpenAPI\Client\Model\CampaignServiceAutoCampaignConversionOptimizer|null $auto_campaign_conversion_optimizer auto_campaign_conversion_optimizer
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignServiceAutoCampaignConversionOptimizer|null $auto_campaign_conversion_optimizer auto_campaign_conversion_optimizer
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class CampaignServiceConversionOptimizer implements ModelInterface, ArrayAccess,
     /**
      * Gets conversion_optimizer_type
      *
-     * @return \OpenAPI\Client\Model\CampaignServiceConversionOptimizerType|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignServiceConversionOptimizerType|null
      */
     public function getConversionOptimizerType()
     {
@@ -259,7 +259,7 @@ class CampaignServiceConversionOptimizer implements ModelInterface, ArrayAccess,
     /**
      * Sets conversion_optimizer_type
      *
-     * @param \OpenAPI\Client\Model\CampaignServiceConversionOptimizerType|null $conversion_optimizer_type conversion_optimizer_type
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignServiceConversionOptimizerType|null $conversion_optimizer_type conversion_optimizer_type
      *
      * @return self
      */
@@ -273,7 +273,7 @@ class CampaignServiceConversionOptimizer implements ModelInterface, ArrayAccess,
     /**
      * Gets manual_campaign_conversion_optimizer
      *
-     * @return \OpenAPI\Client\Model\CampaignServiceManualCampaignConversionOptimizer|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignServiceManualCampaignConversionOptimizer|null
      */
     public function getManualCampaignConversionOptimizer()
     {
@@ -283,7 +283,7 @@ class CampaignServiceConversionOptimizer implements ModelInterface, ArrayAccess,
     /**
      * Sets manual_campaign_conversion_optimizer
      *
-     * @param \OpenAPI\Client\Model\CampaignServiceManualCampaignConversionOptimizer|null $manual_campaign_conversion_optimizer manual_campaign_conversion_optimizer
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignServiceManualCampaignConversionOptimizer|null $manual_campaign_conversion_optimizer manual_campaign_conversion_optimizer
      *
      * @return self
      */

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServicePackagePermittedAgeTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedSimulationServicePackagePermittedAgeTargetオブジェクトは、年齢ターゲット設定の制限情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;GuaranteedSimulationServicePackagePermittedAgeTarget object holds the restriction information about the age target setting.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class GuaranteedSimulationServicePackagePermittedAgeTarget implements ModelInter
       * @var string[]
       */
     protected static $openAPITypes = [
-        'target_permission' => '\OpenAPI\Client\Model\GuaranteedSimulationServicePackagePermissionType',
-        'permitted_targets' => '\OpenAPI\Client\Model\GuaranteedSimulationServicePermittedAgeTarget[]'
+        'target_permission' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackagePermissionType',
+        'permitted_targets' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePermittedAgeTarget[]'
     ];
 
     /**
@@ -219,7 +219,7 @@ class GuaranteedSimulationServicePackagePermittedAgeTarget implements ModelInter
     /**
      * Gets target_permission
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServicePackagePermissionType|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackagePermissionType|null
      */
     public function getTargetPermission()
     {
@@ -229,7 +229,7 @@ class GuaranteedSimulationServicePackagePermittedAgeTarget implements ModelInter
     /**
      * Sets target_permission
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServicePackagePermissionType|null $target_permission target_permission
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackagePermissionType|null $target_permission target_permission
      *
      * @return self
      */
@@ -243,7 +243,7 @@ class GuaranteedSimulationServicePackagePermittedAgeTarget implements ModelInter
     /**
      * Gets permitted_targets
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServicePermittedAgeTarget[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePermittedAgeTarget[]|null
      */
     public function getPermittedTargets()
     {
@@ -253,7 +253,7 @@ class GuaranteedSimulationServicePackagePermittedAgeTarget implements ModelInter
     /**
      * Sets permitted_targets
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServicePermittedAgeTarget[]|null $permitted_targets permitted_targets
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePermittedAgeTarget[]|null $permitted_targets permitted_targets
      *
      * @return self
      */

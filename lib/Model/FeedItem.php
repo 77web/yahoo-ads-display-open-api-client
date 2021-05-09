@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * FeedItem Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;FeedItemオブジェクトは、商品の情報を格納するコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedItem object contain information about the product.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,18 +61,18 @@ class FeedItem implements ModelInterface, ArrayAccess, \JsonSerializable
       * @var string[]
       */
     protected static $openAPITypes = [
-        'availability' => '\OpenAPI\Client\Model\FeedItemServiceAvailability',
+        'availability' => '\YahooAdsDisplayApi\Client\Model\FeedItemServiceAvailability',
         'capacity' => 'int',
         'display_settings' => 'int',
         'feed_id' => 'int',
         'formatted_price' => 'string',
         'formatted_sale_price' => 'string',
         'in_stock' => 'int',
-        'is_remove_capacity' => '\OpenAPI\Client\Model\FeedItemServiceIsRemoveFlg',
-        'is_remove_formatted_price' => '\OpenAPI\Client\Model\FeedItemServiceIsRemoveFlg',
-        'is_remove_formatted_sale_price' => '\OpenAPI\Client\Model\FeedItemServiceIsRemoveFlg',
-        'is_remove_price' => '\OpenAPI\Client\Model\FeedItemServiceIsRemoveFlg',
-        'is_remove_sale_price' => '\OpenAPI\Client\Model\FeedItemServiceIsRemoveFlg',
+        'is_remove_capacity' => '\YahooAdsDisplayApi\Client\Model\FeedItemServiceIsRemoveFlg',
+        'is_remove_formatted_price' => '\YahooAdsDisplayApi\Client\Model\FeedItemServiceIsRemoveFlg',
+        'is_remove_formatted_sale_price' => '\YahooAdsDisplayApi\Client\Model\FeedItemServiceIsRemoveFlg',
+        'is_remove_price' => '\YahooAdsDisplayApi\Client\Model\FeedItemServiceIsRemoveFlg',
+        'is_remove_sale_price' => '\YahooAdsDisplayApi\Client\Model\FeedItemServiceIsRemoveFlg',
         'item_id' => 'string',
         'price' => 'int',
         'sale_price' => 'int'
@@ -297,7 +297,7 @@ class FeedItem implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets availability
      *
-     * @return \OpenAPI\Client\Model\FeedItemServiceAvailability|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedItemServiceAvailability|null
      */
     public function getAvailability()
     {
@@ -307,7 +307,7 @@ class FeedItem implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets availability
      *
-     * @param \OpenAPI\Client\Model\FeedItemServiceAvailability|null $availability availability
+     * @param \YahooAdsDisplayApi\Client\Model\FeedItemServiceAvailability|null $availability availability
      *
      * @return self
      */
@@ -465,7 +465,7 @@ class FeedItem implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets is_remove_capacity
      *
-     * @return \OpenAPI\Client\Model\FeedItemServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedItemServiceIsRemoveFlg|null
      */
     public function getIsRemoveCapacity()
     {
@@ -475,7 +475,7 @@ class FeedItem implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets is_remove_capacity
      *
-     * @param \OpenAPI\Client\Model\FeedItemServiceIsRemoveFlg|null $is_remove_capacity is_remove_capacity
+     * @param \YahooAdsDisplayApi\Client\Model\FeedItemServiceIsRemoveFlg|null $is_remove_capacity is_remove_capacity
      *
      * @return self
      */
@@ -489,7 +489,7 @@ class FeedItem implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets is_remove_formatted_price
      *
-     * @return \OpenAPI\Client\Model\FeedItemServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedItemServiceIsRemoveFlg|null
      */
     public function getIsRemoveFormattedPrice()
     {
@@ -499,7 +499,7 @@ class FeedItem implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets is_remove_formatted_price
      *
-     * @param \OpenAPI\Client\Model\FeedItemServiceIsRemoveFlg|null $is_remove_formatted_price is_remove_formatted_price
+     * @param \YahooAdsDisplayApi\Client\Model\FeedItemServiceIsRemoveFlg|null $is_remove_formatted_price is_remove_formatted_price
      *
      * @return self
      */
@@ -513,7 +513,7 @@ class FeedItem implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets is_remove_formatted_sale_price
      *
-     * @return \OpenAPI\Client\Model\FeedItemServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedItemServiceIsRemoveFlg|null
      */
     public function getIsRemoveFormattedSalePrice()
     {
@@ -523,7 +523,7 @@ class FeedItem implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets is_remove_formatted_sale_price
      *
-     * @param \OpenAPI\Client\Model\FeedItemServiceIsRemoveFlg|null $is_remove_formatted_sale_price is_remove_formatted_sale_price
+     * @param \YahooAdsDisplayApi\Client\Model\FeedItemServiceIsRemoveFlg|null $is_remove_formatted_sale_price is_remove_formatted_sale_price
      *
      * @return self
      */
@@ -537,7 +537,7 @@ class FeedItem implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets is_remove_price
      *
-     * @return \OpenAPI\Client\Model\FeedItemServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedItemServiceIsRemoveFlg|null
      */
     public function getIsRemovePrice()
     {
@@ -547,7 +547,7 @@ class FeedItem implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets is_remove_price
      *
-     * @param \OpenAPI\Client\Model\FeedItemServiceIsRemoveFlg|null $is_remove_price is_remove_price
+     * @param \YahooAdsDisplayApi\Client\Model\FeedItemServiceIsRemoveFlg|null $is_remove_price is_remove_price
      *
      * @return self
      */
@@ -561,7 +561,7 @@ class FeedItem implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets is_remove_sale_price
      *
-     * @return \OpenAPI\Client\Model\FeedItemServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedItemServiceIsRemoveFlg|null
      */
     public function getIsRemoveSalePrice()
     {
@@ -571,7 +571,7 @@ class FeedItem implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets is_remove_sale_price
      *
-     * @param \OpenAPI\Client\Model\FeedItemServiceIsRemoveFlg|null $is_remove_sale_price is_remove_sale_price
+     * @param \YahooAdsDisplayApi\Client\Model\FeedItemServiceIsRemoveFlg|null $is_remove_sale_price is_remove_sale_price
      *
      * @return self
      */

@@ -4,7 +4,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Api;
+namespace YahooAdsDisplayApi\Client\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use OpenAPI\Client\ApiException;
-use OpenAPI\Client\Configuration;
-use OpenAPI\Client\HeaderSelector;
-use OpenAPI\Client\ObjectSerializer;
+use YahooAdsDisplayApi\Client\ApiException;
+use YahooAdsDisplayApi\Client\Configuration;
+use YahooAdsDisplayApi\Client\HeaderSelector;
+use YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * VideoServiceApi Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -118,9 +118,9 @@ class VideoServiceApi
     /**
      * Operation videoServiceDownloadPost
      *
-     * @param  \OpenAPI\Client\Model\VideoServiceDownloadSelector $video_service_download_selector video_service_download_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\VideoServiceDownloadSelector $video_service_download_selector video_service_download_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return |\SplFileObject
      */
@@ -133,9 +133,9 @@ class VideoServiceApi
     /**
      * Operation videoServiceDownloadPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\VideoServiceDownloadSelector $video_service_download_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\VideoServiceDownloadSelector $video_service_download_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of |\SplFileObject, HTTP status code, HTTP response headers (array of strings)
      */
@@ -221,7 +221,7 @@ class VideoServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\VideoServiceDownloadSelector $video_service_download_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\VideoServiceDownloadSelector $video_service_download_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -241,7 +241,7 @@ class VideoServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\VideoServiceDownloadSelector $video_service_download_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\VideoServiceDownloadSelector $video_service_download_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -288,7 +288,7 @@ class VideoServiceApi
     /**
      * Create request for operation 'videoServiceDownloadPost'
      *
-     * @param  \OpenAPI\Client\Model\VideoServiceDownloadSelector $video_service_download_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\VideoServiceDownloadSelector $video_service_download_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -377,11 +377,11 @@ class VideoServiceApi
     /**
      * Operation videoServiceGetPost
      *
-     * @param  \OpenAPI\Client\Model\VideoServiceSelector $video_service_selector video_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\VideoServiceSelector $video_service_selector video_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\VideoServiceGetResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\VideoServiceGetResponse
      */
     public function videoServiceGetPost($video_service_selector = null)
     {
@@ -392,11 +392,11 @@ class VideoServiceApi
     /**
      * Operation videoServiceGetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\VideoServiceSelector $video_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\VideoServiceSelector $video_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\VideoServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\VideoServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function videoServiceGetPostWithHttpInfo($video_service_selector = null)
     {
@@ -433,20 +433,20 @@ class VideoServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\VideoServiceGetResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\VideoServiceGetResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\VideoServiceGetResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\VideoServiceGetResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\VideoServiceGetResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\VideoServiceGetResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -465,7 +465,7 @@ class VideoServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\VideoServiceGetResponse',
+                        '\YahooAdsDisplayApi\Client\Model\VideoServiceGetResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -480,7 +480,7 @@ class VideoServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\VideoServiceSelector $video_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\VideoServiceSelector $video_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -500,14 +500,14 @@ class VideoServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\VideoServiceSelector $video_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\VideoServiceSelector $video_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function videoServiceGetPostAsyncWithHttpInfo($video_service_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\VideoServiceGetResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\VideoServiceGetResponse';
         $request = $this->videoServiceGetPostRequest($video_service_selector);
 
         return $this->client
@@ -547,7 +547,7 @@ class VideoServiceApi
     /**
      * Create request for operation 'videoServiceGetPost'
      *
-     * @param  \OpenAPI\Client\Model\VideoServiceSelector $video_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\VideoServiceSelector $video_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -636,11 +636,11 @@ class VideoServiceApi
     /**
      * Operation videoServiceRemovePost
      *
-     * @param  \OpenAPI\Client\Model\VideoServiceOperation $video_service_operation video_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\VideoServiceOperation $video_service_operation video_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\VideoServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\VideoServiceMutateResponse
      */
     public function videoServiceRemovePost($video_service_operation = null)
     {
@@ -651,11 +651,11 @@ class VideoServiceApi
     /**
      * Operation videoServiceRemovePostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\VideoServiceOperation $video_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\VideoServiceOperation $video_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\VideoServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\VideoServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function videoServiceRemovePostWithHttpInfo($video_service_operation = null)
     {
@@ -692,20 +692,20 @@ class VideoServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\VideoServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\VideoServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\VideoServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\VideoServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\VideoServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\VideoServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -724,7 +724,7 @@ class VideoServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\VideoServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\VideoServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -739,7 +739,7 @@ class VideoServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\VideoServiceOperation $video_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\VideoServiceOperation $video_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -759,14 +759,14 @@ class VideoServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\VideoServiceOperation $video_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\VideoServiceOperation $video_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function videoServiceRemovePostAsyncWithHttpInfo($video_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\VideoServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\VideoServiceMutateResponse';
         $request = $this->videoServiceRemovePostRequest($video_service_operation);
 
         return $this->client
@@ -806,7 +806,7 @@ class VideoServiceApi
     /**
      * Create request for operation 'videoServiceRemovePost'
      *
-     * @param  \OpenAPI\Client\Model\VideoServiceOperation $video_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\VideoServiceOperation $video_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -895,11 +895,11 @@ class VideoServiceApi
     /**
      * Operation videoServiceSetPost
      *
-     * @param  \OpenAPI\Client\Model\VideoServiceOperation $video_service_operation video_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\VideoServiceOperation $video_service_operation video_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\VideoServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\VideoServiceMutateResponse
      */
     public function videoServiceSetPost($video_service_operation = null)
     {
@@ -910,11 +910,11 @@ class VideoServiceApi
     /**
      * Operation videoServiceSetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\VideoServiceOperation $video_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\VideoServiceOperation $video_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\VideoServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\VideoServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function videoServiceSetPostWithHttpInfo($video_service_operation = null)
     {
@@ -951,20 +951,20 @@ class VideoServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\VideoServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\VideoServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\VideoServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\VideoServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\VideoServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\VideoServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -983,7 +983,7 @@ class VideoServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\VideoServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\VideoServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -998,7 +998,7 @@ class VideoServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\VideoServiceOperation $video_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\VideoServiceOperation $video_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1018,14 +1018,14 @@ class VideoServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\VideoServiceOperation $video_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\VideoServiceOperation $video_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function videoServiceSetPostAsyncWithHttpInfo($video_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\VideoServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\VideoServiceMutateResponse';
         $request = $this->videoServiceSetPostRequest($video_service_operation);
 
         return $this->client
@@ -1065,7 +1065,7 @@ class VideoServiceApi
     /**
      * Create request for operation 'videoServiceSetPost'
      *
-     * @param  \OpenAPI\Client\Model\VideoServiceOperation $video_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\VideoServiceOperation $video_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -1157,12 +1157,12 @@ class VideoServiceApi
      * @param  int $account_id &lt;div lang&#x3D;\&quot;ja\&quot;&gt;アカウントIDです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Account ID.&lt;/div&gt; (required)
      * @param  string $video_name &lt;div lang&#x3D;\&quot;ja\&quot;&gt;動画のファイル名です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Video file name.&lt;/div&gt; (required)
      * @param  string $video_title &lt;div lang&#x3D;\&quot;ja\&quot;&gt;動画名です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Video name.&lt;/div&gt; (required)
-     * @param  \OpenAPI\Client\Model\VideoServiceUserStatus $user_status &lt;div lang&#x3D;\&quot;ja\&quot;&gt;ユーザーにより広告配信の有無を調整できる設定です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Ad delivery status that can be set by an user is served.&lt;/div&gt; (required)
+     * @param  \YahooAdsDisplayApi\Client\Model\VideoServiceUserStatus $user_status &lt;div lang&#x3D;\&quot;ja\&quot;&gt;ユーザーにより広告配信の有無を調整できる設定です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Ad delivery status that can be set by an user is served.&lt;/div&gt; (required)
      * @param  \SplFileObject $file file (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\VideoServiceUploadResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\VideoServiceUploadResponse
      */
     public function videoServiceUploadPost($account_id, $video_name, $video_title, $user_status, $file = null)
     {
@@ -1176,12 +1176,12 @@ class VideoServiceApi
      * @param  int $account_id &lt;div lang&#x3D;\&quot;ja\&quot;&gt;アカウントIDです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Account ID.&lt;/div&gt; (required)
      * @param  string $video_name &lt;div lang&#x3D;\&quot;ja\&quot;&gt;動画のファイル名です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Video file name.&lt;/div&gt; (required)
      * @param  string $video_title &lt;div lang&#x3D;\&quot;ja\&quot;&gt;動画名です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Video name.&lt;/div&gt; (required)
-     * @param  \OpenAPI\Client\Model\VideoServiceUserStatus $user_status &lt;div lang&#x3D;\&quot;ja\&quot;&gt;ユーザーにより広告配信の有無を調整できる設定です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Ad delivery status that can be set by an user is served.&lt;/div&gt; (required)
+     * @param  \YahooAdsDisplayApi\Client\Model\VideoServiceUserStatus $user_status &lt;div lang&#x3D;\&quot;ja\&quot;&gt;ユーザーにより広告配信の有無を調整できる設定です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Ad delivery status that can be set by an user is served.&lt;/div&gt; (required)
      * @param  \SplFileObject $file (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\VideoServiceUploadResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\VideoServiceUploadResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function videoServiceUploadPostWithHttpInfo($account_id, $video_name, $video_title, $user_status, $file = null)
     {
@@ -1218,20 +1218,20 @@ class VideoServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\VideoServiceUploadResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\VideoServiceUploadResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\VideoServiceUploadResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\VideoServiceUploadResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\VideoServiceUploadResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\VideoServiceUploadResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -1250,7 +1250,7 @@ class VideoServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\VideoServiceUploadResponse',
+                        '\YahooAdsDisplayApi\Client\Model\VideoServiceUploadResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1268,7 +1268,7 @@ class VideoServiceApi
      * @param  int $account_id &lt;div lang&#x3D;\&quot;ja\&quot;&gt;アカウントIDです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Account ID.&lt;/div&gt; (required)
      * @param  string $video_name &lt;div lang&#x3D;\&quot;ja\&quot;&gt;動画のファイル名です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Video file name.&lt;/div&gt; (required)
      * @param  string $video_title &lt;div lang&#x3D;\&quot;ja\&quot;&gt;動画名です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Video name.&lt;/div&gt; (required)
-     * @param  \OpenAPI\Client\Model\VideoServiceUserStatus $user_status &lt;div lang&#x3D;\&quot;ja\&quot;&gt;ユーザーにより広告配信の有無を調整できる設定です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Ad delivery status that can be set by an user is served.&lt;/div&gt; (required)
+     * @param  \YahooAdsDisplayApi\Client\Model\VideoServiceUserStatus $user_status &lt;div lang&#x3D;\&quot;ja\&quot;&gt;ユーザーにより広告配信の有無を調整できる設定です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Ad delivery status that can be set by an user is served.&lt;/div&gt; (required)
      * @param  \SplFileObject $file (optional)
      *
      * @throws \InvalidArgumentException
@@ -1292,7 +1292,7 @@ class VideoServiceApi
      * @param  int $account_id &lt;div lang&#x3D;\&quot;ja\&quot;&gt;アカウントIDです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Account ID.&lt;/div&gt; (required)
      * @param  string $video_name &lt;div lang&#x3D;\&quot;ja\&quot;&gt;動画のファイル名です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Video file name.&lt;/div&gt; (required)
      * @param  string $video_title &lt;div lang&#x3D;\&quot;ja\&quot;&gt;動画名です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Video name.&lt;/div&gt; (required)
-     * @param  \OpenAPI\Client\Model\VideoServiceUserStatus $user_status &lt;div lang&#x3D;\&quot;ja\&quot;&gt;ユーザーにより広告配信の有無を調整できる設定です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Ad delivery status that can be set by an user is served.&lt;/div&gt; (required)
+     * @param  \YahooAdsDisplayApi\Client\Model\VideoServiceUserStatus $user_status &lt;div lang&#x3D;\&quot;ja\&quot;&gt;ユーザーにより広告配信の有無を調整できる設定です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Ad delivery status that can be set by an user is served.&lt;/div&gt; (required)
      * @param  \SplFileObject $file (optional)
      *
      * @throws \InvalidArgumentException
@@ -1300,7 +1300,7 @@ class VideoServiceApi
      */
     public function videoServiceUploadPostAsyncWithHttpInfo($account_id, $video_name, $video_title, $user_status, $file = null)
     {
-        $returnType = '\OpenAPI\Client\Model\VideoServiceUploadResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\VideoServiceUploadResponse';
         $request = $this->videoServiceUploadPostRequest($account_id, $video_name, $video_title, $user_status, $file);
 
         return $this->client
@@ -1343,7 +1343,7 @@ class VideoServiceApi
      * @param  int $account_id &lt;div lang&#x3D;\&quot;ja\&quot;&gt;アカウントIDです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Account ID.&lt;/div&gt; (required)
      * @param  string $video_name &lt;div lang&#x3D;\&quot;ja\&quot;&gt;動画のファイル名です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Video file name.&lt;/div&gt; (required)
      * @param  string $video_title &lt;div lang&#x3D;\&quot;ja\&quot;&gt;動画名です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Video name.&lt;/div&gt; (required)
-     * @param  \OpenAPI\Client\Model\VideoServiceUserStatus $user_status &lt;div lang&#x3D;\&quot;ja\&quot;&gt;ユーザーにより広告配信の有無を調整できる設定です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Ad delivery status that can be set by an user is served.&lt;/div&gt; (required)
+     * @param  \YahooAdsDisplayApi\Client\Model\VideoServiceUserStatus $user_status &lt;div lang&#x3D;\&quot;ja\&quot;&gt;ユーザーにより広告配信の有無を調整できる設定です。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Ad delivery status that can be set by an user is served.&lt;/div&gt; (required)
      * @param  \SplFileObject $file (optional)
      *
      * @throws \InvalidArgumentException

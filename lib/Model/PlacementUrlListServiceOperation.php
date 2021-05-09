@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * PlacementUrlListServiceOperation Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;PlacementUrlListServiceOperationオブジェクトは、メソッドで操作対象のプレイスメントUrl情報を保持するオブジェクトです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The objects to keep Placement Url information which is operation target by method.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class PlacementUrlListServiceOperation implements ModelInterface, ArrayAccess, \
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'operand' => '\OpenAPI\Client\Model\PlacementUrlList[]'
+        'operand' => '\YahooAdsDisplayApi\Client\Model\PlacementUrlList[]'
     ];
 
     /**
@@ -257,7 +257,7 @@ class PlacementUrlListServiceOperation implements ModelInterface, ArrayAccess, \
     /**
      * Gets operand
      *
-     * @return \OpenAPI\Client\Model\PlacementUrlList[]
+     * @return \YahooAdsDisplayApi\Client\Model\PlacementUrlList[]
      */
     public function getOperand()
     {
@@ -267,7 +267,7 @@ class PlacementUrlListServiceOperation implements ModelInterface, ArrayAccess, \
     /**
      * Sets operand
      *
-     * @param \OpenAPI\Client\Model\PlacementUrlList[] $operand operand
+     * @param \YahooAdsDisplayApi\Client\Model\PlacementUrlList[] $operand operand
      *
      * @return self
      */

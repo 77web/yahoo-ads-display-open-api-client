@@ -1,4 +1,4 @@
-# OpenAPI\Client\GuaranteedAdGroupServiceApi
+# YahooAdsDisplayApi\Client\GuaranteedAdGroupServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -12,7 +12,7 @@ Method | HTTP request | Description
 ## `guaranteedAdGroupServiceAddPost()`
 
 ```php
-guaranteedAdGroupServiceAddPost($guaranteed_ad_group_service_operation): \OpenAPI\Client\Model\GuaranteedAdGroupServiceMutateResponse
+guaranteedAdGroupServiceAddPost($guaranteed_ad_group_service_operation): \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceMutateResponse
 ```
 
 
@@ -27,16 +27,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\GuaranteedAdGroupServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\GuaranteedAdGroupServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$guaranteed_ad_group_service_operation = new \OpenAPI\Client\Model\GuaranteedAdGroupServiceOperation(); // \OpenAPI\Client\Model\GuaranteedAdGroupServiceOperation
+$guaranteed_ad_group_service_operation = new \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceOperation(); // \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceOperation
 
 try {
     $result = $apiInstance->guaranteedAdGroupServiceAddPost($guaranteed_ad_group_service_operation);
@@ -50,11 +50,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **guaranteed_ad_group_service_operation** | [**\OpenAPI\Client\Model\GuaranteedAdGroupServiceOperation**](../Model/GuaranteedAdGroupServiceOperation.md)|  | [optional]
+ **guaranteed_ad_group_service_operation** | [**\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceOperation**](../Model/GuaranteedAdGroupServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\GuaranteedAdGroupServiceMutateResponse**](../Model/GuaranteedAdGroupServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceMutateResponse**](../Model/GuaranteedAdGroupServiceMutateResponse.md)
 
 ### Authorization
 
@@ -72,7 +72,7 @@ Name | Type | Description  | Notes
 ## `guaranteedAdGroupServiceGetPost()`
 
 ```php
-guaranteedAdGroupServiceGetPost($guaranteed_ad_group_service_selector): \OpenAPI\Client\Model\GuaranteedAdGroupServiceGetResponse
+guaranteedAdGroupServiceGetPost($guaranteed_ad_group_service_selector): \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceGetResponse
 ```
 
 
@@ -87,16 +87,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\GuaranteedAdGroupServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\GuaranteedAdGroupServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$guaranteed_ad_group_service_selector = new \OpenAPI\Client\Model\GuaranteedAdGroupServiceSelector(); // \OpenAPI\Client\Model\GuaranteedAdGroupServiceSelector
+$guaranteed_ad_group_service_selector = new \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceSelector(); // \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceSelector
 
 try {
     $result = $apiInstance->guaranteedAdGroupServiceGetPost($guaranteed_ad_group_service_selector);
@@ -110,11 +110,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **guaranteed_ad_group_service_selector** | [**\OpenAPI\Client\Model\GuaranteedAdGroupServiceSelector**](../Model/GuaranteedAdGroupServiceSelector.md)|  | [optional]
+ **guaranteed_ad_group_service_selector** | [**\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceSelector**](../Model/GuaranteedAdGroupServiceSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\GuaranteedAdGroupServiceGetResponse**](../Model/GuaranteedAdGroupServiceGetResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceGetResponse**](../Model/GuaranteedAdGroupServiceGetResponse.md)
 
 ### Authorization
 
@@ -132,7 +132,7 @@ Name | Type | Description  | Notes
 ## `guaranteedAdGroupServiceSetPost()`
 
 ```php
-guaranteedAdGroupServiceSetPost($guaranteed_ad_group_service_operation): \OpenAPI\Client\Model\GuaranteedAdGroupServiceMutateResponse
+guaranteedAdGroupServiceSetPost($guaranteed_ad_group_service_operation): \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceMutateResponse
 ```
 
 
@@ -147,16 +147,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\GuaranteedAdGroupServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\GuaranteedAdGroupServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$guaranteed_ad_group_service_operation = new \OpenAPI\Client\Model\GuaranteedAdGroupServiceOperation(); // \OpenAPI\Client\Model\GuaranteedAdGroupServiceOperation
+$guaranteed_ad_group_service_operation = new \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceOperation(); // \YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceOperation
 
 try {
     $result = $apiInstance->guaranteedAdGroupServiceSetPost($guaranteed_ad_group_service_operation);
@@ -170,11 +170,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **guaranteed_ad_group_service_operation** | [**\OpenAPI\Client\Model\GuaranteedAdGroupServiceOperation**](../Model/GuaranteedAdGroupServiceOperation.md)|  | [optional]
+ **guaranteed_ad_group_service_operation** | [**\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceOperation**](../Model/GuaranteedAdGroupServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\GuaranteedAdGroupServiceMutateResponse**](../Model/GuaranteedAdGroupServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\GuaranteedAdGroupServiceMutateResponse**](../Model/GuaranteedAdGroupServiceMutateResponse.md)
 
 ### Authorization
 

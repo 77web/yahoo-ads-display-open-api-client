@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServicePositionTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; GuaranteedSimulationServicePositionTargetオブジェクトは、ポジションターゲティングの設定情報を保持します。&lt;br&gt; ADD時、このフィールドは省略可能となります。&lt;br&gt; ※targetTypeがPOSITION_TARGETの場合は必須です。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; GuaranteedSimulationServicePositionTarget object is a container for storing position targeting settings.&lt;br&gt; This field is optional in ADD operation.&lt;br&gt; ∗If targetType is POSITION_TARGET, this field is required. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class GuaranteedSimulationServicePositionTarget implements ModelInterface, Array
       * @var string[]
       */
     protected static $openAPITypes = [
-        'position_type' => '\OpenAPI\Client\Model\GuaranteedSimulationServicePositionType'
+        'position_type' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePositionType'
     ];
 
     /**
@@ -213,7 +213,7 @@ class GuaranteedSimulationServicePositionTarget implements ModelInterface, Array
     /**
      * Gets position_type
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServicePositionType|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePositionType|null
      */
     public function getPositionType()
     {
@@ -223,7 +223,7 @@ class GuaranteedSimulationServicePositionTarget implements ModelInterface, Array
     /**
      * Sets position_type
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServicePositionType|null $position_type position_type
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePositionType|null $position_type position_type
      *
      * @return self
      */

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RetargetingListServiceUploadUserListPage Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;RetargetingListServiceUploadUserListPageオブジェクトは、取得されるユーザーリストのアップロード情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;RetargetingListServiceUploadUserListPage object describes upload information of the user list to be retrieved.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class RetargetingListServiceUploadUserListPage implements ModelInterface, ArrayA
       */
     protected static $openAPITypes = [
         'total_num_entries' => 'int',
-        'values' => '\OpenAPI\Client\Model\RetargetingListServiceUploadUserListValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceUploadUserListValue[]'
     ];
 
     /**
@@ -243,7 +243,7 @@ class RetargetingListServiceUploadUserListPage implements ModelInterface, ArrayA
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceUploadUserListValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceUploadUserListValue[]|null
      */
     public function getValues()
     {
@@ -253,7 +253,7 @@ class RetargetingListServiceUploadUserListPage implements ModelInterface, ArrayA
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceUploadUserListValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceUploadUserListValue[]|null $values values
      *
      * @return self
      */

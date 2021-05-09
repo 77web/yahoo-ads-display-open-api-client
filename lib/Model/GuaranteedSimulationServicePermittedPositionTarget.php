@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServicePermittedPositionTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedSimulationServicePermittedPositionTargetオブジェクトは、ポジションターゲットの設定情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;GuaranteedSimulationServicePermittedPositionTarget object holds configuration information of psition targeting.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class GuaranteedSimulationServicePermittedPositionTarget implements ModelInterfa
       */
     protected static $openAPITypes = [
         'target_id' => 'string',
-        'position_type' => '\OpenAPI\Client\Model\GuaranteedSimulationServicePositionType'
+        'position_type' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePositionType'
     ];
 
     /**
@@ -243,7 +243,7 @@ class GuaranteedSimulationServicePermittedPositionTarget implements ModelInterfa
     /**
      * Gets position_type
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServicePositionType|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePositionType|null
      */
     public function getPositionType()
     {
@@ -253,7 +253,7 @@ class GuaranteedSimulationServicePermittedPositionTarget implements ModelInterfa
     /**
      * Sets position_type
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServicePositionType|null $position_type position_type
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePositionType|null $position_type position_type
      *
      * @return self
      */

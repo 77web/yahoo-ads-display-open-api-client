@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServiceReturnValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedSimulationServiceReturnValueオブジェクトは、操作結果を含む予約型キャンペーンの配信シミュレーションを格納するコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;GuaranteedSimulationServiceReturnValue object contains the guaranteed campaign delivery simulation including the operation result.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class GuaranteedSimulationServiceReturnValue implements ModelInterface, ArrayAcc
       * @var string[]
       */
     protected static $openAPITypes = [
-        'values' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceValue[]'
     ];
 
     /**
@@ -213,7 +213,7 @@ class GuaranteedSimulationServiceReturnValue implements ModelInterface, ArrayAcc
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceValue[]|null
      */
     public function getValues()
     {
@@ -223,7 +223,7 @@ class GuaranteedSimulationServiceReturnValue implements ModelInterface, ArrayAcc
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceValue[]|null $values values
      *
      * @return self
      */

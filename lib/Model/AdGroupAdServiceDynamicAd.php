@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupAdServiceDynamicAd Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; AdGroupAdServiceDynamicAdオブジェクトは、動的ディスプレイ広告の情報を表します。&lt;br&gt; このフィールドは、省略可能となります。&lt;br&gt; ※ADD時、adTypeがDYNAMIC_ADの場合は必須です。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; AdGroupAdServiceDynamicAd object describes information regarding dynamic ads for display.&lt;br&gt; This field is optional.&lt;br&gt; *If adType is DYNAMIC_AD, this field is required in ADD operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,18 +62,18 @@ class AdGroupAdServiceDynamicAd implements ModelInterface, ArrayAccess, \JsonSer
       */
     protected static $openAPITypes = [
         'brand_color' => 'string',
-        'button_text' => '\OpenAPI\Client\Model\AdGroupAdServiceButtonText',
+        'button_text' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceButtonText',
         'campaign_banner_media_id' => 'int',
         'campaign_banner_media_id2' => 'int',
         'campaign_banner_media_id3' => 'int',
         'campaign_banner_media_id4' => 'int',
         'campaign_banner_url' => 'string',
         'display_url' => 'string',
-        'is_remove_campaign_banner_media_id' => '\OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg',
-        'is_remove_campaign_banner_media_id2' => '\OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg',
-        'is_remove_campaign_banner_media_id3' => '\OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg',
-        'is_remove_campaign_banner_media_id4' => '\OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg',
-        'is_remove_campaign_banner_url' => '\OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg',
+        'is_remove_campaign_banner_media_id' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg',
+        'is_remove_campaign_banner_media_id2' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg',
+        'is_remove_campaign_banner_media_id3' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg',
+        'is_remove_campaign_banner_media_id4' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg',
+        'is_remove_campaign_banner_url' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg',
         'logo_media_id' => 'int',
         'logo_media_id2' => 'int',
         'logo_media_id3' => 'int',
@@ -81,9 +81,9 @@ class AdGroupAdServiceDynamicAd implements ModelInterface, ArrayAccess, \JsonSer
         'principal' => 'string',
         'suffix' => 'string',
         'url' => 'string',
-        'is_remove_prefix' => '\OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg',
-        'is_remove_suffix' => '\OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg',
-        'is_remove_brand_color' => '\OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg'
+        'is_remove_prefix' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg',
+        'is_remove_suffix' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg',
+        'is_remove_brand_color' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg'
     ];
 
     /**
@@ -369,7 +369,7 @@ class AdGroupAdServiceDynamicAd implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Gets button_text
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceButtonText|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceButtonText|null
      */
     public function getButtonText()
     {
@@ -379,7 +379,7 @@ class AdGroupAdServiceDynamicAd implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Sets button_text
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceButtonText|null $button_text button_text
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceButtonText|null $button_text button_text
      *
      * @return self
      */
@@ -537,7 +537,7 @@ class AdGroupAdServiceDynamicAd implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Gets is_remove_campaign_banner_media_id
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null
      */
     public function getIsRemoveCampaignBannerMediaId()
     {
@@ -547,7 +547,7 @@ class AdGroupAdServiceDynamicAd implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Sets is_remove_campaign_banner_media_id
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_campaign_banner_media_id is_remove_campaign_banner_media_id
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_campaign_banner_media_id is_remove_campaign_banner_media_id
      *
      * @return self
      */
@@ -561,7 +561,7 @@ class AdGroupAdServiceDynamicAd implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Gets is_remove_campaign_banner_media_id2
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null
      */
     public function getIsRemoveCampaignBannerMediaId2()
     {
@@ -571,7 +571,7 @@ class AdGroupAdServiceDynamicAd implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Sets is_remove_campaign_banner_media_id2
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_campaign_banner_media_id2 is_remove_campaign_banner_media_id2
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_campaign_banner_media_id2 is_remove_campaign_banner_media_id2
      *
      * @return self
      */
@@ -585,7 +585,7 @@ class AdGroupAdServiceDynamicAd implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Gets is_remove_campaign_banner_media_id3
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null
      */
     public function getIsRemoveCampaignBannerMediaId3()
     {
@@ -595,7 +595,7 @@ class AdGroupAdServiceDynamicAd implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Sets is_remove_campaign_banner_media_id3
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_campaign_banner_media_id3 is_remove_campaign_banner_media_id3
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_campaign_banner_media_id3 is_remove_campaign_banner_media_id3
      *
      * @return self
      */
@@ -609,7 +609,7 @@ class AdGroupAdServiceDynamicAd implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Gets is_remove_campaign_banner_media_id4
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null
      */
     public function getIsRemoveCampaignBannerMediaId4()
     {
@@ -619,7 +619,7 @@ class AdGroupAdServiceDynamicAd implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Sets is_remove_campaign_banner_media_id4
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_campaign_banner_media_id4 is_remove_campaign_banner_media_id4
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_campaign_banner_media_id4 is_remove_campaign_banner_media_id4
      *
      * @return self
      */
@@ -633,7 +633,7 @@ class AdGroupAdServiceDynamicAd implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Gets is_remove_campaign_banner_url
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null
      */
     public function getIsRemoveCampaignBannerUrl()
     {
@@ -643,7 +643,7 @@ class AdGroupAdServiceDynamicAd implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Sets is_remove_campaign_banner_url
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_campaign_banner_url is_remove_campaign_banner_url
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_campaign_banner_url is_remove_campaign_banner_url
      *
      * @return self
      */
@@ -825,7 +825,7 @@ class AdGroupAdServiceDynamicAd implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Gets is_remove_prefix
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null
      */
     public function getIsRemovePrefix()
     {
@@ -835,7 +835,7 @@ class AdGroupAdServiceDynamicAd implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Sets is_remove_prefix
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_prefix is_remove_prefix
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_prefix is_remove_prefix
      *
      * @return self
      */
@@ -849,7 +849,7 @@ class AdGroupAdServiceDynamicAd implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Gets is_remove_suffix
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null
      */
     public function getIsRemoveSuffix()
     {
@@ -859,7 +859,7 @@ class AdGroupAdServiceDynamicAd implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Sets is_remove_suffix
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_suffix is_remove_suffix
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_suffix is_remove_suffix
      *
      * @return self
      */
@@ -873,7 +873,7 @@ class AdGroupAdServiceDynamicAd implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Gets is_remove_brand_color
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null
      */
     public function getIsRemoveBrandColor()
     {
@@ -883,7 +883,7 @@ class AdGroupAdServiceDynamicAd implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Sets is_remove_brand_color
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_brand_color is_remove_brand_color
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceIsRemoveFlg|null $is_remove_brand_color is_remove_brand_color
      *
      * @return self
      */

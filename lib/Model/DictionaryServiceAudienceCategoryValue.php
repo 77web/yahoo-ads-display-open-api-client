@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * DictionaryServiceAudienceCategoryValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;DictionaryServiceAudienceCategoryValueオブジェクトは、オーディエンスカテゴリー情報を取得するコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;DictionaryServiceAudienceCategoryValue object is a container that retrieves audience category information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class DictionaryServiceAudienceCategoryValue implements ModelInterface, ArrayAcc
       * @var string[]
       */
     protected static $openAPITypes = [
-        'audience_category' => '\OpenAPI\Client\Model\DictionaryServiceAudienceCategory',
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'audience_category' => '\YahooAdsDisplayApi\Client\Model\DictionaryServiceAudienceCategory',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool'
     ];
 
@@ -225,7 +225,7 @@ class DictionaryServiceAudienceCategoryValue implements ModelInterface, ArrayAcc
     /**
      * Gets audience_category
      *
-     * @return \OpenAPI\Client\Model\DictionaryServiceAudienceCategory|null
+     * @return \YahooAdsDisplayApi\Client\Model\DictionaryServiceAudienceCategory|null
      */
     public function getAudienceCategory()
     {
@@ -235,7 +235,7 @@ class DictionaryServiceAudienceCategoryValue implements ModelInterface, ArrayAcc
     /**
      * Sets audience_category
      *
-     * @param \OpenAPI\Client\Model\DictionaryServiceAudienceCategory|null $audience_category audience_category
+     * @param \YahooAdsDisplayApi\Client\Model\DictionaryServiceAudienceCategory|null $audience_category audience_category
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class DictionaryServiceAudienceCategoryValue implements ModelInterface, ArrayAcc
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -259,7 +259,7 @@ class DictionaryServiceAudienceCategoryValue implements ModelInterface, ArrayAcc
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */

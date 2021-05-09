@@ -4,7 +4,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Api;
+namespace YahooAdsDisplayApi\Client\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use OpenAPI\Client\ApiException;
-use OpenAPI\Client\Configuration;
-use OpenAPI\Client\HeaderSelector;
-use OpenAPI\Client\ObjectSerializer;
+use YahooAdsDisplayApi\Client\ApiException;
+use YahooAdsDisplayApi\Client\Configuration;
+use YahooAdsDisplayApi\Client\HeaderSelector;
+use YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * PlacementUrlListServiceApi Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -118,11 +118,11 @@ class PlacementUrlListServiceApi
     /**
      * Operation placementUrlListServiceAddPost
      *
-     * @param  \OpenAPI\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation placement_url_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation placement_url_list_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\PlacementUrlListServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceMutateResponse
      */
     public function placementUrlListServiceAddPost($placement_url_list_service_operation = null)
     {
@@ -133,11 +133,11 @@ class PlacementUrlListServiceApi
     /**
      * Operation placementUrlListServiceAddPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\PlacementUrlListServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function placementUrlListServiceAddPostWithHttpInfo($placement_url_list_service_operation = null)
     {
@@ -174,20 +174,20 @@ class PlacementUrlListServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\PlacementUrlListServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\PlacementUrlListServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\PlacementUrlListServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -206,7 +206,7 @@ class PlacementUrlListServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\PlacementUrlListServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -221,7 +221,7 @@ class PlacementUrlListServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -241,14 +241,14 @@ class PlacementUrlListServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function placementUrlListServiceAddPostAsyncWithHttpInfo($placement_url_list_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\PlacementUrlListServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceMutateResponse';
         $request = $this->placementUrlListServiceAddPostRequest($placement_url_list_service_operation);
 
         return $this->client
@@ -288,7 +288,7 @@ class PlacementUrlListServiceApi
     /**
      * Create request for operation 'placementUrlListServiceAddPost'
      *
-     * @param  \OpenAPI\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -377,11 +377,11 @@ class PlacementUrlListServiceApi
     /**
      * Operation placementUrlListServiceGetPost
      *
-     * @param  \OpenAPI\Client\Model\PlacementUrlListServiceSelector $placement_url_list_service_selector placement_url_list_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceSelector $placement_url_list_service_selector placement_url_list_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\PlacementUrlListServiceGetResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceGetResponse
      */
     public function placementUrlListServiceGetPost($placement_url_list_service_selector = null)
     {
@@ -392,11 +392,11 @@ class PlacementUrlListServiceApi
     /**
      * Operation placementUrlListServiceGetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\PlacementUrlListServiceSelector $placement_url_list_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceSelector $placement_url_list_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\PlacementUrlListServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function placementUrlListServiceGetPostWithHttpInfo($placement_url_list_service_selector = null)
     {
@@ -433,20 +433,20 @@ class PlacementUrlListServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\PlacementUrlListServiceGetResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceGetResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\PlacementUrlListServiceGetResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceGetResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\PlacementUrlListServiceGetResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceGetResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -465,7 +465,7 @@ class PlacementUrlListServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\PlacementUrlListServiceGetResponse',
+                        '\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceGetResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -480,7 +480,7 @@ class PlacementUrlListServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\PlacementUrlListServiceSelector $placement_url_list_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceSelector $placement_url_list_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -500,14 +500,14 @@ class PlacementUrlListServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\PlacementUrlListServiceSelector $placement_url_list_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceSelector $placement_url_list_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function placementUrlListServiceGetPostAsyncWithHttpInfo($placement_url_list_service_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\PlacementUrlListServiceGetResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceGetResponse';
         $request = $this->placementUrlListServiceGetPostRequest($placement_url_list_service_selector);
 
         return $this->client
@@ -547,7 +547,7 @@ class PlacementUrlListServiceApi
     /**
      * Create request for operation 'placementUrlListServiceGetPost'
      *
-     * @param  \OpenAPI\Client\Model\PlacementUrlListServiceSelector $placement_url_list_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceSelector $placement_url_list_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -636,11 +636,11 @@ class PlacementUrlListServiceApi
     /**
      * Operation placementUrlListServiceRemovePost
      *
-     * @param  \OpenAPI\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation placement_url_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation placement_url_list_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\PlacementUrlListServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceMutateResponse
      */
     public function placementUrlListServiceRemovePost($placement_url_list_service_operation = null)
     {
@@ -651,11 +651,11 @@ class PlacementUrlListServiceApi
     /**
      * Operation placementUrlListServiceRemovePostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\PlacementUrlListServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function placementUrlListServiceRemovePostWithHttpInfo($placement_url_list_service_operation = null)
     {
@@ -692,20 +692,20 @@ class PlacementUrlListServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\PlacementUrlListServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\PlacementUrlListServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\PlacementUrlListServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -724,7 +724,7 @@ class PlacementUrlListServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\PlacementUrlListServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -739,7 +739,7 @@ class PlacementUrlListServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -759,14 +759,14 @@ class PlacementUrlListServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function placementUrlListServiceRemovePostAsyncWithHttpInfo($placement_url_list_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\PlacementUrlListServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceMutateResponse';
         $request = $this->placementUrlListServiceRemovePostRequest($placement_url_list_service_operation);
 
         return $this->client
@@ -806,7 +806,7 @@ class PlacementUrlListServiceApi
     /**
      * Create request for operation 'placementUrlListServiceRemovePost'
      *
-     * @param  \OpenAPI\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -895,11 +895,11 @@ class PlacementUrlListServiceApi
     /**
      * Operation placementUrlListServiceSetPost
      *
-     * @param  \OpenAPI\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation placement_url_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation placement_url_list_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\PlacementUrlListServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceMutateResponse
      */
     public function placementUrlListServiceSetPost($placement_url_list_service_operation = null)
     {
@@ -910,11 +910,11 @@ class PlacementUrlListServiceApi
     /**
      * Operation placementUrlListServiceSetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\PlacementUrlListServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function placementUrlListServiceSetPostWithHttpInfo($placement_url_list_service_operation = null)
     {
@@ -951,20 +951,20 @@ class PlacementUrlListServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\PlacementUrlListServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\PlacementUrlListServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\PlacementUrlListServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -983,7 +983,7 @@ class PlacementUrlListServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\PlacementUrlListServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -998,7 +998,7 @@ class PlacementUrlListServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1018,14 +1018,14 @@ class PlacementUrlListServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function placementUrlListServiceSetPostAsyncWithHttpInfo($placement_url_list_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\PlacementUrlListServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceMutateResponse';
         $request = $this->placementUrlListServiceSetPostRequest($placement_url_list_service_operation);
 
         return $this->client
@@ -1065,7 +1065,7 @@ class PlacementUrlListServiceApi
     /**
      * Create request for operation 'placementUrlListServiceSetPost'
      *
-     * @param  \OpenAPI\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceOperation $placement_url_list_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

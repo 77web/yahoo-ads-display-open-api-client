@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AccountManagementServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;AccountManagementServiceValueオブジェクトは、アカウント情報を格納するコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The AccountManagementServiceValue object is a container for storing account information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class AccountManagementServiceValue implements ModelInterface, ArrayAccess, \Jso
       * @var string[]
       */
     protected static $openAPITypes = [
-        'account_management' => '\OpenAPI\Client\Model\AccountManagement',
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'account_management' => '\YahooAdsDisplayApi\Client\Model\AccountManagement',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool'
     ];
 
@@ -225,7 +225,7 @@ class AccountManagementServiceValue implements ModelInterface, ArrayAccess, \Jso
     /**
      * Gets account_management
      *
-     * @return \OpenAPI\Client\Model\AccountManagement|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountManagement|null
      */
     public function getAccountManagement()
     {
@@ -235,7 +235,7 @@ class AccountManagementServiceValue implements ModelInterface, ArrayAccess, \Jso
     /**
      * Sets account_management
      *
-     * @param \OpenAPI\Client\Model\AccountManagement|null $account_management account_management
+     * @param \YahooAdsDisplayApi\Client\Model\AccountManagement|null $account_management account_management
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class AccountManagementServiceValue implements ModelInterface, ArrayAccess, \Jso
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -259,7 +259,7 @@ class AccountManagementServiceValue implements ModelInterface, ArrayAccess, \Jso
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */

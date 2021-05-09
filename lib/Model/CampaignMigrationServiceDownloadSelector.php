@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * CampaignMigrationServiceDownloadSelector Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;マイグレーション対象のキャンペーン一覧をダウンロードします。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;Download the list of campaigns targeted for migration.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class CampaignMigrationServiceDownloadSelector implements ModelInterface, ArrayA
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'lang' => '\OpenAPI\Client\Model\CampaignMigrationServiceLang'
+        'lang' => '\YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceLang'
     ];
 
     /**
@@ -246,7 +246,7 @@ class CampaignMigrationServiceDownloadSelector implements ModelInterface, ArrayA
     /**
      * Gets lang
      *
-     * @return \OpenAPI\Client\Model\CampaignMigrationServiceLang|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceLang|null
      */
     public function getLang()
     {
@@ -256,7 +256,7 @@ class CampaignMigrationServiceDownloadSelector implements ModelInterface, ArrayA
     /**
      * Sets lang
      *
-     * @param \OpenAPI\Client\Model\CampaignMigrationServiceLang|null $lang lang
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignMigrationServiceLang|null $lang lang
      *
      * @return self
      */

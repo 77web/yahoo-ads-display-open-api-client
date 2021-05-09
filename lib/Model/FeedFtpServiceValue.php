@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * FeedFtpServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;FeedFtpServiceValueオブジェクトは、操作結果を含む定期アップロード設定情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedFtpServiceValue object displays Periodic Upload setting information including operation result.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class FeedFtpServiceValue implements ModelInterface, ArrayAccess, \JsonSerializa
       * @var string[]
       */
     protected static $openAPITypes = [
-        'errors' => '\OpenAPI\Client\Model\Error[]',
-        'feed_ftp' => '\OpenAPI\Client\Model\FeedFtp',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
+        'feed_ftp' => '\YahooAdsDisplayApi\Client\Model\FeedFtp',
         'operation_succeeded' => 'bool'
     ];
 
@@ -225,7 +225,7 @@ class FeedFtpServiceValue implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -235,7 +235,7 @@ class FeedFtpServiceValue implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class FeedFtpServiceValue implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Gets feed_ftp
      *
-     * @return \OpenAPI\Client\Model\FeedFtp|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedFtp|null
      */
     public function getFeedFtp()
     {
@@ -259,7 +259,7 @@ class FeedFtpServiceValue implements ModelInterface, ArrayAccess, \JsonSerializa
     /**
      * Sets feed_ftp
      *
-     * @param \OpenAPI\Client\Model\FeedFtp|null $feed_ftp feed_ftp
+     * @param \YahooAdsDisplayApi\Client\Model\FeedFtp|null $feed_ftp feed_ftp
      *
      * @return self
      */

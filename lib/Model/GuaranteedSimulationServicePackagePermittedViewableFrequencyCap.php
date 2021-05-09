@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServicePackagePermittedViewableFrequencyCap Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedSimulationServicePackagePermittedViewableFrequencyCapは、ビューアブルフリクエンシー制御を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;GuaranteedSimulationServicePackagePermittedViewableFrequencyCap object describes viewable frequency restriction.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,9 +61,9 @@ class GuaranteedSimulationServicePackagePermittedViewableFrequencyCap implements
       * @var string[]
       */
     protected static $openAPITypes = [
-        'viewable_frequency_cap_permission' => '\OpenAPI\Client\Model\GuaranteedSimulationServicePackagePermissionType',
-        'viewable_frequency_cap_levels' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceFrequencyLevel[]',
-        'permitted_viewable_frequency_cap_time_units' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceFrequencyTimeUnit[]',
+        'viewable_frequency_cap_permission' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackagePermissionType',
+        'viewable_frequency_cap_levels' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceFrequencyLevel[]',
+        'permitted_viewable_frequency_cap_time_units' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceFrequencyTimeUnit[]',
         'permitted_viewable_frequency_cap_impression_min' => 'int',
         'permitted_viewable_frequency_cap_impression_max' => 'int'
     ];
@@ -237,7 +237,7 @@ class GuaranteedSimulationServicePackagePermittedViewableFrequencyCap implements
     /**
      * Gets viewable_frequency_cap_permission
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServicePackagePermissionType|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackagePermissionType|null
      */
     public function getViewableFrequencyCapPermission()
     {
@@ -247,7 +247,7 @@ class GuaranteedSimulationServicePackagePermittedViewableFrequencyCap implements
     /**
      * Sets viewable_frequency_cap_permission
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServicePackagePermissionType|null $viewable_frequency_cap_permission viewable_frequency_cap_permission
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackagePermissionType|null $viewable_frequency_cap_permission viewable_frequency_cap_permission
      *
      * @return self
      */
@@ -261,7 +261,7 @@ class GuaranteedSimulationServicePackagePermittedViewableFrequencyCap implements
     /**
      * Gets viewable_frequency_cap_levels
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceFrequencyLevel[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceFrequencyLevel[]|null
      */
     public function getViewableFrequencyCapLevels()
     {
@@ -271,7 +271,7 @@ class GuaranteedSimulationServicePackagePermittedViewableFrequencyCap implements
     /**
      * Sets viewable_frequency_cap_levels
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceFrequencyLevel[]|null $viewable_frequency_cap_levels viewable_frequency_cap_levels
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceFrequencyLevel[]|null $viewable_frequency_cap_levels viewable_frequency_cap_levels
      *
      * @return self
      */
@@ -285,7 +285,7 @@ class GuaranteedSimulationServicePackagePermittedViewableFrequencyCap implements
     /**
      * Gets permitted_viewable_frequency_cap_time_units
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceFrequencyTimeUnit[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceFrequencyTimeUnit[]|null
      */
     public function getPermittedViewableFrequencyCapTimeUnits()
     {
@@ -295,7 +295,7 @@ class GuaranteedSimulationServicePackagePermittedViewableFrequencyCap implements
     /**
      * Sets permitted_viewable_frequency_cap_time_units
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceFrequencyTimeUnit[]|null $permitted_viewable_frequency_cap_time_units permitted_viewable_frequency_cap_time_units
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceFrequencyTimeUnit[]|null $permitted_viewable_frequency_cap_time_units permitted_viewable_frequency_cap_time_units
      *
      * @return self
      */

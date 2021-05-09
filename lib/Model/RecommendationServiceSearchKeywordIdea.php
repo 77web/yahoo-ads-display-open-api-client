@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RecommendationServiceSearchKeywordIdea Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;追加を推奨するサーチキーワードに関する情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;This describes the information of a recommended search keyword to add.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class RecommendationServiceSearchKeywordIdea implements ModelInterface, ArrayAcc
       * @var string[]
       */
     protected static $openAPITypes = [
-        'search_keyword_idea_search_keyword_list' => '\OpenAPI\Client\Model\RecommendationServiceSearchKeywordIdeaSearchKeywordList[]'
+        'search_keyword_idea_search_keyword_list' => '\YahooAdsDisplayApi\Client\Model\RecommendationServiceSearchKeywordIdeaSearchKeywordList[]'
     ];
 
     /**
@@ -213,7 +213,7 @@ class RecommendationServiceSearchKeywordIdea implements ModelInterface, ArrayAcc
     /**
      * Gets search_keyword_idea_search_keyword_list
      *
-     * @return \OpenAPI\Client\Model\RecommendationServiceSearchKeywordIdeaSearchKeywordList[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\RecommendationServiceSearchKeywordIdeaSearchKeywordList[]|null
      */
     public function getSearchKeywordIdeaSearchKeywordList()
     {
@@ -223,7 +223,7 @@ class RecommendationServiceSearchKeywordIdea implements ModelInterface, ArrayAcc
     /**
      * Sets search_keyword_idea_search_keyword_list
      *
-     * @param \OpenAPI\Client\Model\RecommendationServiceSearchKeywordIdeaSearchKeywordList[]|null $search_keyword_idea_search_keyword_list search_keyword_idea_search_keyword_list
+     * @param \YahooAdsDisplayApi\Client\Model\RecommendationServiceSearchKeywordIdeaSearchKeywordList[]|null $search_keyword_idea_search_keyword_list search_keyword_idea_search_keyword_list
      *
      * @return self
      */

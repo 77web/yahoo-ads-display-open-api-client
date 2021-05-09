@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupServiceAutoConversionOptimizer Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; AdGroupServiceAutoConversionOptimizerオブジェクトは、コンバージョン最適化設定情報を表します。&lt;br&gt; SET時、このフィールドは省略可能となります。&lt;br&gt; ADD時、このフィールドは指定できません。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; AdGroupServiceAutoConversionOptimizer displays the contents of conversion optimization &#39;Auto Bidding&#39; settings.&lt;br&gt; This field is optional in SET operation.&lt;br&gt; In ADD operation, this field can not be set. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class AdGroupServiceAutoConversionOptimizer implements ModelInterface, ArrayAcce
       * @var string[]
       */
     protected static $openAPITypes = [
-        'eligibility_flg' => '\OpenAPI\Client\Model\AdGroupServiceEligibilityFlg',
+        'eligibility_flg' => '\YahooAdsDisplayApi\Client\Model\AdGroupServiceEligibilityFlg',
         'target_cpa' => 'int'
     ];
 
@@ -219,7 +219,7 @@ class AdGroupServiceAutoConversionOptimizer implements ModelInterface, ArrayAcce
     /**
      * Gets eligibility_flg
      *
-     * @return \OpenAPI\Client\Model\AdGroupServiceEligibilityFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupServiceEligibilityFlg|null
      */
     public function getEligibilityFlg()
     {
@@ -229,7 +229,7 @@ class AdGroupServiceAutoConversionOptimizer implements ModelInterface, ArrayAcce
     /**
      * Sets eligibility_flg
      *
-     * @param \OpenAPI\Client\Model\AdGroupServiceEligibilityFlg|null $eligibility_flg eligibility_flg
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupServiceEligibilityFlg|null $eligibility_flg eligibility_flg
      *
      * @return self
      */

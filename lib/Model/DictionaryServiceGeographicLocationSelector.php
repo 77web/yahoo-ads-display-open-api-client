@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * DictionaryServiceGeographicLocationSelector Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;DictionaryServiceGeographicLocationSelectorオブジェクトは、取得する地域情報のリスト言語を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;DictionaryServiceGeographicLocationSelector object displays the language selection for retrieving geographic location list.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class DictionaryServiceGeographicLocationSelector implements ModelInterface, Arr
       * @var string[]
       */
     protected static $openAPITypes = [
-        'geographic_location_type' => '\OpenAPI\Client\Model\DictionaryServiceGeographicLocationType',
-        'lang' => '\OpenAPI\Client\Model\DictionaryServiceLang'
+        'geographic_location_type' => '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGeographicLocationType',
+        'lang' => '\YahooAdsDisplayApi\Client\Model\DictionaryServiceLang'
     ];
 
     /**
@@ -222,7 +222,7 @@ class DictionaryServiceGeographicLocationSelector implements ModelInterface, Arr
     /**
      * Gets geographic_location_type
      *
-     * @return \OpenAPI\Client\Model\DictionaryServiceGeographicLocationType|null
+     * @return \YahooAdsDisplayApi\Client\Model\DictionaryServiceGeographicLocationType|null
      */
     public function getGeographicLocationType()
     {
@@ -232,7 +232,7 @@ class DictionaryServiceGeographicLocationSelector implements ModelInterface, Arr
     /**
      * Sets geographic_location_type
      *
-     * @param \OpenAPI\Client\Model\DictionaryServiceGeographicLocationType|null $geographic_location_type geographic_location_type
+     * @param \YahooAdsDisplayApi\Client\Model\DictionaryServiceGeographicLocationType|null $geographic_location_type geographic_location_type
      *
      * @return self
      */
@@ -246,7 +246,7 @@ class DictionaryServiceGeographicLocationSelector implements ModelInterface, Arr
     /**
      * Gets lang
      *
-     * @return \OpenAPI\Client\Model\DictionaryServiceLang
+     * @return \YahooAdsDisplayApi\Client\Model\DictionaryServiceLang
      */
     public function getLang()
     {
@@ -256,7 +256,7 @@ class DictionaryServiceGeographicLocationSelector implements ModelInterface, Arr
     /**
      * Sets lang
      *
-     * @param \OpenAPI\Client\Model\DictionaryServiceLang $lang lang
+     * @param \YahooAdsDisplayApi\Client\Model\DictionaryServiceLang $lang lang
      *
      * @return self
      */

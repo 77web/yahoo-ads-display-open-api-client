@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupAdServiceMobileAd Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; AdGroupAdServiceMobileAdオブジェクトは、モバイル広告の情報を表します。&lt;br&gt; このフィールドは、省略可能となります。&lt;br&gt; ※ADD時、adTypeがTEXT_SHORT_AD1またはTEXT_SHORT_AD2の場合は必須です。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; AdGroupAdServiceMobileAd object describes mobile ad information.&lt;br&gt; This field is optional.&lt;br&gt; *If adType is TEXT_SHORT_AD1 or TEXT_SHORT_AD2, this field is required in ADD operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -65,7 +65,7 @@ class AdGroupAdServiceMobileAd implements ModelInterface, ArrayAccess, \JsonSeri
         'description2' => 'string',
         'display_url' => 'string',
         'headline' => 'string',
-        'mobile_carriers' => '\OpenAPI\Client\Model\AdGroupAdServiceCarrierName[]',
+        'mobile_carriers' => '\YahooAdsDisplayApi\Client\Model\AdGroupAdServiceCarrierName[]',
         'url' => 'string'
     ];
 
@@ -339,7 +339,7 @@ class AdGroupAdServiceMobileAd implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Gets mobile_carriers
      *
-     * @return \OpenAPI\Client\Model\AdGroupAdServiceCarrierName[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceCarrierName[]|null
      */
     public function getMobileCarriers()
     {
@@ -349,7 +349,7 @@ class AdGroupAdServiceMobileAd implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Sets mobile_carriers
      *
-     * @param \OpenAPI\Client\Model\AdGroupAdServiceCarrierName[]|null $mobile_carriers mobile_carriers
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupAdServiceCarrierName[]|null $mobile_carriers mobile_carriers
      *
      * @return self
      */

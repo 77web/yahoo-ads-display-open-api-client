@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * StatsServiceTargetStatsValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;StatsServiceTargetStatsValuesオブジェクトは、ターゲティングの統計情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;StatsServiceTargetStatsValues object contains Target stats information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -65,8 +65,8 @@ class StatsServiceTargetStatsValue implements ModelInterface, ArrayAccess, \Json
         'campaign_name' => 'string',
         'ad_group_id' => 'int',
         'ad_group_name' => 'string',
-        'stats' => '\OpenAPI\Client\Model\Stats',
-        'target' => '\OpenAPI\Client\Model\StatsServiceTarget'
+        'stats' => '\YahooAdsDisplayApi\Client\Model\Stats',
+        'target' => '\YahooAdsDisplayApi\Client\Model\StatsServiceTarget'
     ];
 
     /**
@@ -339,7 +339,7 @@ class StatsServiceTargetStatsValue implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets stats
      *
-     * @return \OpenAPI\Client\Model\Stats|null
+     * @return \YahooAdsDisplayApi\Client\Model\Stats|null
      */
     public function getStats()
     {
@@ -349,7 +349,7 @@ class StatsServiceTargetStatsValue implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets stats
      *
-     * @param \OpenAPI\Client\Model\Stats|null $stats stats
+     * @param \YahooAdsDisplayApi\Client\Model\Stats|null $stats stats
      *
      * @return self
      */
@@ -363,7 +363,7 @@ class StatsServiceTargetStatsValue implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets target
      *
-     * @return \OpenAPI\Client\Model\StatsServiceTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceTarget|null
      */
     public function getTarget()
     {
@@ -373,7 +373,7 @@ class StatsServiceTargetStatsValue implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets target
      *
-     * @param \OpenAPI\Client\Model\StatsServiceTarget|null $target target
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceTarget|null $target target
      *
      * @return self
      */

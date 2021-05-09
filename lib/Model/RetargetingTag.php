@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RetargetingTag Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;RetargetingTagオブジェクトは、サイトリターゲティングのタグ情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;RetargetingTag objects displays tag information for site retargeting.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class RetargetingTag implements ModelInterface, ArrayAccess, \JsonSerializable
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'approval_status' => '\OpenAPI\Client\Model\RetargetingTagServiceApprovalStatus',
+        'approval_status' => '\YahooAdsDisplayApi\Client\Model\RetargetingTagServiceApprovalStatus',
         'retargeting_tag_id' => 'string',
         'tag' => 'string',
         'advanced_tag' => 'string'
@@ -261,7 +261,7 @@ class RetargetingTag implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets approval_status
      *
-     * @return \OpenAPI\Client\Model\RetargetingTagServiceApprovalStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingTagServiceApprovalStatus|null
      */
     public function getApprovalStatus()
     {
@@ -271,7 +271,7 @@ class RetargetingTag implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets approval_status
      *
-     * @param \OpenAPI\Client\Model\RetargetingTagServiceApprovalStatus|null $approval_status approval_status
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingTagServiceApprovalStatus|null $approval_status approval_status
      *
      * @return self
      */

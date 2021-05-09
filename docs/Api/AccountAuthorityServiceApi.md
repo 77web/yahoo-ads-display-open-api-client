@@ -1,4 +1,4 @@
-# OpenAPI\Client\AccountAuthorityServiceApi
+# YahooAdsDisplayApi\Client\AccountAuthorityServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -10,7 +10,7 @@ Method | HTTP request | Description
 ## `accountAuthorityServiceGetPost()`
 
 ```php
-accountAuthorityServiceGetPost($account_authority_service_selector): \OpenAPI\Client\Model\AccountAuthorityServiceGetResponse
+accountAuthorityServiceGetPost($account_authority_service_selector): \YahooAdsDisplayApi\Client\Model\AccountAuthorityServiceGetResponse
 ```
 
 
@@ -25,16 +25,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\AccountAuthorityServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\AccountAuthorityServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$account_authority_service_selector = new \OpenAPI\Client\Model\AccountAuthorityServiceSelector(); // \OpenAPI\Client\Model\AccountAuthorityServiceSelector
+$account_authority_service_selector = new \YahooAdsDisplayApi\Client\Model\AccountAuthorityServiceSelector(); // \YahooAdsDisplayApi\Client\Model\AccountAuthorityServiceSelector
 
 try {
     $result = $apiInstance->accountAuthorityServiceGetPost($account_authority_service_selector);
@@ -48,11 +48,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **account_authority_service_selector** | [**\OpenAPI\Client\Model\AccountAuthorityServiceSelector**](../Model/AccountAuthorityServiceSelector.md)|  | [optional]
+ **account_authority_service_selector** | [**\YahooAdsDisplayApi\Client\Model\AccountAuthorityServiceSelector**](../Model/AccountAuthorityServiceSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\AccountAuthorityServiceGetResponse**](../Model/AccountAuthorityServiceGetResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\AccountAuthorityServiceGetResponse**](../Model/AccountAuthorityServiceGetResponse.md)
 
 ### Authorization
 

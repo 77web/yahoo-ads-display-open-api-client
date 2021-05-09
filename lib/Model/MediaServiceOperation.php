@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * MediaServiceOperation Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;MediaServiceOperationオブジェクトは、操作の対象となる画像と処理の内容を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The MediaServiceOperation object is a container for operation target media and operation results.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class MediaServiceOperation implements ModelInterface, ArrayAccess, \JsonSeriali
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'operand' => '\OpenAPI\Client\Model\MediaServiceRecord[]'
+        'operand' => '\YahooAdsDisplayApi\Client\Model\MediaServiceRecord[]'
     ];
 
     /**
@@ -257,7 +257,7 @@ class MediaServiceOperation implements ModelInterface, ArrayAccess, \JsonSeriali
     /**
      * Gets operand
      *
-     * @return \OpenAPI\Client\Model\MediaServiceRecord[]
+     * @return \YahooAdsDisplayApi\Client\Model\MediaServiceRecord[]
      */
     public function getOperand()
     {
@@ -267,7 +267,7 @@ class MediaServiceOperation implements ModelInterface, ArrayAccess, \JsonSeriali
     /**
      * Sets operand
      *
-     * @param \OpenAPI\Client\Model\MediaServiceRecord[] $operand operand
+     * @param \YahooAdsDisplayApi\Client\Model\MediaServiceRecord[] $operand operand
      *
      * @return self
      */

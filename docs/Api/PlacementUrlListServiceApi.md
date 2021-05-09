@@ -1,4 +1,4 @@
-# OpenAPI\Client\PlacementUrlListServiceApi
+# YahooAdsDisplayApi\Client\PlacementUrlListServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -13,7 +13,7 @@ Method | HTTP request | Description
 ## `placementUrlListServiceAddPost()`
 
 ```php
-placementUrlListServiceAddPost($placement_url_list_service_operation): \OpenAPI\Client\Model\PlacementUrlListServiceMutateResponse
+placementUrlListServiceAddPost($placement_url_list_service_operation): \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceMutateResponse
 ```
 
 
@@ -28,16 +28,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\PlacementUrlListServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\PlacementUrlListServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$placement_url_list_service_operation = new \OpenAPI\Client\Model\PlacementUrlListServiceOperation(); // \OpenAPI\Client\Model\PlacementUrlListServiceOperation
+$placement_url_list_service_operation = new \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceOperation(); // \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceOperation
 
 try {
     $result = $apiInstance->placementUrlListServiceAddPost($placement_url_list_service_operation);
@@ -51,11 +51,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **placement_url_list_service_operation** | [**\OpenAPI\Client\Model\PlacementUrlListServiceOperation**](../Model/PlacementUrlListServiceOperation.md)|  | [optional]
+ **placement_url_list_service_operation** | [**\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceOperation**](../Model/PlacementUrlListServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\PlacementUrlListServiceMutateResponse**](../Model/PlacementUrlListServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceMutateResponse**](../Model/PlacementUrlListServiceMutateResponse.md)
 
 ### Authorization
 
@@ -73,7 +73,7 @@ Name | Type | Description  | Notes
 ## `placementUrlListServiceGetPost()`
 
 ```php
-placementUrlListServiceGetPost($placement_url_list_service_selector): \OpenAPI\Client\Model\PlacementUrlListServiceGetResponse
+placementUrlListServiceGetPost($placement_url_list_service_selector): \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceGetResponse
 ```
 
 
@@ -88,16 +88,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\PlacementUrlListServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\PlacementUrlListServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$placement_url_list_service_selector = new \OpenAPI\Client\Model\PlacementUrlListServiceSelector(); // \OpenAPI\Client\Model\PlacementUrlListServiceSelector
+$placement_url_list_service_selector = new \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceSelector(); // \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceSelector
 
 try {
     $result = $apiInstance->placementUrlListServiceGetPost($placement_url_list_service_selector);
@@ -111,11 +111,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **placement_url_list_service_selector** | [**\OpenAPI\Client\Model\PlacementUrlListServiceSelector**](../Model/PlacementUrlListServiceSelector.md)|  | [optional]
+ **placement_url_list_service_selector** | [**\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceSelector**](../Model/PlacementUrlListServiceSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\PlacementUrlListServiceGetResponse**](../Model/PlacementUrlListServiceGetResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceGetResponse**](../Model/PlacementUrlListServiceGetResponse.md)
 
 ### Authorization
 
@@ -133,7 +133,7 @@ Name | Type | Description  | Notes
 ## `placementUrlListServiceRemovePost()`
 
 ```php
-placementUrlListServiceRemovePost($placement_url_list_service_operation): \OpenAPI\Client\Model\PlacementUrlListServiceMutateResponse
+placementUrlListServiceRemovePost($placement_url_list_service_operation): \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceMutateResponse
 ```
 
 
@@ -148,16 +148,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\PlacementUrlListServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\PlacementUrlListServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$placement_url_list_service_operation = new \OpenAPI\Client\Model\PlacementUrlListServiceOperation(); // \OpenAPI\Client\Model\PlacementUrlListServiceOperation
+$placement_url_list_service_operation = new \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceOperation(); // \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceOperation
 
 try {
     $result = $apiInstance->placementUrlListServiceRemovePost($placement_url_list_service_operation);
@@ -171,11 +171,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **placement_url_list_service_operation** | [**\OpenAPI\Client\Model\PlacementUrlListServiceOperation**](../Model/PlacementUrlListServiceOperation.md)|  | [optional]
+ **placement_url_list_service_operation** | [**\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceOperation**](../Model/PlacementUrlListServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\PlacementUrlListServiceMutateResponse**](../Model/PlacementUrlListServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceMutateResponse**](../Model/PlacementUrlListServiceMutateResponse.md)
 
 ### Authorization
 
@@ -193,7 +193,7 @@ Name | Type | Description  | Notes
 ## `placementUrlListServiceSetPost()`
 
 ```php
-placementUrlListServiceSetPost($placement_url_list_service_operation): \OpenAPI\Client\Model\PlacementUrlListServiceMutateResponse
+placementUrlListServiceSetPost($placement_url_list_service_operation): \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceMutateResponse
 ```
 
 
@@ -208,16 +208,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\PlacementUrlListServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\PlacementUrlListServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$placement_url_list_service_operation = new \OpenAPI\Client\Model\PlacementUrlListServiceOperation(); // \OpenAPI\Client\Model\PlacementUrlListServiceOperation
+$placement_url_list_service_operation = new \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceOperation(); // \YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceOperation
 
 try {
     $result = $apiInstance->placementUrlListServiceSetPost($placement_url_list_service_operation);
@@ -231,11 +231,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **placement_url_list_service_operation** | [**\OpenAPI\Client\Model\PlacementUrlListServiceOperation**](../Model/PlacementUrlListServiceOperation.md)|  | [optional]
+ **placement_url_list_service_operation** | [**\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceOperation**](../Model/PlacementUrlListServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\PlacementUrlListServiceMutateResponse**](../Model/PlacementUrlListServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\PlacementUrlListServiceMutateResponse**](../Model/PlacementUrlListServiceMutateResponse.md)
 
 ### Authorization
 

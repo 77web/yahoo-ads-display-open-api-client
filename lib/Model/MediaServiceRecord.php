@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * MediaServiceRecord Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;MediaServiceRecordオブジェクトは、画像の情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The MediaServiceRecord object is a container for the information of media (image data).&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,18 +62,18 @@ class MediaServiceRecord implements ModelInterface, ArrayAccess, \JsonSerializab
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'approval_status' => '\OpenAPI\Client\Model\MediaServiceApprovalStatus',
-        'campaign_banner_flg' => '\OpenAPI\Client\Model\MediaServiceCampaignBannerFlg',
+        'approval_status' => '\YahooAdsDisplayApi\Client\Model\MediaServiceApprovalStatus',
+        'campaign_banner_flg' => '\YahooAdsDisplayApi\Client\Model\MediaServiceCampaignBannerFlg',
         'creation_time' => 'string',
         'disapproval_reason_codes' => 'string[]',
-        'logo_flg' => '\OpenAPI\Client\Model\MediaServiceLogoFlg',
-        'image_media' => '\OpenAPI\Client\Model\MediaServiceImageMedia',
+        'logo_flg' => '\YahooAdsDisplayApi\Client\Model\MediaServiceLogoFlg',
+        'image_media' => '\YahooAdsDisplayApi\Client\Model\MediaServiceImageMedia',
         'media_id' => 'int',
         'media_name' => 'string',
         'media_title' => 'string',
-        'thumbnail_flg' => '\OpenAPI\Client\Model\MediaServiceThumbnailFlg',
-        'user_status' => '\OpenAPI\Client\Model\MediaServiceUserStatus',
-        'media_rich_format_flg' => '\OpenAPI\Client\Model\MediaServiceRichFormatFlg',
+        'thumbnail_flg' => '\YahooAdsDisplayApi\Client\Model\MediaServiceThumbnailFlg',
+        'user_status' => '\YahooAdsDisplayApi\Client\Model\MediaServiceUserStatus',
+        'media_rich_format_flg' => '\YahooAdsDisplayApi\Client\Model\MediaServiceRichFormatFlg',
         'created_date' => 'string'
     ];
 
@@ -315,7 +315,7 @@ class MediaServiceRecord implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets approval_status
      *
-     * @return \OpenAPI\Client\Model\MediaServiceApprovalStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\MediaServiceApprovalStatus|null
      */
     public function getApprovalStatus()
     {
@@ -325,7 +325,7 @@ class MediaServiceRecord implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets approval_status
      *
-     * @param \OpenAPI\Client\Model\MediaServiceApprovalStatus|null $approval_status approval_status
+     * @param \YahooAdsDisplayApi\Client\Model\MediaServiceApprovalStatus|null $approval_status approval_status
      *
      * @return self
      */
@@ -339,7 +339,7 @@ class MediaServiceRecord implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets campaign_banner_flg
      *
-     * @return \OpenAPI\Client\Model\MediaServiceCampaignBannerFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\MediaServiceCampaignBannerFlg|null
      */
     public function getCampaignBannerFlg()
     {
@@ -349,7 +349,7 @@ class MediaServiceRecord implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets campaign_banner_flg
      *
-     * @param \OpenAPI\Client\Model\MediaServiceCampaignBannerFlg|null $campaign_banner_flg campaign_banner_flg
+     * @param \YahooAdsDisplayApi\Client\Model\MediaServiceCampaignBannerFlg|null $campaign_banner_flg campaign_banner_flg
      *
      * @return self
      */
@@ -411,7 +411,7 @@ class MediaServiceRecord implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets logo_flg
      *
-     * @return \OpenAPI\Client\Model\MediaServiceLogoFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\MediaServiceLogoFlg|null
      */
     public function getLogoFlg()
     {
@@ -421,7 +421,7 @@ class MediaServiceRecord implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets logo_flg
      *
-     * @param \OpenAPI\Client\Model\MediaServiceLogoFlg|null $logo_flg logo_flg
+     * @param \YahooAdsDisplayApi\Client\Model\MediaServiceLogoFlg|null $logo_flg logo_flg
      *
      * @return self
      */
@@ -435,7 +435,7 @@ class MediaServiceRecord implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets image_media
      *
-     * @return \OpenAPI\Client\Model\MediaServiceImageMedia|null
+     * @return \YahooAdsDisplayApi\Client\Model\MediaServiceImageMedia|null
      */
     public function getImageMedia()
     {
@@ -445,7 +445,7 @@ class MediaServiceRecord implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets image_media
      *
-     * @param \OpenAPI\Client\Model\MediaServiceImageMedia|null $image_media image_media
+     * @param \YahooAdsDisplayApi\Client\Model\MediaServiceImageMedia|null $image_media image_media
      *
      * @return self
      */
@@ -531,7 +531,7 @@ class MediaServiceRecord implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets thumbnail_flg
      *
-     * @return \OpenAPI\Client\Model\MediaServiceThumbnailFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\MediaServiceThumbnailFlg|null
      */
     public function getThumbnailFlg()
     {
@@ -541,7 +541,7 @@ class MediaServiceRecord implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets thumbnail_flg
      *
-     * @param \OpenAPI\Client\Model\MediaServiceThumbnailFlg|null $thumbnail_flg thumbnail_flg
+     * @param \YahooAdsDisplayApi\Client\Model\MediaServiceThumbnailFlg|null $thumbnail_flg thumbnail_flg
      *
      * @return self
      */
@@ -555,7 +555,7 @@ class MediaServiceRecord implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets user_status
      *
-     * @return \OpenAPI\Client\Model\MediaServiceUserStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\MediaServiceUserStatus|null
      */
     public function getUserStatus()
     {
@@ -565,7 +565,7 @@ class MediaServiceRecord implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets user_status
      *
-     * @param \OpenAPI\Client\Model\MediaServiceUserStatus|null $user_status user_status
+     * @param \YahooAdsDisplayApi\Client\Model\MediaServiceUserStatus|null $user_status user_status
      *
      * @return self
      */
@@ -579,7 +579,7 @@ class MediaServiceRecord implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets media_rich_format_flg
      *
-     * @return \OpenAPI\Client\Model\MediaServiceRichFormatFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\MediaServiceRichFormatFlg|null
      */
     public function getMediaRichFormatFlg()
     {
@@ -589,7 +589,7 @@ class MediaServiceRecord implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets media_rich_format_flg
      *
-     * @param \OpenAPI\Client\Model\MediaServiceRichFormatFlg|null $media_rich_format_flg media_rich_format_flg
+     * @param \YahooAdsDisplayApi\Client\Model\MediaServiceRichFormatFlg|null $media_rich_format_flg media_rich_format_flg
      *
      * @return self
      */

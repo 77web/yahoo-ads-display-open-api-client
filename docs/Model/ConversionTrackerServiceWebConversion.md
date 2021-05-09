@@ -4,6 +4,6 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**snippet** | [**\OpenAPI\Client\Model\ConversionTrackerServiceWebConversionSnippet[]**](ConversionTrackerServiceWebConversionSnippet.md) |  | [optional]
+**snippet** | [**\YahooAdsDisplayApi\Client\Model\ConversionTrackerServiceWebConversionSnippet[]**](ConversionTrackerServiceWebConversionSnippet.md) |  | [optional]
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

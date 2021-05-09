@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RetargetingListServiceUploadUserListValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;RetargetingListServiceUploadUserListValueオブジェクトは、取得されたユーザーリストのアップロード情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;RetargetingListServiceUploadUserListValue object describes the upload information of the retrieved user list.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,9 +61,9 @@ class RetargetingListServiceUploadUserListValue implements ModelInterface, Array
       * @var string[]
       */
     protected static $openAPITypes = [
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool',
-        'upload_job' => '\OpenAPI\Client\Model\RetargetingListServiceUploadUserListJob'
+        'upload_job' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceUploadUserListJob'
     ];
 
     /**
@@ -225,7 +225,7 @@ class RetargetingListServiceUploadUserListValue implements ModelInterface, Array
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -235,7 +235,7 @@ class RetargetingListServiceUploadUserListValue implements ModelInterface, Array
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */
@@ -273,7 +273,7 @@ class RetargetingListServiceUploadUserListValue implements ModelInterface, Array
     /**
      * Gets upload_job
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceUploadUserListJob|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceUploadUserListJob|null
      */
     public function getUploadJob()
     {
@@ -283,7 +283,7 @@ class RetargetingListServiceUploadUserListValue implements ModelInterface, Array
     /**
      * Sets upload_job
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceUploadUserListJob|null $upload_job upload_job
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceUploadUserListJob|null $upload_job upload_job
      *
      * @return self
      */

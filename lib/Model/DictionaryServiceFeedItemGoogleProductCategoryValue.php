@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * DictionaryServiceFeedItemGoogleProductCategoryValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;DictionaryServiceFeedItemGoogleProductCategoryValueオブジェクトは、FeedItemGoogleProductCategoryを取得するコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;DictionaryServiceFeedItemGoogleProductCategoryValue object obtains FeedItemGoogleProductCategory.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class DictionaryServiceFeedItemGoogleProductCategoryValue implements ModelInterf
       * @var string[]
       */
     protected static $openAPITypes = [
-        'errors' => '\OpenAPI\Client\Model\Error[]',
-        'feed_item_google_product_category' => '\OpenAPI\Client\Model\DictionaryServiceFeedItemGoogleProductCategory',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
+        'feed_item_google_product_category' => '\YahooAdsDisplayApi\Client\Model\DictionaryServiceFeedItemGoogleProductCategory',
         'operation_succeeded' => 'bool'
     ];
 
@@ -225,7 +225,7 @@ class DictionaryServiceFeedItemGoogleProductCategoryValue implements ModelInterf
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -235,7 +235,7 @@ class DictionaryServiceFeedItemGoogleProductCategoryValue implements ModelInterf
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class DictionaryServiceFeedItemGoogleProductCategoryValue implements ModelInterf
     /**
      * Gets feed_item_google_product_category
      *
-     * @return \OpenAPI\Client\Model\DictionaryServiceFeedItemGoogleProductCategory|null
+     * @return \YahooAdsDisplayApi\Client\Model\DictionaryServiceFeedItemGoogleProductCategory|null
      */
     public function getFeedItemGoogleProductCategory()
     {
@@ -259,7 +259,7 @@ class DictionaryServiceFeedItemGoogleProductCategoryValue implements ModelInterf
     /**
      * Sets feed_item_google_product_category
      *
-     * @param \OpenAPI\Client\Model\DictionaryServiceFeedItemGoogleProductCategory|null $feed_item_google_product_category feed_item_google_product_category
+     * @param \YahooAdsDisplayApi\Client\Model\DictionaryServiceFeedItemGoogleProductCategory|null $feed_item_google_product_category feed_item_google_product_category
      *
      * @return self
      */

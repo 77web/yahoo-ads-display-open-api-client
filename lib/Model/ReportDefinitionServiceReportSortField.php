@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ReportDefinitionServiceReportSortField Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; ReportDefinitionServiceReportSortFieldオブジェクトは、レポート定義のソート詳細を表します。&lt;br&gt; このフィールドは、ADD時に省略可能となり、REMOVE時に無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; ReportDefinitionServiceReportSortField object describes sort details of report definition.&lt;br&gt; This field is optional in ADD operation, and will be ignored in REMOVE operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class ReportDefinitionServiceReportSortField implements ModelInterface, ArrayAcc
       */
     protected static $openAPITypes = [
         'field' => 'string',
-        'report_sort_type' => '\OpenAPI\Client\Model\ReportDefinitionServiceReportSortType'
+        'report_sort_type' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportSortType'
     ];
 
     /**
@@ -243,7 +243,7 @@ class ReportDefinitionServiceReportSortField implements ModelInterface, ArrayAcc
     /**
      * Gets report_sort_type
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceReportSortType|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportSortType|null
      */
     public function getReportSortType()
     {
@@ -253,7 +253,7 @@ class ReportDefinitionServiceReportSortField implements ModelInterface, ArrayAcc
     /**
      * Sets report_sort_type
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceReportSortType|null $report_sort_type report_sort_type
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceReportSortType|null $report_sort_type report_sort_type
      *
      * @return self
      */

@@ -1,4 +1,4 @@
-# OpenAPI\Client\AccountManagementServiceApi
+# YahooAdsDisplayApi\Client\AccountManagementServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -12,7 +12,7 @@ Method | HTTP request | Description
 ## `accountManagementServiceAddPost()`
 
 ```php
-accountManagementServiceAddPost($account_management_service_operation): \OpenAPI\Client\Model\AccountManagementServiceMutateResponse
+accountManagementServiceAddPost($account_management_service_operation): \YahooAdsDisplayApi\Client\Model\AccountManagementServiceMutateResponse
 ```
 
 
@@ -27,16 +27,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\AccountManagementServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\AccountManagementServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$account_management_service_operation = new \OpenAPI\Client\Model\AccountManagementServiceOperation(); // \OpenAPI\Client\Model\AccountManagementServiceOperation
+$account_management_service_operation = new \YahooAdsDisplayApi\Client\Model\AccountManagementServiceOperation(); // \YahooAdsDisplayApi\Client\Model\AccountManagementServiceOperation
 
 try {
     $result = $apiInstance->accountManagementServiceAddPost($account_management_service_operation);
@@ -50,11 +50,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **account_management_service_operation** | [**\OpenAPI\Client\Model\AccountManagementServiceOperation**](../Model/AccountManagementServiceOperation.md)|  | [optional]
+ **account_management_service_operation** | [**\YahooAdsDisplayApi\Client\Model\AccountManagementServiceOperation**](../Model/AccountManagementServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\AccountManagementServiceMutateResponse**](../Model/AccountManagementServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\AccountManagementServiceMutateResponse**](../Model/AccountManagementServiceMutateResponse.md)
 
 ### Authorization
 
@@ -72,7 +72,7 @@ Name | Type | Description  | Notes
 ## `accountManagementServiceGetPost()`
 
 ```php
-accountManagementServiceGetPost($account_management_service_selector): \OpenAPI\Client\Model\AccountManagementServiceGetResponse
+accountManagementServiceGetPost($account_management_service_selector): \YahooAdsDisplayApi\Client\Model\AccountManagementServiceGetResponse
 ```
 
 
@@ -87,16 +87,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\AccountManagementServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\AccountManagementServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$account_management_service_selector = new \OpenAPI\Client\Model\AccountManagementServiceSelector(); // \OpenAPI\Client\Model\AccountManagementServiceSelector
+$account_management_service_selector = new \YahooAdsDisplayApi\Client\Model\AccountManagementServiceSelector(); // \YahooAdsDisplayApi\Client\Model\AccountManagementServiceSelector
 
 try {
     $result = $apiInstance->accountManagementServiceGetPost($account_management_service_selector);
@@ -110,11 +110,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **account_management_service_selector** | [**\OpenAPI\Client\Model\AccountManagementServiceSelector**](../Model/AccountManagementServiceSelector.md)|  | [optional]
+ **account_management_service_selector** | [**\YahooAdsDisplayApi\Client\Model\AccountManagementServiceSelector**](../Model/AccountManagementServiceSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\AccountManagementServiceGetResponse**](../Model/AccountManagementServiceGetResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\AccountManagementServiceGetResponse**](../Model/AccountManagementServiceGetResponse.md)
 
 ### Authorization
 
@@ -132,7 +132,7 @@ Name | Type | Description  | Notes
 ## `accountManagementServiceSetPost()`
 
 ```php
-accountManagementServiceSetPost($account_management_service_operation): \OpenAPI\Client\Model\AccountManagementServiceMutateResponse
+accountManagementServiceSetPost($account_management_service_operation): \YahooAdsDisplayApi\Client\Model\AccountManagementServiceMutateResponse
 ```
 
 
@@ -147,16 +147,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\AccountManagementServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\AccountManagementServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$account_management_service_operation = new \OpenAPI\Client\Model\AccountManagementServiceOperation(); // \OpenAPI\Client\Model\AccountManagementServiceOperation
+$account_management_service_operation = new \YahooAdsDisplayApi\Client\Model\AccountManagementServiceOperation(); // \YahooAdsDisplayApi\Client\Model\AccountManagementServiceOperation
 
 try {
     $result = $apiInstance->accountManagementServiceSetPost($account_management_service_operation);
@@ -170,11 +170,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **account_management_service_operation** | [**\OpenAPI\Client\Model\AccountManagementServiceOperation**](../Model/AccountManagementServiceOperation.md)|  | [optional]
+ **account_management_service_operation** | [**\YahooAdsDisplayApi\Client\Model\AccountManagementServiceOperation**](../Model/AccountManagementServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\AccountManagementServiceMutateResponse**](../Model/AccountManagementServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\AccountManagementServiceMutateResponse**](../Model/AccountManagementServiceMutateResponse.md)
 
 ### Authorization
 

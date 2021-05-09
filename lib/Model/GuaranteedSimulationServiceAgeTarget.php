@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServiceAgeTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; GuaranteedSimulationServiceAgeTargetオブジェクトは、年齢ターゲティングの設定情報を保持します。&lt;br&gt; ADD時、このフィールドは省略可能となります。&lt;br&gt; ※targetTypeがAGE_TARGETの場合は必須です。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; GuaranteedSimulationServiceAgeTarget object is a container for storing age targeting settings.&lt;br&gt; This field is optional in ADD operation.&lt;br&gt; ∗If targetType is AGE_TARGET, this field is required. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class GuaranteedSimulationServiceAgeTarget implements ModelInterface, ArrayAcces
       * @var string[]
       */
     protected static $openAPITypes = [
-        'age' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceAge'
+        'age' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAge'
     ];
 
     /**
@@ -213,7 +213,7 @@ class GuaranteedSimulationServiceAgeTarget implements ModelInterface, ArrayAcces
     /**
      * Gets age
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceAge|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAge|null
      */
     public function getAge()
     {
@@ -223,7 +223,7 @@ class GuaranteedSimulationServiceAgeTarget implements ModelInterface, ArrayAcces
     /**
      * Sets age
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceAge|null $age age
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAge|null $age age
      *
      * @return self
      */

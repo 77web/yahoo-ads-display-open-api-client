@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * Error Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;Errorオブジェクトは、エラー内容を表します。&lt;/div&gt;&lt;div lang&#x3D;\&quot;en\&quot;&gt;Error information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -63,7 +63,7 @@ class Error implements ModelInterface, ArrayAccess, \JsonSerializable
     protected static $openAPITypes = [
         'code' => 'string',
         'message' => 'string',
-        'details' => '\OpenAPI\Client\Model\ErrorDetail[]'
+        'details' => '\YahooAdsDisplayApi\Client\Model\ErrorDetail[]'
     ];
 
     /**
@@ -273,7 +273,7 @@ class Error implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets details
      *
-     * @return \OpenAPI\Client\Model\ErrorDetail[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\ErrorDetail[]|null
      */
     public function getDetails()
     {
@@ -283,7 +283,7 @@ class Error implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets details
      *
-     * @param \OpenAPI\Client\Model\ErrorDetail[]|null $details details
+     * @param \YahooAdsDisplayApi\Client\Model\ErrorDetail[]|null $details details
      *
      * @return self
      */

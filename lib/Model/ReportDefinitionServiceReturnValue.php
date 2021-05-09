@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ReportDefinitionServiceReturnValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;ReportDefinitionServiceReturnValueオブジェクトは、操作結果を含むレポート定義のコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The ReportDefinitionServiceReturnValue object is a container that holds report definitions, including operation results.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class ReportDefinitionServiceReturnValue implements ModelInterface, ArrayAccess,
       * @var string[]
       */
     protected static $openAPITypes = [
-        'values' => '\OpenAPI\Client\Model\ReportDefinitionServiceValue[]'
+        'values' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceValue[]'
     ];
 
     /**
@@ -213,7 +213,7 @@ class ReportDefinitionServiceReturnValue implements ModelInterface, ArrayAccess,
     /**
      * Gets values
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceValue[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceValue[]|null
      */
     public function getValues()
     {
@@ -223,7 +223,7 @@ class ReportDefinitionServiceReturnValue implements ModelInterface, ArrayAccess,
     /**
      * Sets values
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceValue[]|null $values values
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceValue[]|null $values values
      *
      * @return self
      */

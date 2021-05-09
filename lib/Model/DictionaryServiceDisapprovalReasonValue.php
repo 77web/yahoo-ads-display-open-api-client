@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * DictionaryServiceDisapprovalReasonValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;DictionaryServiceDisapprovalReasonValueオブジェクトは、 EditorialReason一覧を格納するコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;DictionaryServiceDisapprovalReasonValue object is a container of EditorialReason list.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class DictionaryServiceDisapprovalReasonValue implements ModelInterface, ArrayAc
       * @var string[]
       */
     protected static $openAPITypes = [
-        'disapproval_reason' => '\OpenAPI\Client\Model\DictionaryServiceDisapprovalReason',
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'disapproval_reason' => '\YahooAdsDisplayApi\Client\Model\DictionaryServiceDisapprovalReason',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool'
     ];
 
@@ -225,7 +225,7 @@ class DictionaryServiceDisapprovalReasonValue implements ModelInterface, ArrayAc
     /**
      * Gets disapproval_reason
      *
-     * @return \OpenAPI\Client\Model\DictionaryServiceDisapprovalReason|null
+     * @return \YahooAdsDisplayApi\Client\Model\DictionaryServiceDisapprovalReason|null
      */
     public function getDisapprovalReason()
     {
@@ -235,7 +235,7 @@ class DictionaryServiceDisapprovalReasonValue implements ModelInterface, ArrayAc
     /**
      * Sets disapproval_reason
      *
-     * @param \OpenAPI\Client\Model\DictionaryServiceDisapprovalReason|null $disapproval_reason disapproval_reason
+     * @param \YahooAdsDisplayApi\Client\Model\DictionaryServiceDisapprovalReason|null $disapproval_reason disapproval_reason
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class DictionaryServiceDisapprovalReasonValue implements ModelInterface, ArrayAc
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -259,7 +259,7 @@ class DictionaryServiceDisapprovalReasonValue implements ModelInterface, ArrayAc
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RetargetingListServiceSelector Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;RetargetingListServiceSelectorオブジェクトは、サイトリターゲティングのターゲットリストを指定します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;RetargetingListServiceSelector object selects the target list for site retargeting.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -65,8 +65,8 @@ class RetargetingListServiceSelector implements ModelInterface, ArrayAccess, \Js
         'number_results' => 'int',
         'start_index' => 'int',
         'target_list_ids' => 'int[]',
-        'target_list_types' => '\OpenAPI\Client\Model\RetargetingListServiceTargetListType[]',
-        'sharing_status_filter_type' => '\OpenAPI\Client\Model\RetargetingListServiceSharingStatusFilterType'
+        'target_list_types' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceTargetListType[]',
+        'sharing_status_filter_type' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceSharingStatusFilterType'
     ];
 
     /**
@@ -379,7 +379,7 @@ class RetargetingListServiceSelector implements ModelInterface, ArrayAccess, \Js
     /**
      * Gets target_list_types
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceTargetListType[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceTargetListType[]|null
      */
     public function getTargetListTypes()
     {
@@ -389,7 +389,7 @@ class RetargetingListServiceSelector implements ModelInterface, ArrayAccess, \Js
     /**
      * Sets target_list_types
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceTargetListType[]|null $target_list_types target_list_types
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceTargetListType[]|null $target_list_types target_list_types
      *
      * @return self
      */
@@ -407,7 +407,7 @@ class RetargetingListServiceSelector implements ModelInterface, ArrayAccess, \Js
     /**
      * Gets sharing_status_filter_type
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceSharingStatusFilterType|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceSharingStatusFilterType|null
      */
     public function getSharingStatusFilterType()
     {
@@ -417,7 +417,7 @@ class RetargetingListServiceSelector implements ModelInterface, ArrayAccess, \Js
     /**
      * Sets sharing_status_filter_type
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceSharingStatusFilterType|null $sharing_status_filter_type sharing_status_filter_type
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceSharingStatusFilterType|null $sharing_status_filter_type sharing_status_filter_type
      *
      * @return self
      */

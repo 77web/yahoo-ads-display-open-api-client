@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RetargetingListServiceCombination Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; RetargetingListServiceCombinationオブジェクトは、ターゲットリストの組み合わせに関する情報を格納するコンテナです。&lt;br&gt; このフィールドは、ADDおよびSET時に必須となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; RetargetingListServiceCombination object is a container for storing combination of target list information. &lt;br&gt; This field is required in ADD and SET operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class RetargetingListServiceCombination implements ModelInterface, ArrayAccess, 
       * @var string[]
       */
     protected static $openAPITypes = [
-        'logical_operator' => '\OpenAPI\Client\Model\RetargetingListServiceLogicalOperator',
-        'target_lists' => '\OpenAPI\Client\Model\RetargetingListServiceTargetListData[]'
+        'logical_operator' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceLogicalOperator',
+        'target_lists' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceTargetListData[]'
     ];
 
     /**
@@ -219,7 +219,7 @@ class RetargetingListServiceCombination implements ModelInterface, ArrayAccess, 
     /**
      * Gets logical_operator
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceLogicalOperator|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceLogicalOperator|null
      */
     public function getLogicalOperator()
     {
@@ -229,7 +229,7 @@ class RetargetingListServiceCombination implements ModelInterface, ArrayAccess, 
     /**
      * Sets logical_operator
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceLogicalOperator|null $logical_operator logical_operator
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceLogicalOperator|null $logical_operator logical_operator
      *
      * @return self
      */
@@ -243,7 +243,7 @@ class RetargetingListServiceCombination implements ModelInterface, ArrayAccess, 
     /**
      * Gets target_lists
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceTargetListData[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceTargetListData[]|null
      */
     public function getTargetLists()
     {
@@ -253,7 +253,7 @@ class RetargetingListServiceCombination implements ModelInterface, ArrayAccess, 
     /**
      * Sets target_lists
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceTargetListData[]|null $target_lists target_lists
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceTargetListData[]|null $target_lists target_lists
      *
      * @return self
      */

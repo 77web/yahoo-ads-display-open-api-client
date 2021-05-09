@@ -1,4 +1,4 @@
-# OpenAPI\Client\BudgetOrderServiceApi
+# YahooAdsDisplayApi\Client\BudgetOrderServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 ## `budgetOrderServiceGetPost()`
 
 ```php
-budgetOrderServiceGetPost($budget_order_service_selector): \OpenAPI\Client\Model\BudgetOrderServiceGetResponse
+budgetOrderServiceGetPost($budget_order_service_selector): \YahooAdsDisplayApi\Client\Model\BudgetOrderServiceGetResponse
 ```
 
 
@@ -26,16 +26,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\BudgetOrderServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\BudgetOrderServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$budget_order_service_selector = new \OpenAPI\Client\Model\BudgetOrderServiceSelector(); // \OpenAPI\Client\Model\BudgetOrderServiceSelector
+$budget_order_service_selector = new \YahooAdsDisplayApi\Client\Model\BudgetOrderServiceSelector(); // \YahooAdsDisplayApi\Client\Model\BudgetOrderServiceSelector
 
 try {
     $result = $apiInstance->budgetOrderServiceGetPost($budget_order_service_selector);
@@ -49,11 +49,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **budget_order_service_selector** | [**\OpenAPI\Client\Model\BudgetOrderServiceSelector**](../Model/BudgetOrderServiceSelector.md)|  | [optional]
+ **budget_order_service_selector** | [**\YahooAdsDisplayApi\Client\Model\BudgetOrderServiceSelector**](../Model/BudgetOrderServiceSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\BudgetOrderServiceGetResponse**](../Model/BudgetOrderServiceGetResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\BudgetOrderServiceGetResponse**](../Model/BudgetOrderServiceGetResponse.md)
 
 ### Authorization
 
@@ -71,7 +71,7 @@ Name | Type | Description  | Notes
 ## `budgetOrderServiceSetPost()`
 
 ```php
-budgetOrderServiceSetPost($budget_order_service_operation): \OpenAPI\Client\Model\BudgetOrderServiceMutateResponse
+budgetOrderServiceSetPost($budget_order_service_operation): \YahooAdsDisplayApi\Client\Model\BudgetOrderServiceMutateResponse
 ```
 
 
@@ -86,16 +86,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\BudgetOrderServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\BudgetOrderServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$budget_order_service_operation = new \OpenAPI\Client\Model\BudgetOrderServiceOperation(); // \OpenAPI\Client\Model\BudgetOrderServiceOperation
+$budget_order_service_operation = new \YahooAdsDisplayApi\Client\Model\BudgetOrderServiceOperation(); // \YahooAdsDisplayApi\Client\Model\BudgetOrderServiceOperation
 
 try {
     $result = $apiInstance->budgetOrderServiceSetPost($budget_order_service_operation);
@@ -109,11 +109,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **budget_order_service_operation** | [**\OpenAPI\Client\Model\BudgetOrderServiceOperation**](../Model/BudgetOrderServiceOperation.md)|  | [optional]
+ **budget_order_service_operation** | [**\YahooAdsDisplayApi\Client\Model\BudgetOrderServiceOperation**](../Model/BudgetOrderServiceOperation.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\BudgetOrderServiceMutateResponse**](../Model/BudgetOrderServiceMutateResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\BudgetOrderServiceMutateResponse**](../Model/BudgetOrderServiceMutateResponse.md)
 
 ### Authorization
 

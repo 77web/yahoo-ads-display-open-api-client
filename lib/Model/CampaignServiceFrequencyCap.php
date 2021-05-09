@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * CampaignServiceFrequencyCap Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; CampaignServiceFrequencyCapは、フリクエンシー制御を表します。&lt;br&gt; このフィールドは、ADDおよびSET時に省略可能となり、REMOVE時に無視されます。&lt;br&gt; ※ADDおよびSET時、目的ありの場合は設定不可となります。&lt;br&gt; ※ADD時、このフィールドは指定できません。&lt;br&gt; ※SET時は更新する項目のみのリクエストが可能です。&lt;br&gt; ※フリークエンシーキャップの解除方法は、以下の通りです： &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; CampaignServiceFrequencyCap object describes frequency restriction.&lt;br&gt; This field is optional in ADD and SET operation, and will be ignored in REMOVE operation. &lt;br&gt; *In ADD and SET operation, this field cannot be set for campaigns with campaign goal. &lt;br&gt; *In ADD operation, this field can not be set.&lt;br&gt; *Only update items can be requested in SET operation.&lt;br&gt; *Method to remove the frequency cap: &lt;/div&gt; &lt;code&gt; {   \&quot;frequencyCap\&quot;: {     \&quot;impression\&quot;: 0   } } &lt;/code&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class CampaignServiceFrequencyCap implements ModelInterface, ArrayAccess, \JsonS
       * @var string[]
       */
     protected static $openAPITypes = [
-        'frequency_level' => '\OpenAPI\Client\Model\CampaignServiceFrequencyLevel',
-        'frequency_time_unit' => '\OpenAPI\Client\Model\CampaignServiceFrequencyTimeUnit',
+        'frequency_level' => '\YahooAdsDisplayApi\Client\Model\CampaignServiceFrequencyLevel',
+        'frequency_time_unit' => '\YahooAdsDisplayApi\Client\Model\CampaignServiceFrequencyTimeUnit',
         'impression' => 'int'
     ];
 
@@ -225,7 +225,7 @@ class CampaignServiceFrequencyCap implements ModelInterface, ArrayAccess, \JsonS
     /**
      * Gets frequency_level
      *
-     * @return \OpenAPI\Client\Model\CampaignServiceFrequencyLevel|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignServiceFrequencyLevel|null
      */
     public function getFrequencyLevel()
     {
@@ -235,7 +235,7 @@ class CampaignServiceFrequencyCap implements ModelInterface, ArrayAccess, \JsonS
     /**
      * Sets frequency_level
      *
-     * @param \OpenAPI\Client\Model\CampaignServiceFrequencyLevel|null $frequency_level frequency_level
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignServiceFrequencyLevel|null $frequency_level frequency_level
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class CampaignServiceFrequencyCap implements ModelInterface, ArrayAccess, \JsonS
     /**
      * Gets frequency_time_unit
      *
-     * @return \OpenAPI\Client\Model\CampaignServiceFrequencyTimeUnit|null
+     * @return \YahooAdsDisplayApi\Client\Model\CampaignServiceFrequencyTimeUnit|null
      */
     public function getFrequencyTimeUnit()
     {
@@ -259,7 +259,7 @@ class CampaignServiceFrequencyCap implements ModelInterface, ArrayAccess, \JsonS
     /**
      * Sets frequency_time_unit
      *
-     * @param \OpenAPI\Client\Model\CampaignServiceFrequencyTimeUnit|null $frequency_time_unit frequency_time_unit
+     * @param \YahooAdsDisplayApi\Client\Model\CampaignServiceFrequencyTimeUnit|null $frequency_time_unit frequency_time_unit
      *
      * @return self
      */

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupServiceConversionOptimizer Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; AdGroupServiceConversionOptimizerは、コンバージョン最適化制御を保持するオブジェクトです。&lt;br&gt; ADD、SETのどちらも指定できません。ADD時、MANUAL固定となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; AdGroupServiceConversionOptimizer retains conversion optimization control.&lt;br&gt; Not allowed for ADD and SET. In ADD operation, it is set to \&quot;MANUAL\&quot;. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,10 +61,10 @@ class AdGroupServiceConversionOptimizer implements ModelInterface, ArrayAccess, 
       * @var string[]
       */
     protected static $openAPITypes = [
-        'auto_conversion_optimizer' => '\OpenAPI\Client\Model\AdGroupServiceAutoConversionOptimizer',
-        'manual_conversion_optimizer' => '\OpenAPI\Client\Model\AdGroupServiceManualConversionOptimizer',
-        'none_conversion_optimizer' => '\OpenAPI\Client\Model\AdGroupServiceNoneConversionOptimizer',
-        'optimizer_type' => '\OpenAPI\Client\Model\AdGroupServiceOptimizerType'
+        'auto_conversion_optimizer' => '\YahooAdsDisplayApi\Client\Model\AdGroupServiceAutoConversionOptimizer',
+        'manual_conversion_optimizer' => '\YahooAdsDisplayApi\Client\Model\AdGroupServiceManualConversionOptimizer',
+        'none_conversion_optimizer' => '\YahooAdsDisplayApi\Client\Model\AdGroupServiceNoneConversionOptimizer',
+        'optimizer_type' => '\YahooAdsDisplayApi\Client\Model\AdGroupServiceOptimizerType'
     ];
 
     /**
@@ -231,7 +231,7 @@ class AdGroupServiceConversionOptimizer implements ModelInterface, ArrayAccess, 
     /**
      * Gets auto_conversion_optimizer
      *
-     * @return \OpenAPI\Client\Model\AdGroupServiceAutoConversionOptimizer|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupServiceAutoConversionOptimizer|null
      */
     public function getAutoConversionOptimizer()
     {
@@ -241,7 +241,7 @@ class AdGroupServiceConversionOptimizer implements ModelInterface, ArrayAccess, 
     /**
      * Sets auto_conversion_optimizer
      *
-     * @param \OpenAPI\Client\Model\AdGroupServiceAutoConversionOptimizer|null $auto_conversion_optimizer auto_conversion_optimizer
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupServiceAutoConversionOptimizer|null $auto_conversion_optimizer auto_conversion_optimizer
      *
      * @return self
      */
@@ -255,7 +255,7 @@ class AdGroupServiceConversionOptimizer implements ModelInterface, ArrayAccess, 
     /**
      * Gets manual_conversion_optimizer
      *
-     * @return \OpenAPI\Client\Model\AdGroupServiceManualConversionOptimizer|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupServiceManualConversionOptimizer|null
      */
     public function getManualConversionOptimizer()
     {
@@ -265,7 +265,7 @@ class AdGroupServiceConversionOptimizer implements ModelInterface, ArrayAccess, 
     /**
      * Sets manual_conversion_optimizer
      *
-     * @param \OpenAPI\Client\Model\AdGroupServiceManualConversionOptimizer|null $manual_conversion_optimizer manual_conversion_optimizer
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupServiceManualConversionOptimizer|null $manual_conversion_optimizer manual_conversion_optimizer
      *
      * @return self
      */
@@ -279,7 +279,7 @@ class AdGroupServiceConversionOptimizer implements ModelInterface, ArrayAccess, 
     /**
      * Gets none_conversion_optimizer
      *
-     * @return \OpenAPI\Client\Model\AdGroupServiceNoneConversionOptimizer|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupServiceNoneConversionOptimizer|null
      */
     public function getNoneConversionOptimizer()
     {
@@ -289,7 +289,7 @@ class AdGroupServiceConversionOptimizer implements ModelInterface, ArrayAccess, 
     /**
      * Sets none_conversion_optimizer
      *
-     * @param \OpenAPI\Client\Model\AdGroupServiceNoneConversionOptimizer|null $none_conversion_optimizer none_conversion_optimizer
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupServiceNoneConversionOptimizer|null $none_conversion_optimizer none_conversion_optimizer
      *
      * @return self
      */
@@ -303,7 +303,7 @@ class AdGroupServiceConversionOptimizer implements ModelInterface, ArrayAccess, 
     /**
      * Gets optimizer_type
      *
-     * @return \OpenAPI\Client\Model\AdGroupServiceOptimizerType|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupServiceOptimizerType|null
      */
     public function getOptimizerType()
     {
@@ -313,7 +313,7 @@ class AdGroupServiceConversionOptimizer implements ModelInterface, ArrayAccess, 
     /**
      * Sets optimizer_type
      *
-     * @param \OpenAPI\Client\Model\AdGroupServiceOptimizerType|null $optimizer_type optimizer_type
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupServiceOptimizerType|null $optimizer_type optimizer_type
      *
      * @return self
      */

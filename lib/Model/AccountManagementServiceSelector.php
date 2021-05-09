@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AccountManagementServiceSelector Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;AccountManagementServiceSelectorオブジェクトは、選択するアカウントを表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;AccountManagementServiceSelector object explains which accounts to return.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,10 +62,10 @@ class AccountManagementServiceSelector implements ModelInterface, ArrayAccess, \
       */
     protected static $openAPITypes = [
         'account_ids' => 'int[]',
-        'account_statuses' => '\OpenAPI\Client\Model\AccountManagementServiceStatus[]',
-        'account_types' => '\OpenAPI\Client\Model\AccountManagementServicePaymentType[]',
-        'auth_type' => '\OpenAPI\Client\Model\AccountManagementServiceAuthType',
-        'include_test_account' => '\OpenAPI\Client\Model\AccountManagementServiceIncludeTestAccount',
+        'account_statuses' => '\YahooAdsDisplayApi\Client\Model\AccountManagementServiceStatus[]',
+        'account_types' => '\YahooAdsDisplayApi\Client\Model\AccountManagementServicePaymentType[]',
+        'auth_type' => '\YahooAdsDisplayApi\Client\Model\AccountManagementServiceAuthType',
+        'include_test_account' => '\YahooAdsDisplayApi\Client\Model\AccountManagementServiceIncludeTestAccount',
         'number_results' => 'int',
         'start_index' => 'int'
     ];
@@ -301,7 +301,7 @@ class AccountManagementServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Gets account_statuses
      *
-     * @return \OpenAPI\Client\Model\AccountManagementServiceStatus[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountManagementServiceStatus[]|null
      */
     public function getAccountStatuses()
     {
@@ -311,7 +311,7 @@ class AccountManagementServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Sets account_statuses
      *
-     * @param \OpenAPI\Client\Model\AccountManagementServiceStatus[]|null $account_statuses <div lang=\"ja\">検索条件：アカウントステータス</div> <div lang=\"en\">Account Statuses.</div>
+     * @param \YahooAdsDisplayApi\Client\Model\AccountManagementServiceStatus[]|null $account_statuses <div lang=\"ja\">検索条件：アカウントステータス</div> <div lang=\"en\">Account Statuses.</div>
      *
      * @return self
      */
@@ -329,7 +329,7 @@ class AccountManagementServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Gets account_types
      *
-     * @return \OpenAPI\Client\Model\AccountManagementServicePaymentType[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountManagementServicePaymentType[]|null
      */
     public function getAccountTypes()
     {
@@ -339,7 +339,7 @@ class AccountManagementServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Sets account_types
      *
-     * @param \OpenAPI\Client\Model\AccountManagementServicePaymentType[]|null $account_types <div lang=\"ja\">検索条件：アカウントの料金支払い種別</div> <div lang=\"en\">Account Payment Types.</div>
+     * @param \YahooAdsDisplayApi\Client\Model\AccountManagementServicePaymentType[]|null $account_types <div lang=\"ja\">検索条件：アカウントの料金支払い種別</div> <div lang=\"en\">Account Payment Types.</div>
      *
      * @return self
      */
@@ -357,7 +357,7 @@ class AccountManagementServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Gets auth_type
      *
-     * @return \OpenAPI\Client\Model\AccountManagementServiceAuthType|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountManagementServiceAuthType|null
      */
     public function getAuthType()
     {
@@ -367,7 +367,7 @@ class AccountManagementServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Sets auth_type
      *
-     * @param \OpenAPI\Client\Model\AccountManagementServiceAuthType|null $auth_type auth_type
+     * @param \YahooAdsDisplayApi\Client\Model\AccountManagementServiceAuthType|null $auth_type auth_type
      *
      * @return self
      */
@@ -381,7 +381,7 @@ class AccountManagementServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Gets include_test_account
      *
-     * @return \OpenAPI\Client\Model\AccountManagementServiceIncludeTestAccount|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountManagementServiceIncludeTestAccount|null
      */
     public function getIncludeTestAccount()
     {
@@ -391,7 +391,7 @@ class AccountManagementServiceSelector implements ModelInterface, ArrayAccess, \
     /**
      * Sets include_test_account
      *
-     * @param \OpenAPI\Client\Model\AccountManagementServiceIncludeTestAccount|null $include_test_account include_test_account
+     * @param \YahooAdsDisplayApi\Client\Model\AccountManagementServiceIncludeTestAccount|null $include_test_account include_test_account
      *
      * @return self
      */

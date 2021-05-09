@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServiceBuyingTerm Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; GuaranteedSimulationServiceBuyingTermは、商品購入期間情報を保持します。&lt;br&gt; このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; GuaranteedSimulationServiceBuyingTerm holds information about the package purchase term.&lt;br&gt; Although this field will be returned in the response, it will be ignored on input. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,10 +61,10 @@ class GuaranteedSimulationServiceBuyingTerm implements ModelInterface, ArrayAcce
       * @var string[]
       */
     protected static $openAPITypes = [
-        'buying_term_type' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceBuyingTermType',
-        'single_day_buying_term' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceSingleDayBuyingTerm',
-        'single_term_buying_term' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceSingleTermBuyingTerm',
-        'custom_range_buying_term' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceCustomRangeBuyingTerm'
+        'buying_term_type' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceBuyingTermType',
+        'single_day_buying_term' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceSingleDayBuyingTerm',
+        'single_term_buying_term' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceSingleTermBuyingTerm',
+        'custom_range_buying_term' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceCustomRangeBuyingTerm'
     ];
 
     /**
@@ -231,7 +231,7 @@ class GuaranteedSimulationServiceBuyingTerm implements ModelInterface, ArrayAcce
     /**
      * Gets buying_term_type
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceBuyingTermType|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceBuyingTermType|null
      */
     public function getBuyingTermType()
     {
@@ -241,7 +241,7 @@ class GuaranteedSimulationServiceBuyingTerm implements ModelInterface, ArrayAcce
     /**
      * Sets buying_term_type
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceBuyingTermType|null $buying_term_type buying_term_type
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceBuyingTermType|null $buying_term_type buying_term_type
      *
      * @return self
      */
@@ -255,7 +255,7 @@ class GuaranteedSimulationServiceBuyingTerm implements ModelInterface, ArrayAcce
     /**
      * Gets single_day_buying_term
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceSingleDayBuyingTerm|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceSingleDayBuyingTerm|null
      */
     public function getSingleDayBuyingTerm()
     {
@@ -265,7 +265,7 @@ class GuaranteedSimulationServiceBuyingTerm implements ModelInterface, ArrayAcce
     /**
      * Sets single_day_buying_term
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceSingleDayBuyingTerm|null $single_day_buying_term single_day_buying_term
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceSingleDayBuyingTerm|null $single_day_buying_term single_day_buying_term
      *
      * @return self
      */
@@ -279,7 +279,7 @@ class GuaranteedSimulationServiceBuyingTerm implements ModelInterface, ArrayAcce
     /**
      * Gets single_term_buying_term
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceSingleTermBuyingTerm|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceSingleTermBuyingTerm|null
      */
     public function getSingleTermBuyingTerm()
     {
@@ -289,7 +289,7 @@ class GuaranteedSimulationServiceBuyingTerm implements ModelInterface, ArrayAcce
     /**
      * Sets single_term_buying_term
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceSingleTermBuyingTerm|null $single_term_buying_term single_term_buying_term
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceSingleTermBuyingTerm|null $single_term_buying_term single_term_buying_term
      *
      * @return self
      */
@@ -303,7 +303,7 @@ class GuaranteedSimulationServiceBuyingTerm implements ModelInterface, ArrayAcce
     /**
      * Gets custom_range_buying_term
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceCustomRangeBuyingTerm|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceCustomRangeBuyingTerm|null
      */
     public function getCustomRangeBuyingTerm()
     {
@@ -313,7 +313,7 @@ class GuaranteedSimulationServiceBuyingTerm implements ModelInterface, ArrayAcce
     /**
      * Sets custom_range_buying_term
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceCustomRangeBuyingTerm|null $custom_range_buying_term custom_range_buying_term
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceCustomRangeBuyingTerm|null $custom_range_buying_term custom_range_buying_term
      *
      * @return self
      */

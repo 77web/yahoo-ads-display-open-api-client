@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * DictionaryServiceGeographicLocationValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;DictionaryServiceGeographicLocationValueオブジェクトは、地域情報のリストを表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;DictionaryServiceGeographicLocationValue object displays the list of geographic location.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class DictionaryServiceGeographicLocationValue implements ModelInterface, ArrayA
       * @var string[]
       */
     protected static $openAPITypes = [
-        'errors' => '\OpenAPI\Client\Model\Error[]',
-        'geographic_location' => '\OpenAPI\Client\Model\DictionaryServiceGeographicLocation',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
+        'geographic_location' => '\YahooAdsDisplayApi\Client\Model\DictionaryServiceGeographicLocation',
         'operation_succeeded' => 'bool'
     ];
 
@@ -225,7 +225,7 @@ class DictionaryServiceGeographicLocationValue implements ModelInterface, ArrayA
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -235,7 +235,7 @@ class DictionaryServiceGeographicLocationValue implements ModelInterface, ArrayA
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class DictionaryServiceGeographicLocationValue implements ModelInterface, ArrayA
     /**
      * Gets geographic_location
      *
-     * @return \OpenAPI\Client\Model\DictionaryServiceGeographicLocation|null
+     * @return \YahooAdsDisplayApi\Client\Model\DictionaryServiceGeographicLocation|null
      */
     public function getGeographicLocation()
     {
@@ -259,7 +259,7 @@ class DictionaryServiceGeographicLocationValue implements ModelInterface, ArrayA
     /**
      * Sets geographic_location
      *
-     * @param \OpenAPI\Client\Model\DictionaryServiceGeographicLocation|null $geographic_location geographic_location
+     * @param \YahooAdsDisplayApi\Client\Model\DictionaryServiceGeographicLocation|null $geographic_location geographic_location
      *
      * @return self
      */

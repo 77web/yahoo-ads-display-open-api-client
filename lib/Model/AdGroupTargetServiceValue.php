@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupTargetServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;AdGroupTargetServiceValueオブジェクトは、メソッドの実行結果（1エンティティ）を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The AdGroupTargetServiceValue object contains the result (1 entity) for method.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class AdGroupTargetServiceValue implements ModelInterface, ArrayAccess, \JsonSer
       * @var string[]
       */
     protected static $openAPITypes = [
-        'ad_group_target_list' => '\OpenAPI\Client\Model\AdGroupTarget',
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'ad_group_target_list' => '\YahooAdsDisplayApi\Client\Model\AdGroupTarget',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool'
     ];
 
@@ -225,7 +225,7 @@ class AdGroupTargetServiceValue implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Gets ad_group_target_list
      *
-     * @return \OpenAPI\Client\Model\AdGroupTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTarget|null
      */
     public function getAdGroupTargetList()
     {
@@ -235,7 +235,7 @@ class AdGroupTargetServiceValue implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Sets ad_group_target_list
      *
-     * @param \OpenAPI\Client\Model\AdGroupTarget|null $ad_group_target_list ad_group_target_list
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTarget|null $ad_group_target_list ad_group_target_list
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class AdGroupTargetServiceValue implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -259,7 +259,7 @@ class AdGroupTargetServiceValue implements ModelInterface, ArrayAccess, \JsonSer
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors <div lang=\"ja\">エラー内容です。</div> <div lang=\"en\">Error content.</div>
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors <div lang=\"ja\">エラー内容です。</div> <div lang=\"en\">Error content.</div>
      *
      * @return self
      */

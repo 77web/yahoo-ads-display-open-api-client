@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServiceAdRequirement Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; GuaranteedSimulationServiceAdRequirementオブジェクトは、予約型の広告を構成する条件を表します。&lt;br&gt; ADD時、このフィールドは必須となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; GuaranteedSimulationServiceAdRequirement object describes the conditions for composing the guaranteed ad.&lt;br&gt; This field is required in ADD operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class GuaranteedSimulationServiceAdRequirement implements ModelInterface, ArrayA
       * @var string[]
       */
     protected static $openAPITypes = [
-        'ad_type' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceAdType',
+        'ad_type' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAdType',
         'media_ad_format' => 'string',
         'aspect_ratio' => 'string'
     ];
@@ -225,7 +225,7 @@ class GuaranteedSimulationServiceAdRequirement implements ModelInterface, ArrayA
     /**
      * Gets ad_type
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceAdType|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAdType|null
      */
     public function getAdType()
     {
@@ -235,7 +235,7 @@ class GuaranteedSimulationServiceAdRequirement implements ModelInterface, ArrayA
     /**
      * Sets ad_type
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceAdType|null $ad_type ad_type
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAdType|null $ad_type ad_type
      *
      * @return self
      */

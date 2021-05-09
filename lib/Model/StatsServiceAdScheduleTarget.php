@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * StatsServiceAdScheduleTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;StatsServiceAdScheduleTargetオブジェクトは、時間帯ターゲットの設定情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;StatsServiceAdScheduleTarget object is a container for storing day of week/hours targeting settings.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class StatsServiceAdScheduleTarget implements ModelInterface, ArrayAccess, \Json
       * @var string[]
       */
     protected static $openAPITypes = [
-        'day_of_week' => '\OpenAPI\Client\Model\StatsServiceDayOfWeek',
+        'day_of_week' => '\YahooAdsDisplayApi\Client\Model\StatsServiceDayOfWeek',
         'end_hour' => 'int',
         'start_hour' => 'int'
     ];
@@ -225,7 +225,7 @@ class StatsServiceAdScheduleTarget implements ModelInterface, ArrayAccess, \Json
     /**
      * Gets day_of_week
      *
-     * @return \OpenAPI\Client\Model\StatsServiceDayOfWeek|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceDayOfWeek|null
      */
     public function getDayOfWeek()
     {
@@ -235,7 +235,7 @@ class StatsServiceAdScheduleTarget implements ModelInterface, ArrayAccess, \Json
     /**
      * Sets day_of_week
      *
-     * @param \OpenAPI\Client\Model\StatsServiceDayOfWeek|null $day_of_week day_of_week
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceDayOfWeek|null $day_of_week day_of_week
      *
      * @return self
      */

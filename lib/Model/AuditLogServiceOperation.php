@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AuditLogServiceOperation Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;AuditLogServiceOperationは addメソッドのダウンロードジョブの実行パラメータを保持するオブジェクトです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;AuditLogServiceOperation object is a container for storing the download job information for add method (execution parameter).&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class AuditLogServiceOperation implements ModelInterface, ArrayAccess, \JsonSeri
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'operand' => '\OpenAPI\Client\Model\AuditLogServiceJob[]'
+        'operand' => '\YahooAdsDisplayApi\Client\Model\AuditLogServiceJob[]'
     ];
 
     /**
@@ -257,7 +257,7 @@ class AuditLogServiceOperation implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Gets operand
      *
-     * @return \OpenAPI\Client\Model\AuditLogServiceJob[]
+     * @return \YahooAdsDisplayApi\Client\Model\AuditLogServiceJob[]
      */
     public function getOperand()
     {
@@ -267,7 +267,7 @@ class AuditLogServiceOperation implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Sets operand
      *
-     * @param \OpenAPI\Client\Model\AuditLogServiceJob[] $operand operand
+     * @param \YahooAdsDisplayApi\Client\Model\AuditLogServiceJob[] $operand operand
      *
      * @return self
      */

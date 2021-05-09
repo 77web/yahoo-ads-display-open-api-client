@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServicePackagePermittedAudienceCategoryTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedSimulationServicePackagePermittedAudienceCategoryTargetオブジェクトは、オーディエンスカテゴリーターゲティング設定の制限情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;GuaranteedSimulationServicePackagePermittedAudienceCategoryTarget object holds the restriction information about the setting of audience category target.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class GuaranteedSimulationServicePackagePermittedAudienceCategoryTarget implemen
       * @var string[]
       */
     protected static $openAPITypes = [
-        'target_permission' => '\OpenAPI\Client\Model\GuaranteedSimulationServicePackagePermissionType',
-        'permitted_targets' => '\OpenAPI\Client\Model\GuaranteedSimulationServicePermittedAudienceCategoryTarget[]'
+        'target_permission' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackagePermissionType',
+        'permitted_targets' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePermittedAudienceCategoryTarget[]'
     ];
 
     /**
@@ -219,7 +219,7 @@ class GuaranteedSimulationServicePackagePermittedAudienceCategoryTarget implemen
     /**
      * Gets target_permission
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServicePackagePermissionType|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackagePermissionType|null
      */
     public function getTargetPermission()
     {
@@ -229,7 +229,7 @@ class GuaranteedSimulationServicePackagePermittedAudienceCategoryTarget implemen
     /**
      * Sets target_permission
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServicePackagePermissionType|null $target_permission target_permission
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePackagePermissionType|null $target_permission target_permission
      *
      * @return self
      */
@@ -243,7 +243,7 @@ class GuaranteedSimulationServicePackagePermittedAudienceCategoryTarget implemen
     /**
      * Gets permitted_targets
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServicePermittedAudienceCategoryTarget[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePermittedAudienceCategoryTarget[]|null
      */
     public function getPermittedTargets()
     {
@@ -253,7 +253,7 @@ class GuaranteedSimulationServicePackagePermittedAudienceCategoryTarget implemen
     /**
      * Sets permitted_targets
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServicePermittedAudienceCategoryTarget[]|null $permitted_targets permitted_targets
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePermittedAudienceCategoryTarget[]|null $permitted_targets permitted_targets
      *
      * @return self
      */

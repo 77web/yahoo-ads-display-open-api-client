@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AuditLogServiceSelector Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;getメソッドの検索条件（実行パラメータ）を保持するオブジェクトです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;AuditLogServiceSelector object is container storing the search conditions of get method (execution parameter).&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -63,7 +63,7 @@ class AuditLogServiceSelector implements ModelInterface, ArrayAccess, \JsonSeria
     protected static $openAPITypes = [
         'account_id' => 'int',
         'audit_log_job_ids' => 'int[]',
-        'job_statuses' => '\OpenAPI\Client\Model\AuditLogServiceJobStatus[]',
+        'job_statuses' => '\YahooAdsDisplayApi\Client\Model\AuditLogServiceJobStatus[]',
         'number_results' => 'int',
         'start_index' => 'int'
     ];
@@ -312,7 +312,7 @@ class AuditLogServiceSelector implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Gets job_statuses
      *
-     * @return \OpenAPI\Client\Model\AuditLogServiceJobStatus[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\AuditLogServiceJobStatus[]|null
      */
     public function getJobStatuses()
     {
@@ -322,7 +322,7 @@ class AuditLogServiceSelector implements ModelInterface, ArrayAccess, \JsonSeria
     /**
      * Sets job_statuses
      *
-     * @param \OpenAPI\Client\Model\AuditLogServiceJobStatus[]|null $job_statuses <div lang=\"ja\">ジョブステータスです。</div> <div lang=\"en\">The job status information.</div>
+     * @param \YahooAdsDisplayApi\Client\Model\AuditLogServiceJobStatus[]|null $job_statuses <div lang=\"ja\">ジョブステータスです。</div> <div lang=\"en\">The job status information.</div>
      *
      * @return self
      */

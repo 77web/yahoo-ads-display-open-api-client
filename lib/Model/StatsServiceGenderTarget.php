@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * StatsServiceGenderTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;StatsServiceGenderTargetオブジェクトは、性別ターゲットの設定情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;StatsServiceGenderTarget object holds configuration information of gender targeting.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class StatsServiceGenderTarget implements ModelInterface, ArrayAccess, \JsonSeri
       * @var string[]
       */
     protected static $openAPITypes = [
-        'estimate_flg' => '\OpenAPI\Client\Model\StatsServiceEstimateFlg',
-        'gender' => '\OpenAPI\Client\Model\StatsServiceGender'
+        'estimate_flg' => '\YahooAdsDisplayApi\Client\Model\StatsServiceEstimateFlg',
+        'gender' => '\YahooAdsDisplayApi\Client\Model\StatsServiceGender'
     ];
 
     /**
@@ -219,7 +219,7 @@ class StatsServiceGenderTarget implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Gets estimate_flg
      *
-     * @return \OpenAPI\Client\Model\StatsServiceEstimateFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceEstimateFlg|null
      */
     public function getEstimateFlg()
     {
@@ -229,7 +229,7 @@ class StatsServiceGenderTarget implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Sets estimate_flg
      *
-     * @param \OpenAPI\Client\Model\StatsServiceEstimateFlg|null $estimate_flg estimate_flg
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceEstimateFlg|null $estimate_flg estimate_flg
      *
      * @return self
      */
@@ -243,7 +243,7 @@ class StatsServiceGenderTarget implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Gets gender
      *
-     * @return \OpenAPI\Client\Model\StatsServiceGender|null
+     * @return \YahooAdsDisplayApi\Client\Model\StatsServiceGender|null
      */
     public function getGender()
     {
@@ -253,7 +253,7 @@ class StatsServiceGenderTarget implements ModelInterface, ArrayAccess, \JsonSeri
     /**
      * Sets gender
      *
-     * @param \OpenAPI\Client\Model\StatsServiceGender|null $gender gender
+     * @param \YahooAdsDisplayApi\Client\Model\StatsServiceGender|null $gender gender
      *
      * @return self
      */

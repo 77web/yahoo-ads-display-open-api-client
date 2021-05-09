@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedCampaign Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedCampaignオブジェクトは、予約型のキャンペーン情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;GuaranteedCampaign object describes guaranteed campaign information. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,23 +62,23 @@ class GuaranteedCampaign implements ModelInterface, ArrayAccess, \JsonSerializab
       */
     protected static $openAPITypes = [
         'account_id' => 'int',
-        'lifetime_budget' => '\OpenAPI\Client\Model\GuaranteedCampaignServiceLifetimeBudget',
-        'campaign_bidding_strategy' => '\OpenAPI\Client\Model\GuaranteedCampaignServiceCampaignBiddingStrategy',
+        'lifetime_budget' => '\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceLifetimeBudget',
+        'campaign_bidding_strategy' => '\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceCampaignBiddingStrategy',
         'campaign_goal' => 'string',
         'campaign_id' => 'int',
         'campaign_name' => 'string',
         'end_date' => 'string',
-        'labels' => '\OpenAPI\Client\Model\GuaranteedCampaignServiceLabel[]',
-        'serving_status' => '\OpenAPI\Client\Model\GuaranteedCampaignServiceServingStatus',
+        'labels' => '\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceLabel[]',
+        'serving_status' => '\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceServingStatus',
         'start_date' => 'string',
-        'user_status' => '\OpenAPI\Client\Model\GuaranteedCampaignServiceUserStatus',
-        'viewable_frequency_cap' => '\OpenAPI\Client\Model\GuaranteedCampaignServiceViewableFrequencyCap',
+        'user_status' => '\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceUserStatus',
+        'viewable_frequency_cap' => '\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceViewableFrequencyCap',
         'guaranteed_simulation_id' => 'int',
         'notification_email_address' => 'string[]',
-        'ad_category_status' => '\OpenAPI\Client\Model\GuaranteedCampaignServiceAdCategoryStatus',
+        'ad_category_status' => '\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceAdCategoryStatus',
         'campaign_canceled_date' => 'string',
-        'package' => '\OpenAPI\Client\Model\GuaranteedCampaignServicePackage',
-        'brand_tracking' => '\OpenAPI\Client\Model\GuaranteedCampaignServiceBrandTracking'
+        'package' => '\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServicePackage',
+        'brand_tracking' => '\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceBrandTracking'
     ];
 
     /**
@@ -339,7 +339,7 @@ class GuaranteedCampaign implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets lifetime_budget
      *
-     * @return \OpenAPI\Client\Model\GuaranteedCampaignServiceLifetimeBudget|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceLifetimeBudget|null
      */
     public function getLifetimeBudget()
     {
@@ -349,7 +349,7 @@ class GuaranteedCampaign implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets lifetime_budget
      *
-     * @param \OpenAPI\Client\Model\GuaranteedCampaignServiceLifetimeBudget|null $lifetime_budget lifetime_budget
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceLifetimeBudget|null $lifetime_budget lifetime_budget
      *
      * @return self
      */
@@ -363,7 +363,7 @@ class GuaranteedCampaign implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets campaign_bidding_strategy
      *
-     * @return \OpenAPI\Client\Model\GuaranteedCampaignServiceCampaignBiddingStrategy|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceCampaignBiddingStrategy|null
      */
     public function getCampaignBiddingStrategy()
     {
@@ -373,7 +373,7 @@ class GuaranteedCampaign implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets campaign_bidding_strategy
      *
-     * @param \OpenAPI\Client\Model\GuaranteedCampaignServiceCampaignBiddingStrategy|null $campaign_bidding_strategy campaign_bidding_strategy
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceCampaignBiddingStrategy|null $campaign_bidding_strategy campaign_bidding_strategy
      *
      * @return self
      */
@@ -483,7 +483,7 @@ class GuaranteedCampaign implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets labels
      *
-     * @return \OpenAPI\Client\Model\GuaranteedCampaignServiceLabel[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceLabel[]|null
      */
     public function getLabels()
     {
@@ -493,7 +493,7 @@ class GuaranteedCampaign implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets labels
      *
-     * @param \OpenAPI\Client\Model\GuaranteedCampaignServiceLabel[]|null $labels labels
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceLabel[]|null $labels labels
      *
      * @return self
      */
@@ -507,7 +507,7 @@ class GuaranteedCampaign implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets serving_status
      *
-     * @return \OpenAPI\Client\Model\GuaranteedCampaignServiceServingStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceServingStatus|null
      */
     public function getServingStatus()
     {
@@ -517,7 +517,7 @@ class GuaranteedCampaign implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets serving_status
      *
-     * @param \OpenAPI\Client\Model\GuaranteedCampaignServiceServingStatus|null $serving_status serving_status
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceServingStatus|null $serving_status serving_status
      *
      * @return self
      */
@@ -555,7 +555,7 @@ class GuaranteedCampaign implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets user_status
      *
-     * @return \OpenAPI\Client\Model\GuaranteedCampaignServiceUserStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceUserStatus|null
      */
     public function getUserStatus()
     {
@@ -565,7 +565,7 @@ class GuaranteedCampaign implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets user_status
      *
-     * @param \OpenAPI\Client\Model\GuaranteedCampaignServiceUserStatus|null $user_status user_status
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceUserStatus|null $user_status user_status
      *
      * @return self
      */
@@ -579,7 +579,7 @@ class GuaranteedCampaign implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets viewable_frequency_cap
      *
-     * @return \OpenAPI\Client\Model\GuaranteedCampaignServiceViewableFrequencyCap|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceViewableFrequencyCap|null
      */
     public function getViewableFrequencyCap()
     {
@@ -589,7 +589,7 @@ class GuaranteedCampaign implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets viewable_frequency_cap
      *
-     * @param \OpenAPI\Client\Model\GuaranteedCampaignServiceViewableFrequencyCap|null $viewable_frequency_cap viewable_frequency_cap
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceViewableFrequencyCap|null $viewable_frequency_cap viewable_frequency_cap
      *
      * @return self
      */
@@ -651,7 +651,7 @@ class GuaranteedCampaign implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets ad_category_status
      *
-     * @return \OpenAPI\Client\Model\GuaranteedCampaignServiceAdCategoryStatus|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceAdCategoryStatus|null
      */
     public function getAdCategoryStatus()
     {
@@ -661,7 +661,7 @@ class GuaranteedCampaign implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets ad_category_status
      *
-     * @param \OpenAPI\Client\Model\GuaranteedCampaignServiceAdCategoryStatus|null $ad_category_status ad_category_status
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceAdCategoryStatus|null $ad_category_status ad_category_status
      *
      * @return self
      */
@@ -699,7 +699,7 @@ class GuaranteedCampaign implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets package
      *
-     * @return \OpenAPI\Client\Model\GuaranteedCampaignServicePackage|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServicePackage|null
      */
     public function getPackage()
     {
@@ -709,7 +709,7 @@ class GuaranteedCampaign implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets package
      *
-     * @param \OpenAPI\Client\Model\GuaranteedCampaignServicePackage|null $package package
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServicePackage|null $package package
      *
      * @return self
      */
@@ -723,7 +723,7 @@ class GuaranteedCampaign implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Gets brand_tracking
      *
-     * @return \OpenAPI\Client\Model\GuaranteedCampaignServiceBrandTracking|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceBrandTracking|null
      */
     public function getBrandTracking()
     {
@@ -733,7 +733,7 @@ class GuaranteedCampaign implements ModelInterface, ArrayAccess, \JsonSerializab
     /**
      * Sets brand_tracking
      *
-     * @param \OpenAPI\Client\Model\GuaranteedCampaignServiceBrandTracking|null $brand_tracking brand_tracking
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceBrandTracking|null $brand_tracking brand_tracking
      *
      * @return self
      */

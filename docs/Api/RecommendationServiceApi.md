@@ -1,4 +1,4 @@
-# OpenAPI\Client\RecommendationServiceApi
+# YahooAdsDisplayApi\Client\RecommendationServiceApi
 
 All URIs are relative to https://ads-display.yahooapis.jp/api/v4.
 
@@ -10,7 +10,7 @@ Method | HTTP request | Description
 ## `recommendationServiceGetPost()`
 
 ```php
-recommendationServiceGetPost($recommendation_service_selector): \OpenAPI\Client\Model\RecommendationServiceGetResponse
+recommendationServiceGetPost($recommendation_service_selector): \YahooAdsDisplayApi\Client\Model\RecommendationServiceGetResponse
 ```
 
 
@@ -25,16 +25,16 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure OAuth2 access token for authorization: oAuth
-$config = OpenAPI\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = YahooAdsDisplayApi\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 
-$apiInstance = new OpenAPI\Client\Api\RecommendationServiceApi(
+$apiInstance = new YahooAdsDisplayApi\Client\Api\RecommendationServiceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$recommendation_service_selector = new \OpenAPI\Client\Model\RecommendationServiceSelector(); // \OpenAPI\Client\Model\RecommendationServiceSelector
+$recommendation_service_selector = new \YahooAdsDisplayApi\Client\Model\RecommendationServiceSelector(); // \YahooAdsDisplayApi\Client\Model\RecommendationServiceSelector
 
 try {
     $result = $apiInstance->recommendationServiceGetPost($recommendation_service_selector);
@@ -48,11 +48,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **recommendation_service_selector** | [**\OpenAPI\Client\Model\RecommendationServiceSelector**](../Model/RecommendationServiceSelector.md)|  | [optional]
+ **recommendation_service_selector** | [**\YahooAdsDisplayApi\Client\Model\RecommendationServiceSelector**](../Model/RecommendationServiceSelector.md)|  | [optional]
 
 ### Return type
 
-[**\OpenAPI\Client\Model\RecommendationServiceGetResponse**](../Model/RecommendationServiceGetResponse.md)
+[**\YahooAdsDisplayApi\Client\Model\RecommendationServiceGetResponse**](../Model/RecommendationServiceGetResponse.md)
 
 ### Authorization
 

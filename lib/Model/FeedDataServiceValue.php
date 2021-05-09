@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * FeedDataServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;FeedDataServiceValueオブジェクトは、商品情報を格納するコンテナです。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;FeedDataServiceValue object is a container for storing item list information.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class FeedDataServiceValue implements ModelInterface, ArrayAccess, \JsonSerializ
       * @var string[]
       */
     protected static $openAPITypes = [
-        'errors' => '\OpenAPI\Client\Model\Error[]',
-        'feed_data' => '\OpenAPI\Client\Model\FeedDataServiceRecord',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
+        'feed_data' => '\YahooAdsDisplayApi\Client\Model\FeedDataServiceRecord',
         'operation_succeeded' => 'bool'
     ];
 
@@ -225,7 +225,7 @@ class FeedDataServiceValue implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -235,7 +235,7 @@ class FeedDataServiceValue implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class FeedDataServiceValue implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Gets feed_data
      *
-     * @return \OpenAPI\Client\Model\FeedDataServiceRecord|null
+     * @return \YahooAdsDisplayApi\Client\Model\FeedDataServiceRecord|null
      */
     public function getFeedData()
     {
@@ -259,7 +259,7 @@ class FeedDataServiceValue implements ModelInterface, ArrayAccess, \JsonSerializ
     /**
      * Sets feed_data
      *
-     * @param \OpenAPI\Client\Model\FeedDataServiceRecord|null $feed_data feed_data
+     * @param \YahooAdsDisplayApi\Client\Model\FeedDataServiceRecord|null $feed_data feed_data
      *
      * @return self
      */

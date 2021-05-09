@@ -4,7 +4,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Api;
+namespace YahooAdsDisplayApi\Client\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use OpenAPI\Client\ApiException;
-use OpenAPI\Client\Configuration;
-use OpenAPI\Client\HeaderSelector;
-use OpenAPI\Client\ObjectSerializer;
+use YahooAdsDisplayApi\Client\ApiException;
+use YahooAdsDisplayApi\Client\Configuration;
+use YahooAdsDisplayApi\Client\HeaderSelector;
+use YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ReportDefinitionServiceApi Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -118,11 +118,11 @@ class ReportDefinitionServiceApi
     /**
      * Operation reportDefinitionServiceAddPost
      *
-     * @param  \OpenAPI\Client\Model\ReportDefinitionServiceOperation $report_definition_service_operation report_definition_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceOperation $report_definition_service_operation report_definition_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\ReportDefinitionServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceMutateResponse
      */
     public function reportDefinitionServiceAddPost($report_definition_service_operation = null)
     {
@@ -133,11 +133,11 @@ class ReportDefinitionServiceApi
     /**
      * Operation reportDefinitionServiceAddPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\ReportDefinitionServiceOperation $report_definition_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceOperation $report_definition_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\ReportDefinitionServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function reportDefinitionServiceAddPostWithHttpInfo($report_definition_service_operation = null)
     {
@@ -174,20 +174,20 @@ class ReportDefinitionServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\ReportDefinitionServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\ReportDefinitionServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\ReportDefinitionServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -206,7 +206,7 @@ class ReportDefinitionServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\ReportDefinitionServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -221,7 +221,7 @@ class ReportDefinitionServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\ReportDefinitionServiceOperation $report_definition_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceOperation $report_definition_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -241,14 +241,14 @@ class ReportDefinitionServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\ReportDefinitionServiceOperation $report_definition_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceOperation $report_definition_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function reportDefinitionServiceAddPostAsyncWithHttpInfo($report_definition_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\ReportDefinitionServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceMutateResponse';
         $request = $this->reportDefinitionServiceAddPostRequest($report_definition_service_operation);
 
         return $this->client
@@ -288,7 +288,7 @@ class ReportDefinitionServiceApi
     /**
      * Create request for operation 'reportDefinitionServiceAddPost'
      *
-     * @param  \OpenAPI\Client\Model\ReportDefinitionServiceOperation $report_definition_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceOperation $report_definition_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -377,9 +377,9 @@ class ReportDefinitionServiceApi
     /**
      * Operation reportDefinitionServiceDownloadPost
      *
-     * @param  \OpenAPI\Client\Model\ReportDefinitionServiceDownloadSelector $report_definition_service_download_selector report_definition_service_download_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceDownloadSelector $report_definition_service_download_selector report_definition_service_download_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return |\SplFileObject
      */
@@ -392,9 +392,9 @@ class ReportDefinitionServiceApi
     /**
      * Operation reportDefinitionServiceDownloadPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\ReportDefinitionServiceDownloadSelector $report_definition_service_download_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceDownloadSelector $report_definition_service_download_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of |\SplFileObject, HTTP status code, HTTP response headers (array of strings)
      */
@@ -480,7 +480,7 @@ class ReportDefinitionServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\ReportDefinitionServiceDownloadSelector $report_definition_service_download_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceDownloadSelector $report_definition_service_download_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -500,7 +500,7 @@ class ReportDefinitionServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\ReportDefinitionServiceDownloadSelector $report_definition_service_download_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceDownloadSelector $report_definition_service_download_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -547,7 +547,7 @@ class ReportDefinitionServiceApi
     /**
      * Create request for operation 'reportDefinitionServiceDownloadPost'
      *
-     * @param  \OpenAPI\Client\Model\ReportDefinitionServiceDownloadSelector $report_definition_service_download_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceDownloadSelector $report_definition_service_download_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -636,11 +636,11 @@ class ReportDefinitionServiceApi
     /**
      * Operation reportDefinitionServiceGetPost
      *
-     * @param  \OpenAPI\Client\Model\ReportDefinitionServiceSelector $report_definition_service_selector report_definition_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceSelector $report_definition_service_selector report_definition_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\ReportDefinitionServiceGetResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceGetResponse
      */
     public function reportDefinitionServiceGetPost($report_definition_service_selector = null)
     {
@@ -651,11 +651,11 @@ class ReportDefinitionServiceApi
     /**
      * Operation reportDefinitionServiceGetPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\ReportDefinitionServiceSelector $report_definition_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceSelector $report_definition_service_selector (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\ReportDefinitionServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceGetResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function reportDefinitionServiceGetPostWithHttpInfo($report_definition_service_selector = null)
     {
@@ -692,20 +692,20 @@ class ReportDefinitionServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\ReportDefinitionServiceGetResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceGetResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\ReportDefinitionServiceGetResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceGetResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\ReportDefinitionServiceGetResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceGetResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -724,7 +724,7 @@ class ReportDefinitionServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\ReportDefinitionServiceGetResponse',
+                        '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceGetResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -739,7 +739,7 @@ class ReportDefinitionServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\ReportDefinitionServiceSelector $report_definition_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceSelector $report_definition_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -759,14 +759,14 @@ class ReportDefinitionServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\ReportDefinitionServiceSelector $report_definition_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceSelector $report_definition_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function reportDefinitionServiceGetPostAsyncWithHttpInfo($report_definition_service_selector = null)
     {
-        $returnType = '\OpenAPI\Client\Model\ReportDefinitionServiceGetResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceGetResponse';
         $request = $this->reportDefinitionServiceGetPostRequest($report_definition_service_selector);
 
         return $this->client
@@ -806,7 +806,7 @@ class ReportDefinitionServiceApi
     /**
      * Create request for operation 'reportDefinitionServiceGetPost'
      *
-     * @param  \OpenAPI\Client\Model\ReportDefinitionServiceSelector $report_definition_service_selector (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceSelector $report_definition_service_selector (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -895,11 +895,11 @@ class ReportDefinitionServiceApi
     /**
      * Operation reportDefinitionServiceGetReportFieldsPost
      *
-     * @param  \OpenAPI\Client\Model\ReportDefinitionServiceGetReportFields $report_definition_service_get_report_fields report_definition_service_get_report_fields (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceGetReportFields $report_definition_service_get_report_fields report_definition_service_get_report_fields (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\ReportDefinitionServiceGetReportFieldsResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceGetReportFieldsResponse
      */
     public function reportDefinitionServiceGetReportFieldsPost($report_definition_service_get_report_fields = null)
     {
@@ -910,11 +910,11 @@ class ReportDefinitionServiceApi
     /**
      * Operation reportDefinitionServiceGetReportFieldsPostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\ReportDefinitionServiceGetReportFields $report_definition_service_get_report_fields (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceGetReportFields $report_definition_service_get_report_fields (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\ReportDefinitionServiceGetReportFieldsResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceGetReportFieldsResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function reportDefinitionServiceGetReportFieldsPostWithHttpInfo($report_definition_service_get_report_fields = null)
     {
@@ -951,20 +951,20 @@ class ReportDefinitionServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\ReportDefinitionServiceGetReportFieldsResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceGetReportFieldsResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\ReportDefinitionServiceGetReportFieldsResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceGetReportFieldsResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\ReportDefinitionServiceGetReportFieldsResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceGetReportFieldsResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -983,7 +983,7 @@ class ReportDefinitionServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\ReportDefinitionServiceGetReportFieldsResponse',
+                        '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceGetReportFieldsResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -998,7 +998,7 @@ class ReportDefinitionServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\ReportDefinitionServiceGetReportFields $report_definition_service_get_report_fields (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceGetReportFields $report_definition_service_get_report_fields (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1018,14 +1018,14 @@ class ReportDefinitionServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\ReportDefinitionServiceGetReportFields $report_definition_service_get_report_fields (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceGetReportFields $report_definition_service_get_report_fields (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function reportDefinitionServiceGetReportFieldsPostAsyncWithHttpInfo($report_definition_service_get_report_fields = null)
     {
-        $returnType = '\OpenAPI\Client\Model\ReportDefinitionServiceGetReportFieldsResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceGetReportFieldsResponse';
         $request = $this->reportDefinitionServiceGetReportFieldsPostRequest($report_definition_service_get_report_fields);
 
         return $this->client
@@ -1065,7 +1065,7 @@ class ReportDefinitionServiceApi
     /**
      * Create request for operation 'reportDefinitionServiceGetReportFieldsPost'
      *
-     * @param  \OpenAPI\Client\Model\ReportDefinitionServiceGetReportFields $report_definition_service_get_report_fields (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceGetReportFields $report_definition_service_get_report_fields (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -1154,11 +1154,11 @@ class ReportDefinitionServiceApi
     /**
      * Operation reportDefinitionServiceRemovePost
      *
-     * @param  \OpenAPI\Client\Model\ReportDefinitionServiceOperation $report_definition_service_operation report_definition_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceOperation $report_definition_service_operation report_definition_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return |\OpenAPI\Client\Model\ReportDefinitionServiceMutateResponse
+     * @return |\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceMutateResponse
      */
     public function reportDefinitionServiceRemovePost($report_definition_service_operation = null)
     {
@@ -1169,11 +1169,11 @@ class ReportDefinitionServiceApi
     /**
      * Operation reportDefinitionServiceRemovePostWithHttpInfo
      *
-     * @param  \OpenAPI\Client\Model\ReportDefinitionServiceOperation $report_definition_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceOperation $report_definition_service_operation (optional)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \YahooAdsDisplayApi\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of |\OpenAPI\Client\Model\ReportDefinitionServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of |\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceMutateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function reportDefinitionServiceRemovePostWithHttpInfo($report_definition_service_operation = null)
     {
@@ -1210,20 +1210,20 @@ class ReportDefinitionServiceApi
             $responseBody = $response->getBody();
             switch($statusCode) {
                 case 200:
-                    if ('\OpenAPI\Client\Model\ReportDefinitionServiceMutateResponse' === '\SplFileObject') {
+                    if ('\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceMutateResponse' === '\SplFileObject') {
                         $content = $responseBody; //stream goes to serializer
                     } else {
                         $content = (string) $responseBody;
                     }
 
                     return [
-                        ObjectSerializer::deserialize($content, '\OpenAPI\Client\Model\ReportDefinitionServiceMutateResponse', []),
+                        ObjectSerializer::deserialize($content, '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceMutateResponse', []),
                         $response->getStatusCode(),
                         $response->getHeaders()
                     ];
             }
 
-            $returnType = '\OpenAPI\Client\Model\ReportDefinitionServiceMutateResponse';
+            $returnType = '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceMutateResponse';
             $responseBody = $response->getBody();
             if ($returnType === '\SplFileObject') {
                 $content = $responseBody; //stream goes to serializer
@@ -1242,7 +1242,7 @@ class ReportDefinitionServiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\OpenAPI\Client\Model\ReportDefinitionServiceMutateResponse',
+                        '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceMutateResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1257,7 +1257,7 @@ class ReportDefinitionServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\ReportDefinitionServiceOperation $report_definition_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceOperation $report_definition_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1277,14 +1277,14 @@ class ReportDefinitionServiceApi
      *
      * 
      *
-     * @param  \OpenAPI\Client\Model\ReportDefinitionServiceOperation $report_definition_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceOperation $report_definition_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function reportDefinitionServiceRemovePostAsyncWithHttpInfo($report_definition_service_operation = null)
     {
-        $returnType = '\OpenAPI\Client\Model\ReportDefinitionServiceMutateResponse';
+        $returnType = '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceMutateResponse';
         $request = $this->reportDefinitionServiceRemovePostRequest($report_definition_service_operation);
 
         return $this->client
@@ -1324,7 +1324,7 @@ class ReportDefinitionServiceApi
     /**
      * Create request for operation 'reportDefinitionServiceRemovePost'
      *
-     * @param  \OpenAPI\Client\Model\ReportDefinitionServiceOperation $report_definition_service_operation (optional)
+     * @param  \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceOperation $report_definition_service_operation (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

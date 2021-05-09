@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RetargetingListServiceGetResponse Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -60,9 +60,9 @@ class RetargetingListServiceGetResponse implements ModelInterface, ArrayAccess, 
       * @var string[]
       */
     protected static $openAPITypes = [
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'rid' => 'string',
-        'rval' => '\OpenAPI\Client\Model\RetargetingListServicePage'
+        'rval' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServicePage'
     ];
 
     /**
@@ -224,7 +224,7 @@ class RetargetingListServiceGetResponse implements ModelInterface, ArrayAccess, 
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -234,7 +234,7 @@ class RetargetingListServiceGetResponse implements ModelInterface, ArrayAccess, 
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */
@@ -272,7 +272,7 @@ class RetargetingListServiceGetResponse implements ModelInterface, ArrayAccess, 
     /**
      * Gets rval
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServicePage|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServicePage|null
      */
     public function getRval()
     {
@@ -282,7 +282,7 @@ class RetargetingListServiceGetResponse implements ModelInterface, ArrayAccess, 
     /**
      * Sets rval
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServicePage|null $rval rval
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServicePage|null $rval rval
      *
      * @return self
      */

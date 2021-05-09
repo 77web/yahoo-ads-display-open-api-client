@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ReportDefinitionServiceFrequencyReportCondition Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;   ReportDefinitionServiceFrequencyReportConditionオブジェクトは、フリークエンシーレポートの作成条件を表します。&lt;br&gt;   このフィールドは、ADD時に省略可能となり、REMOVE時に無視されます。&lt;br&gt;   ※ADD時、reportTypeが&lt;code&gt;FREQUENCY&lt;/code&gt;の場合は必須です。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;   ReportDefinitionServiceFrequencyReportCondition describes the condition to create Frequency Report. &lt;br&gt;   This field is optional in ADD operation, and will be ignored in REMOVE operation. &lt;br&gt;    *If reportType is &lt;code&gt;FREQUENCY&lt;/code&gt;, this field is required in ADD operation.  &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class ReportDefinitionServiceFrequencyReportCondition implements ModelInterface,
       * @var string[]
       */
     protected static $openAPITypes = [
-        'frequency_range' => '\OpenAPI\Client\Model\ReportDefinitionServiceFrequencyRange'
+        'frequency_range' => '\YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceFrequencyRange'
     ];
 
     /**
@@ -213,7 +213,7 @@ class ReportDefinitionServiceFrequencyReportCondition implements ModelInterface,
     /**
      * Gets frequency_range
      *
-     * @return \OpenAPI\Client\Model\ReportDefinitionServiceFrequencyRange|null
+     * @return \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceFrequencyRange|null
      */
     public function getFrequencyRange()
     {
@@ -223,7 +223,7 @@ class ReportDefinitionServiceFrequencyReportCondition implements ModelInterface,
     /**
      * Sets frequency_range
      *
-     * @param \OpenAPI\Client\Model\ReportDefinitionServiceFrequencyRange|null $frequency_range frequency_range
+     * @param \YahooAdsDisplayApi\Client\Model\ReportDefinitionServiceFrequencyRange|null $frequency_range frequency_range
      *
      * @return self
      */

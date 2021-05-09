@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServiceOsTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; GuaranteedSimulationServiceOsTargetオブジェクトは、OSターゲティングの設定情報を保持します。&lt;br&gt; ADD時、このフィールドは省略可能となります。&lt;br&gt; ※targetTypeがOS_TARGETの場合は必須です。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; GuaranteedSimulationServiceOsTarget object is a container for storing OS targeting settings.&lt;br&gt; This field is optional in ADD operation.&lt;br&gt; ∗If targetType is OS_TARGET, this field is required. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class GuaranteedSimulationServiceOsTarget implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $openAPITypes = [
-        'device_os_type' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceDeviceOsType'
+        'device_os_type' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceDeviceOsType'
     ];
 
     /**
@@ -213,7 +213,7 @@ class GuaranteedSimulationServiceOsTarget implements ModelInterface, ArrayAccess
     /**
      * Gets device_os_type
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceDeviceOsType|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceDeviceOsType|null
      */
     public function getDeviceOsType()
     {
@@ -223,7 +223,7 @@ class GuaranteedSimulationServiceOsTarget implements ModelInterface, ArrayAccess
     /**
      * Sets device_os_type
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceDeviceOsType|null $device_os_type device_os_type
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceDeviceOsType|null $device_os_type device_os_type
      *
      * @return self
      */

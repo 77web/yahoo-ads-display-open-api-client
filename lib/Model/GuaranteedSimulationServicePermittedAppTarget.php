@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServicePermittedAppTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;GuaranteedSimulationServicePermittedAppTargetオブジェクトは、アプリターゲットの設定情報を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;GuaranteedSimulationServicePermittedAppTarget object holds configuration information of app targeting.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,7 +62,7 @@ class GuaranteedSimulationServicePermittedAppTarget implements ModelInterface, A
       */
     protected static $openAPITypes = [
         'target_id' => 'string',
-        'app_type' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceDeviceAppType'
+        'app_type' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceDeviceAppType'
     ];
 
     /**
@@ -243,7 +243,7 @@ class GuaranteedSimulationServicePermittedAppTarget implements ModelInterface, A
     /**
      * Gets app_type
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceDeviceAppType|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceDeviceAppType|null
      */
     public function getAppType()
     {
@@ -253,7 +253,7 @@ class GuaranteedSimulationServicePermittedAppTarget implements ModelInterface, A
     /**
      * Sets app_type
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceDeviceAppType|null $app_type app_type
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceDeviceAppType|null $app_type app_type
      *
      * @return self
      */

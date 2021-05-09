@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RetargetingListServiceRuleTargetList Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; RetargetingListServiceRuleTargetListオブジェクトは、ルール設定のリストを表します。&lt;br&gt; このフィールドは、ADDおよびSET時に省略可能となります。&lt;br&gt; ※targetListTypeがDEFAULT_LISTまたはRULEの場合は、ADDおよびSET時に必須となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; RetargetingListServiceRuleTargetList object displays the list of rule settings.&lt;br&gt; This field is optional in ADD and SET operation. &lt;br&gt; *If targetListType is DEFAULT_LIST, this field is required in ADD and SET operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,11 +61,11 @@ class RetargetingListServiceRuleTargetList implements ModelInterface, ArrayAcces
       * @var string[]
       */
     protected static $openAPITypes = [
-        'is_open' => '\OpenAPI\Client\Model\RetargetingListServiceIsOpen',
-        'is_preset' => '\OpenAPI\Client\Model\RetargetingListServiceIsPreset',
+        'is_open' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceIsOpen',
+        'is_preset' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceIsPreset',
         'reach_period' => 'int',
         'retargeting_tag_id' => 'string',
-        'rules' => '\OpenAPI\Client\Model\RetargetingListServiceRule[]'
+        'rules' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceRule[]'
     ];
 
     /**
@@ -237,7 +237,7 @@ class RetargetingListServiceRuleTargetList implements ModelInterface, ArrayAcces
     /**
      * Gets is_open
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceIsOpen|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceIsOpen|null
      */
     public function getIsOpen()
     {
@@ -247,7 +247,7 @@ class RetargetingListServiceRuleTargetList implements ModelInterface, ArrayAcces
     /**
      * Sets is_open
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceIsOpen|null $is_open is_open
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceIsOpen|null $is_open is_open
      *
      * @return self
      */
@@ -261,7 +261,7 @@ class RetargetingListServiceRuleTargetList implements ModelInterface, ArrayAcces
     /**
      * Gets is_preset
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceIsPreset|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceIsPreset|null
      */
     public function getIsPreset()
     {
@@ -271,7 +271,7 @@ class RetargetingListServiceRuleTargetList implements ModelInterface, ArrayAcces
     /**
      * Sets is_preset
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceIsPreset|null $is_preset is_preset
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceIsPreset|null $is_preset is_preset
      *
      * @return self
      */
@@ -333,7 +333,7 @@ class RetargetingListServiceRuleTargetList implements ModelInterface, ArrayAcces
     /**
      * Gets rules
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceRule[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceRule[]|null
      */
     public function getRules()
     {
@@ -343,7 +343,7 @@ class RetargetingListServiceRuleTargetList implements ModelInterface, ArrayAcces
     /**
      * Sets rules
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceRule[]|null $rules rules
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceRule[]|null $rules rules
      *
      * @return self
      */

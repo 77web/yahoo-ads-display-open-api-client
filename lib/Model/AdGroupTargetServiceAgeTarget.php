@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupTargetServiceAgeTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; AdGroupTargetServiceAgeTargetオブジェクトは、年齢ターゲティングの設定情報を保持します。&lt;br&gt; ADD、SETおよびREPLACE時、このフィールドは省略可能となります。&lt;br&gt; ※targetTypeがAGE_TARGETの場合は必須です。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; AdGroupTargetServiceAgeTarget object is a container for storing age targeting settings.&lt;br&gt; This field is optional in ADD, SET and REPLACE operation.&lt;br&gt; ∗If targetType is AGE_TARGET, this field is required. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class AdGroupTargetServiceAgeTarget implements ModelInterface, ArrayAccess, \Jso
       * @var string[]
       */
     protected static $openAPITypes = [
-        'age' => '\OpenAPI\Client\Model\AdGroupTargetServiceAge',
-        'estimate_flg' => '\OpenAPI\Client\Model\AdGroupTargetServiceEstimateFlg'
+        'age' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceAge',
+        'estimate_flg' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceEstimateFlg'
     ];
 
     /**
@@ -219,7 +219,7 @@ class AdGroupTargetServiceAgeTarget implements ModelInterface, ArrayAccess, \Jso
     /**
      * Gets age
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServiceAge|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceAge|null
      */
     public function getAge()
     {
@@ -229,7 +229,7 @@ class AdGroupTargetServiceAgeTarget implements ModelInterface, ArrayAccess, \Jso
     /**
      * Sets age
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServiceAge|null $age age
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceAge|null $age age
      *
      * @return self
      */
@@ -243,7 +243,7 @@ class AdGroupTargetServiceAgeTarget implements ModelInterface, ArrayAccess, \Jso
     /**
      * Gets estimate_flg
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServiceEstimateFlg|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceEstimateFlg|null
      */
     public function getEstimateFlg()
     {
@@ -253,7 +253,7 @@ class AdGroupTargetServiceAgeTarget implements ModelInterface, ArrayAccess, \Jso
     /**
      * Sets estimate_flg
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServiceEstimateFlg|null $estimate_flg estimate_flg
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceEstimateFlg|null $estimate_flg estimate_flg
      *
      * @return self
      */

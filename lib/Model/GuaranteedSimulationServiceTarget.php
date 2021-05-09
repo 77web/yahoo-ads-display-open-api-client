@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedSimulationServiceTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; GuaranteedSimulationServiceTargetオブジェクトは、ターゲティング設定情報を保持します。&lt;br&gt; ADD時、このフィールドは省略可能となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; GuaranteedSimulationServiceTarget object holds information of the target setting.&lt;br&gt; This field is optional in ADD operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,19 +61,19 @@ class GuaranteedSimulationServiceTarget implements ModelInterface, ArrayAccess, 
       * @var string[]
       */
     protected static $openAPITypes = [
-        'ad_schedule_target' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceAdScheduleTarget',
-        'age_target' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceAgeTarget',
-        'app_target' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceAppTarget',
-        'audience_category_target' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceAudienceCategoryTarget',
-        'device_target' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceDeviceTarget',
-        'gender_target' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceGenderTarget',
-        'geo_target' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceGeoTarget',
-        'os_target' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceOsTarget',
-        'placement_category_target' => '\OpenAPI\Client\Model\GuaranteedSimulationServicePlacementCategoryTarget',
-        'position_target' => '\OpenAPI\Client\Model\GuaranteedSimulationServicePositionTarget',
-        'site_retargeting_target' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceSiteRetargetingTarget',
+        'ad_schedule_target' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAdScheduleTarget',
+        'age_target' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAgeTarget',
+        'app_target' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAppTarget',
+        'audience_category_target' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAudienceCategoryTarget',
+        'device_target' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceDeviceTarget',
+        'gender_target' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGenderTarget',
+        'geo_target' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGeoTarget',
+        'os_target' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceOsTarget',
+        'placement_category_target' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePlacementCategoryTarget',
+        'position_target' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePositionTarget',
+        'site_retargeting_target' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceSiteRetargetingTarget',
         'target_id' => 'string',
-        'target_type' => '\OpenAPI\Client\Model\GuaranteedSimulationServiceTargetType'
+        'target_type' => '\YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceTargetType'
     ];
 
     /**
@@ -285,7 +285,7 @@ class GuaranteedSimulationServiceTarget implements ModelInterface, ArrayAccess, 
     /**
      * Gets ad_schedule_target
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceAdScheduleTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAdScheduleTarget|null
      */
     public function getAdScheduleTarget()
     {
@@ -295,7 +295,7 @@ class GuaranteedSimulationServiceTarget implements ModelInterface, ArrayAccess, 
     /**
      * Sets ad_schedule_target
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceAdScheduleTarget|null $ad_schedule_target ad_schedule_target
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAdScheduleTarget|null $ad_schedule_target ad_schedule_target
      *
      * @return self
      */
@@ -309,7 +309,7 @@ class GuaranteedSimulationServiceTarget implements ModelInterface, ArrayAccess, 
     /**
      * Gets age_target
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceAgeTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAgeTarget|null
      */
     public function getAgeTarget()
     {
@@ -319,7 +319,7 @@ class GuaranteedSimulationServiceTarget implements ModelInterface, ArrayAccess, 
     /**
      * Sets age_target
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceAgeTarget|null $age_target age_target
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAgeTarget|null $age_target age_target
      *
      * @return self
      */
@@ -333,7 +333,7 @@ class GuaranteedSimulationServiceTarget implements ModelInterface, ArrayAccess, 
     /**
      * Gets app_target
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceAppTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAppTarget|null
      */
     public function getAppTarget()
     {
@@ -343,7 +343,7 @@ class GuaranteedSimulationServiceTarget implements ModelInterface, ArrayAccess, 
     /**
      * Sets app_target
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceAppTarget|null $app_target app_target
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAppTarget|null $app_target app_target
      *
      * @return self
      */
@@ -357,7 +357,7 @@ class GuaranteedSimulationServiceTarget implements ModelInterface, ArrayAccess, 
     /**
      * Gets audience_category_target
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceAudienceCategoryTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAudienceCategoryTarget|null
      */
     public function getAudienceCategoryTarget()
     {
@@ -367,7 +367,7 @@ class GuaranteedSimulationServiceTarget implements ModelInterface, ArrayAccess, 
     /**
      * Sets audience_category_target
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceAudienceCategoryTarget|null $audience_category_target audience_category_target
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceAudienceCategoryTarget|null $audience_category_target audience_category_target
      *
      * @return self
      */
@@ -381,7 +381,7 @@ class GuaranteedSimulationServiceTarget implements ModelInterface, ArrayAccess, 
     /**
      * Gets device_target
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceDeviceTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceDeviceTarget|null
      */
     public function getDeviceTarget()
     {
@@ -391,7 +391,7 @@ class GuaranteedSimulationServiceTarget implements ModelInterface, ArrayAccess, 
     /**
      * Sets device_target
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceDeviceTarget|null $device_target device_target
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceDeviceTarget|null $device_target device_target
      *
      * @return self
      */
@@ -405,7 +405,7 @@ class GuaranteedSimulationServiceTarget implements ModelInterface, ArrayAccess, 
     /**
      * Gets gender_target
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceGenderTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGenderTarget|null
      */
     public function getGenderTarget()
     {
@@ -415,7 +415,7 @@ class GuaranteedSimulationServiceTarget implements ModelInterface, ArrayAccess, 
     /**
      * Sets gender_target
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceGenderTarget|null $gender_target gender_target
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGenderTarget|null $gender_target gender_target
      *
      * @return self
      */
@@ -429,7 +429,7 @@ class GuaranteedSimulationServiceTarget implements ModelInterface, ArrayAccess, 
     /**
      * Gets geo_target
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceGeoTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGeoTarget|null
      */
     public function getGeoTarget()
     {
@@ -439,7 +439,7 @@ class GuaranteedSimulationServiceTarget implements ModelInterface, ArrayAccess, 
     /**
      * Sets geo_target
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceGeoTarget|null $geo_target geo_target
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceGeoTarget|null $geo_target geo_target
      *
      * @return self
      */
@@ -453,7 +453,7 @@ class GuaranteedSimulationServiceTarget implements ModelInterface, ArrayAccess, 
     /**
      * Gets os_target
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceOsTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceOsTarget|null
      */
     public function getOsTarget()
     {
@@ -463,7 +463,7 @@ class GuaranteedSimulationServiceTarget implements ModelInterface, ArrayAccess, 
     /**
      * Sets os_target
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceOsTarget|null $os_target os_target
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceOsTarget|null $os_target os_target
      *
      * @return self
      */
@@ -477,7 +477,7 @@ class GuaranteedSimulationServiceTarget implements ModelInterface, ArrayAccess, 
     /**
      * Gets placement_category_target
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServicePlacementCategoryTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePlacementCategoryTarget|null
      */
     public function getPlacementCategoryTarget()
     {
@@ -487,7 +487,7 @@ class GuaranteedSimulationServiceTarget implements ModelInterface, ArrayAccess, 
     /**
      * Sets placement_category_target
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServicePlacementCategoryTarget|null $placement_category_target placement_category_target
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePlacementCategoryTarget|null $placement_category_target placement_category_target
      *
      * @return self
      */
@@ -501,7 +501,7 @@ class GuaranteedSimulationServiceTarget implements ModelInterface, ArrayAccess, 
     /**
      * Gets position_target
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServicePositionTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePositionTarget|null
      */
     public function getPositionTarget()
     {
@@ -511,7 +511,7 @@ class GuaranteedSimulationServiceTarget implements ModelInterface, ArrayAccess, 
     /**
      * Sets position_target
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServicePositionTarget|null $position_target position_target
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServicePositionTarget|null $position_target position_target
      *
      * @return self
      */
@@ -525,7 +525,7 @@ class GuaranteedSimulationServiceTarget implements ModelInterface, ArrayAccess, 
     /**
      * Gets site_retargeting_target
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceSiteRetargetingTarget|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceSiteRetargetingTarget|null
      */
     public function getSiteRetargetingTarget()
     {
@@ -535,7 +535,7 @@ class GuaranteedSimulationServiceTarget implements ModelInterface, ArrayAccess, 
     /**
      * Sets site_retargeting_target
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceSiteRetargetingTarget|null $site_retargeting_target site_retargeting_target
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceSiteRetargetingTarget|null $site_retargeting_target site_retargeting_target
      *
      * @return self
      */
@@ -573,7 +573,7 @@ class GuaranteedSimulationServiceTarget implements ModelInterface, ArrayAccess, 
     /**
      * Gets target_type
      *
-     * @return \OpenAPI\Client\Model\GuaranteedSimulationServiceTargetType|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceTargetType|null
      */
     public function getTargetType()
     {
@@ -583,7 +583,7 @@ class GuaranteedSimulationServiceTarget implements ModelInterface, ArrayAccess, 
     /**
      * Sets target_type
      *
-     * @param \OpenAPI\Client\Model\GuaranteedSimulationServiceTargetType|null $target_type target_type
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedSimulationServiceTargetType|null $target_type target_type
      *
      * @return self
      */

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AccountLinkServiceSelector Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;AccountLinkServiceSelectorオブジェクトは、取得するアカウントリンク情報を指定します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The AccountLinkServiceSelector object is used to select account link for acquisition.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -62,8 +62,8 @@ class AccountLinkServiceSelector implements ModelInterface, ArrayAccess, \JsonSe
       */
     protected static $openAPITypes = [
         'manager_account_id' => 'int',
-        'account_statuses' => '\OpenAPI\Client\Model\AccountLinkServiceAccountStatus[]',
-        'retargeting_list_sharing_enabled' => '\OpenAPI\Client\Model\AccountLinkServiceRetargetingListSharingEnabled',
+        'account_statuses' => '\YahooAdsDisplayApi\Client\Model\AccountLinkServiceAccountStatus[]',
+        'retargeting_list_sharing_enabled' => '\YahooAdsDisplayApi\Client\Model\AccountLinkServiceRetargetingListSharingEnabled',
         'number_results' => 'int',
         'start_index' => 'int'
     ];
@@ -280,7 +280,7 @@ class AccountLinkServiceSelector implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets account_statuses
      *
-     * @return \OpenAPI\Client\Model\AccountLinkServiceAccountStatus[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountLinkServiceAccountStatus[]|null
      */
     public function getAccountStatuses()
     {
@@ -290,7 +290,7 @@ class AccountLinkServiceSelector implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets account_statuses
      *
-     * @param \OpenAPI\Client\Model\AccountLinkServiceAccountStatus[]|null $account_statuses account_statuses
+     * @param \YahooAdsDisplayApi\Client\Model\AccountLinkServiceAccountStatus[]|null $account_statuses account_statuses
      *
      * @return self
      */
@@ -308,7 +308,7 @@ class AccountLinkServiceSelector implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Gets retargeting_list_sharing_enabled
      *
-     * @return \OpenAPI\Client\Model\AccountLinkServiceRetargetingListSharingEnabled|null
+     * @return \YahooAdsDisplayApi\Client\Model\AccountLinkServiceRetargetingListSharingEnabled|null
      */
     public function getRetargetingListSharingEnabled()
     {
@@ -318,7 +318,7 @@ class AccountLinkServiceSelector implements ModelInterface, ArrayAccess, \JsonSe
     /**
      * Sets retargeting_list_sharing_enabled
      *
-     * @param \OpenAPI\Client\Model\AccountLinkServiceRetargetingListSharingEnabled|null $retargeting_list_sharing_enabled retargeting_list_sharing_enabled
+     * @param \YahooAdsDisplayApi\Client\Model\AccountLinkServiceRetargetingListSharingEnabled|null $retargeting_list_sharing_enabled retargeting_list_sharing_enabled
      *
      * @return self
      */

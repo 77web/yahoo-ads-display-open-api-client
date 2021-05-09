@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,15 +27,15 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
-use \OpenAPI\Client\ObjectSerializer;
+namespace YahooAdsDisplayApi\Client\Model;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * ReportDefinitionServiceFrequencyRange Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; ReportDefinitionServiceFrequencyRangeは、フリークエンシーの計測期間を表します。&lt;br&gt; このフィールドは、ADD時に省略可能となり、REMOVE時に無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; ReportDefinitionServiceFrequencyRange serves measurement range of reach frequency. &lt;br&gt; This field is optional in ADD operation, and will be ignored in REMOVE operation. &lt;/div&gt; &lt;dl class&#x3D;term&gt;   &lt;dt class&#x3D;\&quot;term__item\&quot;&gt;DAILY&lt;/dt&gt;   &lt;dd class&#x3D;\&quot;term__desc\&quot;&gt;&lt;span lang&#x3D;\&quot;ja\&quot;&gt;1日単位です。&lt;/span&gt;&lt;span lang&#x3D;\&quot;en\&quot;&gt;Daily range.&lt;/span&gt;&lt;/dd&gt;   &lt;dt class&#x3D;\&quot;term__item\&quot;&gt;WEEKLY&lt;/dt&gt;   &lt;dd class&#x3D;\&quot;term__desc\&quot;&gt;&lt;span lang&#x3D;\&quot;ja\&quot;&gt;1週間単位です。&lt;/span&gt;&lt;span lang&#x3D;\&quot;en\&quot;&gt;Weekly range.&lt;/span&gt;&lt;/dd&gt;   &lt;dt class&#x3D;\&quot;term__item\&quot;&gt;MONTHLY&lt;/dt&gt;   &lt;dd class&#x3D;\&quot;term__desc\&quot;&gt;&lt;span lang&#x3D;\&quot;ja\&quot;&gt;1ヶ月単位です。&lt;/span&gt;&lt;span lang&#x3D;\&quot;en\&quot;&gt;Monthly range.&lt;/span&gt;&lt;/dd&gt;   &lt;dt class&#x3D;\&quot;term__item\&quot;&gt;GUARANTEED_CAMPAIGN_PERIOD&lt;/dt&gt;   &lt;dd class&#x3D;\&quot;term__desc\&quot;&gt;   &lt;span lang&#x3D;\&quot;ja\&quot;&gt;     通期です。&lt;br&gt;     リーチレポートでのみ指定可能です。&lt;br&gt;     通期を指定する場合は、reportDateRangeTypeでもGUARANTEED_CAMPAIGN_PERIODを指定する必要があります。&lt;br&gt;     ※この「通期」は、予約型キャンペーンの開始から終了までの全期間を意味します。   &lt;/span&gt;   &lt;span lang&#x3D;\&quot;en\&quot;&gt;     Lifetime.&lt;br&gt;     Can be specified only in the reach report.&lt;br&gt;     If specified this, \&quot;GUARANTEED_CAMPAIGN_PERIOD\&quot; must be specified for reportDateRangeType as well.&lt;br&gt;     * \&quot;lifetime\&quot; means the entire period from the start to the end of the guaranteed campaign.   &lt;/span&gt; &lt;/dd&gt;   &lt;dt class&#x3D;\&quot;term__item\&quot;&gt;UNKNOWN&lt;/dt&gt;   &lt;dd class&#x3D;\&quot;term__desc\&quot;&gt;&lt;span lang&#x3D;\&quot;ja\&quot;&gt;未知の値です。&lt;/span&gt;&lt;span lang&#x3D;\&quot;en\&quot;&gt;Unknown Value&lt;/span&gt;&lt;/dd&gt; &lt;/dl&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */

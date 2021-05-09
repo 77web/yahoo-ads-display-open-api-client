@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * GuaranteedCampaignServiceCampaignBiddingStrategy Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; GuaranteedCampaignServiceCampaignBiddingStrategyオブジェクトは、キャンペーン入札戦略です。&lt;br&gt; このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; GuaranteedCampaignServiceCampaignBiddingStrategy object describes campaign bidding strategy.&lt;br&gt; Although this field will be returned in the response, it will be ignored on input. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class GuaranteedCampaignServiceCampaignBiddingStrategy implements ModelInterface
       * @var string[]
       */
     protected static $openAPITypes = [
-        'campaign_bidding_strategy_type' => '\OpenAPI\Client\Model\GuaranteedCampaignServiceCampaignBiddingStrategyType',
+        'campaign_bidding_strategy_type' => '\YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceCampaignBiddingStrategyType',
         'max_vcpm_bid_value' => 'int',
         'sov_rate' => 'int'
     ];
@@ -225,7 +225,7 @@ class GuaranteedCampaignServiceCampaignBiddingStrategy implements ModelInterface
     /**
      * Gets campaign_bidding_strategy_type
      *
-     * @return \OpenAPI\Client\Model\GuaranteedCampaignServiceCampaignBiddingStrategyType|null
+     * @return \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceCampaignBiddingStrategyType|null
      */
     public function getCampaignBiddingStrategyType()
     {
@@ -235,7 +235,7 @@ class GuaranteedCampaignServiceCampaignBiddingStrategy implements ModelInterface
     /**
      * Sets campaign_bidding_strategy_type
      *
-     * @param \OpenAPI\Client\Model\GuaranteedCampaignServiceCampaignBiddingStrategyType|null $campaign_bidding_strategy_type campaign_bidding_strategy_type
+     * @param \YahooAdsDisplayApi\Client\Model\GuaranteedCampaignServiceCampaignBiddingStrategyType|null $campaign_bidding_strategy_type campaign_bidding_strategy_type
      *
      * @return self
      */

@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * AdGroupTargetServiceSiteRetargetingTarget Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; AdGroupTargetServiceSiteRetargetingTargetオブジェクトは、サイトリターゲティングの設定情報を保持します。&lt;br&gt; ADD、SETおよびREPLACE時、このフィールドは省略可能となります。&lt;br&gt; ※targetTypeがSITE_RETARGETINGの場合は必須です。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; AdGroupTargetServiceSiteRetargetingTarget object is a container for storing site retargeting settings.&lt;br&gt; This field is optional in ADD, SET and REPLACE operation.&lt;br&gt; ∗If targetType is SITE_RETARGETING, this field is required. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,7 +61,7 @@ class AdGroupTargetServiceSiteRetargetingTarget implements ModelInterface, Array
       * @var string[]
       */
     protected static $openAPITypes = [
-        'target_list_deliver_type' => '\OpenAPI\Client\Model\AdGroupTargetServiceTargetListDeliverType',
+        'target_list_deliver_type' => '\YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceTargetListDeliverType',
         'target_list_name' => 'string'
     ];
 
@@ -219,7 +219,7 @@ class AdGroupTargetServiceSiteRetargetingTarget implements ModelInterface, Array
     /**
      * Gets target_list_deliver_type
      *
-     * @return \OpenAPI\Client\Model\AdGroupTargetServiceTargetListDeliverType|null
+     * @return \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceTargetListDeliverType|null
      */
     public function getTargetListDeliverType()
     {
@@ -229,7 +229,7 @@ class AdGroupTargetServiceSiteRetargetingTarget implements ModelInterface, Array
     /**
      * Sets target_list_deliver_type
      *
-     * @param \OpenAPI\Client\Model\AdGroupTargetServiceTargetListDeliverType|null $target_list_deliver_type target_list_deliver_type
+     * @param \YahooAdsDisplayApi\Client\Model\AdGroupTargetServiceTargetListDeliverType|null $target_list_deliver_type target_list_deliver_type
      *
      * @return self
      */

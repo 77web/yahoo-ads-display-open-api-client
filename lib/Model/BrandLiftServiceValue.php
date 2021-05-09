@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * BrandLiftServiceValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;BrandLiftServiceValueオブジェクトは、操作結果を含むブランドリフトの情報を表します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The BrandLiftServiceValue object is a container for storing brand lift information and operation results.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,8 +61,8 @@ class BrandLiftServiceValue implements ModelInterface, ArrayAccess, \JsonSeriali
       * @var string[]
       */
     protected static $openAPITypes = [
-        'brand_lift' => '\OpenAPI\Client\Model\BrandLift',
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'brand_lift' => '\YahooAdsDisplayApi\Client\Model\BrandLift',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool'
     ];
 
@@ -225,7 +225,7 @@ class BrandLiftServiceValue implements ModelInterface, ArrayAccess, \JsonSeriali
     /**
      * Gets brand_lift
      *
-     * @return \OpenAPI\Client\Model\BrandLift|null
+     * @return \YahooAdsDisplayApi\Client\Model\BrandLift|null
      */
     public function getBrandLift()
     {
@@ -235,7 +235,7 @@ class BrandLiftServiceValue implements ModelInterface, ArrayAccess, \JsonSeriali
     /**
      * Sets brand_lift
      *
-     * @param \OpenAPI\Client\Model\BrandLift|null $brand_lift brand_lift
+     * @param \YahooAdsDisplayApi\Client\Model\BrandLift|null $brand_lift brand_lift
      *
      * @return self
      */
@@ -249,7 +249,7 @@ class BrandLiftServiceValue implements ModelInterface, ArrayAccess, \JsonSeriali
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -259,7 +259,7 @@ class BrandLiftServiceValue implements ModelInterface, ArrayAccess, \JsonSeriali
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors <div lang=\"ja\">エラー内容です。</div> <div lang=\"en\">Error content.</div>
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors <div lang=\"ja\">エラー内容です。</div> <div lang=\"en\">Error content.</div>
      *
      * @return self
      */

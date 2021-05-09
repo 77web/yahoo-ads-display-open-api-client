@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * DictionaryServiceThirdPartyTrackingDomainValue Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;DictionaryServiceThirdPartyTrackingDomainValueオブジェクトは、getThirdPartyTrackingDomainメソッドの実行結果（１Entity）を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;DictionaryServiceThirdPartyTrackingDomainValue object contains the result (1 Entity) of getThirdPartyTrackingDomain method.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,9 +61,9 @@ class DictionaryServiceThirdPartyTrackingDomainValue implements ModelInterface, 
       * @var string[]
       */
     protected static $openAPITypes = [
-        'errors' => '\OpenAPI\Client\Model\Error[]',
+        'errors' => '\YahooAdsDisplayApi\Client\Model\Error[]',
         'operation_succeeded' => 'bool',
-        'third_party_tracking_domain' => '\OpenAPI\Client\Model\DictionaryServiceThirdPartyTrackingDomain[]'
+        'third_party_tracking_domain' => '\YahooAdsDisplayApi\Client\Model\DictionaryServiceThirdPartyTrackingDomain[]'
     ];
 
     /**
@@ -225,7 +225,7 @@ class DictionaryServiceThirdPartyTrackingDomainValue implements ModelInterface, 
     /**
      * Gets errors
      *
-     * @return \OpenAPI\Client\Model\Error[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\Error[]|null
      */
     public function getErrors()
     {
@@ -235,7 +235,7 @@ class DictionaryServiceThirdPartyTrackingDomainValue implements ModelInterface, 
     /**
      * Sets errors
      *
-     * @param \OpenAPI\Client\Model\Error[]|null $errors errors
+     * @param \YahooAdsDisplayApi\Client\Model\Error[]|null $errors errors
      *
      * @return self
      */
@@ -273,7 +273,7 @@ class DictionaryServiceThirdPartyTrackingDomainValue implements ModelInterface, 
     /**
      * Gets third_party_tracking_domain
      *
-     * @return \OpenAPI\Client\Model\DictionaryServiceThirdPartyTrackingDomain[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\DictionaryServiceThirdPartyTrackingDomain[]|null
      */
     public function getThirdPartyTrackingDomain()
     {
@@ -283,7 +283,7 @@ class DictionaryServiceThirdPartyTrackingDomainValue implements ModelInterface, 
     /**
      * Sets third_party_tracking_domain
      *
-     * @param \OpenAPI\Client\Model\DictionaryServiceThirdPartyTrackingDomain[]|null $third_party_tracking_domain third_party_tracking_domain
+     * @param \YahooAdsDisplayApi\Client\Model\DictionaryServiceThirdPartyTrackingDomain[]|null $third_party_tracking_domain third_party_tracking_domain
      *
      * @return self
      */

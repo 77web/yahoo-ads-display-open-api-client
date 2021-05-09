@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RetargetingListServiceUploadUserListStatusSelector Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt;RetargetingListServiceUploadUserListStatusSelectorオブジェクトは、ユーザーリストのアップロード情報の検索条件（実行パラメータ）を保持します。&lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt;The RetargetingListServiceUploadUserListStatusSelector object is a container for storing a set of criteria (parameters) for upload jobs of user list.&lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -65,7 +65,7 @@ class RetargetingListServiceUploadUserListStatusSelector implements ModelInterfa
         'target_list_id' => 'int',
         'number_results' => 'int',
         'upload_job_ids' => 'string[]',
-        'job_statues' => '\OpenAPI\Client\Model\RetargetingListServiceJobStatus[]'
+        'job_statues' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceJobStatus[]'
     ];
 
     /**
@@ -367,7 +367,7 @@ class RetargetingListServiceUploadUserListStatusSelector implements ModelInterfa
     /**
      * Gets job_statues
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceJobStatus[]|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceJobStatus[]|null
      */
     public function getJobStatues()
     {
@@ -377,7 +377,7 @@ class RetargetingListServiceUploadUserListStatusSelector implements ModelInterfa
     /**
      * Sets job_statues
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceJobStatus[]|null $job_statues job_statues
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceJobStatus[]|null $job_statues job_statues
      *
      * @return self
      */

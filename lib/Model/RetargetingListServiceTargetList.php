@@ -5,7 +5,7 @@
  * PHP version 7.2
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Model;
+namespace YahooAdsDisplayApi\Client\Model;
 
 use \ArrayAccess;
-use \OpenAPI\Client\ObjectSerializer;
+use \YahooAdsDisplayApi\Client\ObjectSerializer;
 
 /**
  * RetargetingListServiceTargetList Class Doc Comment
  *
  * @category Class
  * @description &lt;div lang&#x3D;\&quot;ja\&quot;&gt; RetargetingListServiceTargetListオブジェクトは、リターゲティングのターゲット種類とターゲットリストの情報を表します。&lt;br&gt; このフィールドは、ADDおよびSET時に必須となり、REMOVE時に無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; RetargetingListServiceTargetList object displays the types of target and target list for site retargeting. &lt;br&gt; This field is required in ADD and SET operation, and will be ignored in REMOVE operation. &lt;/div&gt;
- * @package  OpenAPI\Client
+ * @package  YahooAdsDisplayApi\Client
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  * @implements \ArrayAccess<TKey, TValue>
@@ -61,11 +61,11 @@ class RetargetingListServiceTargetList implements ModelInterface, ArrayAccess, \
       * @var string[]
       */
     protected static $openAPITypes = [
-        'combination_target_list' => '\OpenAPI\Client\Model\RetargetingListServiceCombinationTargetList',
-        'custom_audience_target_list' => '\OpenAPI\Client\Model\RetargetingListServiceCustomAudienceTargetList',
-        'rule_target_list' => '\OpenAPI\Client\Model\RetargetingListServiceRuleTargetList',
-        'similarity_target_list' => '\OpenAPI\Client\Model\RetargetingListServiceSimilarityTargetList',
-        'target_list_type' => '\OpenAPI\Client\Model\RetargetingListServiceTargetListType'
+        'combination_target_list' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceCombinationTargetList',
+        'custom_audience_target_list' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceCustomAudienceTargetList',
+        'rule_target_list' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceRuleTargetList',
+        'similarity_target_list' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceSimilarityTargetList',
+        'target_list_type' => '\YahooAdsDisplayApi\Client\Model\RetargetingListServiceTargetListType'
     ];
 
     /**
@@ -240,7 +240,7 @@ class RetargetingListServiceTargetList implements ModelInterface, ArrayAccess, \
     /**
      * Gets combination_target_list
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceCombinationTargetList|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceCombinationTargetList|null
      */
     public function getCombinationTargetList()
     {
@@ -250,7 +250,7 @@ class RetargetingListServiceTargetList implements ModelInterface, ArrayAccess, \
     /**
      * Sets combination_target_list
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceCombinationTargetList|null $combination_target_list combination_target_list
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceCombinationTargetList|null $combination_target_list combination_target_list
      *
      * @return self
      */
@@ -264,7 +264,7 @@ class RetargetingListServiceTargetList implements ModelInterface, ArrayAccess, \
     /**
      * Gets custom_audience_target_list
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceCustomAudienceTargetList|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceCustomAudienceTargetList|null
      */
     public function getCustomAudienceTargetList()
     {
@@ -274,7 +274,7 @@ class RetargetingListServiceTargetList implements ModelInterface, ArrayAccess, \
     /**
      * Sets custom_audience_target_list
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceCustomAudienceTargetList|null $custom_audience_target_list custom_audience_target_list
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceCustomAudienceTargetList|null $custom_audience_target_list custom_audience_target_list
      *
      * @return self
      */
@@ -288,7 +288,7 @@ class RetargetingListServiceTargetList implements ModelInterface, ArrayAccess, \
     /**
      * Gets rule_target_list
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceRuleTargetList|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceRuleTargetList|null
      */
     public function getRuleTargetList()
     {
@@ -298,7 +298,7 @@ class RetargetingListServiceTargetList implements ModelInterface, ArrayAccess, \
     /**
      * Sets rule_target_list
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceRuleTargetList|null $rule_target_list rule_target_list
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceRuleTargetList|null $rule_target_list rule_target_list
      *
      * @return self
      */
@@ -312,7 +312,7 @@ class RetargetingListServiceTargetList implements ModelInterface, ArrayAccess, \
     /**
      * Gets similarity_target_list
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceSimilarityTargetList|null
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceSimilarityTargetList|null
      */
     public function getSimilarityTargetList()
     {
@@ -322,7 +322,7 @@ class RetargetingListServiceTargetList implements ModelInterface, ArrayAccess, \
     /**
      * Sets similarity_target_list
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceSimilarityTargetList|null $similarity_target_list similarity_target_list
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceSimilarityTargetList|null $similarity_target_list similarity_target_list
      *
      * @return self
      */
@@ -336,7 +336,7 @@ class RetargetingListServiceTargetList implements ModelInterface, ArrayAccess, \
     /**
      * Gets target_list_type
      *
-     * @return \OpenAPI\Client\Model\RetargetingListServiceTargetListType
+     * @return \YahooAdsDisplayApi\Client\Model\RetargetingListServiceTargetListType
      */
     public function getTargetListType()
     {
@@ -346,7 +346,7 @@ class RetargetingListServiceTargetList implements ModelInterface, ArrayAccess, \
     /**
      * Sets target_list_type
      *
-     * @param \OpenAPI\Client\Model\RetargetingListServiceTargetListType $target_list_type target_list_type
+     * @param \YahooAdsDisplayApi\Client\Model\RetargetingListServiceTargetListType $target_list_type target_list_type
      *
      * @return self
      */
